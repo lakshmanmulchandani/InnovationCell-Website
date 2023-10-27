@@ -6,4 +6,4 @@ const MakerSpace = () => {
   )
 }
 
-export default MakerSpace
+export default MakerSpace;
