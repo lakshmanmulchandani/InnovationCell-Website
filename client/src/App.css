@@ -1,9 +1,9 @@
-
+/* 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 :root{
   --pink: #f57dff;    
@@ -24,7 +24,7 @@
   --white: #e6f1ff;
   --green: #64ffda;
   --slate: #8892b0;
-  /* --navy: #0a192f; */
+  --navy: #0a192f;
 
   /* font size  */
   --fz-xs: 13px;
@@ -44,5 +44,39 @@
 }
 body{
   background-color: #181B3E;
+  
 }
 
+.background-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  /*Adjustthewidthasneeded*/height: 100%;
+  background: url('./imgs/moon1.png') no-repeat center center fixed;
+  background-size: 90%;
+  transform: translate(40vh, -5vh);
+  /*Translatetheimage*/;
+  -webkit-transform: translate(40vh, -5vh);
+  -moz-transform: translate(40vh, -5vh);
+  -ms-transform: translate(40vh, -5vh);
+  -o-transform: translate(40vh, -5vh);
+}
+
+
+
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.snowfall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
