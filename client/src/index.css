@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
