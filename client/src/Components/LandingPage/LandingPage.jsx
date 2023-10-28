@@ -1,8 +1,16 @@
+
 import React from 'react'
+import ReactDOM from 'react-dom'
+import Snowfall from 'react-snowfall'
+import Moon from '../../Assets/Moon'
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <>
+    <Snowfall />
+    <Moon/>
+      <div className=''>LandingPage</div>
+    </>
   )
 }
 
