@@ -159,7 +159,7 @@
 
     background: rgba( 255, 255, 255, 0 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0px );
+    backdrop-filter: blur( 5px );
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -184,4 +184,34 @@ p {
 
 .nameCard:hover p{
     transform: translateY(-3.5rem);
+}
+
+
+/* Executives css */
+
+.team_executives {
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    min-width: 25rem;
+
+    letter-spacing: 1px;
+    line-height: 2rem;
+
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.team_executives > h1 {
+    margin-bottom: 2rem;
+    font-weight: 1000;
+}
+
+.team_executives > div {
+    font-size: 1.1rem;
+    font-weight: 500;
 }
