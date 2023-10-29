@@ -1,10 +1,9 @@
-/* 
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
-
+} 
 :root{
   --pink: #f57dff;    
   --blue: #57cbff;
@@ -39,7 +38,7 @@
   --font-mark: "Mark Pro,sans-serif";
   --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
   --font-poppins: 'Poppins', sans-serif;
-
+  --font-heading: 'Nosifer', sans-serif;
   
 }
 body{
