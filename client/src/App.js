@@ -10,6 +10,7 @@ import MakerSpace from './Components/MakerSpace/MakerSpace';
 import Team from './Components/Team/Team';
 import SnowfallComponent from './Components/Snowfall/SnowfallComponent';
 import NameCard from './Components/Team/NameCard';
+import Executives from './Components/Team/Executives';
 
 function App() {
   return (
