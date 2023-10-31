@@ -18,7 +18,7 @@ function App() {
       <LandingPage />
       <Team />
       <Team />
-      <Team />
+      <Sponsors/>
     </div>
   );
 }
