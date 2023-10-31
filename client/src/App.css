@@ -1,10 +1,9 @@
-/* 
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
-
+} 
 :root{
   --pink: #f57dff;    
   --blue: #57cbff;
@@ -25,7 +24,7 @@
   --green: #64ffda;
   --slate: #8892b0;
   --navy: #0a192f;
-
+  --input-bg : hsl(235, 44%, 80%);
   /* font size  */
   --fz-xs: 13px;
   --fz-xxs: 12px;
@@ -39,7 +38,7 @@
   --font-mark: "Mark Pro,sans-serif";
   --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
   --font-poppins: 'Poppins', sans-serif;
-
+  --font-heading: 'Nosifer', sans-serif;
   
 }
 body{
