@@ -1,0 +1,298 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.contact{
+    width: 80%;
+    height: fit-content;
+    /* padding: 5rem 15rem; */
+    font-family: var(--font-poppins);
+    color: var(--slate);
+    z-index: 3;
+  
+}
+
+
+.contact_heading{
+    
+    font-weight: 600;
+    color: var(--green);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    /* padding: 2rem 0; */
+    font-family: var(--font-mono);
+}
+
+.contact_heading::before{
+    content: '04. ';
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+.contact_heading::after{
+    content: '';
+    display: block;
+    width: 200px;
+    margin-left: 1rem;
+    height: 0.5px;
+    background: var(--green);
+}
+
+.contact_content{
+    display: flex;
+    
+    align-items: center;
+    padding-bottom: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.contact_content_texts{
+    /* padding: 2rem 1rem; */
+    width: 50%;
+    margin-right: 4rem;
+    text-align: center;
+    max-width: 300px;
+ 
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 10px; /* Rounded corners for the glass container */
+    padding: 2rem; /* Adjust padding to your liking */
+    background-color:  rgb(17, 34, 64,0.57);
+}
+
+.contact_content_texts{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.contact_content_texts_heading{
+    margin-bottom: 1rem;
+}
+
+.contact_content_forms{
+    width: 100%;
+    max-width: 700px;
+  
+}
+
+/* form css  */
+.input-icons {
+    width: 100%;
+    
+}
+
+.input-icons i {
+    padding: 1rem 2rem;
+    padding-right: 1rem;
+    color: var(--green);
+    background: rgba(255, 255, 255, 0.2); /* Adjust the opacity for the glass effect */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom: 1px solid var(--green);
+    background-color:  rgb(17, 34, 64,0.57);
+}
+
+.input_element {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Apply a blur to create glassmorphism effect */
+    background: rgba(255, 255, 255, 0.2); /* Adjust the opacity for the glass effect */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Slightly thicker border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+input {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    color: var(--slate);
+    transition: border, background-color 0.7s;
+    border-bottom: 1px solid var(--green);
+    background-color:  rgb(17, 34, 64,0.57);
+}
+
+input:focus {
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+}
+
+textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color:  rgb(17, 34, 64,0.57);
+    color: var(--light-navy);
+    border-radius: 10px; /* Add border radius for rounded corners */
+    padding: 0.5rem 1rem;
+    font-family: var(--font-poppins);
+    border-bottom: 1px solid var(--green);
+}
+
+textarea:focus {
+    background-color:  rgb(17, 34, 64,0.8);
+    color: var(--light-slate);
+}
+
+.contact_btn {
+    padding: 1;
+    margin-left: 0.5rem;
+    width: 30%;
+    font-size: 1rem;
+   
+    color: var(--green);
+    font-family: var(--font-mono);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+   transition: color, background-color 1s;
+    background-color:  rgb(17, 34, 64,0.57);
+    -webkit-transition: color, background-color 1s;
+    -moz-transition: color, background-color 1s;
+    -ms-transition: color, background-color 1s;
+    -o-transition: color, background-color 1s;
+}
+
+.contact_btn > button {
+    outline: none;
+    border: none;
+    padding: 1rem;
+}
+
+.contact_btn:hover {
+    background-color:  rgb(17, 34, 64,0.8);
+    color: var(--blue);
+}
+
+
+
+
+/* 
+@media screen and (max-width: 940px) {
+    .contact_content{
+        flex-direction: column;
+    }
+    .contact{
+        height: fit-content;
+    }
+    .contact_content_texts{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .input_element{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    
+    .contact_btn{
+        padding: 1rem;
+    }
+} */
+
+/* @media screen and (max-width: 600px) {
+    .contact_btn{
+        width: 40%;
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width: 335px) {
+    .contact_btn{
+        margin: auto auto;
+        width: 80%;
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width: 280px) {
+    .contact_heading::after{
+        display: none;
+    }
+} */
+
+
+
+/* media query for padding  */
+
+
+
+/* @media screen and (max-width: 1500px) {
+    .contact{
+        padding: 5rem 15rem;
+    }
+}
+@media screen and (max-width: 1148px) {
+    .contact{
+        padding: 5rem 10rem;
+    }
+}
+@media screen and (max-width: 900px) {
+
+    .contact{
+        padding: 5rem 5rem;
+        height: fit-content
+    }
+    
+    
+} */
+
+/* @media screen and (max-width: 525px) {
+   
+    .contact{
+        padding: 5rem 1rem;
+        
+    }
+    
+}
+ */
+
+
+ .teamHeading>h1{
+    position: relative;
+    z-index: 2;
+    margin-top: 0rem;
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    font-family: var(--font-heading);
+    justify-content: center;
+}
+.teamHeading > h1::after{
+    content: '';
+    display: block;
+    background-color: var(--green);
+    width: 10rem;
+    height: 3px;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+
+.teamHeading>h1::before {
+    content: '';
+    display: block;
+    background-color: var(--green);
+    width: 10rem;
+    height: 3px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
