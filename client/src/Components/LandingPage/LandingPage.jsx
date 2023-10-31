@@ -1,15 +1,22 @@
 
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Snowfall from 'react-snowfall'
 import Moon from '../../Assets/Moon'
+import Navbar from '../Navbar/Navbar'
+import './Landing.css'
+import icell from '../../Assets/images/I_cell_text.svg'
+
 
 const LandingPage = () => {
   return (
     <>
-    <Snowfall />
-    <Moon/>
-      <div className=''>LandingPage</div>
+    <div className='moon'>
+      <Moon/>
+    </div>
+    <Navbar/>
+    <div className='welcome'>
+      <img className='svg-icell' src={icell} />
+    </div>
+      
     </>
   )
 }

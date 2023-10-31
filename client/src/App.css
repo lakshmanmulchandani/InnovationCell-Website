@@ -1,5 +1,82 @@
+/* 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
+:root{
+  --pink: #f57dff;    
+  --blue: #57cbff;
+  --green-tint: rgba(100,255,218,0.1);
+  --dark-navy: #020c1b;
+  --navy: #0a192f;
+  --navy : #000001;
+  --light-navy: #112240;
+  --navy-shadow: rgba(2,12,27,0.7);
+  --dull: rgba(2 ,29, 22 ,0.5);
+  --lightest-navy: #233554;
+  --navy-shadow: rgba(2,12,27,0.7);
+  --dark-slate: #495670;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+  --slate: #8892b0;
+  --navy: #0a192f;
+
+  /* font size  */
+  --fz-xs: 13px;
+  --fz-xxs: 12px;
+  --fz-md : 14px;
+  --fz-xl : 20px;
+  --fz-l : 16px;
+
+  /* font family  */
+  --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  --font-jack: "font-file-82132";
+  --font-mark: "Mark Pro,sans-serif";
+  --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+
+  
+}
 body{
   background-color: #181B3E;
+  
 }
 
+.background-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  /*Adjustthewidthasneeded*/height: 100%;
+  /* background: url('./imgs/moon1.png') no-repeat center center fixed; */
+  background-size: 90%;
+  transform: translate(40vh, -5vh);
+  /*Translatetheimage*/;
+  -webkit-transform: translate(40vh, -5vh);
+  -moz-transform: translate(40vh, -5vh);
+  -ms-transform: translate(40vh, -5vh);
+  -o-transform: translate(40vh, -5vh);
+}
+
+
+
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.snowfall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

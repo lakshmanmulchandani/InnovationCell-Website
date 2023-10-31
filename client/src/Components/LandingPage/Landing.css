@@ -1,0 +1,28 @@
+.moon{
+   position: fixed;
+   top:-750px;
+   right: -450px;
+   z-index: -10;
+
+}
+
+.welcome{
+   display: flex;
+   padding: 0.2rem;
+   margin: 2rem ;
+   color:white;
+   font-size: 20px;
+   margin-top: 20rem;
+   padding: 10rem;
+   
+}
+
+.text{
+   display: flex;
+   font-size: 56px;
+   z-index: 5;
+}
+.svg-icell{
+   margin-top: -60px;
+   height: 60px;
+}

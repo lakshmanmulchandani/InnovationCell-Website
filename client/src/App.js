@@ -7,11 +7,18 @@ import Navbar from './Components/Navbar/Navbar';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Sponsors from './Components/Sponsors/Sponsors';
 import MakerSpace from './Components/MakerSpace/MakerSpace';
+import Team from './Components/Team/Team';
+import SnowfallComponent from './Components/Snowfall/SnowfallComponent';
 
 function App() {
   return (
-    <div className="App">
-  <LandingPage/>
+    <div className="App " >
+ <div className="background-image"></div>
+     <SnowfallComponent/>
+      <LandingPage />
+      <Team />
+      <Team />
+      <Team />
     </div>
   );
 }
