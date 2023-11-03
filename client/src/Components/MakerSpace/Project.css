@@ -1,0 +1,16 @@
+.Projects__card{
+    /* min-height: 70vh; */
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.project-img{
+    height: 20rem;
+}
+.Project_card_content{
+    padding: 1.5rem;
+}
+.Projects__card p{
+    max-width: 20rem;
+}

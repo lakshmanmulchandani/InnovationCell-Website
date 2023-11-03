@@ -1,0 +1,138 @@
+.maker__container{
+     padding: 2rem 4rem;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+}
+
+.maker__container h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.maker__about{
+     max-width: 60vw;
+     display: flex;
+     margin: 0 auto;
+     gap: 3rem;
+     padding: 1rem 6rem;
+}
+.maker__img{
+    width: 100%;
+    height: 100%;
+    background-color: #181B3E;
+}
+.Arrow{
+     background: var(--green);
+     height: 0.16rem;
+     width: 5.5rem;
+     margin: 0 auto;
+}
+.maker__img img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 10px;
+    border: 0.5rem solid linear-gradient(to right, red, purple);
+    background: linear-gradient(to right, red, purple);
+    padding: 0.25rem;
+    transition: all 0.3s linear;
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 10px; /* Rounded corners for the glass container */
+    background-color:  rgb(17, 34, 64,0.57);
+}
+
+.maker__img:hover img{
+     opacity: 0.5;
+     transform: scale(1.02);
+}
+
+.maker__about_content{
+    width: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    max-width: 500px;
+
+    min-width: 350px;
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 10px; /* Rounded corners for the glass container */
+    padding: 2rem; /* Adjust padding to your liking */
+    background-color:  rgb(17, 34, 64,0.57);
+}
+
+
+.maker__about_content p{
+    color: var(--lightest-slate);
+    margin-top: 1rem;
+}
+
+.maker_project{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:1024px) {
+    .maker__about{
+        flex-direction: column;
+        /* padding: 0; */
+        margin: 0 auto;
+        padding: 0;
+    }
+    .maker__projects h1{
+         font-size: 2.5rem;
+    }
+}
+
+@media screen  and (max-width:568px){
+    .maker__img img{
+        height: 20rem;
+        width: 20rem;
+    }
+    .maker__projects h1{
+        font-size: 2rem;
+   }
+}
+
+.memories__section{
+     padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .memories__section h1{
+         font-size: 1.5rem;
+    }
+}
+.teamHeading>h1{
+    position: relative;
+    z-index: 2;
+    margin-top: 0rem;
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    font-family: var(--font-heading);
+    justify-content: center;
+}
+.teamHeading > h1::after{
+    content: '';
+    display: block;
+    background-color: var(--green);
+    width: 10rem;
+    height: 3px;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+
+.teamHeading>h1::before {
+    content: '';
+    display: block;
+    background-color: var(--green);
+    width: 10rem;
+    height: 3px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}

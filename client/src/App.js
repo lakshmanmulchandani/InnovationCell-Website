@@ -18,7 +18,8 @@ function App() {
  <div className="background-image"></div>
      <SnowfallComponent/>
      <Contact/>
-    
+      <MakerSpace />
+
       <Team />
       
     </div>
