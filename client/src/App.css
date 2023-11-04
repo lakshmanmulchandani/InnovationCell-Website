@@ -24,7 +24,7 @@
   --green: #64ffda;
   --slate: #8892b0;
   --navy: #0a192f;
-
+  --input-bg : hsl(235, 44%, 80%);
   /* font size  */
   --fz-xs: 13px;
   --fz-xxs: 12px;
