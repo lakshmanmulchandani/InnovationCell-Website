@@ -22,7 +22,6 @@ function App() {
       <Team />
       
       <Team />
-      <Sponsors/>
     </div>
   );
 }
