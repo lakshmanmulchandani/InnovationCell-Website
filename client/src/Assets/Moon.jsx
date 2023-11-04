@@ -1,89 +1,238 @@
+
+
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import moon2 from "./images/moon1.jpeg";
 
 const Moon = () => {
-  const mount = useRef(null);
+  const earthRef = useRef();
+  const moonRef = useRef();
+  const moonSize = (window.innerWidth / 1920) *3.3;
 
   useEffect(() => {
-    const textureURL =
-      'https://s3-us-west-2.amazonaws.com/s.cdpn.io/17271/lroc_color_poles_1k.jpg';
-    const displacementURL =
-      'https://s3-us-west-2.amazonaws.com/s.cdpn.io/17271/ldem_3_8bit.jpg';
+    const updatesize = () => {
+      const newMoonSize = (window.innerWidth / 5000) * moonSize;
+      moonRef.current.scale.set(newMoonSize, newMoonSize, newMoonSize);
+    };
 
+    // Create a scene
     const scene = new THREE.Scene();
+
+    // Create a camera
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer();
-    const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enablePan = false;
-
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    mount.current.appendChild(renderer.domElement);
-
-    const moonGeometry = new THREE.SphereGeometry(3, 60, 60);
-    const textureLoader = new THREE.TextureLoader();
-    const texture = textureLoader.load(textureURL);
-    const displacementMap = textureLoader.load(displacementURL);
-
-    const moonMaterial = new THREE.MeshPhongMaterial({
-      color: 0xffffff,
-      map: texture,
-      displacementMap: displacementMap,
-      displacementScale: 0.06,
-      bumpMap: displacementMap,
-      bumpScale: 0.04,
-      reflectivity: 0,
-      shininess: 1,
-    });
-
-    const moon = new THREE.Mesh(moonGeometry, moonMaterial);
-    scene.add(moon);
-
-    const light = new THREE.DirectionalLight(0xFFFFFF, 1);
-    light.position.set(-200, 100, 100);
-    scene.add(light);
-
-    const hemiLight = new THREE.HemisphereLight(0xffffff, 0xffffff, 6);
-    hemiLight.color.setHSL(0.6, 1, 0.6);
-    hemiLight.groundColor.setHSL(0.095, 1, 0.75);
-    hemiLight.position.set(0, 0, 0);
-    scene.add(hemiLight);
-
-    const earthGeometry = new THREE.SphereGeometry(10, 60, 60);
-    const earthMaterial = new THREE.MeshBasicMaterial({
-      color: 0x181B3E,
-      side: THREE.BackSide,
-    });
-
-    const earth = new THREE.Mesh(earthGeometry, earthMaterial);
-    scene.add(earth);
-
     camera.position.z = 5;
 
+    // Create a WebGL renderer with a transparent background
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    earthRef.current.appendChild(renderer.domElement);
+
+    // Create a sphere for Earth
+    // const earthGeometry = new THREE.SphereGeometry(moonSize, 32, 32);
+    // const earthTexture = new THREE.TextureLoader().load(moon2); // Load your Earth texture
+    // const earthMaterial = new THREE.MeshBasicMaterial({ map: earthTexture });
+    // const earth = new THREE.Mesh(earthGeometry, earthMaterial);
+    // scene.add(earth);
+
+    // Create a sphere for the moon
+    const moonGeometry = new THREE.SphereGeometry(moonSize, 32, 32);
+    const moonTexture = new THREE.TextureLoader().load(moon2); // Load your moon texture
+    const moonMaterial = new THREE.MeshBasicMaterial({ map: moonTexture });
+    const moon = new THREE.Mesh(moonGeometry, moonMaterial);
+    moon.position.set(2, 0, 0); // Position the moon to the right of the Earth
+    scene.add(moon);
+    moonRef.current = moon; // Set the moon reference for scaling
+
+    // Add some lighting
+    const ambientLight = new THREE.AmbientLight(0x404040);
+    scene.add(ambientLight);
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 2);
+    directionalLight.position.set(1, 1, 1);
+    scene.add(directionalLight);
+
+    // Animation function
     const animate = () => {
       requestAnimationFrame(animate);
-      moon.rotation.y += 0.001;
-      moon.rotation.x += 0.00001;
-      earth.rotation.y += 0.00001;
-      earth.rotation.x += 0.00005;
+
+      // Rotate Earth
+      // earth.rotation.y += 0.005;
+
+      // Rotate the moon
+      moon.rotation.y += 0.005;
+
       renderer.render(scene, camera);
     };
+
     animate();
-
-    const onResize = () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    };
-
-    window.addEventListener('resize', onResize, false);
+    window.addEventListener('resize', updatesize);
 
     return () => {
-      window.removeEventListener('resize', onResize);
+      window.removeEventListener('resize', updatesize);
     };
   }, []);
 
-  return <div ref={mount} />;
+  return (
+    <div ref={earthRef} />
+  );
 };
 
 export default Moon;
+
+
+
+// import React, { useEffect, useRef } from 'react';
+// import * as THREE from 'three';
+// import moon2 from "./images/moon1.jpeg";
+
+// const Moon = () => {
+//   const earthRef = useRef();
+//   const moonRef = useRef();
+//   // const moonSize = (window.innerWidth / 1920) * 3.3;
+//   const moonSize = 3.3;
+//   const moonMargin = 0.5; // Adjust the margin value as needed
+
+//   useEffect(() => {
+//     const updatesize = () => {
+//       // const newMoonSize = (window.screen.width / 1920) * moonSize;
+//       const newMoonSize = moonSize;
+//       // const newMoonMargin = (window.screen.width / 1920) * moonMargin;
+//       const newMoonMargin =  moonMargin;
+
+//       moonRef.current.scale.set(newMoonSize, newMoonSize, newMoonSize);
+//       moonRef.current.position.set(newMoonMargin, 0, 0); // Update moon position based on margin
+//     };
+
+//     // Create a scene
+//     const scene = new THREE.Scene();
+
+//     // Create a camera
+//     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+//     camera.position.z = 5;
+
+//     // Create a WebGL renderer with a transparent background
+//     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+//     renderer.setSize(window.innerWidth, window.innerHeight);
+//     earthRef.current.appendChild(renderer.domElement);
+
+//     // Create a sphere for the moon
+//     const moonGeometry = new THREE.SphereGeometry(3, 32, 32);
+//     const moonTexture = new THREE.TextureLoader().load(moon2); // Load your moon texture
+//     const moonMaterial = new THREE.MeshBasicMaterial({ map: moonTexture });
+//     const moon = new THREE.Mesh(moonGeometry, moonMaterial);
+//     moon.position.set(0, 0, 0); // Position the moon with dynamic margin
+//     scene.add(moon);
+//     moonRef.current = moon; // Set the moon reference for scaling and positioning
+
+//     // Add some lighting
+//     const ambientLight = new THREE.AmbientLight(0x404040);
+//     scene.add(ambientLight);
+
+//     const directionalLight = new THREE.DirectionalLight(0xffffff, 2);
+//     directionalLight.position.set(1, 1, 1);
+//     scene.add(directionalLight);
+
+//     // Animation function
+//     const animate = () => {
+//       requestAnimationFrame(animate);
+
+//       // Rotate the moon
+//       moon.rotation.y += 0.005;
+
+//       renderer.render(scene, camera);
+//     };
+
+//     animate();
+//     window.addEventListener('resize', updatesize);
+
+//     return () => {
+//       window.removeEventListener('resize', updatesize);
+//     };
+//   }, []);
+
+//   return (
+//     <div ref={earthRef} />
+//   );
+// };
+
+// export default Moon;
+
+
+
+
+
+
+
+
+// import React, { useEffect, useRef } from 'react';
+// import * as THREE from 'three';
+// import moon2 from "./images/moon1.jpeg";
+
+// const Moon = () => {
+//   const earthRef = useRef();
+//   const moonRef = useRef();
+//   const moonSize = (window.innerWidth / 1920) * 3.3;
+//   const moonMargin = (window.innerWidth / 1920) * 0.01; // Adjust the margin value as needed
+
+//   useEffect(() => {
+//     const updatesize = () => {
+//       const newMoonSize = (window.innerWidth / 1920) * moonSize;
+//       const newMoonMargin = (window.innerWidth / 1920) * moonMargin;
+
+//       moonRef.current.scale.set(newMoonSize, newMoonSize, newMoonSize);
+//       moonRef.current.position.set(newMoonMargin, 0, 0); // Update moon position based on margin
+//     };
+
+//     // Create a scene
+//     const scene = new THREE.Scene();
+
+//     // Create a camera
+//     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+//     camera.position.z = 5;
+
+//     // Create a WebGL renderer with a transparent background
+//     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+//     renderer.setSize(window.innerWidth, window.innerHeight);
+//     earthRef.current.appendChild(renderer.domElement);
+
+//     // Create a sphere for the moon
+//     const moonGeometry = new THREE.SphereGeometry(moonSize, 32, 32);
+//     const moonTexture = new THREE.TextureLoader().load(moon2); // Load your moon texture
+//     const moonMaterial = new THREE.MeshBasicMaterial({ map: moonTexture });
+//     const moon = new THREE.Mesh(moonGeometry, moonMaterial);
+//     moon.position.set(moonMargin, 0, 0); // Position the moon with dynamic margin
+//     scene.add(moon);
+//     moonRef.current = moon; // Set the moon reference for scaling and positioning
+
+//     // Add some lighting
+//     const ambientLight = new THREE.AmbientLight(0x404040);
+//     scene.add(ambientLight);
+
+//     const directionalLight = new THREE.DirectionalLight(0xffffff, 2);
+//     directionalLight.position.set(1, 1, 1);
+//     scene.add(directionalLight);
+
+//     // Animation function
+//     const animate = () => {
+//       requestAnimationFrame(animate);
+
+//       // Rotate the moon
+//       moon.rotation.y += 0.005;
+
+//       renderer.render(scene, camera);
+//     };
+
+//     animate();
+//     window.addEventListener('resize', updatesize);
+
+//     return () => {
+//       window.removeEventListener('resize', updatesize);
+//     };
+//   }, []);
+
+//   return (
+//     <div ref={earthRef} />
+//   );
+// };
+
+// export default Moon;

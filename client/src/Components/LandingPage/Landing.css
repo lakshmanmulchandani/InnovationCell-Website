@@ -1,21 +1,37 @@
+.landing{
+  
+  
+   position: relative; 
+}
+
 .moon{
    position: fixed;
-   top:-750px;
-   right: -450px;
-   z-index: -10;
 
+   margin-top: -95vh;
+   /* right: -80vh; */
+  
 }
 
+@keyframes pulse {
+   0% {
+     transform: scale(1);
+   }
+   100% {
+     transform: scale(1.1);
+   }
+ }
+ 
+ 
 .welcome{
-   display: flex;
+
    padding: 0.2rem;
-   margin: 2rem ;
+
    color:white;
-   font-size: 20px;
-   margin-top: 20rem;
+   font-size: 50px;
+
    padding: 10rem;
-   
-}
+    /* color:#181b3e00;  */
+ }
 
 .text{
    display: flex;
@@ -26,3 +42,25 @@
    margin-top: -60px;
    height: 60px;
 }
+
+
+/* Add your CSS for landing-container to make it responsive */
+.landing-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ 
+ @media (max-width: 768px) {
+   .landing-container {
+     height: 80vh;
+   }
+ }
+ 
+ @media (max-width: 576px) {
+   .landing-container {
+     height: 60vh;
+   }
+ }
+ 
