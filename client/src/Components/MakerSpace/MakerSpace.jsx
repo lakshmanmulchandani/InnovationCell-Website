@@ -28,7 +28,7 @@ const MakerSpace = () => {
               <h1>Want to know what we have done ?</h1>
               <div className='maker_project'>
                 {data.projects.map((project,idx)=>(
-                     <Projects src={project.src} alt={project.alt} title={project.title} text={project.text}/>
+                     <Projects src={project.src} alt={project.alt} title={project.title} text={project.text} techstack={project.techstack} key={idx}/>
                 ))}
               </div>
          </div>

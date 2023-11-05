@@ -7,10 +7,32 @@
 }
 .project-img{
     height: 20rem;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 0.55rem;
 }
 .Project_card_content{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 .Projects__card p{
     max-width: 20rem;
+    color: var(--slate);
+}
+.project__icons{
+    display: flex;
+    justify-content: space-between;
+}
+.project__icons span{
+    color: var(--green);
+    font-size: 1.65rem;
+}
+.project__techstack p{
+    
+    color: var(--green);
+    font-size: bold;
+}
+.project_text_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

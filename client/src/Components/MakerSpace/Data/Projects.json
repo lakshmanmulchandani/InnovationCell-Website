@@ -1,34 +1,39 @@
 {
     "projects":[
          {
-            "src": "https://eu-central.storage.cloudconvert.com/tasks/a513e989-0785-42b9-b083-e03286854fa6/MakerspaceImg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20231103%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20231103T173757Z&X-Amz-Expires=86400&X-Amz-Signature=a055d66cc677af7decc85a38fdf1a39156104535fde5fac000563dfceca1e83f&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22MakerspaceImg.png%22&response-content-type=image%2Fpng&x-id=GetObject",
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
             "alt": "Project img",
             "title": "Project1",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores quidem laboriosam aliquam dolor. Hic."
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
          },
          {
-            "src": "https://eu-central.storage.cloudconvert.com/tasks/a513e989-0785-42b9-b083-e03286854fa6/MakerspaceImg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20231103%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20231103T173757Z&X-Amz-Expires=86400&X-Amz-Signature=a055d66cc677af7decc85a38fdf1a39156104535fde5fac000563dfceca1e83f&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22MakerspaceImg.png%22&response-content-type=image%2Fpng&x-id=GetObject",
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
             "alt": "Project img",
             "title": "Project1",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores quidem laboriosam aliquam dolor. Hic."
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
          },
          {
-            "src": "https://eu-central.storage.cloudconvert.com/tasks/a513e989-0785-42b9-b083-e03286854fa6/MakerspaceImg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20231103%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20231103T173757Z&X-Amz-Expires=86400&X-Amz-Signature=a055d66cc677af7decc85a38fdf1a39156104535fde5fac000563dfceca1e83f&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22MakerspaceImg.png%22&response-content-type=image%2Fpng&x-id=GetObject",
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
             "alt": "Project img",
             "title": "Project1",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores quidem laboriosam aliquam dolor. Hic."
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
          },
          {
-            "src": "https://eu-central.storage.cloudconvert.com/tasks/a513e989-0785-42b9-b083-e03286854fa6/MakerspaceImg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20231103%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20231103T173757Z&X-Amz-Expires=86400&X-Amz-Signature=a055d66cc677af7decc85a38fdf1a39156104535fde5fac000563dfceca1e83f&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22MakerspaceImg.png%22&response-content-type=image%2Fpng&x-id=GetObject",
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
             "alt": "Project img",
             "title": "Project1",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores quidem laboriosam aliquam dolor. Hic."
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
          },
          {
-            "src": "https://eu-central.storage.cloudconvert.com/tasks/a513e989-0785-42b9-b083-e03286854fa6/MakerspaceImg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20231103%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20231103T173757Z&X-Amz-Expires=86400&X-Amz-Signature=a055d66cc677af7decc85a38fdf1a39156104535fde5fac000563dfceca1e83f&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22MakerspaceImg.png%22&response-content-type=image%2Fpng&x-id=GetObject",
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
             "alt": "Project img",
             "title": "Project1",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores quidem laboriosam aliquam dolor. Hic."
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
          }
     ]
 }
