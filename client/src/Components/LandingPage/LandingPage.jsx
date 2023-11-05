@@ -1,27 +1,30 @@
+import React from "react";
+import Moon from "../../Assets/Moon";
+import Navbar from "../Navbar/Navbar";
+import "./Landing.css";
 
-import React from 'react'
-import Moon from '../../Assets/Moon'
-import Navbar from '../Navbar/Navbar'
-import './Landing.css'
-import icell from '../../svgs/I_cell_text.svg'
-
+import ICell from "../../svgs/ICell";
+import { motion } from "framer-motion";
+import moonbg from "../../imgs/moon1.png";
 
 const LandingPage = () => {
   return (
     <>
-    <Navbar/>
-      <div className='moon'>
-        <Moon/>
-      </div>
+      <Navbar />
 
-    <div className='landing'>
-      <div className='welcome'>
-        <div>Welcome to <span>Innovation Cell</span></div>
+      <img className="moon-bg" src={moonbg} />
+      <div>
+        <div className="main-landing">
+          <div className="landing">
+            <div className="welcome">Welcome to </div>
+            <div className="welcome-span">
+              <ICell />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-      
     </>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;

@@ -18,23 +18,26 @@
 }
 
 .nav-btn{
-   display: flex;
-   
-   justify-content: space-between;
-
-}
-
-a{
-   text-decoration: none;
-}
-.nav-opt{
 
    padding: 0.2rem;
    margin: 0.2rem 0;
    color:white;
    font-size: 20px;
+   margin-left: 20px;
    border-bottom: 4px solid var(--green);
    border-top: 4px solid var(--green);
+
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+.nav-opt{
+
+   display: flex;
+   
+   justify-content: space-between;
 
 }
 

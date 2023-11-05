@@ -1,66 +1,49 @@
-.landing{
-  
-  
-   position: relative; 
+.main-landing {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
-.moon{
-   position: fixed;
-
-   margin-top: -95vh;
-   /* right: -80vh; */
-  
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 3rem;
 }
 
-@keyframes pulse {
-   0% {
-     transform: scale(1);
-   }
-   100% {
-     transform: scale(1.1);
-   }
- }
- 
- 
-.welcome{
-
-   padding: 0.2rem;
-
-   color:white;
-   font-size: 50px;
-
-   padding: 10rem;
-    /* color:#181b3e00;  */
- }
-
-.text{
-   display: flex;
-   font-size: 56px;
-   z-index: 5;
-}
-.svg-icell{
-   margin-top: -60px;
-   height: 60px;
+.welcome {
+  display: flex;
+  align-self: center;
+  font-size: 40px;
+  color: var(--green);
+  margin-bottom: -30px;
+  margin-left: 30px;
 }
 
+.moon-bg {
+  position: fixed;
+  height: 70rem;
+  top: -10rem;
+  left: 35%;
+}
 
-/* Add your CSS for landing-container to make it responsive */
-.landing-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
- }
- 
- @media (max-width: 768px) {
-   .landing-container {
-     height: 80vh;
-   }
- }
- 
- @media (max-width: 576px) {
-   .landing-container {
-     height: 60vh;
-   }
- }
- 
+@media (max-width: 758px) {
+  .moon-bg {
+    height: 60rem;
+
+    left: 25%;
+  }
+  .landing {
+    margin-left: -20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .welcome {
+    margin-left: -20%;
+    display: flex;
+    align-self: center;
+    font-size: 28px;
+    margin-bottom: -60px;
+  }
+}
