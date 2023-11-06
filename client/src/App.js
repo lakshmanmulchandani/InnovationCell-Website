@@ -13,15 +13,6 @@ import NameCard from "./Components/Team/NameCard";
 import Executives from "./Components/Team/Executives";
 import Contact from "./Components/ContactUs/Contact";
 import Moon from "./Assets/Moon";
-{
-  /* <div className="moon"> */
-}
-{
-  /* <Moon /> */
-}
-{
-  /* </div> */
-}
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
