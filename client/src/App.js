@@ -22,6 +22,7 @@ function App() {
 
       <Team />
       
+      <Team />
     </div>
   );
 }
