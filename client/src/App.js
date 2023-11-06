@@ -15,7 +15,7 @@ import Contact from './Components/ContactUs/Contact';
 function App() {
   return (
     <div className="App " >
- <div className="background-image"></div>
+ {/* <div className="background-image"></div> */}
      <SnowfallComponent/>
      <Contact/>
     
