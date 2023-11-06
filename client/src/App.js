@@ -27,7 +27,6 @@ function App() {
       <SnowfallComponent />
       <div className="App ">
         <LandingPage />
-
         <div className="scroll-down" onClick={scrollToContactUs}>
           <div className="mouse">
             <span></span>

@@ -25,6 +25,7 @@
   height: 70rem;
   top: -10rem;
   left: 35%;
+  opacity: 0.8;
 }
 
 @media (max-width: 758px) {

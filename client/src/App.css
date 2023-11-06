@@ -90,6 +90,7 @@ body {
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
 }
 
 .mouse {
@@ -155,12 +156,9 @@ body {
 
 @media (max-width: 775px) {
   .scroll-down {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 1rem;
-    /* left: 90%; */
-    transform: translateX(-50%);
+    bottom: 10rem;
+
+    z-index: 10;
+    position: relative;
   }
 }

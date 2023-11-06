@@ -1,0 +1,39 @@
+{
+    "projects":[
+         {
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "alt": "Project img",
+            "title": "Project1",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+         },
+         {
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "alt": "Project img",
+            "title": "Project1",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+         },
+         {
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "alt": "Project img",
+            "title": "Project1",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+         },
+         {
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "alt": "Project img",
+            "title": "Project1",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+         },
+         {
+            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "alt": "Project img",
+            "title": "Project1",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
+            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+         }
+    ]
+}
