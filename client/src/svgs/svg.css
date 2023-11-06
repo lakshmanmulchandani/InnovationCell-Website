@@ -9,7 +9,7 @@
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
   stroke: #ffffff;
-  font-size: 10vw;
+  font-size: 9vw;
 }
 @keyframes stroke {
   0% {
@@ -26,7 +26,7 @@
   80% {
     fill: rgba(72, 138, 20, 0);
     stroke: rgb(255, 255, 255);
-    stroke-width: 3;
+    stroke-width: 4;
   }
   100% {
     fill: rgb(255, 255, 255);
