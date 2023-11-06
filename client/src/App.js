@@ -39,6 +39,7 @@ function App() {
         <div ref={contactUsRef}>
           <Contact />
         </div>
+        <MakerSpace />
 
         <Team />
       </div>
