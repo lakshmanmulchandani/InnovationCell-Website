@@ -1,0 +1,50 @@
+.main-landing {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 2rem;
+}
+
+.welcome {
+  display: flex;
+  align-self: center;
+  font-size: 40px;
+  color: var(--green);
+  margin-bottom: -30px;
+  margin-left: 30px;
+}
+
+.moon-bg {
+  position: fixed;
+  height: 70rem;
+  top: -10rem;
+  left: 35%;
+  opacity: 0.8;
+}
+
+@media (max-width: 758px) {
+  .moon-bg {
+    height: 60rem;
+
+    left: 25%;
+  }
+  .landing {
+    margin-left: -20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .welcome {
+    margin-left: -20%;
+    display: flex;
+    align-self: center;
+    font-size: 28px;
+    margin-bottom: -60px;
+  }
+}
