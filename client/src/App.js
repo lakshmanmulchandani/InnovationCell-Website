@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./App.css";
-import LandingPage from "./Components/LandingPage/LandingPage";
+// import LandingPage from "./Components/LandingPage/LandingPage";
 import PastEvents from "./Components/Events/PastEvents";
 import UpcomingEvents from "./Components/Events/UpcomingEvents";
 import Navbar from "./Components/Navbar/Navbar";
@@ -36,11 +36,11 @@ function App() {
             <span></span>
           </div>
         </div> */}
-        <div ref={contactUsRef}>
-          <Contact />
-        </div>
+        {/* <div ref={contactUsRef}>
+         
+        </div> */}
         {/* <MakerSpace /> */}
-
+        <Contact />
         <Team />
       </div>
     </>
