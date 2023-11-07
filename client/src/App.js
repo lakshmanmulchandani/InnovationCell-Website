@@ -4,6 +4,7 @@ import "./App.css";
 import PastEvents from "./Components/Events/PastEvents";
 import UpcomingEvents from "./Components/Events/UpcomingEvents";
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 import Sponsors from "./Components/Sponsors/Sponsors";
 import MakerSpace from "./Components/MakerSpace/MakerSpace";
@@ -42,6 +43,7 @@ function App() {
         {/* <MakerSpace /> */}
         <Contact />
         <Team />
+        <Footer />
       </div>
     </>
   );
