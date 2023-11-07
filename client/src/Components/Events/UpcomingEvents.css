@@ -1,0 +1,169 @@
+    /* Team css  */
+    #team {
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .Teams{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .EventsHeading>h1{
+      position: relative;
+      z-index: 2;
+      margin-top: 0rem;
+      color: var(--green);
+      display: flex;
+      align-items: center;
+      font-family: "Nosifer", sans-serif;
+      /* font-family: 'Times New Roman', Times, serif; */
+      /* font-family: ; */
+      justify-content: center;
+  }
+  .EventsHeading > h1::after{
+    content: '';
+    display: block;
+    background-color: var(--green);
+    width: 10rem;
+    height: 3px;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+    
+.EventsHeading>h1::before {
+  content: '';
+  display: block;
+  background-color: var(--green);
+  width: 10rem;
+  height: 3px;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+  /* AboutUs.css */
+
+.about-us-container {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+
+  }
+  
+  .about-us-image {
+    flex: 1;
+    padding-right: 50px;
+    z-index: 5; 
+  }
+  .about-us-image img{
+     height: 500px;
+     width: 500px;
+     display: inline-block;
+  }
+  
+  .about-us-image02{
+    flex: 1;
+    /* padding-left: 62px; */
+    z-index: 10;
+    border-radius: 10px;
+    
+  }
+
+  .about-us-image02 img{
+    height: 500px;
+    width: 500px;
+ }
+
+  .zoom-on-hover {
+    border-radius: 10px; 
+    transition: transform 0.3s;
+  }
+  
+  .zoom-on-hover:hover {
+    transform: scale(1.1); 
+  }
+  
+  .about-us-content {
+    /* flex: 1; */
+    /* padding-left: 1px;  */
+    display: inline-block;
+    z-index: 5;
+    color: white;
+    font-size: 30px;
+    
+  }
+  
+  .about-us-content h2 {
+    font-size: 45px;
+  }
+  
+  .about-us-content p {
+    font-size: 23px;
+  }
+
+  @media (min-width: 768px) {
+    .about-us-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      
+    }
+  }
+  
+    .about-us-content {
+     
+      flex: 1;
+      text-align: left;
+      /* flex-wrap: wrap; */
+      min-width: 400px;
+      height: 400px;
+    }
+  
+    /* .about-us-image img {
+      max-width: none;
+      height: 100%;
+      /* flex-wrap: wrap; */
+      /* min-width: 400px;
+      height: 500px; */
+
+    /* } 
+  } */
+
+
+/* UpcomingEvents.css */
+/* .about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.about-us-image img,
+.about-us-image02 img {
+  max-width: 100%;
+  height: auto;
+} 
+
+ @media (min-width: 768px) {
+  .about-us-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-us-image,
+  .about-us-image02 {
+    flex: 1;
+  }
+
+  .about-us-content {
+    flex: 2;
+    text-align: left;
+  }
+}  */
