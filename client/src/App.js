@@ -17,11 +17,8 @@ function App() {
     <div className="App " >
  <div className="background-image"></div>
      <SnowfallComponent/>
-     <Contact/>
-      <MakerSpace />
-
-      <Team />
-      
+     {/* <Contact/> */}
+      {/* <MakerSpace /> */}
       <Team />
     </div>
   );

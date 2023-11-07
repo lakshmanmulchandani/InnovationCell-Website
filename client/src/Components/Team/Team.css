@@ -24,6 +24,7 @@
     align-items: center;
     font-family: var(--font-heading);
     justify-content: center;
+    text-align: center;
 }
 .teamHeading > h1::after{
     content: '';
@@ -166,7 +167,9 @@
 }
 
 .nameCard > div {
-    width: 15rem;
+    width: 90%;
+    min-width: 12rem;
+    max-width: 15rem;
     height: 5rem;
     padding: 1rem;
     text-align: center;
@@ -214,4 +217,23 @@ p {
 .team_executives > div {
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .teamHeading>h1::before {
+        display: none !important;
+    }
+    .teamHeading>h1 {
+        padding-left: 0.5rem;
+        text-align: center;
+    }
+    .teamHeading>h1::after {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .team_executives {
+       min-width: 18rem;
+    }
 }
