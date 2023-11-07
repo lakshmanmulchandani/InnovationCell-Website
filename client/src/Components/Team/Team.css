@@ -1,7 +1,7 @@
 /* Team css  */
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap');
 #team {
-    margin-top: 6rem;
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,6 +24,7 @@
     align-items: center;
     font-family: var(--font-heading);
     justify-content: center;
+    text-align: center;
 }
 .teamHeading > h1::after{
     content: '';
@@ -148,7 +149,8 @@
 /* NameCard css */
 
 .nameCard {
-    margin: 1.5rem 2rem;
+    margin: 1rem;
+    padding: 1rem;
     width: 18rem;
     height: 7rem;
     background-color: rebeccapurple;
@@ -166,7 +168,9 @@
 }
 
 .nameCard > div {
-    width: 15rem;
+    width: 90%;
+    max-width: 15rem;
+    min-width: 12rem;
     height: 5rem;
     padding: 1rem;
     text-align: center;
@@ -214,4 +218,23 @@ p {
 .team_executives > div {
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .teamHeading>h1::before {
+        display: none !important;
+    }
+    .teamHeading>h1 {
+        padding-left: 0.5rem;
+        text-align: center;
+    }
+    .teamHeading>h1::after {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .team_executives {
+       min-width: 18rem;
+    }
 }

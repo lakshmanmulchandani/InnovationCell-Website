@@ -26,8 +26,8 @@ function App() {
     <>
       <SnowfallComponent />
       <div className="App ">
-        <LandingPage />
-        <div className="scroll-down" onClick={scrollToContactUs}>
+        {/* <LandingPage /> */}
+        {/* <div className="scroll-down" onClick={scrollToContactUs}>
           <div className="mouse">
             <span></span>
           </div>
@@ -35,11 +35,11 @@ function App() {
             <span></span>
             <span></span>
           </div>
-        </div>
+        </div> */}
         <div ref={contactUsRef}>
           <Contact />
         </div>
-        <MakerSpace />
+        {/* <MakerSpace /> */}
 
         <Team />
       </div>
