@@ -11,8 +11,8 @@ const teamData = {
     // Add more team members here
   ],
   coreCoordinators: [
-    { name: "Lakshmna Mulnchnahd", domain: "Technical" },
-    { name: "Lakshmna Mulnchnahd", domain: "Technical" },
+    { name: "Lakshman", domain: "Technical" },
+    { name: "Lakshman", domain: "Technical" },
     // Add more core coordinators here
   ],
   executives: [
