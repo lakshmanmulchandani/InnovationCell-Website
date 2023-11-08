@@ -89,8 +89,6 @@ function App() {
         <Contact />
         <Team />
         <Accordian/>
-
-      
     </>
   );
 }
