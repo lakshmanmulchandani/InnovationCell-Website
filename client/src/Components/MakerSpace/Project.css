@@ -1,3 +1,4 @@
+
 /* .project__container{
      padding: 2rem;
 } */
@@ -52,3 +53,43 @@
         max-width: 255vw;
     }
 }
+
+.Projects__card {
+  /* min-height: 70vh; */
+  width: fit-content;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.project-img {
+  height: 20rem;
+  width: 25rem;
+  border-radius: 10px;
+  padding: 0.55rem;
+}
+.Project_card_content {
+  padding: 1rem;
+}
+.Projects__card p {
+  max-width: 20rem;
+  color: var(--slate);
+}
+.project__icons {
+  display: flex;
+  justify-content: space-between;
+}
+.project__icons span {
+  color: var(--green);
+  font-size: 1.65rem;
+}
+
+.project__techstack p {
+  color: var(--green);
+  font-size: bold;
+}
+.project_text_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+

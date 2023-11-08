@@ -1,194 +1,188 @@
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-}
-.contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
 }
 
-.contact{
-    width: 80%;
-    height: fit-content;
-    /* padding: 5rem 15rem; */
-    font-family: var(--font-poppins);
-    color: var(--slate);
-    z-index: 3;
-  
+.contact {
+  width: 80%;
+  height: fit-content;
+  /* padding: 5rem 15rem; */
+  font-family: var(--font-poppins);
+  color: var(--slate);
+  z-index: 3;
 }
 
-
-.contact_heading{
-    
-    font-weight: 600;
-    color: var(--green);
-    font-size: 1.4rem;
-    display: flex;
-    align-items: center;
-    /* padding: 2rem 0; */
-    font-family: var(--font-mono);
+.contact_heading {
+  font-weight: 600;
+  color: var(--green);
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  /* padding: 2rem 0; */
+  font-family: var(--font-mono);
 }
 
-.contact_heading::before{
-    content: '04. ';
-    color: var(--green);
-    font-family: var(--font-mono);
-    font-size: 1.2rem;
-    margin-right: 8px;
+.contact_heading::before {
+  content: "04. ";
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  margin-right: 8px;
 }
 
-.contact_heading::after{
-    content: '';
-    display: block;
-    width: 200px;
-    margin-left: 1rem;
-    height: 0.5px;
-    background: var(--green);
+.contact_heading::after {
+  content: "";
+  display: block;
+  width: 200px;
+  margin-left: 1rem;
+  height: 0.5px;
+  background: var(--green);
 }
 
-.contact_content{
-    display: flex;
-    
-    align-items: center;
-    padding-bottom: 5rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+.contact_content {
+  display: flex;
+
+  align-items: center;
+  padding-bottom: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.contact_content_texts{
-    /* padding: 2rem 1rem; */
-    width: 50%;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    text-align: center;
-    max-width: 300px;
+.contact_content_texts {
+  /* padding: 2rem 1rem; */
+  width: 50%;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+  max-width: 300px;
 
-    min-width: 250px;
-    backdrop-filter: blur(10px); /* Apply a blur effect */
-    border-radius: 10px; /* Rounded corners for the glass container */
-    padding: 2rem; /* Adjust padding to your liking */
-    background-color:  rgb(17, 34, 64,0.57);
+  min-width: 250px;
+  backdrop-filter: blur(10px); /* Apply a blur effect */
+  border-radius: 10px; /* Rounded corners for the glass container */
+  padding: 2rem; /* Adjust padding to your liking */
+  background-color: rgb(17, 34, 64, 0.57);
 }
 
-.contact_content_texts{
-    font-size: 1rem;
-    font-weight: 700;
+.contact_content_texts {
+  font-size: 1rem;
+  font-weight: 700;
 }
-.contact_content_texts_heading{
-    margin-bottom: 1rem;
+.contact_content_texts_heading {
+  margin-bottom: 1rem;
 }
 
-.contact_content_forms{
-    width: 100%;
-    max-width: 700px;
-  
+.contact_content_forms {
+  width: 100%;
+  max-width: 700px;
 }
 
 /* form css  */
 .input-icons {
-    width: 100%;
-    
+  width: 100%;
 }
 
 .input-icons i {
-    padding: 1rem 2rem;
-    padding-right: 1rem;
-    color: var(--green);
-    background: rgba(255, 255, 255, 0.2); /* Adjust the opacity for the glass effect */
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom: 1px solid var(--green);
-    background-color:  rgb(17, 34, 64,0.57);
+  padding: 1rem 2rem;
+  padding-right: 1rem;
+  color: var(--green);
+  background: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Adjust the opacity for the glass effect */
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom: 1px solid var(--green);
+  background-color: rgb(17, 34, 64, 0.57);
 }
 
 .input_element {
-    width: 100%;
-    margin: 1rem 0;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(10px); /* Apply a blur to create glassmorphism effect */
-    background: rgba(255, 255, 255, 0.2); /* Adjust the opacity for the glass effect */
-    border: 2px solid rgba(255, 255, 255, 0.2); /* Slightly thicker border */
-    border-radius: 10px; /* Add border radius for rounded corners */
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px); /* Apply a blur to create glassmorphism effect */
+  background: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Adjust the opacity for the glass effect */
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Slightly thicker border */
+  border-radius: 10px; /* Add border radius for rounded corners */
 }
 
 input {
-    width: 100%;
-    padding: 1rem 2rem;
-    font-weight: 500;
-    outline: none;
-    border: none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-   
-    color: var(--slate);
-    transition: border, background-color 0.7s;
-    border-bottom: 1px solid var(--green);
-    background-color:  rgb(17, 34, 64,0.57);
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  color: var(--slate);
+  transition: border, background-color 0.7s;
+  border-bottom: 1px solid var(--green);
+  background-color: rgb(17, 34, 64, 0.57);
 }
 
 input:focus {
-    background-color: var(--light-navy);
-    color: var(--light-slate);
+  background-color: var(--light-navy);
+  color: var(--light-slate);
 }
 
 textarea {
-    width: 100%;
-    outline: none;
-    border: none;
-    background-color:  rgb(17, 34, 64,0.57);
-    color: var(--light-navy);
-    border-radius: 10px; /* Add border radius for rounded corners */
-    padding: 0.5rem 1rem;
-    font-family: var(--font-poppins);
-    border-bottom: 1px solid var(--green);
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: rgb(17, 34, 64, 0.57);
+  color: var(--light-navy);
+  border-radius: 10px; /* Add border radius for rounded corners */
+  padding: 0.5rem 1rem;
+  font-family: var(--font-poppins);
+  border-bottom: 1px solid var(--green);
 }
 
 textarea:focus {
-    background-color:  rgb(17, 34, 64,0.8);
-    color: var(--light-slate);
+  background-color: rgb(17, 34, 64, 0.8);
+  color: var(--light-slate);
 }
 
 .contact_btn {
-    padding: 1;
-    margin-left: 0.5rem;
-    width: 30%;
-    font-size: 1rem;
-   
-    color: var(--green);
-    font-family: var(--font-mono);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-   transition: color, background-color 1s;
-    background-color:  rgb(17, 34, 64,0.57);
-    -webkit-transition: color, background-color 1s;
-    -moz-transition: color, background-color 1s;
-    -ms-transition: color, background-color 1s;
-    -o-transition: color, background-color 1s;
+  padding: 1;
+  margin-left: 0.5rem;
+  width: 30%;
+  font-size: 1rem;
+
+  color: var(--green);
+  font-family: var(--font-mono);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: color, background-color 1s;
+  background-color: rgb(17, 34, 64, 0.57);
+  -webkit-transition: color, background-color 1s;
+  -moz-transition: color, background-color 1s;
+  -ms-transition: color, background-color 1s;
+  -o-transition: color, background-color 1s;
 }
 
 .contact_btn > button {
-    outline: none;
-    border: none;
-    padding: 1rem;
+  outline: none;
+  border: none;
+  padding: 1rem;
 }
 
 .contact_btn:hover {
-    background-color:  rgb(17, 34, 64,0.8);
-    color: var(--blue);
+  background-color: rgb(17, 34, 64, 0.8);
+  color: var(--blue);
 }
-
-
-
 
 /* 
 @media screen and (max-width: 940px) {
@@ -232,11 +226,7 @@ textarea:focus {
     }
 } */
 
-
-
 /* media query for padding  */
-
-
 
 /* @media screen and (max-width: 1500px) {
     .contact{
@@ -268,33 +258,33 @@ textarea:focus {
 }
  */
 
-
- .teamHeading>h1{
-    position: relative;
-    z-index: 2;
-    margin-top: 0rem;
-    color: var(--green);
-    display: flex;
-    align-items: center;
-    font-family: var(--font-heading);
-    justify-content: center;
+.teamHeading > h1 {
+  position: relative;
+  z-index: 2;
+  margin-top: 0rem;
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  font-family: var(--font-heading);
+  justify-content: center;
+  margin-top: 10rem;
 }
-.teamHeading > h1::after{
-    content: '';
-    display: block;
-    background-color: var(--green);
-    width: 10rem;
-    height: 3px;
-    border-radius: 1rem;
-    margin-left: 0.5rem;
+.teamHeading > h1::after {
+  content: "";
+  display: block;
+  background-color: var(--green);
+  width: 10rem;
+  height: 3px;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
 }
 
-.teamHeading>h1::before {
-    content: '';
-    display: block;
-    background-color: var(--green);
-    width: 10rem;
-    height: 3px;
-    border-radius: 1rem;
-    margin-right: 0.5rem;
+.teamHeading > h1::before {
+  content: "";
+  display: block;
+  background-color: var(--green);
+  width: 10rem;
+  height: 3px;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
 }
