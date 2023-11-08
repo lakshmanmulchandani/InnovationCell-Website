@@ -1,0 +1,50 @@
+.exp-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.exp-icon img {
+  /* width: 100%; */
+  height: 100%;
+  border-radius: 50%;
+  /* object-fit: contain; */
+}
+
+.timeline-main {
+  margin: 0 6rem;
+}
+.event-card {
+  display: flex;
+  flex-direction: column;
+}
+/* .event-pic {
+  display: flex;
+  align-self: center;
+} */
+
+.event-pic img {
+  width: 100%;
+  /* border: 4px solid white; */
+  /* border-radius: 20px; */
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  font: bold;
+  width: fit-content;
+}
+
+.title-p {
+  font-size: 16px;
+  width: fit-content;
+}
+
+.timeline-content {
+  margin-top: 1rem;
+}
+.timeline-content li {
+  list-style: none;
+}
