@@ -22,17 +22,17 @@
 
 .moon-bg {
   position: fixed;
-  height: 70rem;
-  top: -10rem;
-  left: 35%;
+  height: 50rem;
+  top: -2rem;
+  left: 50%;
   opacity: 0.8;
 }
 
 @media (max-width: 758px) {
   .moon-bg {
     height: 60rem;
-
-    left: 25%;
+    margin-top: -3rem;
+    left: 20%;
   }
   .landing {
     margin-left: -20%;

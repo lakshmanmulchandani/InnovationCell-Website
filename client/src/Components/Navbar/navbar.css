@@ -1,13 +1,14 @@
 .nav {
   display: flex;
   justify-content: space-between;
+
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   text-align: center;
-  /* padding: 0.3rem; */
-  /* background-color: #181B3E; */
+  z-index: -10;
+
   background: rgba(255, 255, 255, 0.109);
   z-index: 10;
   backdrop-filter: blur(90px);
@@ -19,16 +20,19 @@
 .nav-btn {
   padding: 4px;
   margin: 0.2rem 0;
-  color: white;
+
   font-size: 20px;
-  /* border: 2px solid white; */
   border-radius: 10px;
   font-weight: 600;
-
-  /* margin-left: 20px; */
-
-  /* border-bottom: 4px solid var(--green);
-  border-top: 4px solid var(--green); */
+  font-family: frozen, serif;
+}
+.nav-btn div {
+  /* color: transparent;
+  background-size: 100% 100%;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text; */
 }
 
 .nav-btn:hover {
@@ -41,9 +45,9 @@ a {
 }
 .nav-opt {
   display: flex;
-
   justify-content: space-between;
-  width: 100%;
+
+  width: 70%;
 }
 
 .nav-opt:hover {
@@ -51,8 +55,6 @@ a {
 }
 
 .logo {
-  /* padding: 0.2rem; */
-  /* margin: 2rem 0; */
   color: white;
   font-size: 30px;
   width: 40%;
@@ -60,9 +62,79 @@ a {
 
 .logo img {
   display: flex;
-  /* margin: 1rem 0; */
   align-self: center;
   height: 50px;
   background: rgb(255, 255, 255);
   border-radius: 50%;
+}
+
+.menu-icon {
+  display: block;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav.nav-phone {
+    height: 100%;
+    animation: fadeIn 1s;
+    z-index: 100;
+  }
+  .nav-opt {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    z-index: 10;
+  }
+
+  .nav-opt.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s;
+    height: 100%;
+  }
+
+  .nav-btn {
+    font-size: 30px;
+    padding: 1rem;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    height: fit-content;
+  }
+
+  .bar {
+    width: 70px;
+    height: 4px;
+    background: white;
+    margin: 10px 10px;
+    transition: 0.9s;
+  }
+
+  .rotate-left {
+    transform: rotate(-45deg) translate(-9px, 10px);
+  }
+
+  .rotate-right {
+    transform: rotate(45deg) translate(-9px, -10px);
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

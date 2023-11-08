@@ -232,6 +232,7 @@ p {
     .teamHeading>h1::after {
         display: none !important;
     }
+
 }
 @media only screen and (max-width: 400px) {
     .team_executives {

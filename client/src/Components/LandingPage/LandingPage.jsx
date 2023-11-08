@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Moon from "../../Assets/Moon";
 import Navbar from "../Navbar/Navbar";
 import "./Landing.css";
@@ -10,7 +10,6 @@ const LandingPage = () => {
   return (
     <>
       <Navbar />
-
       <img className="moon-bg" src={moonbg} />
       <div>
         <div className="main-landing">
