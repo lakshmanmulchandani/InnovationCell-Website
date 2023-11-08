@@ -11,9 +11,6 @@ const MakerSpace = () => {
     <div className='maker__container teamHeading'>
          <h1>MakerSpace</h1>
          <div className='maker__about'>
-              <div className='maker__img'>
-                   <img src={makerspaceimg}  alt="MakerSpace images" />
-              </div>
               <div className='maker__about_content'>
                     <div>
                          <h2>About Us</h2>
@@ -21,7 +18,10 @@ const MakerSpace = () => {
                     </div>
                     <p>Makerspace at NIT Raipur is set up on the theme of Open Community    Technology Development Culture to promote mainly frugal innovations.
                     </p>
-                      <p> It is set up to provide working ecosystem to prospective entrepreneurs of NIT Raipur. Once the raw and innovative ideas will start taking shapes, they will be incubated in a proper system of Technology Business Incubator (TBI).</p>
+                    <p> It is set up to provide working ecosystem to prospective entrepreneurs of NIT Raipur. Once the raw and innovative ideas will start taking shapes, they will be incubated in a proper system of Technology Business Incubator (TBI).</p>
+              </div>
+              <div className='maker__img'>
+                   <img src={makerspaceimg}  alt="MakerSpace images" />
               </div>
          </div>
          <div className='maker__projects teamHeading'>

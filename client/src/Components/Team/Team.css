@@ -230,8 +230,3 @@ p {
         display: none !important;
     }
 }
-@media only screen and (max-width: 350px) {
-    .team_executives {
-       min-width: 18rem;
-    }
-}
