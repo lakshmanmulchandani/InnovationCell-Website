@@ -57,6 +57,10 @@ function App() {
         <div className="progress" style={{ width: `${scrollProgress}%` }}></div>
       </div>
       <div className="App ">
+        
+      <UpcomingEvents/>
+        {/* <LandingPage /> */}
+        {/* <div className="scroll-down" onClick={scrollToContactUs}>
         <LandingPage />
         <div className="scroll-down" onClick={scrollToContactUs}>
           <div className="mouse">
