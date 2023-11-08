@@ -5,6 +5,7 @@ import LandingPage from "./Components/LandingPage/LandingPage";
 import PastEvents from "./Components/Events/PastEvents";
 import UpcomingEvents from "./Components/Events/UpcomingEvents";
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 import Sponsors from "./Components/Sponsors/Sponsors";
 import MakerSpace from "./Components/MakerSpace/MakerSpace";
@@ -81,13 +82,15 @@ function App() {
         <div id="contactusnav">
           <Contact />
         </div>
-        </div> */}
+       
         {/* <div ref={contactUsRef}>
          
         </div> */}
         {/* <MakerSpace /> */}
         <Contact />
         <Team />
+        <Footer />
+      </div>
         <Accordian/>
     </>
   );
