@@ -13,6 +13,7 @@ import NameCard from "./Components/Team/NameCard";
 import Executives from "./Components/Team/Executives";
 import Contact from "./Components/ContactUs/Contact";
 import Moon from "./Assets/Moon";
+import Accordian from "./Components/Faq/Accordian"
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
@@ -42,6 +43,7 @@ function App() {
         {/* <MakerSpace /> */}
         <Contact />
         <Team />
+        <Accordian/>
       </div>
     </>
   );
