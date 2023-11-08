@@ -41,19 +41,18 @@ const Accordion = () => {
 
   return (
     <div>
-            <div className="teamHeading">
+        <div className="teamHeading">
         <h1>FAQ</h1>
       </div>
 
-      <div className="acc-container" style={{ position: "relative" }}>
-        <div style={{ width: "40%" }}>
+      <div className="acc-container">
+        <div>
           <img
             className="snowman"
-            style={{  top: "50px", height:"650px" }}
             src={MAN2}
           />
         </div>
-        <div className="container" style={{ width: "60%" }}>
+        <div className="container">
           {data.map((item, index) => (
             <AccordionItem
               key={index}
