@@ -4,23 +4,37 @@ import TeamCard from "./TeamCard";
 import NameCard from "./NameCard";
 import Executives from "./Executives";
 
+const teamData = {
+  teamMembers: [
+    { name: "Alim Khan", domain: "Tech Domain" },
+    { name: "Alim Khan", domain: "Tech Domain" },
+    // Add more team members here
+  ],
+  coreCoordinators: [
+    { name: "Lakshman", domain: "Technical" },
+    { name: "Lakshman", domain: "Technical" },
+    // Add more core coordinators here
+  ],
+  executives: [
+    { domain: "Event Management" },
+    { domain: "Spons" },
+    { domain: "Event Management" },
+    { domain: "Spons" },
+    // Add more executives here
+  ],
+};
+
 const Team = () => {
   return (
-    <>
+    <div className="teams-page">
       <div id="team" className="teamHeading">
         <h1>Team Innovation cell</h1>
       </div>
-      <div className="Teams">
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        <TeamCard name="Alim Khan" domain ="Tech Domain"  />
-        {/* <Chart /> */}
 
+      <div className="Teams">
+        {teamData.teamMembers.map((member, index) => (
+          <TeamCard key={index} name={member.name} domain={member.domain} />
+        ))}
       </div>
 
       <div className="teamHeading">
@@ -28,18 +42,9 @@ const Team = () => {
       </div>
 
       <div className="Teams">
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-      <NameCard name={"Lakshmna Mulnchnahd"} domain={"Technical"} />
-
-        {/* <Chart /> */}
-
+        {teamData.coreCoordinators.map((coordinator, index) => (
+          <NameCard key={index} name={coordinator.name} domain={coordinator.domain} />
+        ))}
       </div>
 
       <div className="teamHeading">
@@ -47,28 +52,11 @@ const Team = () => {
       </div>
 
       <div className="Teams">
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-        <Executives domain={"Event Management"} />
-        <Executives domain={"Spons"} />
-
-        {/* <Chart /> */}
-
+        {teamData.executives.map((executive, index) => (
+          <Executives key={index} domain={executive.domain} />
+        ))}
       </div>
-      
-    </>
+    </div>
   );
 };
 
