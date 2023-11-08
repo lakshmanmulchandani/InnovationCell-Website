@@ -90,7 +90,6 @@ function App() {
         <Team />
         <Accordian/>
 
-      </div>
     </>
   );
 }
