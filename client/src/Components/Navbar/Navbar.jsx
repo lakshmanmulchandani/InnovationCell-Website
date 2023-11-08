@@ -1,46 +1,62 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../Assets/images/i_cell_logo.png";
 
 const Navbar = () => {
+  const [phone, setPhone] = useState(false);
+
+  const toggle = () => {
+    setPhone(!phone);
+  };
+
   return (
-    <div className="nav">
+    <div className={`nav ${phone ? "nav-phone" : ""}`}>
       <div className="logo">
         <a href="/">
           <img src={logo} alt="I-Cell Logo" />
         </a>
       </div>
-      <div className="nav-opt">
-        <div className="nav-btn">
+      <div className={` nav-opt ${phone ? "show" : ""}`}>
+        <div className="nav-btn" onClick={toggle}>
           <a href="#">
-            <div>Home</div>
+            <div className="home">Home</div>
           </a>
         </div>
-        <div className="nav-btn">
-          <a href="#">
-            <div>Events</div>
-          </a>
-        </div>
-        <div className="nav-btn">
-          <a href="#">
-            <div>Team</div>
-          </a>
-        </div>
-        <div className="nav-btn">
-          <a href="#">
-            <div>Sponsors</div>
-          </a>
-        </div>
-        <div className="nav-btn">
-          <a href="#">
+        <div className="nav-btn" onClick={toggle}>
+          <a href="#aboutusnav">
             <div>AboutUs</div>
           </a>
         </div>
-        <div className="nav-btn">
+        <div className="nav-btn" onClick={toggle}>
+          <a href="#eventsnav">
+            <div>Events</div>
+          </a>
+        </div>
+        <div className="nav-btn" onClick={toggle}>
+          <a href="#sponsernav">
+            <div>Sponsors</div>
+          </a>
+        </div>
+        <div className="nav-btn" onClick={toggle}>
           <a href="#">
+            <div>FAQ</div>
+          </a>
+        </div>
+        <div className="nav-btn" onClick={toggle}>
+          <a href="#teamnav">
+            <div>Team</div>
+          </a>
+        </div>
+        <div className="nav-btn" onClick={toggle}>
+          <a href="#contactusnav">
             <div>ContactUs</div>
           </a>
         </div>
+      </div>
+      <div className="menu-icon" onClick={toggle}>
+        <div className={`bar ${phone ? "rotate-left" : ""}`}></div>
+        <div className={`bar ${phone ? "fade-out" : ""}`}></div>
+        <div className={`bar ${phone ? "rotate-right" : ""}`}></div>
       </div>
     </div>
   );

@@ -18,6 +18,7 @@
     "react-scripts": "5.0.1",
     "react-snowfall": "^1.2.1",
     "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.158.0",
     "vanilla-tilt": "^1.8.1",
     "web-vitals": "^2.1.4"
@@ -45,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
   }
 }
