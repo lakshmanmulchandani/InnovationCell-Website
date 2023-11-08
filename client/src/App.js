@@ -88,7 +88,8 @@ function App() {
         {/* <MakerSpace /> */}
         <Contact />
         <Team />
-        <Accordian/>
+      <Accordian />
+      </div>
     </>
   );
 }

@@ -81,7 +81,8 @@ const MakerSpace = () => {
         <Memories data={slides} />
       </div>
 
-    </div>
+      </div>
+      </div>
   );
 };
 
