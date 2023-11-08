@@ -1,0 +1,105 @@
+* {
+  color: white;
+}
+
+.footer {
+  padding: 0.5rem 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  border: 5px solid #07d4a4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.footer-left-upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-left-upper > img {
+  height: 175px;
+}
+
+.footer-left-upper > p {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.footer-left-lower {
+  width: 50rem;
+  text-align: center;
+  color: black;
+}
+
+
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-links > a {
+  scale: 2;
+  margin: 0 2rem;
+}
+
+.footer-links > a:hover{
+  scale: 3;
+  transition: 200ms ease-out;
+}
+
+.footer-right > .pages {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.footer-right > .pages > a {
+  text-align: right;
+}
+
+.footer-right > .pages > a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-right > .pages > a {
+    text-align: center;
+  }
+
+  .footer-right > .pages {
+    gap: 1rem;
+  }
+}

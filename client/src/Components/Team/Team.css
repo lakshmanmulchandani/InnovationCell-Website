@@ -1,7 +1,7 @@
 /* Team css  */
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap');
 #team {
-    margin-top: 6rem;
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -149,7 +149,8 @@
 /* NameCard css */
 
 .nameCard {
-    margin: 1.5rem 2rem;
+    margin: 1rem;
+    padding: 1rem;
     width: 18rem;
     height: 7rem;
     background-color: rebeccapurple;
@@ -168,8 +169,8 @@
 
 .nameCard > div {
     width: 90%;
-    min-width: 12rem;
     max-width: 15rem;
+    min-width: 12rem;
     height: 5rem;
     padding: 1rem;
     text-align: center;
@@ -231,6 +232,7 @@ p {
     .teamHeading>h1::after {
         display: none !important;
     }
+
 }
 @media only screen and (max-width: 400px) {
     .team_executives {

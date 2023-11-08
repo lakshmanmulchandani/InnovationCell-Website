@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
 }
 .btn{
   padding: 0.25rem;
@@ -28,8 +27,8 @@
   right: 10px;
 }
 .slide{
-   height: 600px;
-   width: 600px; 
+   max-width: 600px;
+   max-height: 600px;
    border-radius: 10px;
    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
    background: linear-gradient(to right, red, purple);
@@ -65,4 +64,19 @@
         height: 400px;
         width: 600px;
     }
+}
+
+@media screen and (max-width: 568px) {
+   .memories__container{
+      margin-left: 3.5rem;
+   }
+   .btn-left{
+       left: -8rem;
+   }
+   .btn-right{
+      right: -8rem;
+   }
+   .indicator{
+      display: none;
+   }
 }
