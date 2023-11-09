@@ -55,21 +55,7 @@ body {
   overflow-x: hidden;
 }
 
-::selection {
-  background-color: var(--lightest-navy);
-  color: var(--lightest-slate);
-}
-
-html::-webkit-scrollbar{
-  width: 0.3vw;
-  background-color: var(--light-navy);
-}
-html::-webkit-scrollbar-thumb{
-  background-color: var(--green); 
-  border-radius: 5px;
-  
-}
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -77,8 +63,6 @@ html::-webkit-scrollbar-thumb{
   background: #08ffc58e;
   border-radius: 5px;
 }
-
-
 
 ::-webkit-scrollbar-thumb:hover {
   background: #00ffc3;
@@ -90,7 +74,7 @@ html::-webkit-scrollbar-thumb{
 
 ::-webkit-scrollbar-thumb {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-} */
+}
 
 /* LandingPage.css */
 
