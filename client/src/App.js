@@ -96,8 +96,6 @@ function App() {
         <Footer />
       </div>
         <Accordian/>
-
-      
     </>
   );
 }
