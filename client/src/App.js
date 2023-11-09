@@ -14,7 +14,7 @@ import SnowfallComponent from "./Components/Snowfall/SnowfallComponent";
 import NameCard from "./Components/Team/NameCard";
 import Executives from "./Components/Team/Executives";
 import Contact from "./Components/ContactUs/Contact";
-import Footer from "./Components/Footer/Footer";
+
 import Moon from "./Assets/Moon";
 
 import AboutUs from "./Components/AboutUs/AboutUs";

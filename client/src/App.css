@@ -52,7 +52,7 @@ body {
   background-image: url("./Assets/images/bg_icell.png");
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
-  
+  overflow-x: hidden;
   width: 100%;
 }
 
