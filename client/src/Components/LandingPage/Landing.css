@@ -1,23 +1,31 @@
 .main-landing {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+  display: flex;
+  width: 100%;
+  /* overflow-x: hidden; */
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .landing {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+  text-align: left;
   height: 100vh;
   margin-left: 2rem;
+  width: 40rem;
+  max-width: 100%;
 }
 
 .welcome {
-  display: flex;
-  align-self: center;
-  font-size: 40px;
-  color: var(--green);
-  margin-bottom: -30px;
-  margin-left: 30px;
+ display: flex;
+ align-self: center;
+ font-size: 40px;
+ color: var(--green);
+ flex-direction: column;
+ align-items: flex-start;
+
 }
 
 .moon-bg {
@@ -35,16 +43,19 @@
     left: 20%;
   }
   .landing {
-    margin-left: -20%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+
   }
   .welcome {
-    margin-left: -20%;
+    /* margin-left: -20%; */
     display: flex;
     align-self: center;
-    font-size: 28px;
-    margin-bottom: -60px;
+    font-size: 35px;
+    /* margin-bottom: -60px; */
   }
 }

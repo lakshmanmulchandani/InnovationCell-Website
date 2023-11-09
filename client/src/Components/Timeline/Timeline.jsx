@@ -3,14 +3,14 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
+
 
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "./styles";
 import { experiences } from "./constants/index";
 import { SectionWrapper } from "./hoc/index";
-import { textVariant } from "./utils/motion";
+
 import "./timeline.css";
 
 const ExperienceCard = ({ experience }) => {
@@ -73,7 +73,7 @@ const Experience = () => {
   return (
     <>
       <div className="timeline-main">
-        {/* <motion.div variants={textVariant()}></motion.div> */}
+   
         <div className="maker__container teamHeading ">
           <h1>Events</h1>
         </div>
