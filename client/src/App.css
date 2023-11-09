@@ -52,7 +52,8 @@ body {
   background-image: url("./Assets/images/bg_icell.png");
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
-  overflow-x: hidden;
+  
+  width: 100%;
 }
 
 ::selection {
@@ -100,7 +101,7 @@ html::-webkit-scrollbar-thumb{
   left: 0;
   width: 100%;
   height: 3px; /* Adjust the height as needed */
-  background-color: transparent;
+  background-color: yellow;
   z-index: 999;
 }
 
@@ -136,12 +137,13 @@ html::-webkit-scrollbar-thumb{
   -o-transform: translate(40vh, -5vh);
 } */
 
-/* 
-.app {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-} */
+
+
+/* .app {
+display: flex;
+  width: 100%;
+ min-height: 100vh;
+}  */
 
 .snowfall {
   position: fixed;
@@ -150,9 +152,6 @@ html::-webkit-scrollbar-thumb{
   width: 100%;
   height: 100%;
   z-index: -1;
-}
-.App {
-  width: fit-content;
 }
 
 .scroll-down {

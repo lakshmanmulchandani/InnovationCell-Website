@@ -11,16 +11,16 @@ const LandingPage = () => {
     <>
       <Navbar />
       <img className="moon-bg" src={moonbg} />
-      <div>
+      
         <div className="main-landing">
           <div className="landing">
-            <div className="welcome">Welcome to </div>
-            <div className="welcome-span">
-              <ICell />
-            </div>
+            <div className="welcome">Welcome to    <br />
+      </div>    
+       <ICell/> 
+        
           </div>
         </div>
-      </div>
+      
     </>
   );
 };

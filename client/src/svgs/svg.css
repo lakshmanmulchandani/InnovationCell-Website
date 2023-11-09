@@ -2,6 +2,7 @@
   font-family: "Russo One", sans-serif;
   /* position: absolute;  */
   width: 700px;
+  max-width: 100%;
   /* margin-top: 20%; */
 }
 .i-cell-text {
@@ -9,7 +10,8 @@
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
   stroke: #ffffff;
-  font-size: 9vw;
+  font-size: 120px;
+  
 }
 @keyframes stroke {
   0% {
@@ -37,9 +39,19 @@
   }
 }
 
-@media (max-width: 400px) {
+
+@media (max-width: 500px) {
+
   .i-cell-text {
     font-size: 20vw;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+  .i-cell-text {
+    font-size: 30vw;
   }
   .svg-icell {
     font-family: "Russo One", sans-serif;
