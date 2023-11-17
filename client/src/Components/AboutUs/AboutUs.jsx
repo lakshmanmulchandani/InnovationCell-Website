@@ -1,11 +1,65 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import Bulb1 from "../../Assets/images/bulb11.png";
+import Bulb2 from "../../Assets/images/bulb22.png";
+import Holder from "../../Assets/images/wood.png";
 import "./AboutUs.css";
 
 const AboutUs = () => {
+  const [activeDiv, setActiveDiv] = useState(0); // Start with the 1st div as active
+
+  // Use useEffect to change the active div with a delay
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveDiv((prevActive) => (prevActive+1)%4);
+    }, 1900); // Change the active div every 1 second
+
+    return () => clearInterval(timer); // Cleanup the timer when the component unmounts
+
+  }, []);
+
   return (
-    <>
-      <div className="about-main">AboutUs</div>
-    </>
+    <div className="About-main-container">
+      <div className="teamHeading AboutUs-heading">
+        <h1>About Us</h1>
+      </div>
+      <div className="About-container">
+        <div className='About-pic'>
+          <div><img src={Holder} alt="holder" width={300} height={100} /></div>
+          <div className="About-imgs">
+            {/* This class container 4 bulbs and these bulbs must swing like a pendulum add this animation using AboutUs.css */}
+            <div className="About-img">
+              <img src={Bulb1} alt="bulb1" width={75} height={375} />
+            </div>
+            <div className="About-img">
+              <img src={Bulb2} alt="bulb2" width={75} height={277.5} />
+            </div>
+            <div className="About-img">
+              <img src={Bulb1} alt="bulb1" width={75} height={375} />
+            </div>
+            <div className="About-img">
+              <img src={Bulb2} alt="bulb2" width={75} height={277.5} />
+            </div>
+          </div>
+        </div>
+        <div className="About-content">
+          <div className="About-item-main">
+            Welcome to the Innovation Cell, the beating heart of innovation,
+            creativity, entrepreneurship and technology at NIT Raipur. We are a
+            vibrant club dedicated to fostering a culture of innovation,
+            startups, and cutting-edge technology among students. At Innovation
+            Cell, we believe in empowering the next generation of visionaries,
+            thinkers, and doers by providing them with the necessary tools,
+            resources, and opportunities to transform their ideas into reality.
+          </div>
+
+          <div className={`About-item`} style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` }}>
+          {activeDiv === 0 ? "What do we do?" : activeDiv===1?"i-Talks": activeDiv===2?"Seed Grants for Startups":activeDiv===3?"Avinya - Unveiling the Future":"" }
+            
+          </div> {/* 1st div */}
+         
+        </div>
+      </div>
+    </div>
   );
 };
 
