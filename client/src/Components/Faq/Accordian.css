@@ -21,7 +21,6 @@
     align-items: center;
     padding: 20px 60px;
     gap: 2rem;
-    z-index: 999;
     position: relative;
   }
 

@@ -1,7 +1,102 @@
-.about-main {
-  color: white;
+.AboutUs-heading {
   text-align: center;
+  font-family: var(--font-heading);
+  color: #64ffda;
+  font-size: 1.5rem;
+}
 
-  height: 20vh;
-  width: 100vw;
+.About-main-container {
+margin: 0 6rem; 
+}
+
+.About-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: flex-start;
+  gap:5rem;
+  margin: 2rem 3rem;
+  color: lightgray;
+}
+
+.About-content {
+  /* line-height: 2rem; */
+  width: 26rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  gap:30px;
+}
+
+.About-item {
+/* margin-bottom: 1.2rem; */
+font-size: medium;
+font-family: "Poppins", sans-serif;
+}
+
+.About-imgs {
+display: flex;
+margin-top: -4rem;
+/* border-top: 2px solid; */
+}
+
+/* Applies the swinging animation to the bulb images */
+@keyframes swing {
+0%, 100% {
+  transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0; /* Start with opacity 0 (fully transparent) */
+  }
+
+  100% {
+    opacity: 1; /* End with opacity 1 (fully visible) */
+  }
+}
+
+.About-img img {
+  animation: swing 2s ease-in-out infinite;
+  transform-origin: top;
+}
+
+.About-item-main {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  background-color: rgba(7, 8, 24, 0.3);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.About-item {
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: inline-block; 
+  animation: fade 2s ease-in-out infinite alternate; /* Adjust the duration here */
+}
+
+@media (max-width:620px) {
+  .About-content  {
+    width: 100%;
+  }
+  .About-main-container {
+    margin: 0 3rem;
+  }
+  .About-container {
+    margin: 2rem 0rem;
+  }
+}
+@media (max-width:550px) {
+  .About-content  {
+    width: 100%;
+  }
+  .About-main-container {
+    margin: 0 1rem;
+  }
 }

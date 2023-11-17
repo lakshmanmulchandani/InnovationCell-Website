@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: scroll-behavior 10s ease-in-out;
+}
+
+@font-face {
+  font-family: "frozen";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
+}
+:root {
+  --pink: #f57dff;
+  --blue: #57cbff;
+  --green-tint: rgba(100, 255, 218, 0.1);
+  --dark-navy: #020c1b;
+  --navy: #0a192f;
+  --navy: #000001;
+  --light-navy: #112240;
+  --navy-shadow: rgba(2, 12, 27, 0.7);
+  --dull: rgba(2, 29, 22, 0.5);
+  --lightest-navy: #233554;
+  --navy-shadow: rgba(2, 12, 27, 0.7);
+  --dark-slate: #495670;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+  --slate: #8892b0;
+  --navy: #0a192f;
+  --input-bg: hsl(235, 44%, 80%);
+  /* font size  */
+  --fz-xs: 13px;
+  --fz-xxs: 12px;
+  --fz-md: 14px;
+  --fz-xl: 20px;
+  --fz-l: 16px;
+
+  /* font family  */
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-jack: "font-file-82132";
+  --font-mark: "Mark Pro,sans-serif";
+  --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-heading: "Nosifer", sans-serif;
+}
+body {
+  /* background-color: #181B3E; */
+  background-image: url("./Assets/images/bg_icell.png");
+  background-size: cover; /* Adjust this as needed */
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #08ffc58e;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffc3;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.overlay {
+  /* background-color: purple; */
+  height: 100%;
+  width: 100%;
+  position:fixed;
+}
+
+.dark-overlay {
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    /* width: 100%;
+    height: 100%; */
+    height: 100%;
+  width: 100%;
+  position:fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease;
+  z-index: -5;
+    /* backdrop-filter: blur(1px); */
+  }
+
+  .dark-overlay.active {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+
+/* LandingPage.css */
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Adjust the height as needed */
+  background-color: transparent;
+  z-index: 999;
+}
+
+.progress {
+  height: 100%;
+  background-color: var(--green); /* Line color */
+  transform-origin: left; /* Set the transform origin to the left */
+  transform: scaleX(0); /* Initially, the progress bar is not visible */
+  animation: expandProgress 0.3s linear forwards; /* Use an animation to expand progress */
+
+  transition: transform 0.3s; /* Apply a smooth transition on transform */
+}
+
+@keyframes expandProgress {
+  to {
+    transform: scaleX(1); /* Expand the progress bar to full width */
+  }
+}
+
+/* .background-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%; */
+/* Adjustthewidthasneededheight: 100%; */
+/* background: url('./imgs/moon1.png') no-repeat center center fixed; */
+/* background-size: 90%;
+  transform: translate(40vh, -5vh); */
+/*Translatetheimage*/
+/* -webkit-transform: translate(40vh, -5vh);
+  -moz-transform: translate(40vh, -5vh);
+  -ms-transform: translate(40vh, -5vh);
+  -o-transform: translate(40vh, -5vh);
+} */
+
+/* 
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.snowfall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.App {
+  width: fit-content;
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.mouse {
+  display: flex;
+
+  width: 2.5rem;
+  height: 5rem;
+  background-color: rgba(0, 0, 255, 0);
+  border: 2px solid #ffffff;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.mouse span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-color: #e6e8e6;
+  border-radius: 2rem;
+  margin: auto;
+  animation: move-wheel 1s linear infinite;
+}
+
+.arrow span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border: 5px solid transparent;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  transform: rotate(45deg);
+  animation: arrow-down 1s linear infinite;
+}
+
+@keyframes move-wheel {
+  0% {
+    opacity: 0.75;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes arrow-down {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 775px) {
+  .scroll-down {
+    bottom: 10rem;
+
+    z-index: 10;
+    position: relative;
+  }
+}
