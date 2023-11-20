@@ -43,7 +43,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#teamnav">
+          <a href="/teams">
             <div>Team</div>
           </a>
         </div>

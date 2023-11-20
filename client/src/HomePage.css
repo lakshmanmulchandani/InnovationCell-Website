@@ -80,27 +80,27 @@ body {
   /* background-color: purple; */
   height: 100%;
   width: 100%;
-  position:fixed;
+  position: fixed;
 }
 
 .dark-overlay {
-    /* position: absolute; */
-    /* top: 0;
+  /* position: absolute; */
+  /* top: 0;
     left: 0; */
-    /* width: 100%;
+  /* width: 100%;
     height: 100%; */
-    height: 100%;
+  height: 100%;
   width: 100%;
-  position:fixed;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   transition: background-color 0.5s ease;
   z-index: -5;
-    /* backdrop-filter: blur(1px); */
-  }
+  /* backdrop-filter: blur(1px); */
+}
 
-  .dark-overlay.active {
-    background-color: rgba(0, 0, 0, 0.5); 
-  }
+.dark-overlay.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* LandingPage.css */
 
@@ -162,7 +162,7 @@ body {
   z-index: -1;
 }
 .App {
-  width: fit-content;
+  width: 100%;
 }
 
 .scroll-down {

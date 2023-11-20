@@ -2,8 +2,8 @@
   display: flex;
   width: 100%;
   /* overflow-x: hidden; */
-  justify-content: flex-start;
-  align-items: flex-start;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
 }
 
 .landing {
@@ -19,13 +19,12 @@
 }
 
 .welcome {
- display: flex;
- align-self: center;
- font-size: 40px;
- color: var(--green);
- flex-direction: column;
- align-items: flex-start;
-
+  display: flex;
+  align-self: center;
+  font-size: 40px;
+  color: var(--green);
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .moon-bg {
@@ -44,13 +43,11 @@
     left: 20%;
   }
   .landing {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-
   }
   .welcome {
     /* margin-left: -20%; */
