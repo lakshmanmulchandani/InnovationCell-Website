@@ -17,6 +17,7 @@ import Contact from "./Components/ContactUs/Contact";
 import Moon from "./Assets/Moon";
 import Accordian from "./Components/Faq/Accordian";
 import Timeline from "./Components/Timeline/Timeline";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
@@ -68,14 +69,9 @@ function App() {
         <div ref={contactUsRef} id="aboutusnav">
           <AboutUs />
         </div>
-        {/* <div id="makerspacenav">
-          <MakerSpace />
-        </div> */}
+
         <div id="eventsnav">
           <Timeline />
-        </div>
-        <div id="teamnav">
-          <Team />
         </div>
         <div id="contactusnav">
           <Contact />
@@ -86,6 +82,8 @@ function App() {
         </div> */}
       {/* <MakerSpace /> */}
       <Accordian />
+      <Sponsors />
+      <Footer />
     </>
   );
 }
