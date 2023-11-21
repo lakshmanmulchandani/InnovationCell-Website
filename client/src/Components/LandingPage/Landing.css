@@ -13,18 +13,20 @@
   align-items: flex-start;
   text-align: left;
   height: 100vh;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   width: 40rem;
   width: 100%;
 }
 
 .welcome {
   display: flex;
-  align-self: center;
   font-size: 40px;
+  font-weight: 700;
+  width: 40rem;
   color: var(--green);
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 250px;
 }
 
 .moon-bg {
@@ -40,20 +42,22 @@
   .moon-bg {
     height: 60rem;
     margin-top: -3rem;
-    left: 20%;
+    left: 50%;
   }
   .landing {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 100%;
+    width: 40rem;
   }
   .welcome {
     /* margin-left: -20%; */
     display: flex;
     align-self: center;
     font-size: 35px;
+    margin-left: 300px;
+
     /* margin-bottom: -60px; */
   }
 }

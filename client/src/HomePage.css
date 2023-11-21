@@ -240,7 +240,7 @@ body {
 
 @media (max-width: 775px) {
   .scroll-down {
-    bottom: 10rem;
+    display: none;
 
     z-index: 10;
     position: relative;
