@@ -4,7 +4,7 @@ import "./svg.css";
 const ICell = () => {
   return (
     <div className="icell-container">
-      <svg className="svg-icell" viewBox="0 0 1320 300">
+      <svg className="svg-icell" viewBox="-150 0 1800 300">
         <text
           className="i-cell-text"
           x="50%"

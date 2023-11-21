@@ -66,6 +66,7 @@ function App() {
             <span></span>
           </div>
         </div>
+        <Sponsors />
         <div ref={contactUsRef} id="aboutusnav">
           <AboutUs />
         </div>
@@ -81,7 +82,6 @@ function App() {
          
         </div> */}
       {/* <MakerSpace /> */}
-      <Sponsors />
       {/* <Accordian /> */}
       {/* <Footer /> */}
     </>
