@@ -81,9 +81,9 @@ function App() {
          
         </div> */}
       {/* <MakerSpace /> */}
-      <Accordian />
       <Sponsors />
-      <Footer />
+      {/* <Accordian /> */}
+      {/* <Footer /> */}
     </>
   );
 }
