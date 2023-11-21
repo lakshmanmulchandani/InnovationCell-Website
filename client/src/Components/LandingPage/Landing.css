@@ -15,7 +15,7 @@
   height: 100vh;
   margin-left: 2rem;
   width: 40rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 .welcome {
