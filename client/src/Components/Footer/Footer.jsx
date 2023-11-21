@@ -1,77 +1,59 @@
-import { BsInstagram, BsLinkedin, BsTwitter, BsPinMapFill, BsEnvelope, BsYoutube } from "react-icons/bs"
+import { BsInstagram, BsLinkedin, BsMailbox, BsTwitter } from "react-icons/bs"
 
-import "./Footer.css"
 import ICellImg from "../../Assets/images/i_cell_logo.png"
+import "./Footer.css"
 
 
 const footerLinks = [
   {
-    icon: BsLinkedin,
-    link: "https://www.linkedin.com/company/innovation-cell-nit-raipur/mycompany/"
+    icon: BsInstagram,
+    link: "https://www.instagram.com/"
   },
   {
-    icon: BsInstagram,
-    link: "https://www.instagram.com/innovation_cell.nitrr/"
+    icon: BsLinkedin,
+    link: "https://www.linkedin.com/"
   },
   {
     icon: BsTwitter,
-    link: "https://twitter.com/I_Cell_NITRR"
+    link: "https://twitter.com/"
   },
   {
-    icon: BsYoutube,
-    link: "https://youtube.com/@innovationnitraipur4631?si=6bdai9SuxaTjotyq"
-  }
+    icon: BsMailbox,
+    link: "mailto:info@icell.io"
+  },
 ]
 
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="footer-logo">
-        <img src={ICellImg} alt="Icell Logo" />
-        <h2>Innovation Cell</h2>
-      </div>
+    <section className="footer">
+      <div className="footer-left">
+        <div className="footer-left-upper">
+          <img src={ICellImg} />
+          <p>Innovation Cell</p>
+        </div>
 
-
-      <div className="about-container container">
-        <h1>I-Cell</h1>
-
-        <div className="about">
-          <a href="#aboutusnav">About Us</a>
-          <a href="#eventsnav">Events</a>
-          <a href="#spons">Sponsors</a>
+        <div className="footer-left-lower">
+          <h1>About NIT Raipur</h1>
+          <p>
+            NIT Raipur is a premier technical institute in India, renowned for its academic excellence and research capabilities. It offers a wide range of undergraduate and postgraduate programs in engineering, science, and humanities. The institute is also known for its vibrant student life and its commitment to social responsibility.
+          </p>
         </div>
       </div>
 
-
-      <div className="container">
-        <h1>Contact</h1>
-
-        <div className="contacts">
-          <a href="https://maps.app.goo.gl/EWSsuCfKTZvQZBxCA" target="_blank" rel="noreferrer">
-            <BsPinMapFill style={{ margin: "1px 15px 0 0", scale: "150%" }} />
-            <span>NIT Raipur, Raipur, CG 492013</span>
-          </a>
-
-          <a href="mailto:info@icell.io" target="_blank" rel="noreferrer">
-            <BsEnvelope style={{ margin: "1px 15px 0 0", scale: "150%" }} />
-            <span>Email</span>
-          </a>
-        </div>
-      </div>
-
-
-      <div className="social-container">
-        <h1>Let&apos;s Connect</h1>
-
-        <div className="socials">
-          {footerLinks.map((links, idx) => (
-            <a key={idx} href={links.link} target="_blank">
-              <links.icon />
-            </a>
+      <div className="footer-right">
+        <div className="footer-links">
+          {footerLinks.map((links) => (
+            <a key={links.icon} href={links.link}>{<links.icon />}</a>
           ))}
         </div>
+
+        <div className="pages">
+          <a href="">About</a>
+          <a href="">Events</a>
+          <a href="">Contact Us</a>
+        </div>
       </div>
-    </footer>
+    </section>
   )
 }

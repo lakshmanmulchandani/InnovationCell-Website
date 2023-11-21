@@ -4,7 +4,7 @@ import sponsLogo from './record.json'
 const Sponsors = () => {
   return (
     <>
-    <div id='spons' className="sponsHeading">
+    <div className="sponsHeading">
          <h1>Our Sponsors</h1>
     </div>
     <div className="sponsor-section">

@@ -1,160 +1,105 @@
-footer {
-  color: white;
-  background-color: rgba(98, 74, 156, 0.485);
-  opacity: 50;
-  backdrop-filter: blur(10px);
-  margin-top: 5rem;
-  padding: 2rem 2rem;
-  border-radius: 20px 20px 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: start;
-  row-gap: 5rem;
-  column-gap: 4rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-footer h1 {
-  position: relative;
-}
-
-footer h1::after {
-  content: "";
-  background-color: rgb(228, 78, 255);
-  position: absolute;
-  width: 65%;
-  height: 5px;
-  bottom: -15%;
-  left: 0;
-  border-radius: 20px;
-}
-
-a:hover {
-  scale: 1.2;
-  transition: 0.2s all ease-out;
-  transform-origin: center;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 2.25rem;
-}
-
-/* logo */
-
-.footer-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-logo > h2 {
-  text-decoration: underline;
-  font-size: 1.75rem;
-  font-weight: bold;
-  text-decoration-color: rgb(228, 78, 255);
-  text-decoration-thickness: 5px;
-}
-
-.footer-logo > img {
-  height: 125px;
-}
-
-/* about */
-
-.about {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.about > a {
-  font-size: 1.25rem;
-}
-
-/* contacts */
-
-.contacts {
-  display: flex;
-  flex-direction: column;
-}
-
-.contacts > a {
-  margin: 0.5rem 0;
-}
-
-.contacts > a:hover {
-  scale: 1.1;
-}
-
-/* social accounts */
-
-.social-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2.25rem;
-}
-
-.socials {
-  display: flex;
-  gap: 2.5rem;
-}
-
-.socials > a {
-  scale: 1.5;
-}
-
-.socials > a:hover {
-  scale: 2;
-}
-
-/* media queries */
-
-@media screen and (max-width: 704px) {
-  footer {
-    flex-direction: column;
+* {
+    color: white;
+  }
+  
+  .footer {
+    padding: 0.5rem 2rem;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+    border: 5px solid #07d4a4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
-    row-gap: 4rem;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
   }
-
-  footer h1 {
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  
+  .footer-left-upper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-left-upper > img {
+    height: 175px;
+  }
+  
+  .footer-left-upper > p {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-decoration: underline;
+  }
+  
+  .footer-left-lower {
+    width: 50rem;
     text-align: center;
+    color: black;
   }
-
-  footer h1::after {
-    content: "";
-    background-color: rgb(228, 78, 255);
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    bottom: -15%;
-    left: 0;
-    border-radius: 20px;
+  
+  
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
-
-  .footer-logo > img {
-    height: 100px;
+  
+  
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
-}
-
-@media screen and (max-width: 300px) {
-  footer {
-    row-gap: 3rem;
+  
+  .footer-links > a {
+    scale: 2;
+    margin: 0 2rem;
   }
-
-  .footer-logo > h2 {
-    font-size: 1.5rem;
+  
+  .footer-links > a:hover{
+    scale: 3;
+    transition: 200ms ease-out;
   }
-
-  footer h1 {
+  
+  .footer-right > .pages {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-weight: 600;
     font-size: 1.5rem;
   }
   
-  .contacts > a > span {
-    font-size: 0.8rem;
+  .footer-right > .pages > a {
+    text-align: right;
   }
-}
+  
+  .footer-right > .pages > a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 900px) {
+    .footer {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .footer-right > .pages > a {
+      text-align: center;
+    }
+  
+    .footer-right > .pages {
+      gap: 1rem;
+    }
+  }
