@@ -1,12 +1,8 @@
 .AboutUs-heading {
   text-align: center;
   font-family: var(--font-heading);
-  color: #64ffda;
+  color: #00bfff;
   font-size: 1.5rem;
-}
-
-.About-main-container {
-  margin: 0 6rem;
 }
 
 .About-container {
@@ -15,7 +11,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 5rem;
-  margin: 2rem 3rem;
+  margin: 2rem 2rem;
   color: lightgray;
 }
 
@@ -26,18 +22,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
+  gap: 10px;
+}
+
+.About-item-heading {
+  color: #00bfff;
 }
 
 .About-item {
   /* margin-bottom: 1.2rem; */
   font-size: medium;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .About-imgs {
   display: flex;
-  margin-top: -4rem;
+  margin-top: -4.4rem;
   /* border-top: 2px solid; */
 }
 
@@ -85,6 +85,7 @@
 @media (max-width: 620px) {
   .About-content {
     width: 100%;
+    text-align: justify;
   }
   .About-main-container {
     margin: 0 3rem;

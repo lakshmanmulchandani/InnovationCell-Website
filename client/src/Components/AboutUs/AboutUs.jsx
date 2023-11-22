@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Bulb1 from "../../Assets/images/bulb11.png";
 import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
+import { FaQuestion } from "react-icons/fa6";
 import "./AboutUs.css";
 
 const AboutUs = () => {
@@ -51,9 +52,9 @@ const AboutUs = () => {
             thinkers, and doers by providing them with the necessary tools,
             resources, and opportunities to transform their ideas into reality.
           </div>
-
+          <div className='About-item-heading' style={{textAlign:'center', fontSize:'1.8rem', fontWeight:'700', fontFamily:'frozen'}}>What do we do</div>
           <div className={`About-item`} style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` }}>
-          {activeDiv === 0 ? "What do we do?" : activeDiv===1?"i-Talks": activeDiv===2?"Seed Grants for Startups":activeDiv===3?"Avinya - Unveiling the Future":"" }
+          {activeDiv===0? `i-Talks`: activeDiv===1?"Seed Grants for Startups":activeDiv===2?"Avinya - Unveiling the Future": <FaQuestion style={{scale:'1.2', color: '#00bfff'}}/> }
             
           </div> {/* 1st div */}
          

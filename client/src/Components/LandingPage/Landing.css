@@ -5,6 +5,7 @@
   align-items: flex-start;
   text-align: left;
   height: 100vh;
+  font-family: poppins, 'sans-serif';
   /* margin: 60px; */
 }
 
@@ -34,7 +35,7 @@
 
 .social-link a :hover {
   scale: 1.05;
-  color: aqua;
+  color: #00bfff;
   transition: all 0.5s;
 }
 
