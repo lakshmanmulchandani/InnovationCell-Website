@@ -288,3 +288,7 @@ textarea:focus {
   border-radius: 1rem;
   margin-right: 0.5rem;
 }
+
+.contactUs-heading {
+  margin-bottom: 2rem;
+}

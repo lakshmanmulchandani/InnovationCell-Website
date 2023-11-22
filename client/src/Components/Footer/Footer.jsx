@@ -37,9 +37,9 @@ export default function Footer() {
         <h1>I-Cell</h1>
 
         <div className="about">
-          <a href="#aboutusnav">About Us</a>
-          <a href="#eventsnav">Events</a>
-          <a href="#spons">Sponsors</a>
+          <a className="footer-a" href="#aboutusnav">About Us</a>
+          <a className="footer-a" href="#eventsnav">Events</a>
+          <a className="footer-a" href="#spons">Sponsors</a>
         </div>
       </div>
 

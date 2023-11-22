@@ -23,7 +23,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#aboutusnav">
+          <a href="#scroll-down-id">
             <div>AboutUs</div>
           </a>
         </div>

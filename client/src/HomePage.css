@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@
   font-family: "frozen";
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
 }
+
 :root {
   --pink: #f57dff;
   --blue: #57cbff;
@@ -27,7 +30,7 @@
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
   --white: #e6f1ff;
-  --green: #64ffda;
+  --green: #00bfff;
   --slate: #8892b0;
   --navy: #0a192f;
   --input-bg: hsl(235, 44%, 80%);
@@ -54,6 +57,9 @@ body {
   background-attachment: fixed;
   overflow-x: hidden;
   /* width: fit-content; */
+  font-family: 'Rubik' sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
 }
 
 ::-webkit-scrollbar {
@@ -121,7 +127,6 @@ body {
   transform-origin: left; /* Set the transform origin to the left */
   transform: scaleX(0); /* Initially, the progress bar is not visible */
   animation: expandProgress 0.3s linear forwards; /* Use an animation to expand progress */
-
   transition: transform 0.3s; /* Apply a smooth transition on transform */
 }
 
@@ -175,17 +180,18 @@ body {
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
+  transition: none;
 }
 
 .mouse {
   display: flex;
-
   width: 2.5rem;
   height: 5rem;
   background-color: rgba(0, 0, 255, 0);
   border: 2px solid #ffffff;
   border-radius: 2rem;
   margin-bottom: 0.5rem;
+  transition: none;
 }
 
 .mouse span {
@@ -196,6 +202,7 @@ body {
   border-radius: 2rem;
   margin: auto;
   animation: move-wheel 1s linear infinite;
+  transition: none;
 }
 
 .arrow span {
