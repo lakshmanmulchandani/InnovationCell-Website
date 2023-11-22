@@ -65,7 +65,7 @@ const Team = () => {
           ))}
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

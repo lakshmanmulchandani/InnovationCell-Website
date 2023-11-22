@@ -1,6 +1,7 @@
 .sponsor-section {
   margin-top: 3em;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 7rem;
   overflow: hidden;
@@ -15,7 +16,7 @@
 
 .sponsor-scroll {
   display: flex;
-  animation: scroll 10s linear infinite;
+  animation: scroll 11s linear infinite;
 }
 
 @keyframes scroll {
@@ -41,35 +42,4 @@
 .sponsor-scroll img:hover {
   opacity: 0.7;
   transform: scale(1.2);
-}
-
-.sponsHeading > h1 {
-  position: relative;
-  z-index: 2;
-  margin-top: 0rem;
-  color: var(--green);
-  display: flex;
-  align-items: center;
-  font-family: var(--font-heading);
-  justify-content: center;
-  text-align: center;
-}
-.sponsHeading > h1::after {
-  content: "";
-  display: block;
-  background-color: var(--green);
-  width: 10rem;
-  height: 3px;
-  border-radius: 1rem;
-  margin-left: 0.5rem;
-}
-
-.sponsHeading > h1::before {
-  content: "";
-  display: block;
-  background-color: var(--green);
-  width: 10rem;
-  height: 3px;
-  border-radius: 1rem;
-  margin-right: 0.5rem;
 }

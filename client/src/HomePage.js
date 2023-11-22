@@ -57,7 +57,7 @@ function App() {
       <div className="App ">
         <div className={scrolled ? "dark-overlay" : ""}></div>
         <LandingPage />
-        <div className="scroll-down" onClick={scrollToContactUs}>
+        <a className="scroll-down" href="#aboutusnav">
           <div className="mouse">
             <span></span>
           </div>
@@ -65,7 +65,8 @@ function App() {
             <span></span>
             <span></span>
           </div>
-        </div>
+        </a>
+        {/* <Sponsors /> */}
         <div ref={contactUsRef} id="aboutusnav">
           <AboutUs />
         </div>
@@ -81,9 +82,8 @@ function App() {
          
         </div> */}
       {/* <MakerSpace /> */}
-      <Sponsors />
       {/* <Accordian /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
