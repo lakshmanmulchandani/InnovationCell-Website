@@ -1,7 +1,10 @@
+.icell-container {
+  width: 100%;
+}
 .svg-icell {
   font-family: "Russo One", sans-serif;
   /* position: absolute;  */
-  width: 700px;
+  width: 800px;
   max-width: 100%;
   /* font-size: ; */
   /* margin-top: 20%; */
@@ -43,7 +46,10 @@
   .svg-icell {
     font-family: "Russo One", sans-serif;
     /* position: absolute;  */
-    width: 700px;
+    width: 900px;
     /* margin-top: 20%; */
+  }
+  .i-cell-text {
+    font-size: 250px;
   }
 }

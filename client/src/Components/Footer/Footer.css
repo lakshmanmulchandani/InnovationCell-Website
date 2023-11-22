@@ -13,6 +13,7 @@ footer {
   row-gap: 5rem;
   column-gap: 4rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
 }
 
 footer h1 {
@@ -163,7 +164,7 @@ a:hover {
   footer h1 {
     font-size: 1.5rem;
   }
-  
+
   .contacts > a > span {
     font-size: 0.8rem;
   }
