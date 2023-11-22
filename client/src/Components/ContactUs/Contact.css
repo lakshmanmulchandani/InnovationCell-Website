@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 .contact {
@@ -287,4 +287,8 @@ textarea:focus {
   height: 3px;
   border-radius: 1rem;
   margin-right: 0.5rem;
+}
+
+.contactUs-heading {
+  margin-bottom: 2rem;
 }

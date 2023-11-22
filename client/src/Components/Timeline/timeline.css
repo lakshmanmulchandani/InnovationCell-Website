@@ -29,13 +29,14 @@
 }
 
 .title {
-  color: white;
+  color: #00bfff;
   font-size: 24px;
   font: bold;
   width: fit-content;
 }
 
 .title-p {
+  color: #00bfff;
   font-size: 16px;
   width: fit-content;
 }

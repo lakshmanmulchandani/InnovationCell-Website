@@ -3,8 +3,9 @@ import "./Team.css";
 import TeamCard from "./TeamCard";
 import NameCard from "./NameCard";
 import Executives from "./Executives";
-import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import Navbar2 from "../Navbar/Navbar2";
+import Contact from "../ContactUs/Contact";
 
 const teamData = {
   teamMembers: [
@@ -29,7 +30,7 @@ const teamData = {
 const Team = () => {
   return (
     <>
-      <Navbar />
+      <Navbar2 />
       <div className="teams-page">
         <div id="team" className="teamHeading">
           <h1>Team Innovation cell</h1>
@@ -65,6 +66,8 @@ const Team = () => {
           ))}
         </div>
       </div>
+      <div id="contactusnav"></div>
+      <Contact />
       <Footer />
     </>
   );

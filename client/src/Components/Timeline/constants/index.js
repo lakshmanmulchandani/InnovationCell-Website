@@ -54,7 +54,7 @@ const experiences = [
     ],
   },
   {
-    title: "How to build an analytical mindset for problem solving?",
+    title: "Build an analytical mindset",
     company_name: "i-Talk",
     icon: icon,
     pic: anlytics,
@@ -66,7 +66,7 @@ const experiences = [
   },
   {
     title:
-      "The startup ecosystem in Silicon Valley and career trajectories post NIT",
+      "Silicon Valley Startup",
     company_name: "i-Talk",
     icon: icon,
     pic: silicon_vally,
