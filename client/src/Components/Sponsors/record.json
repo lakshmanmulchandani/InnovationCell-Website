@@ -1,26 +1,26 @@
 [
     {
-        "id":1,
-        "logo":"sponsImg/company-logo1.png"
+        "id": 1,
+        "logo": "sponsImg/company-logo1.png"
     },
     {
-        "id":2,
-        "logo":"sponsImg/company-logo2.png"
+        "id": 2,
+        "logo": "sponsImg/company-logo2.png"
     },
     {
-        "id":3,
-        "logo":"sponsImg/company-logo3.png"
+        "id": 3,
+        "logo": "sponsImg/company-logo3.png"
     },
     {
-        "id":4,
-        "logo":"sponsImg/company-logo1.png"
+        "id": 4,
+        "logo": "sponsImg/company-logo1.png"
     },
     {
-        "id":5,
-        "logo":"sponsImg/company-logo2.png"
+        "id": 5,
+        "logo": "sponsImg/company-logo3.png"
     },
     {
-        "id":6,
-        "logo":"sponsImg/company-logo3.png"
+        "id": 6,
+        "logo": "sponsImg/company-logo2.png"
     }
 ]

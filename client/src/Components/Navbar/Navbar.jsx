@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className={` nav-opt ${phone ? "show" : ""}`}>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#">
+          <a href="/">
             <div className="home">Home</div>
           </a>
         </div>
@@ -33,18 +33,23 @@ const Navbar = () => {
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#sponsernav">
+          <a href="#sponsnav">
             <div>Sponsors</div>
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#">
+          <a href="#faqnav">
             <div>FAQ</div>
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
           <a href="/teams">
             <div>Team</div>
+          </a>
+        </div>
+        <div className="nav-btn" onClick={toggle}>
+          <a href="/makerspace">
+            <div>Makerspace</div>
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
