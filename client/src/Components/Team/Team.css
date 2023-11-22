@@ -1,233 +1,217 @@
 /* Team css  */
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap");
 #team {
-    margin-top: 6rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.Teams{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.Teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.teamHeading>h1{
-    position: relative;
-    z-index: 2;
-    margin-top: 0rem;
-    color: var(--green);
-    display: flex;
-    align-items: center;
-    font-family: var(--font-heading);
-    justify-content: center;
-    text-align: center;
-
+.teamHeading > h1 {
+  position: relative;
+  z-index: 2;
+  margin-top: 0rem;
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  font-family: var(--font-heading);
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
 }
-.teamHeading > h1::after{
-    content: '';
-    display: block;
-    background-color: var(--green);
-    width: 10rem;
-    height: 3px;
-    border-radius: 1rem;
-    margin-left: 0.5rem;
-}
-
-.teamHeading>h1::before {
-    content: '';
-    display: block;
-    background-color: var(--green);
-    width: 10rem;
-    height: 3px;
-    border-radius: 1rem;
-    margin-right: 0.5rem;
+.teamHeading > h1::after {
+  content: "";
+  display: block;
+  background-color: var(--green);
+  width: 10rem;
+  height: 3px;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
 }
 
+.teamHeading > h1::before {
+  content: "";
+  display: block;
+  background-color: var(--green);
+  width: 10rem;
+  height: 3px;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
 
 /* card css  */
 
-
 .teamCard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
-    /* background: #161623; */
-    flex-direction: row;
-    font-family: var(--font-mono);
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  /* background: #161623; */
+  flex-direction: row;
+  font-family: var(--font-mono);
 }
 
-
-
-
-.container .card{
-    position: relative;
-    width: 280px;
-    height: 400px;
-    margin: 30px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5) ;
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
+.container .card {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
 
-
-.container .card .content{
-    text-align: center;
-    transform: translateY(0px);
-    opacity: 1;
-    transition: 0.5s;
+.container .card .content {
+  text-align: center;
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.5s;
 }
 
-
-.container .card .content h2{
-    position: absolute;
-    top: -30px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
-    z-index: 3;
+.container .card .content h2 {
+  position: absolute;
+  top: -30px;
+  right: 30px;
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+  z-index: 3;
 }
 
-.container .card .content h3{
-    font-size: 1.8em;
-    color: var(--slate);
-    z-index: 1;
-    margin-bottom: 1rem;
-
-
+.container .card .content h3 {
+  font-size: 1.8em;
+  color: var(--slate);
+  z-index: 1;
+  margin-bottom: 1rem;
 }
-.container .card .content h3 > img{
-    width: 10rem;
-    height: 10rem;
-    object-fit: cover;
-    border-radius: 100%;
-    position: relative;
-    z-index: 1;
-    transform: scale(1);
-    transition: 0.5s;
+.container .card .content h3 > img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1;
+  transform: scale(1);
+  transition: 0.5s;
 }
 
-.container .card .content p{
-    font-size: 1rem;
-    color: white;
-    font-weight: 1000;
-    margin-bottom: 1rem;
+.container .card .content p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 1000;
+  margin-bottom: 1rem;
 }
-
 
 .alimImg > img {
-    height: 5rem;
-    object-fit: cover;
-    object-position: top right;
+  height: 5rem;
+  object-fit: cover;
+  object-position: top right;
 }
 
 .socialMediaHandles {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .socialMediaHandles img {
-    width: 2rem;
-    height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
-
 
 /* NameCard css */
 
 .nameCard {
-    margin: 1.5rem 2rem;
-    width: 18rem;
-    height: 7rem;
-    background-color: rebeccapurple;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 1.5rem 2rem;
+  width: 18rem;
+  height: 7rem;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    background: rgba( 255, 255, 255, 0 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .nameCard > div {
-    width: 15rem;
-    height: 5rem;
-    padding: 1rem;
-    text-align: center;
-    flex-direction: column;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    font-weight: 1000;
-    overflow: hidden;
-    
+  width: 15rem;
+  height: 5rem;
+  padding: 1rem;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  font-weight: 1000;
+  overflow: hidden;
 }
 p {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-.nameCard:hover p{
-    transform: translateY(-3.5rem);
+.nameCard:hover p {
+  transform: translateY(-3.5rem);
 }
-
 
 /* Executives css */
 
 .team_executives {
-    margin: 2rem;
-    padding: 2rem;
-    color: white;
-    min-width: 25rem;
+  margin: 2rem;
+  padding: 2rem;
+  color: white;
+  min-width: 25rem;
 
-    letter-spacing: 1px;
-    line-height: 2rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
 
-    background: rgba( 255, 255, 255, 0 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .team_executives > h1 {
-    margin-bottom: 2rem;
-    font-weight: 1000;
+  margin-bottom: 2rem;
+  font-weight: 1000;
 }
 
 .team_executives > div {
-    font-size: 1.1rem;
-    font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-
 @media only screen and (max-width: 600px) {
-    .teamHeading>h1::before {
-        display: none !important;
-    }
-    .teamHeading>h1 {
-        padding-left: 0.5rem;
-        text-align: center;
-    }
-    .teamHeading>h1::after {
-        display: none !important;
-    }
+  .teamHeading > h1::before {
+    display: none !important;
+  }
+  .teamHeading > h1 {
+    padding-left: 0.5rem;
+    text-align: center;
+  }
+  .teamHeading > h1::after {
+    display: none !important;
+  }
 }

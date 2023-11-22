@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Bulb1 from "../../Assets/images/bulb11.png";
 import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
@@ -11,21 +11,22 @@ const AboutUs = () => {
   // Use useEffect to change the active div with a delay
   useEffect(() => {
     const timer = setInterval(() => {
-      setActiveDiv((prevActive) => (prevActive+1)%4);
+      setActiveDiv((prevActive) => (prevActive + 1) % 4);
     }, 1900); // Change the active div every 1 second
 
     return () => clearInterval(timer); // Cleanup the timer when the component unmounts
-
   }, []);
 
   return (
     <div className="About-main-container">
-      <div className="teamHeading AboutUs-heading">
+      <div className="teamHeading ">
         <h1>About Us</h1>
       </div>
       <div className="About-container">
-        <div className='About-pic'>
-          <div><img src={Holder} alt="holder" width={300} height={100} /></div>
+        <div className="About-pic">
+          <div>
+            <img src={Holder} alt="holder" width={300} height={100} />
+          </div>
           <div className="About-imgs">
             {/* This class container 4 bulbs and these bulbs must swing like a pendulum add this animation using AboutUs.css */}
             <div className="About-img">
@@ -52,12 +53,30 @@ const AboutUs = () => {
             thinkers, and doers by providing them with the necessary tools,
             resources, and opportunities to transform their ideas into reality.
           </div>
-          <div className='About-item-heading' style={{textAlign:'center', fontSize:'1.8rem', fontWeight:'700', fontFamily:'frozen'}}>What do we do</div>
-          <div className={`About-item`} style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` }}>
-          {activeDiv===0? `i-Talks`: activeDiv===1?"Seed Grants for Startups":activeDiv===2?"Avinya - Unveiling the Future": <FaQuestion style={{scale:'1.2', color: '#00bfff'}}/> }
-            
-          </div> {/* 1st div */}
-         
+          <div
+            className="About-item-heading"
+            style={{
+              textAlign: "center",
+              fontSize: "1.8rem",
+              fontWeight: "700",
+              fontFamily: "frozen",
+            }}
+          >
+            What do we do ?
+          </div>
+          <div
+            className={`About-item`}
+            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` }}
+          >
+            {activeDiv === 0
+              ? `i-Talks`
+              : activeDiv === 1
+              ? "Seed Grants for Startups"
+              : activeDiv === 2
+              ? "Avinya - Unveiling the Future"
+              : "Seed Grants for Startups"}
+          </div>{" "}
+          {/* 1st div */}
         </div>
       </div>
     </div>
