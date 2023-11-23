@@ -5,13 +5,14 @@ import makerspaceimg from "../../imgs/MakerspaceImg.jpg";
 import slides from "./Data/memories.json";
 import Memories from "./Memories";
 import data from "./Data/Projects.json";
-import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import Navbar2 from "../Navbar/Navbar2";
+import Contact from "../ContactUs/Contact";
 
 const MakerSpace = () => {
   return (
     <>
-      <Navbar />
+      <Navbar2 />
       <div className="maker__container teamHeading">
         <h1>MakerSpace</h1>
         <div className="maker__about">
@@ -57,6 +58,8 @@ const MakerSpace = () => {
           <Memories data={slides} />
         </div>
       </div>
+      <div id="contactusnav"></div>
+      <Contact />
       <Footer />
     </>
   );

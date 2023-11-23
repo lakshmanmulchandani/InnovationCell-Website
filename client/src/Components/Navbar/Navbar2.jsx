@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../Assets/images/i_cell_logo.png";
 
-const Navbar = () => {
+const Navbar2 = () => {
   const [phone, setPhone] = useState(false);
 
   const toggle = () => {
@@ -10,38 +10,19 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`nav ${phone ? "nav-phone" : ""}`}>
-      <div className="logo">
+    <div className={`nav2 ${phone ? "nav-phone" : ""}`}>
+      <div className="logo2">
         <a href="/">
           <img src={logo} alt="I-Cell Logo" />
         </a>
       </div>
-      <div className={` nav-opt ${phone ? "show" : ""}`}>
+      <div className={` nav-opt2 ${phone ? "show" : ""}`}>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#">
+          <a href="/">
             <div className="home">Home</div>
           </a>
         </div>
-        <div className="nav-btn" onClick={toggle}>
-          <a href="#aboutusnav">
-            <div>AboutUs</div>
-          </a>
-        </div>
-        <div className="nav-btn" onClick={toggle}>
-          <a href="#eventsnav">
-            <div>Events</div>
-          </a>
-        </div>
-        <div className="nav-btn" onClick={toggle}>
-          <a href="#sponsnav">
-            <div>Sponsors</div>
-          </a>
-        </div>
-        <div className="nav-btn" onClick={toggle}>
-          <a href="#faqnav">
-            <div>FAQ</div>
-          </a>
-        </div>
+
         <div className="nav-btn" onClick={toggle}>
           <a href="/teams">
             <div>Team</div>
@@ -67,4 +48,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
