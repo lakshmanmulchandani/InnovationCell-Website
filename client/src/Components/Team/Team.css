@@ -24,7 +24,8 @@
   font-family: var(--font-heading);
   justify-content: center;
   text-align: center;
-  font-size: 50px;
+  font-size: 42px;
+  margin-top: 6rem;
 }
 .teamHeading > h1::after {
   content: "";
