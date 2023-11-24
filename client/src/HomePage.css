@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap");
 
 * {
   margin: 0;
@@ -57,7 +57,7 @@ body {
   background-attachment: fixed;
   overflow-x: hidden;
   /* width: fit-content; */
-  font-family: 'Rubik' sans-serif;
+  font-family: "Rubik" sans-serif;
   line-height: 1.6;
   letter-spacing: 0.2px;
 }
@@ -251,8 +251,5 @@ body {
 
     z-index: 10;
     position: relative;
-  }
-  .App {
-    width: fit-content;
   }
 }

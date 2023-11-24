@@ -62,7 +62,7 @@ const Experience = () => {
   return (
     <>
       <div className="timeline-main">
-        <div className="maker__container teamHeading ">
+        <div className="eventsheading  ">
           <h1>Events</h1>
         </div>
         <div className="event-card  mt-20 flex flex-col">
