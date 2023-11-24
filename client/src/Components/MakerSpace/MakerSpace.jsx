@@ -58,10 +58,20 @@ const MakerSpace = () => {
           <Memories data={slides} />
         </div>
       </div>
+<<<<<<< HEAD
+      <div className="memories__section teamHeading">
+        <h1>Some of the Glimps of our previous events</h1>
+        <Memories data={slides} />
+      </div>
+
+      </div>
+      </div>
+=======
       <div id="contactusnav"></div>
       <Contact />
       <Footer />
     </>
+>>>>>>> c569fa5da955a7a909a61284c133c60a5180496c
   );
 };
 
