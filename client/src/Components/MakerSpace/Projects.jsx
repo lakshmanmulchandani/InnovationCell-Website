@@ -13,10 +13,9 @@ const Projects = (props) => {
     });
   }, []);
   return (
-    <div className="project__container">
       <div className="Projects__card">
-        <div>
-          <img src={props.src} alt={props.src} className="project-img" />
+        <div className="Project__img__container">
+          <img src={props.src} alt={props.src} className="Project-img" />
         </div>
         <div className="Project_card_content">
           <div className="project__icons">
@@ -27,16 +26,15 @@ const Projects = (props) => {
               <FaExternalLinkAlt />
             </span>
           </div>
-          <div className="project_text_content">
+          <div className="Project_text_content">
             <h2>{props.title}</h2>
             <p>{props.text}</p>
-            <div className="project__techstack">
+            <div className="Project__techstack">
               <p>{props.techstack}</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
