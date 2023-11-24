@@ -53,17 +53,7 @@ const AboutUs = () => {
             thinkers, and doers by providing them with the necessary tools,
             resources, and opportunities to transform their ideas into reality.
           </div>
-          <div
-            className="About-item-heading"
-            style={{
-              textAlign: "center",
-              fontSize: "1.8rem",
-              fontWeight: "700",
-              fontFamily: "frozen",
-            }}
-          >
-            What do we do ?
-          </div>
+          <div className="About-item-heading">What do we do ?</div>
           <div
             className={`About-item`}
             style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` }}

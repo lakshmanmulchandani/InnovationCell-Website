@@ -27,6 +27,10 @@
 
 .About-item-heading {
   color: #00bfff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: frozen;
 }
 
 .About-item {
@@ -98,6 +102,9 @@
     scale: 0.9;
   }
   .About-item {
+    font-size: 1.4rem;
+  }
+  .About-item-heading {
     font-size: 1.6rem;
   }
 }
@@ -107,5 +114,11 @@
   }
   .About-main-container {
     margin: 0 1rem;
+  }
+  .About-item {
+    font-size: 1.2rem;
+  }
+  .About-item-heading {
+    font-size: 1.4rem;
   }
 }
