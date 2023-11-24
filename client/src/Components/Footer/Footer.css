@@ -1,35 +1,44 @@
-footer {
+.footer {
+  width: 100%;
   color: white;
   background-color: rgba(98, 74, 156, 0.485);
   opacity: 50;
   backdrop-filter: blur(10px);
   margin-top: 5rem;
-  padding: 2rem 2rem;
-  border-radius: 20px 20px 0 0;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer > .upper-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: start;
   row-gap: 5rem;
   column-gap: 4rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 100%;
 }
 
-footer h1 {
+.footer .upper-section h1 {
   position: relative;
+  width: fit-content;
+  font-size: 2.25rem;
 }
 
-footer h1::after {
+.footer .upper-section h1::after {
   content: "";
   background-color: rgb(228, 78, 255);
   position: absolute;
-  width: 65%;
+  width: 100%;
   height: 5px;
   bottom: -15%;
   left: 0;
   border-radius: 20px;
 }
+
 .footer-a {
   transition: 0.5s all ease-out;
 }
@@ -56,14 +65,14 @@ footer h1::after {
 
 .footer-logo > h2 {
   text-decoration: underline;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration-color: rgb(228, 78, 255);
   text-decoration-thickness: 5px;
 }
 
 .footer-logo > img {
-  height: 125px;
+  height: 100px;
 }
 
 /* about */
@@ -71,11 +80,11 @@ footer h1::after {
 .about {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 .about > a {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 /* contacts */
@@ -83,14 +92,25 @@ footer h1::after {
 .contacts {
   display: flex;
   flex-direction: column;
+  gap: 0.4rem;
+  scale: 1.2;
 }
 
 .contacts > a {
-  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
 }
 
 .contacts > a:hover {
   scale: 1.1;
+}
+
+.contacts > a > span {
+  font-size: 0.9rem;
+  width: fit-content;
 }
 
 /* social accounts */
@@ -103,7 +123,7 @@ footer h1::after {
 
 .socials {
   display: flex;
-  gap: 2.5rem;
+  gap: 2.3rem;
 }
 
 .socials > a {
@@ -112,24 +132,38 @@ footer h1::after {
 }
 
 .socials > a:hover {
-  scale: 2;
+  scale: 1.7;
+}
+
+/* LOWER SECTION */
+
+.footer > .lower-section > h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer > .lower-section > h1 > span {
+  color: rgb(255, 174, 81);
+  text-decoration: underline;
 }
 
 /* media queries */
 
 @media screen and (max-width: 704px) {
-  footer {
+  .footer .upper-section {
     flex-direction: column;
     align-items: center;
     padding: 1rem 0;
-    row-gap: 4rem;
+    row-gap: 2.5rem;
   }
 
-  footer h1 {
+  .footer .upper-section h1 {
     text-align: center;
+    font-size: 1.7rem;
+    margin: 0 auto;
   }
 
-  footer h1::after {
+  .footer .upper-section h1::after {
     content: "";
     background-color: rgb(228, 78, 255);
     position: absolute;
@@ -143,22 +177,83 @@ footer h1::after {
   .footer-logo > img {
     height: 100px;
   }
+
+  .footer > .lower-section > h1 {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
-  footer {
+  .footer {
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  .footer > .upper-section {
     row-gap: 3rem;
+    text-align: center;
+  }
+
+  .footer .upper-section .container {
+    gap: 1.5rem;
   }
 
   .footer-logo > h2 {
     font-size: 1.5rem;
   }
 
-  footer h1 {
+  .footer .upper-section h1 {
     font-size: 1.5rem;
   }
 
+  .about {
+    gap: 0rem;
+  }
+  
   .contacts > a > span {
     font-size: 0.8rem;
+  }
+
+  .socials {
+    gap: 1.75rem;
+  }
+
+  .socials > a {
+    scale: 1.3;
+  }
+
+  .footer > .lower-section > h1 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 180px) {
+  .footer .upper-section {
+    row-gap: 0.75rem;
+  }
+
+  .footer .upper-section h1 {
+    font-size: 1.4rem;
+  }
+
+  .footer-logo > h2 {
+    font-size: 1.2rem;
+  }
+
+  .about > a {
+    font-size: 0.9rem;
+  }
+
+  .contacts > a > span {
+    font-size: 0.6rem;
+  }
+
+  .socials {
+    gap: 1rem;
+    margin: 0 auto;
+  }
+
+  .socials > a {
+    scale: 1;
   }
 }
