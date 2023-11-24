@@ -14,14 +14,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
   } */
-
+.acc-main{
+  width: 100%;
+}
   .acc-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 30px;
     gap: 2rem;
     position: relative;
+  }
+
+  .acc-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .snowman{
@@ -91,6 +99,6 @@
 
   @media screen and (max-width: 1024px) {
     .acc-container{
-      flex-direction: column;
+      display: block;
     }
   }
