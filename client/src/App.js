@@ -81,7 +81,7 @@ function App() {
         <div id="contactusnav">
           <Contact />
         </div>
-        </div> */}
+        </div> 
         {/* <div ref={contactUsRef}>
          
         </div> */}
@@ -89,7 +89,7 @@ function App() {
         <Contact />
         <Team />
       <Accordian />
-      </div>
+        
     </>
   );
 }
