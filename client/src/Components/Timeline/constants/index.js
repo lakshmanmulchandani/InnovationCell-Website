@@ -1,12 +1,12 @@
-import anlytics from "../company/analytical_mindset.jpg";
+import anlytics from "../company/analytical_mindset.webp";
 import atl from "../company/atl.png";
-import design_thinking from "../company/design_thinking.jpg";
-import elevatex from "../company/elevateX.jpg";
-import expert_panel_session from "../company/expert_panel_session.jpg";
+import design_thinking from "../company/design_thinking.webp";
+import elevatex from "../company/elevateX.webp";
+import expert_panel_session from "../company/expert_panel_session.webp";
 import silicon_vally from "../company/silicon_vallly.jpg";
-import seedgrant from "../company/seedgrant.jpg";
-import avinya from "../company/avinya.jpg";
-import icon from "../company/icon.gif";
+import seedgrant from "../company/seedgrant.webp";
+import avinya from "../company/avinya.webp";
+import icon from "../company/icon.webp";
 
 const experiences = [
   {
@@ -65,8 +65,7 @@ const experiences = [
     ],
   },
   {
-    title:
-      "Silicon Valley Startup",
+    title: "Silicon Valley Startup",
     company_name: "i-Talk",
     icon: icon,
     pic: silicon_vally,
