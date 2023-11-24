@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 .contact {
@@ -14,32 +14,37 @@
   color: var(--slate);
   z-index: 3;
 }
-
-.contact_heading {
-  font-weight: 600;
+.contactHeading > h1 {
+  position: relative;
+  z-index: 2;
+  margin-top: 0rem;
   color: var(--green);
-  font-size: 1.4rem;
   display: flex;
   align-items: center;
-  /* padding: 2rem 0; */
-  font-family: var(--font-mono);
+  font-family: var(--font-heading);
+  justify-content: center;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 0rem;
 }
-
-.contact_heading::before {
-  content: "04. ";
-  color: var(--green);
-  font-family: var(--font-mono);
-  font-size: 1.2rem;
-  margin-right: 8px;
-}
-
-.contact_heading::after {
+.contactHeading > h1::after {
   content: "";
   display: block;
-  width: 200px;
-  margin-left: 1rem;
-  height: 0.5px;
-  background: var(--green);
+  background-color: var(--green);
+  width: 10rem;
+  height: 3px;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+}
+
+.contactHeading > h1::before {
+  content: "";
+  display: block;
+  background-color: var(--green);
+  width: 10rem;
+  height: 3px;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
 }
 
 .contact_content {
@@ -257,34 +262,3 @@ textarea:focus {
     
 }
  */
-
-.teamHeading > h1 {
-  position: relative;
-  z-index: 2;
-  margin-top: 0rem;
-  color: var(--green);
-  display: flex;
-  align-items: center;
-  font-family: var(--font-heading);
-  justify-content: center;
-  margin-top: 10rem;
-}
-.teamHeading > h1::after {
-  content: "";
-  display: block;
-  background-color: var(--green);
-  width: 10rem;
-  height: 3px;
-  border-radius: 1rem;
-  margin-left: 0.5rem;
-}
-
-.teamHeading > h1::before {
-  content: "";
-  display: block;
-  background-color: var(--green);
-  width: 10rem;
-  height: 3px;
-  border-radius: 1rem;
-  margin-right: 0.5rem;
-}

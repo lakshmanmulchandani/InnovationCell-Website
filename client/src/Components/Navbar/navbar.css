@@ -1,16 +1,30 @@
 .nav {
   display: flex;
   justify-content: space-between;
-
+  /* align-items: center; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   text-align: center;
-  z-index: -10;
-
+  z-index: 999;
   background: rgba(255, 255, 255, 0.109);
-  z-index: 10;
+  backdrop-filter: blur(90px);
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.109);
   backdrop-filter: blur(90px);
   padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
@@ -20,7 +34,6 @@
 .nav-btn {
   padding: 4px;
   margin: 0.2rem 0;
-
   font-size: 20px;
   border-radius: 10px;
   font-weight: 600;
@@ -43,14 +56,28 @@ a {
   text-decoration: none;
   color: white;
 }
+
+a:hover {
+  color: #00bfff;
+}
+
 .nav-opt {
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
   width: 70%;
+}
+.nav-opt2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
 }
 
 .nav-opt:hover {
+  cursor: pointer;
+}
+.nav-opt2:hover {
   cursor: pointer;
 }
 
@@ -59,8 +86,20 @@ a {
   font-size: 30px;
   width: 40%;
 }
+.logo2 {
+  color: white;
+  font-size: 30px;
+  width: 55%;
+}
 
 .logo img {
+  display: flex;
+  align-self: center;
+  height: 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.logo2 img {
   display: flex;
   align-self: center;
   height: 50px;
@@ -77,7 +116,12 @@ a {
   .nav.nav-phone {
     height: 100%;
     animation: fadeIn 1s;
-    z-index: 100;
+    z-index: 999;
+  }
+  .nav2.nav-phone {
+    height: 100%;
+    animation: fadeIn 1s;
+    z-index: 999;
   }
   .nav-opt {
     display: none;
@@ -86,13 +130,31 @@ a {
     position: absolute;
     width: 100%;
     top: 60px;
-    z-index: 10;
+    z-index: 999;
+  }
+  .nav-opt2 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    z-index: 999;
   }
 
   .nav-opt.show {
-    display: flex;
+    display: flex; /*
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    width: -webkit-fill-available;
+    animation: fadeIn 1s;
+    height: 100%;
+  }
+  .nav-opt2.show {
+    display: flex; /*
+    align-items: center;
+    justify-content: center; */
+    width: -webkit-fill-available;
     animation: fadeIn 1s;
     height: 100%;
   }
@@ -109,15 +171,15 @@ a {
   }
 
   .bar {
-    width: 70px;
-    height: 4px;
+    width: 39px;
+    height: 2px;
     background: white;
     margin: 10px 10px;
     transition: 0.9s;
   }
 
   .rotate-left {
-    transform: rotate(-45deg) translate(-9px, 10px);
+    transform: rotate(-45deg) translate(-9px, 8px);
   }
 
   .rotate-right {

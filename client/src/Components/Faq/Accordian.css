@@ -21,6 +21,7 @@
     align-items: center;
     padding: 20px 60px;
     gap: 2rem;
+    position: relative;
   }
 
   .snowman{
@@ -30,6 +31,8 @@
   .wrapper{
     border-bottom: 1px solid white;
     overflow: hidden;
+    
+
   }
 
   .container{
