@@ -12,7 +12,8 @@ const Memories = ({data}) => {
     setindex((index===0)?images.length-1:index-1);
 }
   return (
-    <div className='memories__container'>
+    <div
+      style={{width: '100%',height:'100%'}} className='memories__container'>
           {
               images.map((image,idx)=>(
                  <img 
@@ -24,8 +25,6 @@ const Memories = ({data}) => {
                   />
               ))
           }
-          {/* <button onClick={handlenext} className='btn btn-left'><span>&rarr;</span></button>
-          <button onClick={handleprev} className='btn btn-right'><span>&larr;</span></button> */}
           <BsArrowLeftCircleFill onClick={handleprev}  className='btn btn-left'/>
           <BsArrowRightCircleFill onClick={handlenext} className='btn btn-right' />
           <span className='indicators'>
