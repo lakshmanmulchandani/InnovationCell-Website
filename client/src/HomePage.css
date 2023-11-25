@@ -167,9 +167,7 @@ body {
   height: 100%;
   z-index: -1;
 }
-.App {
-  width: fit-content;
-}
+
 
 .scroll-down {
   display: flex;

@@ -55,11 +55,11 @@
     width: 100%;
     text-align: left;
     /* color: white; */
-    padding: 20px 10px;
+    padding: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 20px;
     background: transparent;
     border: none;
@@ -87,18 +87,31 @@
   }
   .wrapper .answer-content{
     padding: 1rem 0;
-    font-size: 20px;
+    font-size: 17px;
+    
     font-style: italic;
   }
 
+  
+  @media screen and (max-width: 1024px) {
+    .acc-container{
+      display: block;
+    }
+  }
+  
   @media screen and (max-width: 640px) {
     .snowman{
       height: 400px;
     }
   }
-
-  @media screen and (max-width: 1024px) {
-    .acc-container{
-      display: block;
+  @media screen and (max-width: 477px) {
+    .question-content{
+      font-size: 18px;
     }
+    .wrapper .answer-content{
+      font-size: 16px;
+    }
+   .acc-container{
+    padding: 20px 12px;
+   } 
   }
