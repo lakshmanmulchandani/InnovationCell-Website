@@ -1,6 +1,7 @@
 .Projects__card{
   /* min-height: 70vh; */
   max-width: 25vw;
+  height: fit-content;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
@@ -32,11 +33,11 @@
 }
 @media screen and (max-width: 968px) {
    .Projects__card{
-      max-width: 35vw;
+      max-width: 40vw;
    }
 }
 @media (max-width: 768px){
    .Projects__card{
-       max-width: 50vw;
+       max-width: 75vw;
    }
 }
