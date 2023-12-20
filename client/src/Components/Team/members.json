@@ -1,0 +1,38 @@
+{
+   "teamData": {
+      "teamMembers": [
+         {
+            "name": "Alim Khan",
+            "domain": "Tech Domain"
+         },
+         {
+            "name": "Alim Khan",
+            "domain": "Tech Domain"
+         }
+      ],
+      "coreCoordinators": [
+         {
+            "name": "Lakshman Mulchandani",
+            "domain": "Technical"
+         },
+         {
+            "name": "Lakshman Mulchandani",
+            "domain": "Technical"
+         }
+      ],
+      "executives": [
+         {
+            "domain": "Event Management"
+         },
+         {
+            "domain": "Spons"
+         },
+         {
+            "domain": "Event Management"
+         },
+         {
+            "domain": "Spons"
+         }
+      ]
+   }
+}
