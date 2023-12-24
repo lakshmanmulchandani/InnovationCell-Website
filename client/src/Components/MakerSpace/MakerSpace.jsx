@@ -21,17 +21,12 @@ const MakerSpace = () => {
               <h2>About Us</h2>
               <div className="Arrow"></div>
             </div>
-            <p>
-              Makerspace at NIT Raipur is set up on the theme of Open Community
-              Technology Development Culture to promote mainly frugal
-              innovations.
+            <p> 
+            Welcome to NIT Raipur's Makerspace, a vibrant hub where innovation thrives amid cutting-edge technology. Explore a playground designed to empower inventors, entrepreneurs, and curious minds, providing the tools to turn ideas into reality.
             </p>
             <p>
               {" "}
-              It is set up to provide working ecosystem to prospective
-              entrepreneurs of NIT Raipur. Once the raw and innovative ideas
-              will start taking shapes, they will be incubated in a proper
-              system of Technology Business Incubator (TBI).
+              Our collaborative environment fosters interdisciplinary teamwork, uniting engineers, designers, and enthusiasts. The Makerspace is more than a physical space; it's a community dedicated to exploration, learning, and pushing the boundaries of what's possible. Join us on a journey of discovery and let the Makerspace launch your next big idea!
             </p>
           </div>
           <div className="maker__img">

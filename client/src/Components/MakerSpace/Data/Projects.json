@@ -1,39 +1,25 @@
 {
     "projects":[
          {
-            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "src": "/makerspaceimg/Project1.jpg",
             "alt": "Project img",
-            "title": "Project1",
-            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
-            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+            "title": "SecQR",
+            "text": "SecQR is an android app empowers users to generate custom QR codes for vehicles, and the data within these QR codes can be interpreted at different stakeholder levels. Every Levels will show different data from the same QR code. Online once then all the things will work offline.",
+            "techstack": "Android Studio, QR, Cryptography, Firebase"
          },
          {
-            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "src": "/makerspaceimg/Project2.jpg",
             "alt": "Project img",
-            "title": "Project1",
-            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
-            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+            "title": "Fire and Gas Detector",
+            "text": "Introducing our advanced Fire and Gas Detector System – revolutionizing safety with cutting-edge features. Benefit from heightened accuracy, swift response times, and comprehensive coverage in diverse settings. Our solution seamlessly integrates state-of-the-art sensors and intelligent algorithms, ensuring minimal false alarms and timely alerts through audible alarms, visual indicators, and notifications. What sets us apart is the enhanced user experience with seamless mobile app integration, providing real-time updates and control at your fingertips. Empower users and emergency responders with actionable information, redefining safety through our advanced, reliable, and app-integrated solution",
+            "techstack": "Android studio, Arduino"
          },
          {
-            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
+            "src": "/makerspaceimg/Project3.jpg",
             "alt": "Project img",
-            "title": "Project1",
-            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
-            "techstack": "HTML CSS JAVASCRIPT REACTJS"
-         },
-         {
-            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
-            "alt": "Project img",
-            "title": "Project1",
-            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
-            "techstack": "HTML CSS JAVASCRIPT REACTJS"
-         },
-         {
-            "src": "https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg",
-            "alt": "Project img",
-            "title": "Project1",
-            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta nam ut placeat, eum quae pariatur inventore error tempora quibusdam veritatis odit eius eaque at nobis. Rerum sit perspiciatis facilis? Nostrum nisi, rerum quas dolorem molestias deleniti tempore, tempora dolore enim assumenda corporis vitae earum facilis fugit quasi nesciunt exercitationem.",
-            "techstack": "HTML CSS JAVASCRIPT REACTJS"
+            "title": "RFID Automation",
+            "text": "The mining sector, vital to the global economy, grapples with safety and efficiency challenges such as labor intensity, errors, and tracking issues. RFID (Radio Frequency Identification) technology emerges as a transformative solution. RFID automation facilitates the tracking of vehicles and heavy machinery in underground mines, ensuring authorized access as each entity possesses a unique RFID tag. This innovation extends to managing worker attendance, monitoring working hours, and tracking vehicle locations in open-cast mines, addressing critical operational concerns with enhanced precision and efficiency.",
+            "techstack": "Programming in C++, Tincercad, RFID Technology"
          }
     ]
 }
