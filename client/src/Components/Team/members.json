@@ -1,8 +1,8 @@
 {
    "teamData": {
-      "teamMembers": [
+      "OC": [
          {
-            "name": "Alim Khan",
+            "name": "Alim Khan sir",
             "domain": "Tech Domain"
          },
          {
@@ -12,7 +12,7 @@
       ],
       "coreCoordinators": [
          {
-            "name": "Lakshman Mulchandani",
+            "name": "Lakshman Mulchandani sir",
             "domain": "Technical"
          },
          {
@@ -22,16 +22,44 @@
       ],
       "executives": [
          {
-            "domain": "Event Management"
+            "Tech": [
+               {
+                  "name": "p",
+                  "year": "2"
+               }
+            ]
          },
          {
-            "domain": "Spons"
+            "Event Management": [
+               {
+                  "name": "p",
+                  "year": "2"
+               }
+            ]
          },
          {
-            "domain": "Event Management"
+            "Spons": [
+               {
+                  "name": "p",
+                  "year": "2"
+               }
+            ]
          },
          {
-            "domain": "Spons"
+            "Documentation": [
+               {
+                  "name": "p",
+                  "year": "2"
+               }
+            ]
+         },
+         {
+            "Public Relation": [
+               {
+                  "name": "p",
+                  "year": "2"
+               }
+            ]
          }
       ]
    }

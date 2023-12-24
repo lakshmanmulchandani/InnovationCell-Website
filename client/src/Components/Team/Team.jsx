@@ -6,6 +6,7 @@ import Executives from "./Executives";
 import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
+import teamRecord from "./members.json";
 
 const teamData = {
   teamMembers: [
@@ -37,7 +38,7 @@ const Team = () => {
         </div>
 
         <div className="Teams">
-          {teamData.teamMembers.map((member, index) => (
+          {teamRecord.teamData.OC.map((member, index) => (
             <TeamCard key={index} name={member.name} domain={member.domain} />
           ))}
         </div>
@@ -47,7 +48,7 @@ const Team = () => {
         </div>
 
         <div className="Teams">
-          {teamData.coreCoordinators.map((coordinator, index) => (
+          {teamRecord.teamData.coreCoordinators.map((coordinator, index) => (
             <NameCard
               key={index}
               name={coordinator.name}
@@ -61,8 +62,11 @@ const Team = () => {
         </div>
 
         <div className="Teams">
-          {teamData.executives.map((executive, index) => (
-            <Executives key={index} domain={executive.domain} />
+          {teamRecord.teamData.executives.map((executive, index) => (
+            <>
+              <h1>{executive[0]}</h1>
+              <Executives key={index} domain={executive[0]} />
+            </>
           ))}
         </div>
       </div>
