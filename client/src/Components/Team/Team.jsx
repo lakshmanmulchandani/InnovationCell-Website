@@ -14,13 +14,21 @@ const Team = () => {
     <>
       <Navbar2 />
       <div className="teams-page">
-        <div id="team" className="teamHeading">
+        {/* <div id="team" className="teamHeading">
           <h1>Team Innovation cell</h1>
+        </div> */}
+        <div id="team" className="teamHeading">
+          <h1>Overall coordinators</h1>
         </div>
-
         <div className="Teams">
           {teamRecord.teamData.OC.map((member, index) => (
-            <TeamCard key={index} name={member.name} domain={member.domain} />
+            <TeamCard
+              key={index}
+              profileImg={member.picLink}
+              name={member.name}
+              instaLink={member.insta}
+              linkedinLink={member.linkedin}
+            />
           ))}
         </div>
 
@@ -34,6 +42,8 @@ const Team = () => {
               key={index}
               name={coordinator.name}
               domain={coordinator.domain}
+              instaLink={coordinator.insta}
+              linkedinLink={coordinator.linkedin}
             />
           ))}
         </div>

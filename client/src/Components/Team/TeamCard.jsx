@@ -1,39 +1,50 @@
-import React from 'react'
-import alimImg from "../../imgs/Alim_img.png"
-import insta from "../../svgs/insta.svg"
-import linkedin from "../../svgs/linkedin.svg"
-import "./Team.css"
+import React from "react";
+import insta from "../../svgs/insta.svg";
+import linkedin from "../../svgs/linkedin.svg";
+import "./Team.css";
+import hemasri from "./hemasri_mam.png";
+import mayank from "./mayank_sir.jpg";
+import vishud from "./vishudh_sir.webp";
 
-import Tilt from 'react-parallax-tilt';
+import Tilt from "react-parallax-tilt";
 
-
-
-const TeamCard = ({profileImg,name,domain,instaLink,linkedinLink}) => {
+const TeamCard = ({ profileImg, name, instaLink, linkedinLink }) => {
   return (
-    
-      <div className="container">
-      <Tilt >
+    <div className="container">
+      <Tilt>
         <div className="card">
           <div className="content">
             {/* <h2>01</h2> */}
             <h3 className="alimImg">
-              <img src={alimImg} alt="" />
+              <img
+                src={
+                  name === "Mayank Bharadwaj"
+                    ? mayank
+                    : name === "Vishudh Verma"
+                    ? vishud
+                    : hemasri
+                }
+                alt=""
+              />
             </h3>
             <p>
               <span>{name}</span> <br />
-              <span>{ domain }</span> <br />
+              {/* <span>{ domain }</span> <br /> */}
               <br />
             </p>
             <div className="socialMediaHandles">
-              <a href="#"><img src={insta} alt="" /></a>
-              <a href="#"><img src={linkedin} alt="" /></a>
+              <a href={instaLink} target="_blank">
+                <img src={insta} alt="" />
+              </a>
+              <a href={linkedinLink} target="_blank">
+                <img src={linkedin} alt="" />
+              </a>
             </div>
-            
           </div>
         </div>
       </Tilt>
-      </div>
+    </div>
   );
-}
+};
 
-export default TeamCard
+export default TeamCard;
