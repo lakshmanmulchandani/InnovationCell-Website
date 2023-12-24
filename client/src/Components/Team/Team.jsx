@@ -1,3 +1,4 @@
+// Team.jsx
 import React from "react";
 import "./Team.css";
 import TeamCard from "./TeamCard";
@@ -7,26 +8,6 @@ import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
 import teamRecord from "./members.json";
-
-const teamData = {
-  teamMembers: [
-    { name: "Alim Khan", domain: "Tech Domain" },
-    { name: "Alim Khan", domain: "Tech Domain" },
-    // Add more team members here
-  ],
-  coreCoordinators: [
-    { name: "Lakshman Mulchandani", domain: "Technical" },
-    { name: "Lakshman Mulchandani", domain: "Technical" },
-    // Add more core coordinators here
-  ],
-  executives: [
-    { domain: "Event Management" },
-    { domain: "Spons" },
-    { domain: "Event Management" },
-    { domain: "Spons" },
-    // Add more executives here
-  ],
-};
 
 const Team = () => {
   return (
@@ -63,10 +44,11 @@ const Team = () => {
 
         <div className="Teams">
           {teamRecord.teamData.executives.map((executive, index) => (
-            <>
-              <h1>{executive[0]}</h1>
-              <Executives key={index} domain={executive[0]} />
-            </>
+            <Executives
+              key={index}
+              domain={Object.keys(executive)[0]}
+              members={executive[Object.keys(executive)[0]]}
+            />
           ))}
         </div>
       </div>

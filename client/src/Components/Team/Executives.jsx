@@ -1,15 +1,21 @@
 import React from "react";
 import "./Team.css";
 
-const Executives = ({ domain, name, year }) => {
+const Executives = ({ domain, members }) => {
   return (
     <div className="team_executives">
       <h1>{domain}</h1>
-      <div>
-        <p>
-          {name} {year}
-        </p>
-      </div>
+      {members.map((member, index) => (
+        <div key={index}>
+          <p>
+            {member.name} (
+            {member.year == 1
+              ? member.year + "st year"
+              : member.year + "nd year"}
+            )
+          </p>
+        </div>
+      ))}
     </div>
   );
 };
