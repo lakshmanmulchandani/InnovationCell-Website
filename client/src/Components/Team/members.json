@@ -1,8 +1,8 @@
 {
    "teamData": {
-      "teamMembers": [
+      "OC": [
          {
-            "name": "Alim Khan",
+            "name": "Alim Khan sir",
             "domain": "Tech Domain"
          },
          {
@@ -12,7 +12,7 @@
       ],
       "coreCoordinators": [
          {
-            "name": "Lakshman Mulchandani",
+            "name": "Lakshman Mulchandani sir",
             "domain": "Technical"
          },
          {
@@ -22,16 +22,420 @@
       ],
       "executives": [
          {
-            "domain": "Event Management"
+            "EVENT MANAGEMENT": [
+               {
+                  "name": "ANUSHKA MISHRA",
+                  "year": "1"
+               },
+               {
+                  "name": "VANSHIKA JAISWAL",
+                  "year": "1"
+               },
+               {
+                  "name": "ASHISH KUMAR JANGID",
+                  "year": "1"
+               },
+               {
+                  "name": "SWATANTRA MOHANTY",
+                  "year": "2"
+               },
+               {
+                  "name": "RAHUL KUMAR",
+                  "year": "2"
+               },
+               {
+                  "name": "SUSHANT JHA",
+                  "year": "2"
+               },
+               {
+                  "name": "SHUBHAM RAJ",
+                  "year": "2"
+               },
+               {
+                  "name": "POTHURAJU HEMANTH",
+                  "year": "2"
+               },
+               {
+                  "name": "K SATHVIK",
+                  "year": "2"
+               },
+               {
+                  "name": "GODSON S PHILIP",
+                  "year": "1"
+               },
+               {
+                  "name": "ROHIT SETH",
+                  "year": "2"
+               },
+               {
+                  "name": "URVI PATEL",
+                  "year": "1"
+               },
+               {
+                  "name": "PAWANI CHAUHAN",
+                  "year": "2"
+               },
+               {
+                  "name": "MILIND KUMAWAT",
+                  "year": "1"
+               },
+               {
+                  "name": "JAGRITI KUMARI",
+                  "year": "2"
+               },
+               {
+                  "name": "PALLAVI NAG",
+                  "year": "2"
+               },
+               {
+                  "name": "GAURAV JAIN",
+                  "year": "2"
+               },
+               {
+                  "name": "ADITYA ANIKET JENA",
+                  "year": "1"
+               },
+               {
+                  "name": "AVIRAL",
+                  "year": "2"
+               },
+               {
+                  "name": "ADITI SINGH DEO",
+                  "year": "2"
+               },
+               {
+                  "name": "HINESH SINGH THAKUR",
+                  "year": "2"
+               },
+               {
+                  "name": "DEV NARAIN PANDEY",
+                  "year": "2"
+               },
+               {
+                  "name": "AMAN SINGH THAKUR",
+                  "year": "2"
+               },
+               {
+                  "name": "AMAN BARETH",
+                  "year": "2"
+               },
+               {
+                  "name": "KANHAIYA KUMAR",
+                  "year": "2"
+               },
+               {
+                  "name": "ARCHI RAI",
+                  "year": "2"
+               },
+               {
+                  "name": "ABHISHEK KUMAR PANDEY",
+                  "year": "2"
+               },
+               {
+                  "name": "SHIKHAR KASHYAP",
+                  "year": "1"
+               },
+               {
+                  "name": "PAYAL SAHU",
+                  "year": "2"
+               },
+               {
+                  "name": "NEHA SONKAR",
+                  "year": "1"
+               },
+               {
+                  "name": "IPSHITA SHUKLA",
+                  "year": "1"
+               },
+               {
+                  "name": "THARUN KP",
+                  "year": "1"
+               },
+               {
+                  "name": "HITESH PATEL",
+                  "year": "2"
+               },
+               {
+                  "name": "ANKITA GUPTA",
+                  "year": "2"
+               },
+               {
+                  "name": "RIYA KASAUDHAN",
+                  "year": "2"
+               },
+               {
+                  "name": "PRANJUL SRIVASTAV",
+                  "year": "2"
+               }
+            ]
          },
          {
-            "domain": "Spons"
+            "video editing": [
+               {
+                  "name": "Ajeet Kumar ",
+                  "year": "2"
+               },
+               {
+                  "name": "Aditya Kumar ",
+                  "year": "1"
+               },
+               {
+                  "name": "Arpita Hira ",
+                  "year": "1"
+               },
+               {
+                  "name": "Suraj Kumar Singh ",
+                  "year": "2"
+               },
+               {
+                  "name": "Ankan MOndal",
+                  "year": "1"
+               }
+            ]
          },
          {
-            "domain": "Event Management"
+            "Documentation": [
+               {
+                  "name": "Kritarth Karambelkar",
+                  "year": "1"
+               },
+               {
+                  "name": "Prakarsh Gupta",
+                  "year": "1"
+               },
+               {
+                  "name": "Kushagra Sinha",
+                  "year": "2"
+               },
+               {
+                  "name": "Mohammad Raza Memon",
+                  "year": "2"
+               },
+               {
+                  "name": "Sarthak",
+                  "year": "2"
+               },
+               {
+                  "name": "Soumen Mandal",
+                  "year": "2"
+               },
+               {
+                  "name": "Akshay Mairal",
+                  "year": "2"
+               },
+               {
+                  "name": "Aryan Soni",
+                  "year": "2"
+               },
+               {
+                  "name": "Jiya Taank",
+                  "year": "2"
+               },
+               {
+                  "name": "Khushi",
+                  "year": "2"
+               }
+            ]
          },
          {
-            "domain": "Spons"
+            "PR": [
+               {
+                  "name": "Aditya Bhattacharjee ",
+                  "year": "1"
+               },
+               {
+                  "name": "Akhil Deep ",
+                  "year": "2"
+               },
+               {
+                  "name": "Ashutosh Mishra",
+                  "year": "2"
+               },
+               {
+                  "name": "Ayush singh",
+                  "year": "1"
+               },
+               {
+                  "name": "Devanshu Satapathy ",
+                  "year": "2"
+               },
+               {
+                  "name": "Jagriti Singh",
+                  "year": "2"
+               },
+               {
+                  "name": "Lekhram Patel ",
+                  "year": "2"
+               },
+               {
+                  "name": "Milind Sen",
+                  "year": "1"
+               },
+               {
+                  "name": "Nehil Sahu ",
+                  "year": "2"
+               },
+               {
+                  "name": "Prince kumar",
+                  "year": "1"
+               },
+               {
+                  "name": "Priya Ekka",
+                  "year": "2"
+               },
+               {
+                  "name": "Rahul ",
+                  "year": "2"
+               },
+               {
+                  "name": "Rishabh Jaiswal ",
+                  "year": "2"
+               },
+               {
+                  "name": "Rishi singh Rajput",
+                  "year": "2"
+               },
+               {
+                  "name": "Sarthak Muni ",
+                  "year": "1"
+               },
+               {
+                  "name": "Shivang Barnwal ",
+                  "year": "1"
+               },
+               {
+                  "name": "Sumit kumar Mudi",
+                  "year": "2"
+               },
+               {
+                  "name": "Twinkle Patre ",
+                  "year": "2"
+               },
+               {
+                  "name": "Vikram Rawat ",
+                  "year": "1"
+               },
+               {
+                  "name": "Vivek kr Sahu ",
+                  "year": "2"
+               }
+            ]
+         },
+         {
+            "Makerspace": [
+               {
+                  "name": "Vivek Kumar ",
+                  "year": "2"
+               },
+               {
+                  "name": "Md Wasim ",
+                  "year": "2"
+               },
+               {
+                  "name": "Mohit Sen",
+                  "year": "2"
+               },
+               {
+                  "name": "Anurag Pandey",
+                  "year": "2"
+               },
+               {
+                  "name": "Rohit Seth ",
+                  "year": "2"
+               },
+               {
+                  "name": "Hinesh Singh Thakur ",
+                  "year": "2"
+               },
+               {
+                  "name": "Dolly nagwani ",
+                  "year": "2"
+               },
+               {
+                  "name": "Leora Saharia ",
+                  "year": "1"
+               },
+               {
+                  "name": "Priyanshu Chooudhary",
+                  "year": "1"
+               },
+               {
+                  "name": "Mayank dewangan ",
+                  "year": "1"
+               },
+               {
+                  "name": "Ramnarayan ",
+                  "year": "2"
+               },
+               {
+                  "name": "Abhishek kumar",
+                  "year": "2"
+               },
+               {
+                  "name": "Shambhavi ",
+                  "year": "2"
+               },
+               {
+                  "name": "Mohammad Raza Memon",
+                  "year": "2"
+               },
+               {
+                  "name": "Shivansh chowhan",
+                  "year": "2"
+               },
+               {
+                  "name": "Megha Rathi",
+                  "year": "2"
+               },
+               {
+                  "name": "Jagriti kumari ",
+                  "year": "2"
+               },
+               {
+                  "name": "Amit Bhimte ",
+                  "year": "2"
+               },
+               {
+                  "name": "Shreyansh Patel",
+                  "year": "2"
+               },
+               {
+                  "name": "Subham soni",
+                  "year": "2"
+               },
+               {
+                  "name": "kanhiya Kumar",
+                  "year": "2"
+               },
+               {
+                  "name": "Harsh Nigam ",
+                  "year": "1"
+               },
+               {
+                  "name": "Priyanshu Choudhary",
+                  "year": "2"
+               }
+            ]
+         },
+         {
+            "Design": [
+               {
+                  "name": "Diksha Manghrani",
+                  "year": "2"
+               },
+               {
+                  "name": "yash Prasad",
+                  "year": "2"
+               },
+               {
+                  "name": "Manisha kumari",
+                  "year": "1"
+               },
+               {
+                  "name": "shubham Madhukar",
+                  "year": "2"
+               }
+            ]
          }
       ]
    }
