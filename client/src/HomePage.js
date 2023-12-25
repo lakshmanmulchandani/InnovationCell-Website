@@ -69,8 +69,8 @@ function App() {
         <Timeline />
         <div id="faqnav"></div>
         <Accordian />
-        <div id="sponsnav"></div>
-        <Sponsors />
+        {/* <div id="sponsnav"></div>
+        <Sponsors /> */}
         <div id="contactusnav"></div>
         <Contact />
       </div>

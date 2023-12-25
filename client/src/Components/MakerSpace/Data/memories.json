@@ -1,36 +1,24 @@
 {
     "slides": [
         {
-            "src" : "https://images.pexels.com/photos/18491095/pexels-photo-18491095/free-photo-of-st-paul-s-cathedral.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 1"
+            "src": "https://lh3.googleusercontent.com/p/AF1QipM4FHVXpBTcW301agReAgCBj2kxkSzTDTGKRgQT=s1360-w1360-h1020",
+            "alt": "Image 1"
         },
         {
-            "src" : "https://images.pexels.com/photos/15583987/pexels-photo-15583987/free-photo-of-roof-of-chinese-temple-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 2"
+            "src": "https://lh3.googleusercontent.com/p/AF1QipO89ZGrBawxhcA6e2IcttLmXEpZd7Lvi_y3_K-Y=s1360-w1360-h1020",
+            "alt": "Image 2"
         },
         {
-            "src" : "https://images.pexels.com/photos/18431185/pexels-photo-18431185/free-photo-of-ornamented-gate-in-old-town.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 3"
+            "src": "https://lh3.googleusercontent.com/p/AF1QipND-059GA9nVx6SIaU-DYGgiQzkle1RvWXlO0vM=s1360-w1360-h1020",
+            "alt": "Image 3"
         },
         {
-            "src" : "https://images.pexels.com/photos/13768940/pexels-photo-13768940.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 3"
+            "src": "https://lh3.googleusercontent.com/p/AF1QipMBotsM7vobHIX9F6qWJYdqgNB28IkUgGqnfhEi=s1360-w1360-h1020",
+            "alt": "Image 4"
         },
         {
-            "src" : "https://images.pexels.com/photos/13768940/pexels-photo-13768940.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 3"
-        },
-        {
-            "src" : "https://images.pexels.com/photos/13149424/pexels-photo-13149424.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 3"
-        },
-        {
-            "src" : "https://images.pexels.com/photos/18839062/pexels-photo-18839062/free-photo-of-st-francis-of-assisi-church.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 3"
-        },
-        {
-            "src" : "https://images.pexels.com/photos/18854123/pexels-photo-18854123/free-photo-of-el-micalet-valencia.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-            "alt" :  "Image 3"
+            "src": "https://lh3.googleusercontent.com/p/AF1QipND-059GA9nVx6SIaU-DYGgiQzkle1RvWXlO0vM=s1360-w1360-h1020",
+            "alt": "Image 5"
         }
     ]
 }
