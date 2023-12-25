@@ -1,0 +1,840 @@
+{
+   "teamData": {
+      "OC": [
+         {
+            "name": "Mayank Bharadwaj",
+            "insta": "https://www.instagram.com/highmxyxnk",
+            "linkedin": "https://www.linkedin.com/in/mayank-bhardwaj-a3031a291",
+            "picLink": "./mayank_sir.jpg"
+         },
+         {
+            "name": "Hemashri Indrani",
+            "insta": "https://www.instagram.com/curious_a.me",
+            "linkedin": "https://www.linkedin.com/in/hemasri-indrani-kota-05049a201",
+            "picLink": "./hemasri_mam.png"
+         },
+         {
+            "name": "Vishudh Verma",
+            "insta": "https://www.instagram.com/biryani_.without.elaichi_",
+            "linkedin": "https://www.linkedin.com/in/vishud-verma-5714b2118",
+            "picLink": "./vishudh_sir.webp"
+         }
+      ],
+      "coreCoordinators": [
+         {
+            "name": "Piyush Kumar Sahu ",
+            "insta": "https://instagram.com/piyush.14_14?igshid=NGVhN2U2NjQ0Yg==",
+            "linkedin": "https://www.linkedin.com/in/piyush-kumar-sahu-490075249",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Abhilash kar ",
+            "insta": "https://instagram.com/thu_nder_beast?igshid=OGY3MTU3OGY1Mw==",
+            "linkedin": "https://www.linkedin.com/in/abhilash-kar-b22a2123b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "PR"
+         },
+         {
+            "name": "Anish Patel ",
+            "insta": "https://instagram.com/__anishhhh____?igshid=NzZlODBkYWE4Ng==",
+            "linkedin": "https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav",
+            "domain": "Spons"
+         },
+         {
+            "name": "Md Uruj Akbar Rahman ",
+            "insta": "https://instagram.com/urus_29.gtr?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/md-uruj-akbar-rahman-88a064288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Amit kumar Dansena ",
+            "insta": "https://instagram.com/_._a_d_.___",
+            "linkedin": "https://www.linkedin.com/in/amit-kumar-dansena-56a246263",
+            "domain": "Spons"
+         },
+         {
+            "name": "Skandh Garg ",
+            "insta": "https://instagram.com/itzz_garg_",
+            "linkedin": "https://www.linkedin.com/in/Skandh-Garg",
+            "domain": "Spons"
+         },
+         {
+            "name": "Aashutosh Patel",
+            "insta": "https://instagram.com/aashuto0shpatel",
+            "linkedin": "https://www.linkedin.com/in/aashutosh-patel/",
+            "domain": "Makerspace"
+         },
+         {
+            "name": "Chandrakant Sahu ",
+            "insta": "https://instagram.com/_chandrakant_0110",
+            "linkedin": "https://www.linkedin.com/in/chandrakantsahu-nitrr",
+            "domain": "Video Editing"
+         },
+         {
+            "name": "Amrit Prakash ",
+            "insta": "https://instagram.com/iamrit_prakash?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
+            "linkedin": "https://www.linkedin.com/in/amrit-prakash-3b3410233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Tamanna",
+            "insta": "https://www.instagram.com/tamanna_b588/",
+            "linkedin": "https://www.linkedin.com/in/tamannab23?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Sumaran Kumar ",
+            "insta": "https://instagram.com/sumaran_04?igshid=MTk0NTkyODZkYg==",
+            "linkedin": "https://www.linkedin.com/in/sumaran-kumar-44b0a2233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "PR"
+         },
+         {
+            "name": "Ashish Anand",
+            "insta": "https://instagram.com/ashish_.anand?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/ashish-anand-72bb12197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Spons"
+         },
+         {
+            "name": "Ayan Paliwal",
+            "insta": "https://instagram.com/ayanpaliwal6?igshid=MTk0NTkyODZkYg==",
+            "linkedin": "https://www.linkedin.com/in/ayan-paliwal-8a81a2223",
+            "domain": "Makerspace"
+         },
+         {
+            "name": "Pramod Kumar ",
+            "insta": "https://instagram.com/Pramod.Pd.5059",
+            "linkedin": "https://www.linkedin.com/in/pramod-prasad-81b20b233",
+            "domain": "PR"
+         },
+         {
+            "name": "Kanishq Mersa ",
+            "insta": "https://instagram.com/kanishq_73?igshid=MTk0NTkyODZkYg==",
+            "linkedin": "https://www.linkedin.com/in/kanishq-mersa-b32090253/",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Darshan Kumar",
+            "insta": "https://www.instagram.com/karn_darsh/",
+            "linkedin": "https://www.linkedin.com/in/darshan-karn/",
+            "domain": "Spons"
+         },
+         {
+            "name": "HASHIBA AMAN",
+            "insta": "https://instagram.com/hashiba_aman?igshid=NzZlODBkYWE4Ng==",
+            "linkedin": "www.linkedin.com/in/hashiba-aman-385a90256",
+            "domain": "Spons"
+         },
+         {
+            "name": "Sampad Shubhadarshi Pradhan",
+            "insta": "https://instagram.com/_sampadspradhan_?igshid=MmVlMjlkMTBhMg==",
+            "linkedin": "https://www.linkedin.com/in/sampadspradhan-sam",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Gourav Banik",
+            "insta": "https://instagram.com/gourav_banik_2001?igshid=MTNiYzNiMzkwZA==",
+            "linkedin": "https://www.linkedin.com/in/gourav-banik-a92225201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Qaynat Shama ",
+            "insta": "https://instagram.com/qaynat_shama?igshid=MzMyNGUyNmU2YQ==",
+            "linkedin": "https://www.linkedin.com/in/qaynat-shama-5599a1231",
+            "domain": "Spons"
+         },
+         {
+            "name": "Ayush Karan",
+            "insta": "https://www.instagram.com/ayushkaran_2802/",
+            "linkedin": "https://www.linkedin.com/in/ayush-karan-73560a19b/",
+            "domain": "Spons"
+         },
+         {
+            "name": "Sahil Mahajan ",
+            "insta": "https://instagram.com/sahilmahajan675?igshid=YTQwZjQ0NmI0OA==",
+            "linkedin": "https://www.linkedin.com/in/sahil-mahajan-6a6b67220/",
+            "domain": "PR"
+         },
+         {
+            "name": "Archisha De ",
+            "insta": "https://instagram.com/archisha_de?igshid=MzMyNGUyNmU2YQ==",
+            "linkedin": "https://www.linkedin.com/in/archisha-de-8aa5a9230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Mridul Nilotpal ",
+            "insta": "https://instagram.com/nikhilgautam995?igshid=MTk0NTkyODZkYg==",
+            "linkedin": "https://www.linkedin.com/in/mridul-nilotpal-9233272a1",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Sakshi Mithilesh Pandey ",
+            "insta": "https://instagram.com/sakship_644?igshid=MzMyNGUyNmU2YQ==",
+            "linkedin": "https://www.linkedin.com/in/sakshi-pandey-115b94241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Piyush Bisen ",
+            "insta": "https://instagram.com/im.pb?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr",
+            "linkedin": "https://www.linkedin.com/in/piyush-bisen-pb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Saurabh sachdeva",
+            "insta": "https://instagram.com/_saurabh.sachdeva?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr",
+            "linkedin": "https://www.linkedin.com/in/saurabh-sachdeva-26695b230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "domain": "PR"
+         },
+         {
+            "name": "Isha Diwakar",
+            "insta": "https://instagram.com/ii_shu_?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+            "linkedin": "-",
+            "domain": "Event Management"
+         },
+         {
+            "name": "M Sai Arunima",
+            "insta": "nil",
+            "linkedin": "nil",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Shreyansh Singh",
+            "insta": "https://www.instagram.com/invites/contact/?i=1tsw49ta1gj8q&utm_content=rthqu12",
+            "linkedin": "www.linkedin.com/in/shreyansh-singh-4aa84527b",
+            "domain": "PR"
+         },
+         {
+            "name": "Shivam upadhyay ",
+            "insta": "Nil",
+            "linkedin": "https://www.linkedin.com/in/shivam-upadhyay-94359725b/",
+            "domain": "Spons"
+         },
+         {
+            "name": "Saumya Maurya ",
+            "insta": "https://instagram.com/saumya_maurya_2311?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/saumya-maurya-59057b229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Karan Bhaskar",
+            "insta": "https://instagram.com/_karan_bh?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr",
+            "linkedin": "https://www.linkedin.com/in/karan-bhaskar-479903227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Yasmeen Mahilang ",
+            "insta": "https://instagram.com/yaaassmeen_?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr",
+            "linkedin": "https://www.linkedin.com/in/yasmeen-mahilang-5a9b681b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Akash soni ",
+            "insta": "https://instagram.com/03.__a_k_a_s_h__.03?igshid=MzMyNGUyNmU2YQ==",
+            "linkedin": "https://www.linkedin.com/in/akash-soni-983064233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Sushmita Kurella",
+            "insta": "https://instagram.com/sushmita_kurella",
+            "linkedin": "https://www.linkedin.com/in/kurella-sushmita?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Ishan Chiripal",
+            "insta": "https://instagram.com/ishan__0109",
+            "linkedin": "www.linkedin.com/in/ishan-chiripal-11bb00228",
+            "domain": "Spons"
+         },
+         {
+            "name": "Shivani khare",
+            "insta": "https://instagram.com/@shivanikhare406",
+            "linkedin": "https://www.linkedin.com/in/shivani-khare-095076257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Wise khan",
+            "insta": "https://instagram.com/khan_wise_29?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/wise-khan-722534232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Dipendra kumar yadav",
+            "insta": "https://instagram.com/dipendra_2907",
+            "linkedin": "-",
+            "domain": "Spons"
+         },
+         {
+            "name": "Aman Kumar Singh ",
+            "insta": "https://www.instagram.com/i_.amansingh/",
+            "linkedin": "linkedin.com/in/aman-singh-x/",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Bhumireddy Sahithya ",
+            "insta": "https://instagram.com/sahithyabhumireddy?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/bhumireddy-sahithya-ba871925b",
+            "domain": "PR"
+         },
+         {
+            "name": "Ayush Dubey",
+            "insta": "https://instagram.com/_aayush_dubey_?igshid=MTNiYzNiMzkwZA==",
+            "linkedin": "https://www.linkedin.com/in/ayush-dubey-44aa07246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "PR"
+         },
+         {
+            "name": "Ashish tyagi",
+            "insta": "https://instagram.com/ashishtyagi_05?igshid=YzAwZjE1ZTI0Zg==",
+            "linkedin": "https://www.linkedin.com/in/ashish-tyagi-556b16222/",
+            "domain": "PR"
+         },
+         {
+            "name": "Rahul Saxena ",
+            "insta": "https://instagram.com/__official_saxena_ji__?igshid=MzMyNGUyNmU2YQ==",
+            "linkedin": "www.linkedin.com/in/rahul-saxena-59407b241",
+            "domain": "PR"
+         },
+         {
+            "name": "Madhav Gupta",
+            "insta": "https://www.instagram.com/madhavmgupta/",
+            "linkedin": "https://www.linkedin.com/in/madhav-gupta-8a740a213/",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Hrushikesh Kadam",
+            "insta": "https://instagram.com/its_hrushikadam?igshid=YzAwZjE1ZTI0Zg==",
+            "linkedin": "https://www.linkedin.com/in/hrushikesh-kadam-1b8790257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Mohit Dua ",
+            "insta": "https://instagram.com/mohitdua55?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/mohit-dua-8a9199281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Manisha Kumari ",
+            "insta": "https://instagram.com/_manisha_kumari14?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/manisha-kumari-4120a4268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Design"
+         },
+         {
+            "name": "srishso1202@gmail.com",
+            "insta": "https://instagram.com/srishso_1202?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/srishti-soni-72a760245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "PR"
+         },
+         {
+            "name": "Mousam Das",
+            "insta": "https://instagram.com/justt.mousam?igshid=NGVhN2U2NjQ0Yg==",
+            "linkedin": "https://www.linkedin.com/in/mousamdas07/",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Sushil Sharma ",
+            "insta": "https://instagram.com/sushil.sharma.7798?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/sushil-sharma-898283263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "PR"
+         },
+         {
+            "name": "Karan Singh Raghuvansi ",
+            "insta": "https://instagram.com/karan_singh_.raghuvanshi?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/karan-singh-raghuvansi-314173229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Manish Kumar Uike",
+            "insta": "https://instagram.com/m.a.n.i.s.h_uk",
+            "linkedin": "https://www.linkedin.com/in/manish-kumar-uike-6a92a6269",
+            "domain": "Design"
+         },
+         {
+            "name": "Azhar Ansari ",
+            "insta": "https://instagram.com/@roser_01",
+            "linkedin": "https://www.linkedin.com/in/md-azhar-ansari-20b585232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Makerspace"
+         },
+         {
+            "name": "Piyush kumar rakesh",
+            "insta": "https://www.instagram.com/piyush_rakesh_16/",
+            "linkedin": "https://www.linkedin.com/in/piyush-kumar-rakesh-68a776232/",
+            "domain": "Design"
+         },
+         {
+            "name": "Vinayakgouda ",
+            "insta": "https://instagram.com/vinayakgouda_talegoudar?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/vinayak-gouda-292310148/",
+            "domain": "Design"
+         },
+         {
+            "name": "PARMANAND MISHRA ",
+            "insta": "https://instagram.com/cad.param?igshid=MTk0NTkyODZkYg==",
+            "linkedin": "https://www.linkedin.com/in/parmanand-mishra-5a84a51a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Tanmay Patel",
+            "insta": "https://www.instagram.com/iamtanmey/",
+            "linkedin": "https://linkedin.com/in/iamtanmay07",
+            "domain": "Documentation"
+         },
+         {
+            "name": "Mansi",
+            "insta": "https://www.instagram.com/mansi_2696/",
+            "linkedin": "https://www.linkedin.com/in/mansi-mansi-2a8b58226",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Animesh Diwan ",
+            "insta": "https://instagram.com/animeshdiwan1?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/animesh-diwan-160960258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Rajnish Kumar",
+            "insta": "https://www.instagram.com/rajnish1800084/",
+            "linkedin": "www.linkedin.com/in/nitrajnishkumar",
+            "domain": "Event Management"
+         },
+         {
+            "name": "Sagar Kumar ",
+            "insta": "https://instagram.com/ayushsagar3836?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/sagar-kumar-8ba651205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Makerspace"
+         },
+         {
+            "name": "Raj Kumar Mishra ",
+            "insta": "https://instagram.com/rajkumarmsrakumar?igshid=YTQwZjQ0NmI0OA==",
+            "linkedin": "https://www.linkedin.com/in/rjmshra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
+         },
+         {
+            "name": "KAMLESHWAR PRADHAN",
+            "insta": "https://instagram.com/its_kamlesh99?igshid=OGQ5ZDc2ODk2ZA==",
+            "linkedin": "https://www.linkedin.com/in/kamleshwar-pradhan-605090234",
+            "domain": "Makerspace"
+         },
+         {
+            "name": "Nitesh Kumar",
+            "insta": "https://www.instagram.com/niteshkumar3423/",
+            "linkedin": "https://www.linkedin.com/in/nitesh-kumar-23751225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Spons"
+         }
+      ],
+      "executives": [
+         {
+            "EVENT MANAGEMENT": [
+               {
+                  "name": "ANUSHKA MISHRA",
+                  "year": "1"
+               },
+               {
+                  "name": "VANSHIKA JAISWAL",
+                  "year": "1"
+               },
+               {
+                  "name": "ASHISH KUMAR JANGID",
+                  "year": "1"
+               },
+               {
+                  "name": "SWATANTRA MOHANTY",
+                  "year": "2"
+               },
+               {
+                  "name": "RAHUL KUMAR",
+                  "year": "2"
+               },
+               {
+                  "name": "SUSHANT JHA",
+                  "year": "2"
+               },
+               {
+                  "name": "SHUBHAM RAJ",
+                  "year": "2"
+               },
+               {
+                  "name": "POTHURAJU HEMANTH",
+                  "year": "2"
+               },
+               {
+                  "name": "K SATHVIK",
+                  "year": "2"
+               },
+               {
+                  "name": "GODSON S PHILIP",
+                  "year": "1"
+               },
+               {
+                  "name": "ROHIT SETH",
+                  "year": "2"
+               },
+               {
+                  "name": "URVI PATEL",
+                  "year": "1"
+               },
+               {
+                  "name": "PAWANI CHAUHAN",
+                  "year": "2"
+               },
+               {
+                  "name": "MILIND KUMAWAT",
+                  "year": "1"
+               },
+               {
+                  "name": "JAGRITI KUMARI",
+                  "year": "2"
+               },
+               {
+                  "name": "PALLAVI NAG",
+                  "year": "2"
+               },
+               {
+                  "name": "GAURAV JAIN",
+                  "year": "2"
+               },
+               {
+                  "name": "ADITYA ANIKET JENA",
+                  "year": "1"
+               },
+               {
+                  "name": "AVIRAL",
+                  "year": "2"
+               },
+               {
+                  "name": "ADITI SINGH DEO",
+                  "year": "2"
+               },
+               {
+                  "name": "HINESH SINGH THAKUR",
+                  "year": "2"
+               },
+               {
+                  "name": "DEV NARAIN PANDEY",
+                  "year": "2"
+               },
+               {
+                  "name": "AMAN SINGH THAKUR",
+                  "year": "2"
+               },
+               {
+                  "name": "AMAN BARETH",
+                  "year": "2"
+               },
+               {
+                  "name": "KANHAIYA KUMAR",
+                  "year": "2"
+               },
+               {
+                  "name": "ARCHI RAI",
+                  "year": "2"
+               },
+               {
+                  "name": "ABHISHEK KUMAR PANDEY",
+                  "year": "2"
+               },
+               {
+                  "name": "SHIKHAR KASHYAP",
+                  "year": "1"
+               },
+               {
+                  "name": "PAYAL SAHU",
+                  "year": "2"
+               },
+               {
+                  "name": "NEHA SONKAR",
+                  "year": "1"
+               },
+               {
+                  "name": "IPSHITA SHUKLA",
+                  "year": "1"
+               },
+               {
+                  "name": "THARUN KP",
+                  "year": "1"
+               },
+               {
+                  "name": "HITESH PATEL",
+                  "year": "2"
+               },
+               {
+                  "name": "ANKITA GUPTA",
+                  "year": "2"
+               },
+               {
+                  "name": "RIYA KASAUDHAN",
+                  "year": "2"
+               },
+               {
+                  "name": "PRANJUL SRIVASTAV",
+                  "year": "2"
+               }
+            ]
+         },
+         {
+            "PR": [
+               {
+                  "name": "Aditya Bhattacharjee ",
+                  "year": "1"
+               },
+               {
+                  "name": "Akhil Deep ",
+                  "year": "2"
+               },
+               {
+                  "name": "Ashutosh Mishra",
+                  "year": "2"
+               },
+               {
+                  "name": "Ayush singh",
+                  "year": "1"
+               },
+               {
+                  "name": "Devanshu Satapathy ",
+                  "year": "2"
+               },
+               {
+                  "name": "Jagriti Singh",
+                  "year": "2"
+               },
+               {
+                  "name": "Lekhram Patel ",
+                  "year": "2"
+               },
+               {
+                  "name": "Milind Sen",
+                  "year": "1"
+               },
+               {
+                  "name": "Nehil Sahu ",
+                  "year": "2"
+               },
+               {
+                  "name": "Prince kumar",
+                  "year": "1"
+               },
+               {
+                  "name": "Priya Ekka",
+                  "year": "2"
+               },
+               {
+                  "name": "Rahul ",
+                  "year": "2"
+               },
+               {
+                  "name": "Rishabh Jaiswal ",
+                  "year": "2"
+               },
+               {
+                  "name": "Rishi singh Rajput",
+                  "year": "2"
+               },
+               {
+                  "name": "Sarthak Muni ",
+                  "year": "1"
+               },
+               {
+                  "name": "Shivang Barnwal ",
+                  "year": "1"
+               },
+               {
+                  "name": "Sumit kumar Mudi",
+                  "year": "2"
+               },
+               {
+                  "name": "Twinkle Patre ",
+                  "year": "2"
+               },
+               {
+                  "name": "Vikram Rawat ",
+                  "year": "1"
+               },
+               {
+                  "name": "Vivek kr Sahu ",
+                  "year": "2"
+               }
+            ]
+         },
+         {
+            "Makerspace": [
+               {
+                  "name": "Vivek Kumar ",
+                  "year": "2"
+               },
+               {
+                  "name": "Md Wasim ",
+                  "year": "2"
+               },
+               {
+                  "name": "Mohit Sen",
+                  "year": "2"
+               },
+               {
+                  "name": "Anurag Pandey",
+                  "year": "2"
+               },
+               {
+                  "name": "Rohit Seth ",
+                  "year": "2"
+               },
+               {
+                  "name": "Hinesh Singh Thakur ",
+                  "year": "2"
+               },
+               {
+                  "name": "Dolly nagwani ",
+                  "year": "2"
+               },
+               {
+                  "name": "Leora Saharia ",
+                  "year": "1"
+               },
+               {
+                  "name": "Priyanshu Chooudhary",
+                  "year": "1"
+               },
+               {
+                  "name": "Mayank dewangan ",
+                  "year": "1"
+               },
+               {
+                  "name": "Ramnarayan ",
+                  "year": "2"
+               },
+               {
+                  "name": "Abhishek kumar",
+                  "year": "2"
+               },
+               {
+                  "name": "Shambhavi ",
+                  "year": "2"
+               },
+               {
+                  "name": "Mohammad Raza Memon",
+                  "year": "2"
+               },
+               {
+                  "name": "Shivansh chowhan",
+                  "year": "2"
+               },
+               {
+                  "name": "Megha Rathi",
+                  "year": "2"
+               },
+               {
+                  "name": "Jagriti kumari ",
+                  "year": "2"
+               },
+               {
+                  "name": "Amit Bhimte ",
+                  "year": "2"
+               },
+               {
+                  "name": "Shreyansh Patel",
+                  "year": "2"
+               },
+               {
+                  "name": "Subham soni",
+                  "year": "2"
+               },
+               {
+                  "name": "kanhiya Kumar",
+                  "year": "2"
+               },
+               {
+                  "name": "Harsh Nigam ",
+                  "year": "1"
+               },
+               {
+                  "name": "Priyanshu Choudhary",
+                  "year": "2"
+               }
+            ]
+         },
+         {
+            "video editing": [
+               {
+                  "name": "Ajeet Kumar ",
+                  "year": "2"
+               },
+               {
+                  "name": "Aditya Kumar ",
+                  "year": "1"
+               },
+               {
+                  "name": "Arpita Hira ",
+                  "year": "1"
+               },
+               {
+                  "name": "Suraj Kumar Singh ",
+                  "year": "2"
+               },
+               {
+                  "name": "Ankan MOndal",
+                  "year": "1"
+               }
+            ]
+         },
+         {
+            "Documentation": [
+               {
+                  "name": "Kritarth Karambelkar",
+                  "year": "1"
+               },
+               {
+                  "name": "Prakarsh Gupta",
+                  "year": "1"
+               },
+               {
+                  "name": "Kushagra Sinha",
+                  "year": "2"
+               },
+               {
+                  "name": "Mohammad Raza Memon",
+                  "year": "2"
+               },
+               {
+                  "name": "Sarthak",
+                  "year": "2"
+               },
+               {
+                  "name": "Soumen Mandal",
+                  "year": "2"
+               },
+               {
+                  "name": "Akshay Mairal",
+                  "year": "2"
+               },
+               {
+                  "name": "Aryan Soni",
+                  "year": "2"
+               },
+               {
+                  "name": "Jiya Taank",
+                  "year": "2"
+               },
+               {
+                  "name": "Khushi",
+                  "year": "2"
+               }
+            ]
+         },
+         {
+            "Design": [
+               {
+                  "name": "Diksha Manghrani",
+                  "year": "2"
+               },
+               {
+                  "name": "yash Prasad",
+                  "year": "2"
+               },
+               {
+                  "name": "Manisha kumari",
+                  "year": "1"
+               },
+               {
+                  "name": "shubham Madhukar",
+                  "year": "2"
+               }
+            ]
+         }
+      ]
+   }
+}

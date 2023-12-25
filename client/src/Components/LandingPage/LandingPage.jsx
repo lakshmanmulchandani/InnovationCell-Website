@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import "./Landing.css";
 
 import ICell from "../../svgs/ICell";
-import moonbg from "../../imgs/moon1.png";
+import moonbg from "../../imgs/moon1.webp";
 import {
   FaFacebookSquare,
   FaInstagram,

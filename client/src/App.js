@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import Team from "./Components/Team/Team";
 import MakerSpace from "./Components/MakerSpace/MakerSpace";
+import Recruitment from "./Components/recruitmentform/Recruitment.jsx";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <Route exact="true" path="/" element={<HomePage />} />
           <Route exact="true" path="/teams" element={<Team />} />
           <Route exact="true" path="/makerspace" element={<MakerSpace />} />
+          <Route exact="true" path="/form" element={<Recruitment />} />
         </Routes>
       </BrowserRouter>
     </div>

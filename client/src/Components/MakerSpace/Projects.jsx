@@ -30,7 +30,7 @@ const Projects = (props) => {
             <h2>{props.title}</h2>
             <p>{props.text}</p>
             <div className="Project__techstack">
-              <p>{props.techstack}</p>
+              <p>TechStack Used:- {props.techstack}</p>
             </div>
           </div>
         </div>
