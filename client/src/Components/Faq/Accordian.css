@@ -39,8 +39,6 @@
     .wrapper{
       border-bottom: 1px solid white;
       overflow: hidden;
-      
-  
     }
   
     .container{
@@ -52,6 +50,7 @@
     }
   
     .wrapper .question-container{
+      font-family: frozen;
       width: 100%;
       text-align: left;
       /* color: white; */
@@ -59,14 +58,13 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-weight: 550;
-      font-size: 20px;
+      font-weight: 500;
+      font-size: 19px;
       background: transparent;
       border: none;
       cursor: pointer;
     }
     .question-container.active{
-      color: #1db954;
       background-image: linear-gradient(90deg,transparent,rgba(0,0,0,0.04),transparent);
     }
     .wrapper .question-container:hover{
@@ -88,10 +86,8 @@
     .wrapper .answer-content{
       padding: 1rem 0;
       font-size: 17px;
-      
       font-style: italic;
     }
-  
     
     @media screen and (max-width: 1024px) {
       .acc-container{

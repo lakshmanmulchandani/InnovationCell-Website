@@ -1,8 +1,7 @@
 const data = [
   {
     question: "What are the four main events of Avinya '24?",
-    answer:
-      ["Avinya '24 is a dynamic and multifaceted event anchored by four integral events- the Speaker sessions, Innovation expo, Pitching event, and Panel sessions."]
+    answer: ["Avinya '24 is a dynamic and multifaceted event anchored by four integral events- the Speaker sessions, Innovation expo, Pitching event, and Panel sessions."]
   },
   {
     question: "What is the Seed Grant Scheme, and how does it support innovation? ",

@@ -4,7 +4,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import MAN2 from "../../imgs/MAN2.png";
 import "./Accordian.css";
 
-//  accordionitem component
+//  accordion item component
 const AccordionItem = ({ question, answer, isOpen, onClick }) => {
   const contentHeight = useRef();
   return (
@@ -27,7 +27,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
         }
       >
                 {answer.map((value, index) => (
-          <p key = {`${index}`}className="question-content">{value}</p>
+          <p key = {`${index}`}className="answer-content">{value}</p>
         ))}
 
         {/* <p className="answer-content">{answer}</p> */}
@@ -38,7 +38,6 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-
   const handleItemClick = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
@@ -54,6 +53,7 @@ const Accordion = () => {
           <img
             className="snowman"
             src={MAN2}
+            alt="snowman"
           />
         </div>
         <div className="container">
