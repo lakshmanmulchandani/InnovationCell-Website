@@ -26,7 +26,11 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
             : { height: "0px" }
         }
       >
-        <p className="answer-content">{answer}</p>
+                {answer.map((value, index) => (
+          <p key = {`${index}`}className="question-content">{value}</p>
+        ))}
+
+        {/* <p className="answer-content">{answer}</p> */}
       </div>
     </div>
   );
@@ -40,13 +44,13 @@ const Accordion = () => {
   };
 
   return (
-    <div>
-        <div className="teamHeading">
+    <div className="acc-main">
+      <div className="teamHeading">
         <h1>FAQ</h1>
       </div>
 
       <div className="acc-container">
-        <div>
+        <div className="acc-img"> 
           <img
             className="snowman"
             src={MAN2}
@@ -67,5 +71,6 @@ const Accordion = () => {
     </div>
   );
 };
+
 
 export default Accordion;
