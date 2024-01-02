@@ -221,9 +221,13 @@
     display: none !important;
   }
 
+  .Teams {
+    padding: 1rem;
+  }
   .team_executives {
     margin: 1rem 0;
-    min-width: 100vw;
+    padding: 1rem;
+    min-width: 100%;
   }
   .container {
     padding: 0;
