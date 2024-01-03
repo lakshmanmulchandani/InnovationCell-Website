@@ -8,7 +8,7 @@ import {
 } from "react-icons/bs";
 
 import "./Footer.css";
-import ICellImg from "../../Assets/images/i_cell_logo.png";
+import ICellImg from "../../imgs/Icell4.png";
 
 const footerLinks = [
   {
