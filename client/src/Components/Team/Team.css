@@ -237,8 +237,7 @@
   }
 }
 
-
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
   .container .card {
     width: 240px;
   }

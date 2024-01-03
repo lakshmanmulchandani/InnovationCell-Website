@@ -28,6 +28,25 @@ const Team = () => {
               name={member.name}
               instaLink={member.insta}
               linkedinLink={member.linkedin}
+              domain={member.Domain}
+              branch={member.Branch}
+            />
+          ))}
+        </div>
+
+        <div id="team" className="teamHeading">
+          <h1>Team heads</h1>
+        </div>
+        <div className="Teams">
+          {teamRecord.teamData.fourthYear.map((member, index) => (
+            <TeamCard
+              key={index}
+              profileImg={member.picture}
+              name={member.Name}
+              instaLink={member.InstagramID}
+              linkedinLink={member.LinkedINID}
+              domain={member.Domain}
+              branch={member.Branch}
             />
           ))}
         </div>
