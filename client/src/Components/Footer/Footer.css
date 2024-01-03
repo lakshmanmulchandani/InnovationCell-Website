@@ -159,7 +159,7 @@
 
 @media screen and (max-width: 704px) {
   .footer {
-    width: 105%;
+    width: 100%;
   }
   .footer .upper-section {
     flex-direction: column;
@@ -185,7 +185,7 @@
 
 @media screen and (max-width: 300px) {
   .footer {
-    width: 105%;
+    width: 100vw;
   }
 
   .footer > .upper-section {
@@ -211,6 +211,7 @@
 
   .contacts > a > span {
     font-size: 0.8rem;
+    text-align: left;
   }
 
   .socials {
