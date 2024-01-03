@@ -11,7 +11,7 @@ import teamRecord from "./members.json";
 
 const Team = () => {
   return (
-    <>
+    <div style={{width:'fit-content'}}>
       <Navbar2 />
       <div className="teams-page">
         {/* <div id="team" className="teamHeading">
@@ -65,7 +65,7 @@ const Team = () => {
       <div id="contactusnav"></div>
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 

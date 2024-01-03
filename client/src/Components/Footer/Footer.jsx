@@ -8,7 +8,7 @@ import {
 } from "react-icons/bs";
 
 import "./Footer.css";
-import ICellImg from "../../Assets/images/i_cell_logo.png";
+import ICellImg from "../../imgs/Icell4.png";
 
 const footerLinks = [
   {
@@ -58,12 +58,12 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <BsPinMapFill style={{ margin: "0px 10px 0 0", scale: "120%" }} />
+              <BsPinMapFill style={{ margin: "0px 10px 0 0", scale: "120%" , color:"#00bfff"}} />
               <span>NIT Raipur, Raipur, CG 492013</span>
             </a>
 
             <a href="mailto:info@icell.io" target="_blank" rel="noreferrer">
-              <BsEnvelope style={{ margin: "0px 10px 0 0", scale: "120%" }} />
+              <BsEnvelope style={{ margin: "0px 10px 0 0", scale: "120%", color:"#00bfff"}} />
               <span>Email</span>
             </a>
           </div>
