@@ -150,6 +150,9 @@
 /* media queries */
 
 @media screen and (max-width: 704px) {
+  .footer {
+    width: 105%;
+  }
   .footer .upper-section {
     flex-direction: column;
     align-items: center;
@@ -185,8 +188,7 @@
 
 @media screen and (max-width: 300px) {
   .footer {
-    padding: 1rem 0;
-    width: 100%;
+    width: 105%;
   }
 
   .footer > .upper-section {
@@ -209,7 +211,7 @@
   .about {
     gap: 0rem;
   }
-  
+
   .contacts > a > span {
     font-size: 0.8rem;
   }

@@ -8,7 +8,14 @@ import vishud from "./vishudh_sir.webp";
 
 import Tilt from "react-parallax-tilt";
 
-const TeamCard = ({ profileImg, name, instaLink, linkedinLink }) => {
+const TeamCard = ({
+  profileImg,
+  name,
+  instaLink,
+  linkedinLink,
+  domain,
+  branch,
+}) => {
   return (
     <div className="container">
       <Tilt>
@@ -22,14 +29,17 @@ const TeamCard = ({ profileImg, name, instaLink, linkedinLink }) => {
                     ? mayank
                     : name === "Vishudh Verma"
                     ? vishud
-                    : hemasri
+                    : name === "Hemashri Indrani"
+                    ? hemasri
+                    : profileImg
                 }
                 alt=""
               />
             </h3>
             <p>
               <span>{name}</span> <br />
-              {/* <span>{ domain }</span> <br /> */}
+              <span>{domain}</span> <br />
+              <span>{branch}</span> <br />
               <br />
             </p>
             <div className="socialMediaHandles">
