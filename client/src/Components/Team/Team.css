@@ -214,14 +214,31 @@
     display: none !important;
   }
   .teamHeading > h1 {
-    padding-left: 0.5rem;
     text-align: center;
-    font-size: 26px;
+    font-size: 1.5rem;
   }
   .teamHeading > h1::after {
     display: none !important;
   }
+
+  .Teams {
+    padding: 1rem;
+  }
   .team_executives {
-    margin: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    min-width: 100%;
+  }
+  .container {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container .card {
+    width: 240px;
   }
 }

@@ -12,8 +12,8 @@ import teamRecord from "./members.json";
 const Team = () => {
   return (
     <>
+      <Navbar2 />
       <div className="teams-page">
-        <Navbar2 />
         {/* <div id="team" className="teamHeading">
           <h1>Team Innovation cell</h1>
         </div> */}
