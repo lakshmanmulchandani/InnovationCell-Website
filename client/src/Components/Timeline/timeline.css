@@ -89,4 +89,7 @@
   .timeline-main {
     margin: 0 1rem;
   }
+  .eventsheading > h1 {
+    font-size: 26px;
+  }
 }
