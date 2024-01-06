@@ -122,3 +122,13 @@
     font-size: 1.4rem;
   }
 }
+
+@media(max-width:859px) {
+  .About-item-main {
+    text-align: center;
+  }
+}
+
+@media(max-width:380){
+
+}

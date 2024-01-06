@@ -50,7 +50,7 @@ function App() {
   return (
     <>
       <SnowfallComponent />
-      <div className="App ">
+      <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>
         <LandingPage />
         <a id="" className="scroll-down" href="#aboutusnav">
@@ -69,8 +69,8 @@ function App() {
         <Timeline />
         <div id="faqnav"></div>
         <Accordian />
-        <div id="sponsnav"></div>
-        <Sponsors />
+        {/* <div id="sponsnav"></div>
+        <Sponsors /> */}
         <div id="contactusnav"></div>
         <Contact />
       </div>

@@ -1,6 +1,7 @@
 {
     "slides": [
         {
+
             "src" : "/makerspaceimg/IMG_5207.JPG",
             "alt" :  "Image 3"
         },
@@ -27,6 +28,10 @@
         {
             "src" : "/makerspaceimg/img4.jpg",
             "alt" :  "Image 8"
+        },
+        {
+            "src": "https://lh3.googleusercontent.com/p/AF1QipO89ZGrBawxhcA6e2IcttLmXEpZd7Lvi_y3_K-Y=s1360-w1360-h1020",
+            "alt": "Image 2"
         }
     ]
 }

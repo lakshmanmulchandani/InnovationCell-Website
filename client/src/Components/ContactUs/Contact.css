@@ -189,6 +189,12 @@ textarea:focus {
   color: var(--blue);
 }
 
+@media screen and (max-width: 600px) {
+  .contactHeading > h1 {
+    font-size: 26px;
+  }
+}
+
 /* 
 @media screen and (max-width: 940px) {
     .contact_content{

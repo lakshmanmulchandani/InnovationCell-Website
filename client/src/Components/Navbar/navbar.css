@@ -112,7 +112,7 @@ a:hover {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 923px) {
   .nav.nav-phone {
     height: 100%;
     animation: fadeIn 1s;
@@ -198,5 +198,11 @@ a:hover {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav2 {
+    width: 100%;
   }
 }
