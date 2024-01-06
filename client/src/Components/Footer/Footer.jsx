@@ -187,11 +187,6 @@ export default function Footer() {
         <hr style={{ width: "auto" }} />
 
         <div className="lower-section">
-          <img
-            src="https://drive.google.com/u/0/open?usp=forms_web&id=1K6mx31gSkQYtJIwiPg0gX4bV6FvB8AvB"
-            alt="shubham"
-            height={400}
-          />
           <h1>
             Made with ❣️ by <span>Tech Team</span>
           </h1>
