@@ -8,11 +8,39 @@ import data from "./Data/Projects.json";
 import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const MakerSpace = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const [activeLink, setActiveLink] = useState(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    setActiveLink(location.pathname);
+    // Add event listener for scroll
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [location.pathname]);
+
+  const handleScroll = () => {
+    if (window.scrollY > 600) {
+      // console.log("hi"+scrolled);
+      setScrolled(true); // User has scrolled down
+    } else {
+      // console.log("hi"+scrolled);
+      setScrolled(false); // User is at the top
+    }
+  };
+
   return (
     <>
       <Navbar2 />
+      <div className={scrolled ? "dark-overlay" : ""}></div>
       <div className="maker__container teamHeading">
         <h1>MakerSpace</h1>
         <div className="maker__about">
