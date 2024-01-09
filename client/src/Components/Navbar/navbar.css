@@ -34,7 +34,8 @@
 .nav-btn {
   padding: 4px;
   margin: 0.2rem 0;
-  font-size: 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
   border-radius: 10px;
   font-weight: 600;
   font-family: frozen, serif;
@@ -46,6 +47,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text; */
+  color: rgb(254, 184, 92);
 }
 
 .nav-btn:hover {
