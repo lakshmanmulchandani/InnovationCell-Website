@@ -6,11 +6,17 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
+  letter-spacing: 1px;
 }
 
-@font-face {
+/* @font-face {
   font-family: "frozen";
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
+} */
+
+@font-face {
+  font-family: frozen;
+  src: url("./Assets/HARRYP__.TTF");
 }
 
 :root {
@@ -42,24 +48,29 @@
   --fz-l: 16px;
 
   /* font family  */
-  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  --font-jack: "font-file-82132";
-  --font-mark: "Mark Pro,sans-serif";
+  /* --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace; */
+  --font-mono: frozen;
+  /* --font-jack: "font-file-82132"; */
+  --font-jack: frozen;
+  /* --font-mark: "Mark Pro,sans-serif"; */
+  --font-mark: frozen;
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
-  --font-poppins: "Poppins", sans-serif;
-  --font-heading: "Nosifer", sans-serif;
+  --font-sans: frozen;
+  /* --font-poppins: "Poppins", sans-serif; */
+  --font-poppins: frozen;
+  /* --font-heading: "Nosifer", sans-serif; */
+  --font-heading: frozen;
 }
 body {
-  /* background-color: #181B3E; */
-  background-image: url("./Assets/images/bg_icell.png");
-  background-size: cover; /* Adjust this as needed */
+  background-image: url("./harry_potter.jpg");
+  background-size: cover; /* Use 'cover' to make sure the background covers the entire screen */
+  background-position: center; /* Center the background image horizontally and vertically */
   background-attachment: fixed;
   overflow-x: hidden;
-  /* width: fit-content; */
-  font-family: "Rubik" sans-serif;
+  font-family: frozen;
   line-height: 1.6;
-  letter-spacing: 0.2px;
+  letter-spacing: 1px;
 }
 
 ::-webkit-scrollbar {
@@ -167,7 +178,6 @@ body {
   height: 100%;
   z-index: -1;
 }
-
 
 .scroll-down {
   display: flex;

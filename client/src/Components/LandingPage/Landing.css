@@ -20,9 +20,9 @@
 
 .moon-bg {
   position: fixed;
-  height: 50rem;
-  top: -2rem;
-  left: 50%;
+  height: 25rem;
+  top: 2rem;
+  right: 30%;
   opacity: 0.8;
   z-index: -10;
 }
@@ -40,10 +40,16 @@
   transition: all 0.5s;
 }
 
+/* @media (max-width: 1205) {
+  .moon-bg {
+    left: 30%;
+  }
+} */
+
 @media (max-width: 758px) {
   .moon-bg {
-    height: 50rem;
-    margin-top: -6rem;
+    /* height: 50rem; */
+    margin-top: 1rem;
     left: 40%;
   }
   .landing {
@@ -73,6 +79,6 @@
 
 @media (max-width: 400px) {
   .moon-bg {
-    left: 15%;
+    left: 30%;
   }
 }
