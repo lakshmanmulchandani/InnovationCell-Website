@@ -107,7 +107,7 @@
   }
   @media screen and (max-width: 768px) {
    .maker__container h1,.maker__projects h1,.memories__section h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
    }
    .maker__project{
        gap: 2rem;

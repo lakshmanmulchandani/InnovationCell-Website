@@ -29,7 +29,7 @@
  .slide{
      object-fit: cover;
      /* height: 100%; */
-     height: 90vh;
+     height: 80vh;
      width: 100%;
      display: block;
      object-position: center;
@@ -63,8 +63,7 @@
       max-width: 70vw;
    } */
    .slide{
-         height: 400px;
-         width: 600px;
+         width: 100%;
      }
      .btn{
        height: 2.5rem;
@@ -73,6 +72,19 @@
  }
  
  @media screen and (max-width: 568px) {
+   .slide{
+         width: 100vw;
+         height: 90vh;
+         object-fit: contain;
+         padding-left: 1rem;
+         padding-right: 1rem;
+   }
+    .btn-left{
+       left: -15px;
+    }
+    .btn-right{
+      right: -15px;
+    }
     .indicator{
        display: none;
     }
