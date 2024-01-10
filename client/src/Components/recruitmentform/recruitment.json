@@ -1,0 +1,92 @@
+[
+   [
+      {
+         "head": "Innovation Cell Recruitment Form"
+      }
+   ],
+   [
+      {
+         "type": "text",
+         "label": "Name",
+         "name": "name",
+         "placeholder": "Enter your name",
+         "required": true
+      },
+      {
+         "type": "email",
+         "label": "Email",
+         "name": "email",
+         "placeholder": "Enter your email address",
+         "required": true
+      },
+      {
+         "type": "number",
+         "label": "WhatsApp Contact No",
+         "name": "wtspno",
+         "placeholder": "Enter your mobile number (without country code)",
+         "required": true
+      },
+      {
+         "type": "text",
+         "label": "Branch",
+         "name": "branch",
+         "placeholder": "Write your branch",
+         "required": true
+      },
+      {
+         "type": "select",
+         "label": "Select Domain",
+         "name": "domain",
+         "required": true,
+         "options": [
+            "",
+            "Public Relations",
+            "Documentation",
+            "Design and Editing",
+            "Sponsorship",
+            "Event Management"
+         ]
+      },
+      {
+         "type": "link",
+         "label": "Google Drive Link",
+         "name": "docupload",
+         "placeholder": "Insert google drive link here",
+         "required": true
+      },
+      {
+         "type": "number",
+         "label": "Semester",
+         "name": "semester",
+         "placeholder": "Enter your semester",
+         "required": true
+      },
+      {
+         "type": "text",
+         "label": "Why do you want to join this club?",
+         "name": "whyjoin",
+         "placeholder": "Your answer",
+         "required": true
+      },
+      {
+         "type": "text",
+         "label": "Why should we select you?",
+         "name": "whyselect",
+         "placeholder": "Your answer",
+         "required": true
+      },
+      {
+         "type": "text",
+         "label": "Clubs you are part of or want to join in the future",
+         "name": "clubjoin",
+         "placeholder": "Your answer",
+         "required": true
+      },
+      {
+         "type": "text",
+         "label": "Specify your achievement (if any)",
+         "name": "achievement",
+         "placeholder": "Your answer"
+      }
+   ]
+]

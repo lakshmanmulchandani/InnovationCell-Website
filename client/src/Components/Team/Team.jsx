@@ -1,3 +1,4 @@
+// Team.jsx
 import React from "react";
 import "./Team.css";
 import TeamCard from "./TeamCard";
@@ -6,39 +7,47 @@ import Executives from "./Executives";
 import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
-
-const teamData = {
-  teamMembers: [
-    { name: "Alim Khan", domain: "Tech Domain" },
-    { name: "Alim Khan", domain: "Tech Domain" },
-    // Add more team members here
-  ],
-  coreCoordinators: [
-    { name: "Lakshman Mulchandani", domain: "Technical" },
-    { name: "Lakshman Mulchandani", domain: "Technical" },
-    // Add more core coordinators here
-  ],
-  executives: [
-    { domain: "Event Management" },
-    { domain: "Spons" },
-    { domain: "Event Management" },
-    { domain: "Spons" },
-    // Add more executives here
-  ],
-};
+import teamRecord from "./members.json";
 
 const Team = () => {
   return (
-    <>
+    <div style={{ width: "fit-content" }}>
       <Navbar2 />
       <div className="teams-page">
-        <div id="team" className="teamHeading">
+        {/* <div id="team" className="teamHeading">
           <h1>Team Innovation cell</h1>
+        </div> */}
+        <div id="team" className="teamHeading">
+          <h1>Overall coordinators</h1>
+        </div>
+        <div className="Teams">
+          {teamRecord.teamData.OC.map((member, index) => (
+            <TeamCard
+              key={index}
+              profileImg={member.picLink}
+              name={member.name}
+              instaLink={member.insta}
+              linkedinLink={member.linkedin}
+              domain={member.Domain}
+              branch={member.Branch}
+            />
+          ))}
         </div>
 
+        <div id="team" className="teamHeading">
+          <h1>Team heads</h1>
+        </div>
         <div className="Teams">
-          {teamData.teamMembers.map((member, index) => (
-            <TeamCard key={index} name={member.name} domain={member.domain} />
+          {teamRecord.teamData.fourthYear.map((member, index) => (
+            <TeamCard
+              key={index}
+              profileImg={member.picture}
+              name={member.Name}
+              instaLink={member.InstagramID}
+              linkedinLink={member.LinkedINID}
+              domain={member.Domain}
+              branch={member.Branch}
+            />
           ))}
         </div>
 
@@ -47,11 +56,13 @@ const Team = () => {
         </div>
 
         <div className="Teams">
-          {teamData.coreCoordinators.map((coordinator, index) => (
+          {teamRecord.teamData.coreCoordinators.map((coordinator, index) => (
             <NameCard
               key={index}
               name={coordinator.name}
               domain={coordinator.domain}
+              instaLink={coordinator.insta}
+              linkedinLink={coordinator.linkedin}
             />
           ))}
         </div>
@@ -61,15 +72,19 @@ const Team = () => {
         </div>
 
         <div className="Teams">
-          {teamData.executives.map((executive, index) => (
-            <Executives key={index} domain={executive.domain} />
+          {teamRecord.teamData.executives.map((executive, index) => (
+            <Executives
+              key={index}
+              domain={Object.keys(executive)[0]}
+              members={executive[Object.keys(executive)[0]]}
+            />
           ))}
         </div>
       </div>
       <div id="contactusnav"></div>
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 
