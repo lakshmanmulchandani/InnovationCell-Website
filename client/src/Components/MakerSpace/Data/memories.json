@@ -1,31 +1,31 @@
 {
     "slides": [
         {
-            "src" : "/makerspaceimg/IMG_5207.JPG",
+            "src" : "/makerspaceimg/IMG_5207.webp",
             "alt" :  "Image 3"
         },
         {
-            "src" : "/makerspaceimg/img1.jpg",
+            "src" : "/makerspaceimg/img1.webp",
             "alt" :  "Image 2"
         },
         {
-            "src" : "/makerspaceimg/IMG_5214.JPG",
+            "src" : "/makerspaceimg/IMG_5214.webp",
             "alt" :  "Image 4"
         },
         {
-            "src" : "/makerspaceimg/IMG_5230.JPG",
+            "src" : "/makerspaceimg/IMG_5230.webp",
             "alt" :  "Image 5"
         },
         {
-            "src" : "/makerspaceimg/IMG_5250.JPG",
+            "src" : "/makerspaceimg/IMG_5250.webp",
             "alt" :  "Image 6"
         },
         {
-            "src" : "/makerspaceimg/IMG_5254.JPG",
+            "src" : "/makerspaceimg/IMG_5254.webp",
             "alt" :  "Image 7"
         },
         {
-            "src" : "/makerspaceimg/img4.jpg",
+            "src" : "/makerspaceimg/img4.webp",
             "alt" :  "Image 8"
         }
     ]

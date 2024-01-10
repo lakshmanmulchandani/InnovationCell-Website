@@ -1,21 +1,21 @@
 {
     "projects":[
          {
-            "src": "/makerspaceimg/Project1.jpg",
+            "src": "/makerspaceimg/Project1.webp",
             "alt": "Project img",
             "title": "SecQR",
             "text": "SecQR is an android app empowers users to generate custom QR codes for vehicles, and the data within these QR codes can be interpreted at different stakeholder levels. Every Levels will show different data from the same QR code. Online once then all the things will work offline.",
             "techstack": "Android Studio, QR, Cryptography, Firebase"
          },
          {
-            "src": "/makerspaceimg/Project2.jpg",
+            "src": "/makerspaceimg/Project2.webp",
             "alt": "Project img",
             "title": "Fire and Gas Detector",
             "text": "Introducing our revolutionary Fire and Gas Detector System—ensuring heightened accuracy, swift response, and comprehensive coverage. With state-of-the-art sensors and intelligent algorithms, enjoy minimal false alarms, timely alerts, and seamless mobile app integration for real-time updates and control. Redefine safety with our advanced, reliable, and user-centric solution.",
             "techstack": "Android studio, Arduino"
          },
          {
-            "src": "/makerspaceimg/Project3.jpg",
+            "src": "/makerspaceimg/Project3.webp",
             "alt": "Project img",
             "title": "RFID Automation",
             "text": "In the mining sector, RFID technology transforms safety and efficiency. It automates vehicle tracking in underground mines, ensuring authorized access with unique RFID tags. Extending to open-cast mines, RFID manages worker attendance, monitors hours, and tracks vehicles, enhancing precision and efficiency in critical operations.",
