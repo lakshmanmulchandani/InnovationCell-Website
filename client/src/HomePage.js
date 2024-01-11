@@ -5,7 +5,6 @@ import LandingPage from "./Components/LandingPage/LandingPage";
 // import PastEvents from "../Components/Events/PastEvents";
 // import UpcomingEvents from "../Components/Events/UpcomingEvents";
 import Navbar from "./Components/Navbar/Navbar";
-
 import Sponsors from "./Components/Sponsors/Sponsors";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import MakerSpace from "./Components/MakerSpace/MakerSpace";

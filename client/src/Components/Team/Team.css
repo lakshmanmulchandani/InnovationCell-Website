@@ -18,7 +18,8 @@
   position: relative;
   z-index: 2;
   margin-top: 0rem;
-  color: var(--green);
+  /* color: var(--green); */
+  color: #d19f3d;
   display: flex;
   align-items: center;
   font-family: var(--font-heading);
@@ -30,7 +31,8 @@
 .teamHeading > h1::after {
   content: "";
   display: block;
-  background-color: var(--green);
+  /* background-color: var(--green); */
+  background-color: #d19f3d;
   width: 10rem;
   height: 3px;
   border-radius: 1rem;
@@ -40,7 +42,8 @@
 .teamHeading > h1::before {
   content: "";
   display: block;
-  background-color: var(--green);
+  /* background-color: var(--green); */
+  background-color: #d19f3d;
   width: 10rem;
   height: 3px;
   border-radius: 1rem;
