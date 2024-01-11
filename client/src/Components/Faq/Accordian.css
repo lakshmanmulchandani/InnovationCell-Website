@@ -85,8 +85,8 @@
     }
     .wrapper .answer-content{
       padding: 1rem 0;
-      font-size: 17px;
-      font-style: italic;
+      font-size: 21px;
+      font-family: MagicI;
     }
     
     @media screen and (max-width: 1024px) {

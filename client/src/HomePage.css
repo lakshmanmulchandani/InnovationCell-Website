@@ -9,14 +9,26 @@
   letter-spacing: 1px;
 }
 
-/* @font-face {
+@font-face {
   font-family: "frozen";
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
-} */
+}
 
 @font-face {
-  font-family: frozen;
-  src: url("./Assets/HARRYP__.TTF");
+  font-family: 'Crime';
+  src: url("./fonts/Crimes\ of\ Grindelwald.otf");
+}
+@font-face {
+  font-family: 'Harry';
+  src: url("./fonts/HARRYP__.TTF");
+}
+@font-face {
+  font-family: 'Magic';
+  src: url("./fonts/MagicSchoolTwo.ttf");
+}
+@font-face {
+  font-family: 'magic_italic';
+  src: url("./fonts/Magik.TTF");
 }
 @font-face {
   font-family: animal_fantastic;
@@ -52,29 +64,22 @@
   --fz-l: 16px;
 
   /* font family  */
-  /* --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace; */
-  --font-mono: frozen;
-  /* --font-jack: "font-file-82132"; */
-  --font-jack: frozen;
-  /* --font-mark: "Mark Pro,sans-serif"; */
-  --font-mark: frozen;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-jack: "font-file-82132";
+  --font-mark: "Mark Pro,sans-serif";
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
-  --font-sans: frozen;
-  /* --font-poppins: "Poppins", sans-serif; */
-  --font-poppins: frozen;
-  /* --font-heading: "Nosifer", sans-serif; */
-  --font-heading: frozen;
+  --font-poppins: "Poppins", sans-serif;
+  --font-heading: "Nosifer", sans-serif;
 }
 body {
-  background-image: url("./harry_potter.jpg");
-  background-size: cover; /* Use 'cover' to make sure the background covers the entire screen */
-  background-position: center; /* Center the background image horizontally and vertically */
+  /* background-color: #181B3E; */
+  background-image: url("./Assets/images/bg5.jpg");
+  background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
   overflow-x: hidden;
-  font-family: frozen;
+  font-family: var(--font-poppins);
   line-height: 1.6;
-  letter-spacing: 1px;
 }
 
 ::-webkit-scrollbar {

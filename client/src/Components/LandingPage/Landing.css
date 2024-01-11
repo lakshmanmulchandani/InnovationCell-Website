@@ -12,7 +12,8 @@
 .welcome {
   font-size: 40px;
   font-weight: 700;
-  color: var(--green);
+  /* color: var(--green); */
+  color: #d19f3d;
   align-items: flex-start;
   margin-left: 80px;
   font-family: var(--font-poppins);
@@ -20,10 +21,10 @@
 
 .moon-bg {
   position: fixed;
-  height: 25rem;
-  top: 2rem;
-  right: 30%;
-  opacity: 0.8;
+  height: 50rem;
+  top: -2rem;
+  left: 50%;
+  opacity: 0;
   z-index: -10;
 }
 
