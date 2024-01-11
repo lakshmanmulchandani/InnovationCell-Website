@@ -25,7 +25,7 @@ const AboutUs = () => {
       <div className="About-container">
         <div className="About-pic">
           <div>
-            <img src={Holder} alt="holder" width={300} height={100} />
+            <img src={Holder} alt="holder" width={300} height={100} className="holder"/>
           </div>
           <div className="About-imgs">
             {/* This class container 4 bulbs and these bulbs must swing like a pendulum add this animation using AboutUs.css */}
@@ -56,7 +56,7 @@ const AboutUs = () => {
           <div className="About-item-heading">What do we do ?</div>
           <div
             className={`About-item`}
-            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` }}
+            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` , color:"#d19f3d", fontFamily:"var(--font-heading)", fontSize:"1.8rem"}}
           >
             {activeDiv === 0
               ? `i-Talks`

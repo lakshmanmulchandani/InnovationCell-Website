@@ -25,7 +25,7 @@
   font-family: var(--font-heading);
   justify-content: center;
   text-align: center;
-  font-size: 42px;
+  font-size: 64px;
   margin-top: 6rem;
 }
 .teamHeading > h1::after {
@@ -212,13 +212,28 @@
   font-weight: 500;
 }
 
+.dark-overlay {
+  /* position: absolute; */
+  /* top: 0;
+    left: 0; */
+  /* width: 100%;
+    height: 100%; */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease;
+  z-index: -5;
+  /* backdrop-filter: blur(1px); */
+}
+
 @media only screen and (max-width: 600px) {
   .teamHeading > h1::before {
     display: none !important;
   }
   .teamHeading > h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3.6rem;
   }
   .teamHeading > h1::after {
     display: none !important;

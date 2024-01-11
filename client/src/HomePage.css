@@ -27,7 +27,7 @@
   src: url("./fonts/MagicSchoolTwo.ttf");
 }
 @font-face {
-  font-family: 'magic_italic';
+  font-family: 'MagicI';
   src: url("./fonts/Magik.TTF");
 }
 
@@ -48,7 +48,8 @@
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
   --white: #e6f1ff;
-  --green: #00bfff;
+  /* --green: #00bfff; */
+  --green: #d19f3d;
   --slate: #8892b0;
   --navy: #0a192f;
   --input-bg: hsl(235, 44%, 80%);
@@ -66,11 +67,14 @@
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   --font-poppins: "Poppins", sans-serif;
-  --font-heading: "Nosifer", sans-serif;
+  /* --font-heading: "Nosifer", sans-serif; */
+  --font-heading: MagicI;
 }
+
 body {
   /* background-color: #181B3E; */
   background-image: url("./Assets/images/bg5.jpg");
+  background-position: 8% 0;
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
   overflow-x: hidden;
@@ -264,5 +268,9 @@ body {
 
     z-index: 10;
     position: relative;
+  }
+
+  body {
+    background-position: 8% 2rem;
   }
 }

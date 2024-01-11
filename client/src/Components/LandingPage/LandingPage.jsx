@@ -16,7 +16,7 @@ const LandingPage = () => {
   return (
     <>
       <Navbar />
-      <img className="moon-bg" src={moonbg} />
+      {/* <img className="moon-bg" src={moonbg} /> */}
 
       <div className="main-landing">
         <div className="landing">
