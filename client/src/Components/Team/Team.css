@@ -19,20 +19,20 @@
   z-index: 2;
   margin-top: 0rem;
   /* color: var(--green); */
-  color: #d19f3d;
+  color: var(--harry);
   display: flex;
   align-items: center;
   font-family: var(--font-heading);
   justify-content: center;
   text-align: center;
-  font-size: 42px;
+  font-size: 4rem;
   margin-top: 6rem;
 }
 .teamHeading > h1::after {
   content: "";
   display: block;
   /* background-color: var(--green); */
-  background-color: #d19f3d;
+  background-color: var(--harry);
   width: 10rem;
   height: 3px;
   border-radius: 1rem;
