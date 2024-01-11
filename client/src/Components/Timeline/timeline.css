@@ -6,19 +6,21 @@
   position: relative;
   z-index: 2;
   margin-top: 0rem;
-  color: var(--green);
+  /* color: var(--green); */
+  color: var(--harry);
   display: flex;
   align-items: center;
   font-family: var(--font-heading);
   justify-content: center;
   text-align: center;
-  font-size: 42px;
+  font-size: 4rem;
   margin-top: 4rem;
 }
 .eventsheading > h1::after {
   content: "";
   display: block;
-  background-color: var(--green);
+  /* background-color: var(--green); */
+  background-color: var(--harry);
   width: 10rem;
   height: 3px;
   border-radius: 1rem;
@@ -28,7 +30,7 @@
 .eventsheading > h1::before {
   content: "";
   display: block;
-  background-color: var(--green);
+  background-color: var(--harry);
   width: 10rem;
   height: 3px;
   border-radius: 1rem;
@@ -66,23 +68,27 @@
 }
 
 .title {
-  color: #00bfff;
+  color: var(--harry);
   font-size: 24px;
   font: bold;
   width: fit-content;
+  font-family: MagicI;
 }
 
 .title-p {
-  color: #00bfff;
+  color: var(--harry);
   font-size: 16px;
   width: fit-content;
+  font-family: MagicI;
 }
 
 .timeline-content {
   margin-top: 1rem;
+  font-family: var(--font-poppins);
 }
 .timeline-content li {
   list-style: none;
+  letter-spacing: 0.2px;
 }
 
 @media (max-width: 700px) {

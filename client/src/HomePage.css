@@ -6,7 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
 }
 
 @font-face {
@@ -15,23 +15,28 @@
 }
 
 @font-face {
-  font-family: 'Crime';
+  font-family: "Crime";
   src: url("./fonts/Crimes\ of\ Grindelwald.otf");
 }
 @font-face {
-  font-family: 'Harry';
+  font-family: "Harry";
   src: url("./fonts/HARRYP__.TTF");
 }
 @font-face {
-  font-family: 'Magic';
+  font-family: "Magic";
   src: url("./fonts/MagicSchoolTwo.ttf");
 }
 @font-face {
   font-family: 'MagicI';
   src: url("./fonts/Magik.TTF");
 }
+@font-face {
+  font-family: 'animal_fantastic';
+  src: url("./Assets/Animales\ Fantastic.otf");
+}
 
 :root {
+  --harry: #d19f3d;
   --pink: #f57dff;
   --blue: #57cbff;
   --green-tint: rgba(100, 255, 218, 0.1);
