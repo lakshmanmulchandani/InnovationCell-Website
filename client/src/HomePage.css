@@ -13,6 +13,23 @@
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
 }
 
+@font-face {
+  font-family: 'Crime';
+  src: url("./fonts/Crimes\ of\ Grindelwald.otf");
+}
+@font-face {
+  font-family: 'Harry';
+  src: url("./fonts/HARRYP__.TTF");
+}
+@font-face {
+  font-family: 'Magic';
+  src: url("./fonts/MagicSchoolTwo.ttf");
+}
+@font-face {
+  font-family: 'magic_italic';
+  src: url("./fonts/Magik.TTF");
+}
+
 :root {
   --pink: #f57dff;
   --blue: #57cbff;
@@ -52,7 +69,7 @@
 }
 body {
   /* background-color: #181B3E; */
-  background-image: url("./Assets/images/bg_icell.png");
+  background-image: url("./Assets/images/bg5.jpg");
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
   overflow-x: hidden;
