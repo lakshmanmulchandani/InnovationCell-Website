@@ -15,19 +15,19 @@
 }
 
 @font-face {
-  font-family: 'Crime';
+  font-family: "Crime";
   src: url("./fonts/Crimes\ of\ Grindelwald.otf");
 }
 @font-face {
-  font-family: 'Harry';
+  font-family: "Harry";
   src: url("./fonts/HARRYP__.TTF");
 }
 @font-face {
-  font-family: 'Magic';
+  font-family: "Magic";
   src: url("./fonts/MagicSchoolTwo.ttf");
 }
 @font-face {
-  font-family: 'magic_italic';
+  font-family: "magic_italic";
   src: url("./fonts/Magik.TTF");
 }
 @font-face {
@@ -36,6 +36,7 @@
 }
 
 :root {
+  --harry: #d19f3d;
   --pink: #f57dff;
   --blue: #57cbff;
   --green-tint: rgba(100, 255, 218, 0.1);
@@ -70,7 +71,8 @@
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   --font-poppins: "Poppins", sans-serif;
-  --font-heading: "Nosifer", sans-serif;
+  /* --font-heading: "Nosifer", sans-serif; */
+  --font-heading: magic_italic;
 }
 body {
   /* background-color: #181B3E; */
