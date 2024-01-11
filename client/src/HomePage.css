@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
   letter-spacing: 1px;
+  cursor: none;
 }
 
 @font-face {

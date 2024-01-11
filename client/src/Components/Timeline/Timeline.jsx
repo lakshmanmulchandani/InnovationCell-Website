@@ -19,7 +19,7 @@ const ExperienceCard = ({ experience }) => {
         background: "rgb(17, 34, 64, 0.77)",
         color: "#fff",
         boxShadow: "20px 20px 50px rgba(0, 0, 0, 0.5)",
-        fontFamily: "Harry",
+        fontFamily: "frozen",
         // Add boxShadow property
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
