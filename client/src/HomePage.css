@@ -18,6 +18,10 @@
   font-family: frozen;
   src: url("./Assets/HARRYP__.TTF");
 }
+@font-face {
+  font-family: animal_fantastic;
+  src: url("./Assets/Animales\ Fantastic.otf");
+}
 
 :root {
   --pink: #f57dff;
