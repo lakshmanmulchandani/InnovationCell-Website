@@ -6,6 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
+  letter-spacing: 1px;
 }
 
 @font-face {
@@ -73,10 +74,8 @@ body {
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
   overflow-x: hidden;
-  /* width: fit-content; */
-  font-family: "Rubik" sans-serif;
+  font-family: var(--font-poppins);
   line-height: 1.6;
-  letter-spacing: 0.2px;
 }
 
 ::-webkit-scrollbar {
@@ -184,7 +183,6 @@ body {
   height: 100%;
   z-index: -1;
 }
-
 
 .scroll-down {
   display: flex;
