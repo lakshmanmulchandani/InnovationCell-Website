@@ -83,7 +83,7 @@
 }
 
 .timeline-content {
-  margin-top: 1rem;
+  margin-top: 0.1rem;
   font-family: var(--font-poppins);
 }
 .timeline-content li {

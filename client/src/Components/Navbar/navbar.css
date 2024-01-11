@@ -48,7 +48,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text; */
-
 }
 
 .nav-btn:hover {
@@ -81,7 +80,7 @@ a:hover {
   cursor: pointer;
 }
 .nav-opt2:hover {
-  cursor: pointer;
+  cursor: none;
 }
 
 .logo {

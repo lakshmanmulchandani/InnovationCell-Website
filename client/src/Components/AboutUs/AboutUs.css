@@ -20,6 +20,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+  font-family: frozen;
 }
 
 .About-item-heading {
@@ -68,6 +69,7 @@
 .About-item {
   /* margin-bottom: 1.2rem; */
   font-size: medium;
+  /* font-family: "Rubik", sans-serif; */
   font-family: "Rubik", sans-serif;
 }
 
@@ -155,7 +157,7 @@
   }
 }
 
-@media(max-width:859px) {
+@media (max-width: 859px) {
   .About-item-main {
     text-align: center;
   }
