@@ -18,19 +18,19 @@
   position: relative;
   z-index: 2;
   margin-top: 0rem;
-  color: var(--green);
+  color: var(--harry);
   display: flex;
   align-items: center;
-  font-family: var(--font-heading);
+  font-family: magic_italic;
   justify-content: center;
   text-align: center;
-  font-size: 42px;
+  font-size: 4rem;
   margin-top: 0rem;
 }
 .contactHeading > h1::after {
   content: "";
   display: block;
-  background-color: var(--green);
+  background-color: var(--harry);
   width: 10rem;
   height: 3px;
   border-radius: 1rem;
@@ -40,7 +40,7 @@
 .contactHeading > h1::before {
   content: "";
   display: block;
-  background-color: var(--green);
+  background-color: var(--harry);
   width: 10rem;
   height: 3px;
   border-radius: 1rem;
@@ -63,6 +63,7 @@
   margin-left: 1rem;
   text-align: center;
   max-width: 300px;
+  height: 100%;
 
   min-width: 250px;
   backdrop-filter: blur(10px); /* Apply a blur effect */
@@ -77,6 +78,7 @@
 }
 .contact_content_texts_heading {
   margin-bottom: 1rem;
+  font-family: frozen;
 }
 
 .contact_content_forms {

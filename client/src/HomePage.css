@@ -6,6 +6,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
+  letter-spacing: 1px;
+  cursor: none;
 }
 
 @font-face {
@@ -13,7 +15,29 @@
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
 }
 
+@font-face {
+  font-family: "Crime";
+  src: url("./fonts/Crimes\ of\ Grindelwald.otf");
+}
+@font-face {
+  font-family: "Harry";
+  src: url("./fonts/HARRYP__.TTF");
+}
+@font-face {
+  font-family: "Magic";
+  src: url("./fonts/MagicSchoolTwo.ttf");
+}
+@font-face {
+  font-family: "magic_italic";
+  src: url("./fonts/Magik.TTF");
+}
+@font-face {
+  font-family: animal_fantastic;
+  src: url("./Assets/Animales\ Fantastic.otf");
+}
+
 :root {
+  --harry: #d19f3d;
   --pink: #f57dff;
   --blue: #57cbff;
   --green-tint: rgba(100, 255, 218, 0.1);
@@ -48,18 +72,17 @@
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   --font-poppins: "Poppins", sans-serif;
-  --font-heading: "Nosifer", sans-serif;
+  /* --font-heading: "Nosifer", sans-serif; */
+  --font-heading: magic_italic;
 }
 body {
   /* background-color: #181B3E; */
-  background-image: url("./Assets/images/bg_icell.png");
+  background-image: url("./Assets/images/bg5.jpg");
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
   overflow-x: hidden;
-  /* width: fit-content; */
-  font-family: "Rubik" sans-serif;
+  font-family: var(--font-poppins);
   line-height: 1.6;
-  letter-spacing: 0.2px;
 }
 
 ::-webkit-scrollbar {
@@ -167,7 +190,6 @@ body {
   height: 100%;
   z-index: -1;
 }
-
 
 .scroll-down {
   display: flex;

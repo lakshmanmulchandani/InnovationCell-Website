@@ -1,0 +1,18 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none; /* Make sure the custom cursor doesn't interfere with other elements */
+  z-index: 9999; /* Set a high z-index to ensure it appears above other elements */
+}
+
+.custom-cursor img {
+  height: 80px; /* Adjust the height of your custom cursor */
+  transform: translate(-50%, -50%);
+  user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Hide the actual cursor */
+body {
+  cursor: none;
+}

@@ -19,7 +19,7 @@ const AboutUs = () => {
 
   return (
     <div className="About-main-container">
-      <div className="teamHeading ">
+      <div className="teamHeading">
         <h1>About Us</h1>
       </div>
       <div className="About-container">

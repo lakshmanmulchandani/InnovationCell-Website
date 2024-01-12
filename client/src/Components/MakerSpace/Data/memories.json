@@ -1,24 +1,32 @@
 {
     "slides": [
         {
-            "src": "https://lh3.googleusercontent.com/p/AF1QipM4FHVXpBTcW301agReAgCBj2kxkSzTDTGKRgQT=s1360-w1360-h1020",
-            "alt": "Image 1"
+            "src" : "/makerspaceimg/IMG_5207.webp",
+            "alt" :  "Image 3"
         },
         {
-            "src": "https://lh3.googleusercontent.com/p/AF1QipO89ZGrBawxhcA6e2IcttLmXEpZd7Lvi_y3_K-Y=s1360-w1360-h1020",
-            "alt": "Image 2"
+            "src" : "/makerspaceimg/img1.webp",
+            "alt" :  "Image 2"
         },
         {
-            "src": "https://lh3.googleusercontent.com/p/AF1QipND-059GA9nVx6SIaU-DYGgiQzkle1RvWXlO0vM=s1360-w1360-h1020",
-            "alt": "Image 3"
+            "src" : "/makerspaceimg/IMG_5214.webp",
+            "alt" :  "Image 4"
         },
         {
-            "src": "https://lh3.googleusercontent.com/p/AF1QipMBotsM7vobHIX9F6qWJYdqgNB28IkUgGqnfhEi=s1360-w1360-h1020",
-            "alt": "Image 4"
+            "src" : "/makerspaceimg/IMG_5230.webp",
+            "alt" :  "Image 5"
         },
         {
-            "src": "https://lh3.googleusercontent.com/p/AF1QipND-059GA9nVx6SIaU-DYGgiQzkle1RvWXlO0vM=s1360-w1360-h1020",
-            "alt": "Image 5"
+            "src" : "/makerspaceimg/IMG_5250.webp",
+            "alt" :  "Image 6"
+        },
+        {
+            "src" : "/makerspaceimg/IMG_5254.webp",
+            "alt" :  "Image 7"
+        },
+        {
+            "src" : "/makerspaceimg/img4.webp",
+            "alt" :  "Image 8"
         }
     ]
 }

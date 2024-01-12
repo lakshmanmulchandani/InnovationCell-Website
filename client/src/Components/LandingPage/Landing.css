@@ -12,7 +12,8 @@
 .welcome {
   font-size: 40px;
   font-weight: 700;
-  color: var(--green);
+  /* color: var(--green); */
+  color: #d19f3d;
   align-items: flex-start;
   margin-left: 80px;
   font-family: var(--font-poppins);
@@ -23,7 +24,7 @@
   height: 50rem;
   top: -2rem;
   left: 50%;
-  opacity: 0.8;
+  opacity: 0;
   z-index: -10;
 }
 
@@ -40,10 +41,16 @@
   transition: all 0.5s;
 }
 
+/* @media (max-width: 1205) {
+  .moon-bg {
+    left: 30%;
+  }
+} */
+
 @media (max-width: 758px) {
   .moon-bg {
-    height: 50rem;
-    margin-top: -6rem;
+    /* height: 50rem; */
+    margin-top: 1rem;
     left: 40%;
   }
   .landing {
@@ -73,6 +80,6 @@
 
 @media (max-width: 400px) {
   .moon-bg {
-    left: 15%;
+    left: 30%;
   }
 }

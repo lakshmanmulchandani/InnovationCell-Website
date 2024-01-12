@@ -9,7 +9,8 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  font-family: poppins,'sans-serif';
+  /* font-family: poppins, "sans-serif"; */
+  font-family: frozen;
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
@@ -144,10 +145,9 @@
 }
 
 /* LOWER SECTION */
-
 .footer > .lower-section > h1 {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .footer > .lower-section > h1 > span {
@@ -156,7 +156,6 @@
 }
 
 /* media queries */
-
 @media screen and (max-width: 704px) {
   .footer {
     width: 100%;
@@ -179,7 +178,7 @@
   }
 
   .footer > .lower-section > h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 

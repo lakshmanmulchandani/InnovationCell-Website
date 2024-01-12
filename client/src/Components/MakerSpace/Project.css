@@ -1,13 +1,14 @@
 .Projects__card{
   /* min-height: 70vh; */
   max-width: 25vw;
-  height: fit-content;
+  /* height: fit-content; */
   background: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
 .Project-img{
   width: 100%;
+  height: 350px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }

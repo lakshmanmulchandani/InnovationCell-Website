@@ -5,7 +5,6 @@ import LandingPage from "./Components/LandingPage/LandingPage";
 // import PastEvents from "../Components/Events/PastEvents";
 // import UpcomingEvents from "../Components/Events/UpcomingEvents";
 import Navbar from "./Components/Navbar/Navbar";
-
 import Sponsors from "./Components/Sponsors/Sponsors";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import MakerSpace from "./Components/MakerSpace/MakerSpace";
@@ -14,6 +13,7 @@ import Contact from "./Components/ContactUs/Contact";
 import Accordian from "./Components/Faq/Accordian";
 import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
+import Cursor from "./Components/cursor/Cursor";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
@@ -50,6 +50,7 @@ function App() {
   return (
     <>
       <SnowfallComponent />
+      <Cursor />
       <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>
         <LandingPage />
