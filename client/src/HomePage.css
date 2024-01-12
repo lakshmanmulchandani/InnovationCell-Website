@@ -83,6 +83,9 @@ body {
   overflow-x: hidden;
   font-family: var(--font-poppins);
   line-height: 1.6;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 ::-webkit-scrollbar {
