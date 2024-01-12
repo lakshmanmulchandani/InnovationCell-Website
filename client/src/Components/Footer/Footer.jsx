@@ -173,7 +173,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="social-container">
+          <div className="social-container container">
             <h1>Let&apos;s Connect</h1>
 
             <div className="socials">
