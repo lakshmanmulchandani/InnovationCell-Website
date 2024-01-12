@@ -18,17 +18,26 @@
 .Projects__card p{
   max-width: 25rem;
 }
+.Project_text_content h2{
+  font-family: frozen;
+  color: #00bfff;
+  margin-bottom: 0.75rem;
+}
+.Project_text_content p{
+  font-family: frozen;
+  color: #fff;
+}
 .project__icons{
    display: flex;
    justify-content: space-between;
    color: var(--green);
-   margin-bottom: 0.75rem;
+   margin-bottom: 0.25rem;
 }
 .project__icons span{
   font-size: 1.55rem;
 }
-.Project__techstack{
-   color: var(--green);
+.Project__techstack p{
+   color: #00bfff;
    margin-top: 0.35rem;
    font-weight: bold;
 }
