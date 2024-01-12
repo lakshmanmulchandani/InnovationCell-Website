@@ -1,54 +1,52 @@
+// CustomCursor.jsx
+
 import React, { useState, useEffect } from "react";
-import customCursorImage1 from "../../imgs/wandPng.png"; // Replace with the actual path to your first image
-import customCursorImage2 from "../../imgs/magicWandPng.gif"; // Replace with the actual path to your second image
-import "./Cursor.css"; // Create a CSS file for styling
+import "./Cursor.css"; // Import your CSS file for styling
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
-    let mouseX = 0;
-    let mouseY = 0;
-
-    const updateCursorPosition = () => {
-      if (!isClicked) {
-        setPosition({ x: mouseX, y: mouseY });
-      }
-      requestAnimationFrame(updateCursorPosition);
+    const updateCursorPosition = (e) => {
+      setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    const handleMouseMove = (e) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-    };
-
-    const handleClick = () => {
-      setIsClicked(true);
-      setTimeout(() => {
-        setIsClicked(false);
-      }, 1000);
-    };
-
-    document.addEventListener("mousemove", handleMouseMove);
-    document.addEventListener("click", handleClick);
-    updateCursorPosition();
+    document.addEventListener("mousemove", updateCursorPosition);
 
     return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
-      document.removeEventListener("click", handleClick);
+      document.removeEventListener("mousemove", updateCursorPosition);
     };
-  }, [isClicked]);
+  }, []);
 
-  const cursorImage = isClicked ? customCursorImage2 : customCursorImage1;
+  const handleCursorHover = () => {
+    setIsHovered(true);
+  };
+
+  const handleCursorLeave = () => {
+    setIsHovered(false);
+  };
+
+  const handleCursorClick = () => {
+    setIsClicked(!isClicked);
+  };
 
   return (
     <div
-      className="custom-cursor"
-      style={{ left: position.x, top: position.y }}
-    >
-      <img src={cursorImage} alt="Custom Cursor" />
-    </div>
+      className={`custom-cursor ${isHovered ? "hovered" : ""} ${
+        isClicked ? "clicked" : ""
+      }`}
+      style={{
+        left: `${position.x}px`,
+        top: `${position.y}px`,
+        transform: `translate(-50%, -50%) scale(${
+          isHovered || isClicked ? 2 : 1
+        })`,
+      }}
+      onMouseDown={handleCursorClick}
+      onMouseUp={handleCursorClick}
+    ></div>
   );
 };
 
