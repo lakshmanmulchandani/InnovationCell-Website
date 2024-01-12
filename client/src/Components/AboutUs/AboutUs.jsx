@@ -28,7 +28,6 @@ const AboutUs = () => {
             <img src={Holder} alt="holder" width={300} height={100} className="holder"/>
           </div>
           <div className="About-imgs">
-            {/* This class container 4 bulbs and these bulbs must swing like a pendulum add this animation using AboutUs.css */}
             <div className="About-img">
               <img src={Bulb1} alt="bulb1" width={75} height={375} />
             </div>

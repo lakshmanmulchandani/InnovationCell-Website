@@ -86,9 +86,18 @@
    gap: 2rem;
    border-radius: 10px;
   }
+  
+  .maker__about_content h2{
+      font-size: 2rem;
+      font-family: frozen;
+      color: #00bfff;
+  }
+
   .maker__about_content p{
      max-width: 80vw;
      text-justify: inter-word;
+     font-family: frozen;
+     color: #fff;
   }
   .memories__section{
      max-width: 1200px;
@@ -113,7 +122,7 @@
        gap: 2rem;
    }
   }
-
+  
   .dark-overlay {
     /* position: absolute; */
     /* top: 0;

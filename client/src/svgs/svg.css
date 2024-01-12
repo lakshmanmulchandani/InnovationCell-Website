@@ -15,6 +15,7 @@
   stroke-width: 3;
   stroke: #ffffff;
   font-size: 200px;
+  font-family: var(--font-poppins);
 }
 @keyframes stroke {
   0% {
@@ -44,7 +45,7 @@
 
 @media (max-width: 400px) {
   .svg-icell {
-    font-family: "Russo One", sans-serif;
+    font-family: Harry;
     /* position: absolute;  */
     width: 900px;
     /* margin-top: 20%; */
