@@ -71,6 +71,12 @@
   font-size: medium;
   /* font-family: "Rubik", sans-serif; */
   font-family: "Rubik", sans-serif;
+  letter-spacing: 0.8px;
+}
+
+.About-item-heading {
+  font-family: MagicI;
+  font-size: 2.4rem;
 }
 
 .About-imgs {
@@ -95,8 +101,12 @@
     opacity: 0; /* Start with opacity 0 (fully transparent) */
   }
 
-  100% {
+  50% {
     opacity: 1; /* End with opacity 1 (fully visible) */
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 

@@ -44,7 +44,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="About-content">
-          <div className="About-item-main">
+          <div className="About-item-main" style={{fontFamily:'poppins'}}>
             Welcome to the Innovation Cell, the beating heart of innovation,
             creativity, entrepreneurship and technology at NIT Raipur. We are a
             vibrant club dedicated to fostering a culture of innovation,
@@ -56,14 +56,14 @@ const AboutUs = () => {
           <div className="About-item-heading">What do we do ?</div>
           <div
             className={`About-item`}
-            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` , color:"#d19f3d", fontFamily:"var(--font-heading)", fontSize:"1.8rem"}}
+            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` , color:"var(--green)", fontFamily:"poppins", fontSize:"1.6rem", letterSpacing:"0.2px"}}
           >
             {activeDiv === 0
               ? `i-Talks`
               : activeDiv === 1
               ? "Seed Grants for Startups"
               : activeDiv === 2
-              ? "Avinya - Unveiling the Future"
+              ? "Avinya Unveiling the Future"
               : "Seed Grants for Startups"}
           </div>{" "}
           {/* 1st div */}
