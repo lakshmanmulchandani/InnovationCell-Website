@@ -13,6 +13,7 @@ const Team = () => {
   return (
     <div style={{ width: "fit-content" }}>
       <Navbar2 />
+      <div className="dark-overlay"></div>
       <div className="teams-page">
         {/* <div id="team" className="teamHeading">
           <h1>Team Innovation cell</h1>
