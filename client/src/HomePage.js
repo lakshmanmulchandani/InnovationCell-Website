@@ -2,12 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./HomePage.css";
 import LandingPage from "./Components/LandingPage/LandingPage";
-// import PastEvents from "../Components/Events/PastEvents";
-// import UpcomingEvents from "../Components/Events/UpcomingEvents";
-import Navbar from "./Components/Navbar/Navbar";
-import Sponsors from "./Components/Sponsors/Sponsors";
 import AboutUs from "./Components/AboutUs/AboutUs";
-import MakerSpace from "./Components/MakerSpace/MakerSpace";
 import SnowfallComponent from "./Components/Snowfall/SnowfallComponent";
 import Contact from "./Components/ContactUs/Contact";
 import Accordian from "./Components/Faq/Accordian";
@@ -43,16 +38,16 @@ function App() {
     }
   };
 
-  const scrollToContactUs = () => {
-    if (contactUsRef.current) {
-      contactUsRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const scrollToContactUs = () => {
+  //   if (contactUsRef.current) {
+  //     contactUsRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
   return (
     <>
       <SnowfallComponent />
       <Snitch />
-      <Cursor />
+
       <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>
         <LandingPage />
@@ -72,15 +67,9 @@ function App() {
         <Timeline />
         <div id="faqnav"></div>
         <Accordian />
-        {/* <div id="sponsnav"></div>
-        <Sponsors /> */}
         <div id="contactusnav"></div>
         <Contact />
       </div>
-      {/* <div ref={contactUsRef}>
-         
-        </div> */}
-      {/* <MakerSpace /> */}
       <Footer />
     </>
   );

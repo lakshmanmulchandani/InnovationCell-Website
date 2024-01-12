@@ -4,10 +4,12 @@ import HomePage from "./HomePage";
 import Team from "./Components/Team/Team";
 import MakerSpace from "./Components/MakerSpace/MakerSpace";
 import Recruitment from "./Components/recruitmentform/Recruitment.jsx";
+import Cursor from "./Components/cursor/Cursor.jsx";
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <BrowserRouter>
         <Routes>
           <Route exact="true" path="/" element={<HomePage />} />

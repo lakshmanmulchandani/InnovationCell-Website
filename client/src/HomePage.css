@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
   letter-spacing: 0.8px;
+  cursor: none;
 }
 
 @font-face {
@@ -27,11 +28,11 @@
   src: url("./fonts/MagicSchoolTwo.ttf");
 }
 @font-face {
-  font-family: 'MagicI';
+  font-family: "MagicI";
   src: url("./fonts/Magik.TTF");
 }
 @font-face {
-  font-family: 'animal_fantastic';
+  font-family: "animal_fantastic";
   src: url("./Assets/Animales\ Fantastic.otf");
 }
 
