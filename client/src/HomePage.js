@@ -9,7 +9,6 @@ import Accordian from "./Components/Faq/Accordian";
 import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
-import Cursor from "./Components/cursor/Cursor";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component

@@ -9,7 +9,7 @@ import Cursor from "./Components/cursor/Cursor.jsx";
 const App = () => {
   return (
     <div>
-      <Cursor />
+      {/* <Cursor /> */}
       <BrowserRouter>
         <Routes>
           <Route exact="true" path="/" element={<HomePage />} />
