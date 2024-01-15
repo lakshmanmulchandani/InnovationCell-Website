@@ -145,7 +145,7 @@
 }
 
 .time-turner-animation {
-  background-image: url(./time-turnerr.png);
+  background-image: url(./time-terner-outer.png);
   background-repeat: no-repeat;
   background-size: 100%;
   display: block;
@@ -162,29 +162,29 @@
 .time-turner-animation__inner {
   -webkit-animation: spin-and-flip 1300ms linear infinite reverse;
   animation: spin-and-flip 1300ms linear infinite reverse;
-  background-image: url(./time-turner-inner.gif);
+  background-image: url(./time-turner-ring.png);
   background-repeat: no-repeat;
   background-size: 100%;
   display: block;
-  width: 5.1rem;
-  height: 5.1rem;
+  width: 5.2rem;
+  height: 5.3rem;
   position: absolute;
-  bottom: 8.7rem;
-  left: 3.7rem;
+  bottom: 8.65rem;
+  left: 3.75rem;
   transform-style: preserve-3d;
 }
 .time-turner-animation__outer {
   -webkit-animation: spin-and-flip 1300ms linear infinite;
   animation: spin-and-flip 1300ms linear infinite;
-  background-image: url(./time-turner-outer.gif);
+  background-image: url(./time-terner-disc.png);
   background-repeat: no-repeat;
   background-size: 100%;
   display: block;
-  width: 6rem;
-  height: 6.2rem;
+  width: 4.2rem;
+  height: 4.5rem;
   position: absolute;
-  bottom: 8.1rem;
-  left: 3.3rem;
+  bottom: 8.95rem;
+  left: 4.2rem;
   transform-style: preserve-3d;
 }
 @keyframes spin-and-flip {
