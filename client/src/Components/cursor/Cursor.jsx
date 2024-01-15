@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import "./Cursor.css"; // Import your CSS file for styling
+import pointerYellow from "./pointer-yellow.png";
+import cursorYellow from "./cursor-yellow.png";
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -46,7 +48,9 @@ const Cursor = () => {
       }}
       onMouseDown={handleCursorClick}
       onMouseUp={handleCursorClick}
-    ></div>
+    >
+      <img src={cursorYellow} />
+    </div>
   );
 };
 

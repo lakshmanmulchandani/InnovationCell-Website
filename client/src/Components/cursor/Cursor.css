@@ -4,20 +4,11 @@
   position: fixed;
   width: 20px;
   height: 20px;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease, background-color 0.2s ease;
-  border: 5px solid var(--harry);
+  /* border: 5px solid var(--harry); */
   z-index: 9999;
-}
-
-.custom-cursor.clicked {
-  background-color: #ff0000; /* Change the background color on click */
-  transition: background-color 0.2s ease;
-}
-
-.custom-cursor.hovered {
-  /* Add any additional styles for the hovered state */
 }
