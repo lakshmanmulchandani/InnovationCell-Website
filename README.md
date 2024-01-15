@@ -1,12 +1,12 @@
 # Setup
-Clone the site using git clone <git url>
+-Clone the site using git clone <git url>
 
-cd client
+-cd client
 
-npm install
+-npm install
 or
-yarn install
+-yarn install
 
-npm start
+-npm start
 or 
-yarn start
+-yarn start
