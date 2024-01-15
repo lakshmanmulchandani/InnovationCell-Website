@@ -165,9 +165,7 @@ export default function Footer() {
               </a>
 
               <a href="mailto:info@icell.io" target="_blank" rel="noreferrer">
-                <BsEnvelope
-                  style={{ margin: "0px 10px 0 0", scale: "120%" }}
-                />
+                <BsEnvelope style={{ margin: "0px 10px 0 0", scale: "120%" }} />
                 <span>Email</span>
               </a>
             </div>
