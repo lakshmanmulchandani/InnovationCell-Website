@@ -84,11 +84,11 @@
 
 .timeline-content {
   margin-top: 0.1rem;
-  font-family: var(--font-poppins);
 }
 .timeline-content li {
   list-style: none;
   letter-spacing: 0.2px;
+  font-family: var(--font-poppins);
 }
 
 @media (max-width: 700px) {

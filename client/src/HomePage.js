@@ -47,6 +47,7 @@ function App() {
     <>
       <SnowfallComponent />
       <Snitch />
+      <Cursor />
 
       <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>

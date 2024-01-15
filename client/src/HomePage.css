@@ -79,7 +79,7 @@
 
 body {
   /* background-color: #181B3E; */
-  background-image: url("./Assets/images/bg5.jpg");
+  background-image: url("./Assets/images/bg5.png");
   background-position: 8% 0;
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;

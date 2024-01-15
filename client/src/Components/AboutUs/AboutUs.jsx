@@ -55,14 +55,14 @@ const AboutUs = () => {
           <div className="About-item-heading">What do we do ?</div>
           <div
             className={`About-item`}
-            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` , color:"var(--green)", fontFamily:"poppins", fontSize:"1.6rem", letterSpacing:"0.2px"}}
+            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s`, color:"var(--green)", fontFamily:"Crime", letterSpacing:"0.2px"}}
           >
             {activeDiv === 0
               ? `i-Talks`
               : activeDiv === 1
               ? "Seed Grants for Startups"
               : activeDiv === 2
-              ? "Avinya Unveiling the Future"
+              ? "Avinya - Unveiling the Future"
               : "Seed Grants for Startups"}
           </div>{" "}
           {/* 1st div */}

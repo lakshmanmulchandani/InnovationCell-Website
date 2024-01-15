@@ -9,11 +9,10 @@ const Snitch = () => {
     const updateSnitchPosition = () => {
       const newX = Math.random() * window.innerWidth;
       const newY = Math.random() * window.innerHeight;
-
       setPosition({ x: newX, y: newY });
 
       const moveDuration = Math.random() * 5000 + 2000; // Random duration for movement (between 2s and 7s)
-      const pauseDuration = Math.random() * 3000 + 1000; // Random duration for pause (between 1s and 4s)
+      const pauseDuration = Math.random() * 2000 + 1000; // Random duration for pause (between 1s and 4s)
 
       setTimeout(() => {
         requestAnimationFrame(updateSnitchPosition);
