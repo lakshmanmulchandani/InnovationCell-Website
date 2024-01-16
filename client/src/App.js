@@ -6,6 +6,7 @@ import MakerSpace from "./Components/MakerSpace/MakerSpace";
 import Recruitment from "./Components/recruitmentform/Recruitment.jsx";
 import curGif from "./Components/cursor/onclick_animation.gif";
 import curGif2 from "./Components/cursor/another_onclick_animation.gif";
+import AudioPlayer from "./Components/cursor/AudioPlayer.jsx";
 
 const App = () => {
   const [gifPosition, setGifPosition] = useState({ x: 0, y: 0 });
@@ -66,6 +67,7 @@ const App = () => {
           />
         </div>
       )}
+      <AudioPlayer />
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
