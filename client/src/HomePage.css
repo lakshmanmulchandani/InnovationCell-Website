@@ -8,7 +8,11 @@
   transition: scroll-behavior 10s ease-in-out;
   letter-spacing: 0.8px;
 }
+
 a:hover {
+  cursor: url("./Components/cursor/pointer-yellow.png"), auto;
+}
+button:hover {
   cursor: url("./Components/cursor/pointer-yellow.png"), auto;
 }
 
