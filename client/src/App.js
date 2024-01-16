@@ -48,8 +48,8 @@ const App = () => {
           style={{
             position: "fixed",
             zIndex: 9999,
-            left: `${position.x + 25}px`,
-            top: `${position.y}px`,
+            left: `${position.x + 24}px`,
+            top: `${position.y + 12}px`,
             transform: `translate(-50%, -50%) scale(${
               isHovered || isClicked ? 2 : 1
             })`,

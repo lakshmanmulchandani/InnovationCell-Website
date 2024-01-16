@@ -91,7 +91,7 @@
     .wrapper .answer-content{
       padding: 1rem 0;
       font-size: 21px;
-      font-family: MagicI;
+      font-family: magic-italic;
       color: var(--faq-a);
     }
     

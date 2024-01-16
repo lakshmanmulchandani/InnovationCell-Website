@@ -72,14 +72,14 @@
   font-size: 24px;
   font: bold;
   width: fit-content;
-  font-family: MagicI;
+  font-family: magic-italic;
 }
 
 .title-p {
   color: var(--harry);
   font-size: 16px;
   width: fit-content;
-  font-family: MagicI;
+  font-family: magic-italic;
 }
 
 .timeline-content {

@@ -2,11 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import "./Cursor.css"; // Import your CSS file for styling
-import clickAnimation from "./onclick_animation.gif";
+import Quill from "../../Assets/images/quill.png";
 
-const Cursor = () => {
+const Cursor = ({ isGlobalHovered }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
@@ -21,37 +20,27 @@ const Cursor = () => {
     };
   }, []);
 
-  const handleCursorHover = () => {
-    setIsHovered(true);
-  };
-
-  const handleCursorLeave = () => {
-    setIsHovered(false);
-  };
-
   const handleCursorClick = () => {
     setIsClicked(!isClicked);
   };
 
   return (
-    <div
-      className={`custom-cursor ${isHovered ? "hovered" : ""} ${
-        isClicked ? "clicked" : ""
-      }`}
-      style={{
-        left: `${position.x}px`,
-        top: `${position.y}px`,
-        transform: `translate(-50%, -50%) scale(${
-          isHovered || isClicked ? 2 : 1
-        })`,
-      }}
-      onMouseDown={handleCursorClick}
-      onMouseUp={handleCursorClick}
-    >
-      <img src={clickAnimation} />
+    <div>
+      {!isGlobalHovered && (
+        <div
+          className={`custom-cursor ${isClicked ? "clicked" : ""}`}
+          style={{
+            left: `${position.x + 16}px`,
+            top: `${position.y - 72}px`,
+          }}
+          onMouseDown={handleCursorClick}
+          onMouseUp={handleCursorClick}
+        >
+          <img className="quill" src={Quill} alt="quill" width={40} height={70} />
+        </div>
+      )}
     </div>
   );
 };
 
 export default Cursor;
-

@@ -8,9 +8,7 @@
   transition: scroll-behavior 10s ease-in-out;
   letter-spacing: 0.8px;
 }
-a:hover {
-  cursor: url("./Components/cursor/pointer-yellow.png"), auto;
-}
+
 
 /* body {
   cursor: url("./Components/cursor/cursor-yellow.png"), auto;
@@ -34,7 +32,7 @@ a:hover {
   src: url("./fonts/MagicSchoolTwo.ttf");
 }
 @font-face {
-  font-family: "MagicI";
+  font-family: "magic-italic";
   src: url("./fonts/Magik.TTF");
 }
 @font-face {
@@ -82,14 +80,14 @@ a:hover {
     system-ui, sans-serif;
   --font-poppins: "Poppins", sans-serif;
   /* --font-heading: "Nosifer", sans-serif; */
-  --font-heading: MagicI;
+  --font-heading: magic-italic;
 }
 
 body {
   /* background-color: #181B3E; */
   background-image: url("./Assets/images/bg5.png");
   background-position: 8% 0;
-  background-size: cover; /* Adjust this as needed */
+  background-size: cover; 
   background-attachment: fixed;
   overflow-x: hidden;
   font-family: var(--font-poppins);
@@ -97,7 +95,12 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  cursor: url("./Assets/images/quill4.png"), auto;
+  /* cursor: url("./Assets/images/quill4.png"), auto; */
+  cursor: none;
+}
+
+a:hover {
+  cursor: url("./Components/cursor/pointer-yellow.png"), auto;
 }
 
 ::-webkit-scrollbar {

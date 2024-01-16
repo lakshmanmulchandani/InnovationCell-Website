@@ -63,7 +63,7 @@
 }
 
 .About-item-heading {
-  font-family: MagicI;
+  font-family: magic-italic;
   font-size: 2.4rem;
 }
 
@@ -71,6 +71,16 @@
   display: flex;
   margin-top: -4.4rem;
   /* border-top: 2px solid; */
+}
+
+.holder {
+  position: relative;
+}
+
+.owl {
+  position: absolute;
+  top: -3.8rem;
+  left: 0.5rem;
 }
 
 /* Applies the swinging animation to the bulb images */
