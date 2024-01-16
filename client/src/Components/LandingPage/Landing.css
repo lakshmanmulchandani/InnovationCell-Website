@@ -37,7 +37,7 @@
 
 .social-link a :hover {
   scale: 1.05;
-  color: #00bfff;
+  color: var(--harry);
   transition: all 0.5s;
 }
 

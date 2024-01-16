@@ -46,7 +46,6 @@
   border-radius: 20px;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -144,11 +143,12 @@
 .socials > a {
   scale: 1.7;
   transition: all 200ms ease-in-out;
+  /* color: var(--harry); */
 }
 
 .socials > a:hover {
   scale: 2.2;
-  color: white;
+  color: var(--harry);
 }
 
 /* LOWER SECTION */
