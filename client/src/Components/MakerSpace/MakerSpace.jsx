@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
 import { useState, useEffect } from "react";
+import Cursor from "../cursor/Cursor";
 import { useLocation } from "react-router-dom";
 
 const MakerSpace = () => {
@@ -40,6 +41,7 @@ const MakerSpace = () => {
   return (
     <>
       <Navbar2 />
+      <Cursor />
       <div className="time-turner-animation" href="" previewlistener="true">
         <span className="time-turner-animation__outer"></span>
         <span className="time-turner-animation__inner"></span>
