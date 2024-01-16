@@ -77,9 +77,6 @@ a:hover {
   width: 45%;
 }
 
-.nav-opt:hover {
-  cursor: pointer;
-}
 .nav-opt2:hover {
   cursor: none;
 }
