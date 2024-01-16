@@ -33,7 +33,6 @@ function App() {
       // console.log("hi"+scrolled);
       setScrolled(true); // User has scrolled down
     } else {
-      // console.log("hi"+scrolled);
       setScrolled(false); // User is at the top
     }
   };
@@ -47,7 +46,7 @@ function App() {
     <>
       <SnowfallComponent />
       <Snitch />
-      <Cursor />
+      {/* <Cursor /> */}
 
       <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>

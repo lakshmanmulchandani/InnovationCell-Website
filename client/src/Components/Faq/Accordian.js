@@ -27,7 +27,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
         }
       >
                 {answer.map((value, index) => (
-          <p key = {`${index}`}className="answer-content">{value}</p>
+          <p key = {`${index}`} className="answer-content">{value}</p>
         ))}
 
         {/* <p className="answer-content">{answer}</p> */}
@@ -44,7 +44,7 @@ const Accordion = () => {
 
   return (
     <div className="acc-main">
-      <div className="teamHeading">
+      <div className="teamHeading FAQ-heading">
         <h1>FAQ</h1>
       </div>
 
