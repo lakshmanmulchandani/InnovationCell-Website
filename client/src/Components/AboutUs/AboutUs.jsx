@@ -27,8 +27,21 @@ const AboutUs = () => {
       <div className="About-container">
         <div className="About-pic">
           <div className="holder">
-            <img className="owl" src={Owl} alt="owl" width={120} height={120} />
-            <img src={Holder} alt="holder" width={300} height={100} />
+
+            <img
+              className="owl"
+              src={Owl}
+              alt="owl"
+              width={120}
+              height={120}
+            />
+            <img
+              src={Holder}
+              alt="holder"
+              width={300}
+              height={100}
+            />
+
           </div>
           <div className="About-imgs">
             <div className="About-img">
