@@ -72,23 +72,23 @@
   font-size: 24px;
   font: bold;
   width: fit-content;
-  font-family: magic-italic;
+  font-family: var(--font-heading);
 }
 
 .title-p {
   color: var(--harry);
   font-size: 16px;
   width: fit-content;
-  font-family: magic-italic;
+  font-family: var(--font-heading);
 }
 
 .timeline-content {
   margin-top: 0.1rem;
+  font-family: var(--font-poppins);
 }
 .timeline-content li {
   list-style: none;
   letter-spacing: 0.2px;
-  font-family: var(--font-poppins);
 }
 
 @media (max-width: 700px) {

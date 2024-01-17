@@ -58,7 +58,7 @@
   margin-right: 0.5rem;
 }
 
-.About-item-main{
+.About-item-main {
   letter-spacing: 0.2px;
 }
 
@@ -162,7 +162,7 @@
   .About-item-heading::after {
     right: 5rem;
   }
-  
+
   .About-item-heading::before {
     left: 5rem;
   }
@@ -185,14 +185,14 @@
   .About-item-heading::after {
     right: 3rem;
   }
-  
+
   .About-item-heading::before {
     left: 3rem;
   }
 }
 
 @media (max-width: 400px) {
- .About-item-heading::after {
+  .About-item-heading::after {
     right: 1.5rem;
   }
 
@@ -200,5 +200,3 @@
     left: 1.5rem;
   }
 }
-
-

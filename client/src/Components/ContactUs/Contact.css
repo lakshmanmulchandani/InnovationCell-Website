@@ -21,7 +21,7 @@
   color: var(--harry);
   display: flex;
   align-items: center;
-  font-family: magic-italic;
+  font-family: var(--font-heading);
   justify-content: center;
   text-align: center;
   font-size: 4rem;

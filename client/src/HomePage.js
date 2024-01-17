@@ -10,8 +10,6 @@ import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 import Cursor from "./Components/cursor/Cursor";
-import Player from "./Components/cursor/AudioPlayer";
-
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
@@ -49,7 +47,6 @@ function App() {
       <SnowfallComponent />
       <Snitch />
       <Cursor />
-      <Player />
 
       <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>

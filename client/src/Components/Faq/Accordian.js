@@ -20,17 +20,15 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
       <div
         ref={contentHeight}
         className="answer-container"
-        style={
-          isOpen
-            ? { height: contentHeight.current.scrollHeight }
-            : { height: "0px" }
-        }
+        style={{
+          height: isOpen ? `${contentHeight.current.scrollHeight}px` : "0px",
+        }}
       >
-                {answer.map((value, index) => (
-          <p key = {`${index}`} className="answer-content">{value}</p>
+        {answer.map((value, index) => (
+          <p key={`${index}`} className="answer-content">
+            {value}
+          </p>
         ))}
-
-        {/* <p className="answer-content">{answer}</p> */}
       </div>
     </div>
   );
@@ -38,6 +36,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+
   const handleItemClick = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
@@ -49,12 +48,8 @@ const Accordion = () => {
       </div>
 
       <div className="acc-container">
-        <div className="acc-img"> 
-          <img
-            className="snowman"
-            src={MAN2}
-            alt="snowman"
-          />
+        <div className="acc-img">
+          <img className="snowman" src={MAN2} alt="snowman" />
         </div>
         <div className="container">
           {data.map((item, index) => (
@@ -71,6 +66,5 @@ const Accordion = () => {
     </div>
   );
 };
-
 
 export default Accordion;
