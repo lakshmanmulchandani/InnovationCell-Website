@@ -101,6 +101,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
+  /* cursor: url("./Components/cursor/cursor-yellow.png"), auto; */
   cursor: url("./Components/cursor/cursor-yellow.png"), auto;
 }
 
