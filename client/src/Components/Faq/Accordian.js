@@ -25,8 +25,10 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
         }}
       >
 
+
                 {answer.map((value, index) => (
           <p key = {`${index}`} className="answer-content">{value}</p>
+
 
         ))}
       </div>
@@ -66,7 +68,6 @@ const Accordion = () => {
     </div>
   );
 };
-
 
 
 export default Accordion;

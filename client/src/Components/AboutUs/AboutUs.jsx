@@ -27,6 +27,7 @@ const AboutUs = () => {
       <div className="About-container">
         <div className="About-pic">
           <div className="holder">
+
             <img
               className="owl"
               src={Owl}
@@ -40,6 +41,7 @@ const AboutUs = () => {
               width={300}
               height={100}
             />
+
           </div>
           <div className="About-imgs">
             <div className="About-img">

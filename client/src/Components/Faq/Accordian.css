@@ -67,7 +67,9 @@
   font-size: 19px;
   background: transparent;
   border: none;
-  cursor: pointer;
+
+  /* cursor: pointer; */
+
 }
 .question-container.active {
   background-image: linear-gradient(
@@ -135,6 +137,7 @@
   }
   50% {
     transform: translateY(1.2rem);
+
   }
   100% {
     transform: translateY(0);
@@ -255,4 +258,5 @@
         transform: translateY(0);
       }
     }
+
 
