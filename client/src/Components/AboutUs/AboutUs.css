@@ -162,6 +162,7 @@
   .About-item-heading::after {
     right: 5rem;
   }
+
   .About-item-heading::before {
     left: 5rem;
   }
@@ -191,9 +192,7 @@
 }
 
 @media (max-width: 400px) {
-
- .About-item-heading::after {
-
+  .About-item-heading::after {
     right: 1.5rem;
   }
 
@@ -201,5 +200,3 @@
     left: 1.5rem;
   }
 }
-
-

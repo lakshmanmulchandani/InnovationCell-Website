@@ -4,6 +4,7 @@ import HomePage from "./HomePage";
 import Team from "./Components/Team/Team";
 import MakerSpace from "./Components/MakerSpace/MakerSpace";
 import Recruitment from "./Components/recruitmentform/Recruitment.jsx";
+
 import curGif from "./Components/cursor/onclick_animation.gif";
 import curGif2 from "./Components/cursor/another_onclick_animation.gif";
 import AudioPlayer from "./Components/cursor/AudioPlayer.jsx";
@@ -49,8 +50,8 @@ const App = () => {
           style={{
             position: "fixed",
             zIndex: 9999,
-            left: `${position.x + 24}px`,
-            top: `${position.y + 12}px`,
+            left: `${position.x + 25}px`,
+            top: `${position.y}px`,
             transform: `translate(-50%, -50%) scale(${
               isHovered || isClicked ? 2 : 1
             })`,
