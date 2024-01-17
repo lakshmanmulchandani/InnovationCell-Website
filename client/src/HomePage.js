@@ -50,7 +50,7 @@ function App() {
       <Snitch />
       <Cursor />
       <Player />
-      
+
       <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>
         <LandingPage />
@@ -73,7 +73,7 @@ function App() {
         <div id="contactusnav"></div>
         <Contact />
       </div>
-      <Footer />
+      <Footer /> 
     </>
   );
 }
