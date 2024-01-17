@@ -16,6 +16,7 @@ const Cursor = () => {
     const updateCursorPosition = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
+    
 
     document.addEventListener("mousemove", updateCursorPosition);
 
@@ -43,7 +44,7 @@ const Cursor = () => {
       }`}
       style={{
         left: `${position.x + 5}px`,
-        top: `${position.y - 72}px`,
+        top: `${position.y - 55}px`,
         transform: `translate(-50%, -50%) scale(${
           isHovered || isClicked ? 2 : 1
         })`,
@@ -51,7 +52,7 @@ const Cursor = () => {
       onMouseDown={handleCursorClick}
       onMouseUp={handleCursorClick}
     >
-      <img src={Quill} alt="quill" width={75} height={75}/>
+      <img src={Quill} alt="quill" width={60} height={60}/>
     </div>
   );
 };

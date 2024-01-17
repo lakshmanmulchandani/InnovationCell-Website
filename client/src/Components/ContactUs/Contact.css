@@ -188,7 +188,7 @@ textarea:focus {
 
 .contact_btn:hover {
   background-color: rgb(17, 34, 64, 0.8);
-  color: var(--blue);
+  color: var(--harry-dark);
 }
 
 @media screen and (max-width: 600px) {

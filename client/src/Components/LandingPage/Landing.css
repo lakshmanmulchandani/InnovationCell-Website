@@ -39,6 +39,7 @@
   scale: 1.05;
   color: var(--harry);
   transition: all 0.5s;
+  filter: drop-shadow(0 0 4px #d19f3d);
 }
 
 /* @media (max-width: 1205) {

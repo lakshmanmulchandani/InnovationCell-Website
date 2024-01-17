@@ -1,5 +1,6 @@
 * {
   font-family: frozen;
+  cursor: none;
 }
 
 .footer {
@@ -147,8 +148,9 @@
 }
 
 .socials > a:hover {
-  scale: 2.2;
+  scale: 2.05;
   color: var(--harry);
+  filter: drop-shadow(0 0 4px #d1a03de1);
 }
 
 /* LOWER SECTION */

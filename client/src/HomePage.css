@@ -42,6 +42,7 @@
 
 :root {
   --harry: #d19f3d;
+  --harry-dark: #ba861e;
   --pink: #f57dff;
   --blue: #57cbff;
   --green-tint: rgba(100, 255, 218, 0.1);
@@ -100,7 +101,8 @@ body {
 }
 
 a:hover {
-  cursor: url("./Components/cursor/pointer-yellow.png"), auto;
+  /* cursor: url("./Components/cursor/pointer-yellow.png"), auto; */
+  cursor: none;
 }
 
 ::-webkit-scrollbar {
