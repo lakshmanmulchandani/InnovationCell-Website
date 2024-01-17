@@ -24,10 +24,10 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
           height: isOpen ? `${contentHeight.current.scrollHeight}px` : "0px",
         }}
       >
-        {answer.map((value, index) => (
-          <p key={index} className="answer-content">
-            {value}
-          </p>
+
+                {answer.map((value, index) => (
+          <p key = {`${index}`} className="answer-content">{value}</p>
+
         ))}
       </div>
     </div>
@@ -67,4 +67,7 @@ const Accordion = () => {
   );
 };
 
+
+
 export default Accordion;
+
