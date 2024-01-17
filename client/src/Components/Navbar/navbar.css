@@ -26,7 +26,9 @@
   z-index: 999;
   background: rgba(255, 255, 255, 0.109);
   backdrop-filter: blur(90px);
+
   padding: 15px 50px;
+
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
 }
@@ -77,10 +79,6 @@ a:hover {
   width: 45%;
 }
 
-.nav-opt2:hover {
-  cursor: none;
-}
-
 .logo {
   color: white;
   font-size: 30px;
@@ -90,6 +88,9 @@ a:hover {
   color: white;
   font-size: 30px;
   width: 55%;
+}
+* {
+  /* dsfdafdf */
 }
 
 .logo img {
@@ -109,7 +110,6 @@ a:hover {
 
 .menu-icon {
   display: block;
-  cursor: pointer;
 }
 
 @media (max-width: 923px) {
@@ -166,7 +166,7 @@ a:hover {
 
   .menu-icon {
     display: block;
-    cursor: pointer;
+
     height: fit-content;
     align-self: flex-start;
   }
