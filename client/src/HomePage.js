@@ -9,6 +9,7 @@ import Accordian from "./Components/Faq/Accordian";
 import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
+import Cursor from "./Components/cursor/Cursor";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
@@ -45,6 +46,7 @@ function App() {
     <>
       <SnowfallComponent />
       <Snitch />
+      <Cursor />
 
       <div className="App">
         <div className={scrolled ? "dark-overlay" : ""}></div>
@@ -68,7 +70,7 @@ function App() {
         <div id="contactusnav"></div>
         <Contact />
       </div>
-      <Footer />
+      <Footer /> 
     </>
   );
 }

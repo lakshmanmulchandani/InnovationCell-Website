@@ -9,16 +9,10 @@
   letter-spacing: 0.8px;
 }
 
-a:hover {
-  cursor: url("./Components/cursor/pointer-yellow.png"), auto;
-}
-button:hover {
-  cursor: url("./Components/cursor/pointer-yellow.png"), auto;
-}
 
-body {
+/* body {
   cursor: url("./Components/cursor/cursor-yellow.png"), auto;
-}
+} */
 
 @font-face {
   font-family: "frozen";
@@ -38,7 +32,7 @@ body {
   src: url("./fonts/MagicSchoolTwo.ttf");
 }
 @font-face {
-  font-family: "MagicI";
+  font-family: "magic-italic";
   src: url("./fonts/Magik.TTF");
 }
 @font-face {
@@ -48,6 +42,7 @@ body {
 
 :root {
   --harry: #d19f3d;
+  --harry-dark: #ba861e;
   --pink: #f57dff;
   --blue: #57cbff;
   --green-tint: rgba(100, 255, 218, 0.1);
@@ -69,14 +64,14 @@ body {
   --slate: #8892b0;
   --navy: #0a192f;
   --input-bg: hsl(235, 44%, 80%);
+  --faq-q: #e3c58a;
+  --faq-a: #e8cf9e;
   /* font size  */
   --fz-xs: 13px;
   --fz-xxs: 12px;
   --fz-md: 14px;
   --fz-xl: 20px;
   --fz-l: 16px;
-  --faq-q: #e3c58a;
-  --faq-a: #e8cf9e;
 
   /* font family  */
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
@@ -86,14 +81,14 @@ body {
     system-ui, sans-serif;
   --font-poppins: "Poppins", sans-serif;
   /* --font-heading: "Nosifer", sans-serif; */
-  --font-heading: MagicI;
+  --font-heading: magic-italic;
 }
 
 body {
   /* background-color: #181B3E; */
-  background-image: url("./Assets/images/bg5.jpg");
+  background-image: url("./Assets/images/bg5.png");
   background-position: 8% 0;
-  background-size: cover; /* Adjust this as needed */
+  background-size: cover; 
   background-attachment: fixed;
   overflow-x: hidden;
   font-family: var(--font-poppins);
@@ -101,7 +96,13 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  cursor: url("./Components/cursor/cursor-yellow.png"), auto;
+  /* cursor: url("./Assets/images/quill4.png"), auto; */
+  cursor: none;
+}
+
+a:hover {
+  /* cursor: url("./Components/cursor/pointer-yellow.png"), auto; */
+  cursor: none;
 }
 
 ::-webkit-scrollbar {
@@ -218,6 +219,7 @@ body {
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
   transition: none;
 }
 

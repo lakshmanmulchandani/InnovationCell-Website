@@ -98,10 +98,10 @@
   padding: 0 1rem;
   transition: height 0.7s ease-in-out;
 }
-.wrapper .answer-content {
+.wrapper, .answer-content {
   padding: 1rem 0;
   font-size: 21px;
-  font-family: magicI;
+  font-family: var(--font-heading);
   color: var(--faq-a);
 }
 
@@ -224,7 +224,7 @@
 .wrapper .answer-content {
   padding: 1rem 0;
   font-size: 21px;
-  font-family: magicI;
+  font-family: var(--font-heading);
   color: var(--faq-a);
 }
 

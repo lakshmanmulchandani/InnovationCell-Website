@@ -4,7 +4,8 @@ import React, { useState, useEffect } from "react";
 import "./Cursor.css"; // Import your CSS file for styling
 import pointerYellow from "./pointer-yellow.png";
 import cursorYellow from "./cursor-yellow.png";
-import clickAnimation from "./onclick_animation.gif";
+// import clickAnimation from "./onclick_animation.gif";
+import Quill from "../../Assets/images/quill.png"
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -15,6 +16,7 @@ const Cursor = () => {
     const updateCursorPosition = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
+    
 
     document.addEventListener("mousemove", updateCursorPosition);
 
@@ -41,8 +43,8 @@ const Cursor = () => {
         isClicked ? "clicked" : ""
       }`}
       style={{
-        left: `${position.x}px`,
-        top: `${position.y}px`,
+        left: `${position.x + 5}px`,
+        top: `${position.y - 55}px`,
         transform: `translate(-50%, -50%) scale(${
           isHovered || isClicked ? 2 : 1
         })`,
@@ -50,7 +52,7 @@ const Cursor = () => {
       onMouseDown={handleCursorClick}
       onMouseUp={handleCursorClick}
     >
-      <img src={clickAnimation} />
+      <img src={Quill} alt="quill" width={60} height={60}/>
     </div>
   );
 };
