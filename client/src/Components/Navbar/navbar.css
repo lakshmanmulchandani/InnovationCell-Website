@@ -79,10 +79,6 @@ a:hover {
   width: 45%;
 }
 
-.nav-opt2:hover {
-  cursor: none;
-}
-
 .logo {
   color: white;
   font-size: 30px;
@@ -92,6 +88,9 @@ a:hover {
   color: white;
   font-size: 30px;
   width: 55%;
+}
+* {
+  /* dsfdafdf */
 }
 
 .logo img {
@@ -111,7 +110,6 @@ a:hover {
 
 .menu-icon {
   display: block;
-  cursor: pointer;
 }
 
 @media (max-width: 923px) {
@@ -168,7 +166,7 @@ a:hover {
 
   .menu-icon {
     display: block;
-    cursor: pointer;
+
     height: fit-content;
     align-self: flex-start;
   }
