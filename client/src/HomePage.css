@@ -108,12 +108,12 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #08ffc58e;
+  background: var(--harry);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00ffc3;
+  background: var(--harry);
 }
 
 ::-webkit-scrollbar-track {
