@@ -75,6 +75,8 @@ body {
   --fz-md: 14px;
   --fz-xl: 20px;
   --fz-l: 16px;
+  --faq-q: #e3c58a;
+  --faq-a: #e8cf9e;
 
   /* font family  */
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
