@@ -26,6 +26,10 @@
   position: relative;
 }
 
+.FAQ-heading {
+  margin-top: 4rem;
+}
+
 .acc-img {
   display: flex;
   justify-content: center;
@@ -34,6 +38,7 @@
 
 .snowman {
   height: 600px;
+  animation: fly 1.2s ease-in-out infinite;
 }
 
 .wrapper {
@@ -46,7 +51,7 @@
 }
 
 .container p {
-  color: white;
+  color: var(--faq-q);
 }
 
 .wrapper .question-container {
@@ -62,7 +67,7 @@
   font-size: 19px;
   background: transparent;
   border: none;
-  cursor: url("../cursor/pointer-yellow.png");
+  cursor: pointer;
 }
 .question-container.active {
   background-image: linear-gradient(
@@ -96,7 +101,8 @@
 .wrapper .answer-content {
   padding: 1rem 0;
   font-size: 21px;
-  font-family: MagicI;
+  font-family: magicI;
+  color: var(--faq-a);
 }
 
 @media screen and (max-width: 1024px) {
@@ -108,6 +114,7 @@
 @media screen and (max-width: 640px) {
   .snowman {
     height: 400px;
+    margin-bottom: 2rem;
   }
 }
 @media screen and (max-width: 477px) {
@@ -119,5 +126,17 @@
   }
   .acc-container {
     padding: 20px 12px;
+  }
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.2rem);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
