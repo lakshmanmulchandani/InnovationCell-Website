@@ -91,7 +91,7 @@ body {
 
 body {
   /* background-color: #181B3E; */
-  background-image: url("./Assets/images/bg5.jpg");
+  background-image: url("https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705521010/innovation_cell/oljsnh1qd1jc9set0k76.webp");
   background-position: 8% 0;
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;
@@ -101,7 +101,6 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  /* cursor: url("./Components/cursor/cursor-yellow.png"), auto; */
   cursor: url("./Components/cursor/cursor-yellow.png"), auto;
 }
 
