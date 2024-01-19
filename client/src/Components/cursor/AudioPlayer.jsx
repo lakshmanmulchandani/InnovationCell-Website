@@ -3,7 +3,6 @@ import { Howl, Howler } from "howler";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeUp, faVolumeMute } from "@fortawesome/free-solid-svg-icons";
 import second from "./harry_potter_audio.mp3";
-import pic from "./pointer-yellow.png";
 
 const sound = new Howl({
   src: [second],

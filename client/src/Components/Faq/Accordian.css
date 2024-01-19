@@ -52,6 +52,11 @@
 
 .container p {
   color: var(--faq-q);
+  /* color: white; */
+}
+.container p:hover {
+  /* color: var(--faq-q); */
+  color: white;
 }
 
 .wrapper .question-container {
@@ -98,7 +103,8 @@
   padding: 0 1rem;
   transition: height 0.7s ease-in-out;
 }
-.wrapper, .answer-content {
+.wrapper,
+.answer-content {
   padding: 1rem 0;
   font-size: 21px;
   font-family: var(--font-heading);
@@ -175,7 +181,7 @@
 }
 
 .container p {
-  color: var(--faq-q);
+  /* color: var(--faq-q); */
 }
 
 .wrapper .question-container {
