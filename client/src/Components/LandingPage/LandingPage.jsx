@@ -31,7 +31,7 @@ const LandingPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaInstagram size={30} />
+                <FaInstagram size={30}/>
               </a>
               <a
                 href="https://twitter.com/I_Cell_NITRR"

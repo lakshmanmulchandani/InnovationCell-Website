@@ -46,8 +46,8 @@ function App() {
     <>
       <SnowfallComponent />
       <Snitch />
-      {/* <Cursor /> */}
       <div className="App">
+        <Cursor />
         <div className={scrolled ? "dark-overlay" : ""}></div>
         <LandingPage />
         <a id="" className="scroll-down" href="#aboutusnav">

@@ -1,0 +1,54 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  touch-action: none;
+  background: black;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  perspective: 100vmin;
+}
+
+.intro::after {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: inset 0px 0px 400px rgba(0, 0, 0, 1),
+    inset 0px 0px 200px rgba(0, 0, 0, 1);
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  position: absolute;
+  z-index: 2; /* Updated z-index to be higher than the smoke */
+}
+
+@keyframes title {
+  0% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(4);
+  }
+}
+
+#harry-potter {
+  position: absolute;
+  z-index: 3; /* Set z-index higher than the canvas */
+  width: 100%;
+  height: auto;
+  animation: title 30s 0s 1 forwards ease-in;
+  color: white;
+  mix-blend-mode: color-dodge;
+}

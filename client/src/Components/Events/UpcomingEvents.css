@@ -13,6 +13,7 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    
     .EventsHeading>h1{
       position: relative;
       z-index: 2;

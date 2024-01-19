@@ -59,7 +59,6 @@
 
 import React, { useState, useEffect } from "react";
 import "./Cursor.css"; // Assuming you have a CSS file for styling
-import first from "../../imgs/quill.png";
 
 const Cursor = () => {
   const [cursorVisible, setCursorVisible] = useState(true);
@@ -95,7 +94,7 @@ const Cursor = () => {
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
       {/* Replace "your-gif-path.gif" with the path to your GIF */}
-      <img src={first} alt="custom-cursor" />
+      {/* <img src={first} alt="custom-cursor" /> */}
     </div>
   );
 };
