@@ -24,6 +24,10 @@ const AudioPlayer = () => {
     }
     setIsPlaying(!isPlaying);
     Howler.volume(isPlaying ? 0 : 0.5);
+    if (!sound.autoplay) {
+      sound.autoplay = true;
+      setIsPlaying(true);
+    }
   };
 
   const toggleMute = () => {
@@ -31,20 +35,11 @@ const AudioPlayer = () => {
     sound.volume(currentVolume === 0 ? 0.5 : 0);
   };
 
-  const [hidden, setHidden] = useState(false);
-
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setHidden(true);
-    }, 4000);
-
-    // Cleanup function to clear the timeout in case the component unmounts
-    return () => clearTimeout(timeoutId);
-  }, []);
+  // const [hidden, setHidden] = useState(false);
 
   return (
     <>
-      <div
+      {/* <div
         style={{
           position: "fixed",
           bottom: "-10px",
@@ -56,7 +51,7 @@ const AudioPlayer = () => {
         }}
       >
         <img src={fingger} alt="" height={200} />
-      </div>
+      </div> */}
       <div
         style={{
           position: "fixed",

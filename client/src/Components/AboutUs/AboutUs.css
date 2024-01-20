@@ -25,7 +25,7 @@
   text-align: center;
   font-size: 1.8rem;
   font-weight: 700;
-  font-family: frozen;
+  font-family: harry;
 }
 
 .About-item-heading::after {
@@ -63,7 +63,7 @@
 }
 
 .About-item-heading {
-  font-family: magic-italic;
+  font-family: magicI;
   font-size: 2.4rem;
 }
 
@@ -158,6 +158,7 @@
   }
   .About-item-heading {
     font-size: 2rem;
+    font-family: frozen;
   }
   .About-item-heading::after {
     right: 5rem;
