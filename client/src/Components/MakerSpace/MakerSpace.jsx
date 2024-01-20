@@ -1,7 +1,6 @@
 import React from "react";
 import Projects from "./Projects";
 import "./Makerspace.css";
-import makerspaceimg from "../../imgs/MakerspaceImg.jpg";
 import slides from "./Data/memories.json";
 import Memories from "./Memories";
 import data from "./Data/Projects.json";
@@ -12,6 +11,8 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const MakerSpace = () => {
+  const makerspaceimg =
+    "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705742765/i_cell_4rth_year/makerspace/c7uhwyswmb2jnsbjvxor.webp";
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
   const location = useLocation();

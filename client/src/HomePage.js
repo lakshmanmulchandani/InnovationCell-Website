@@ -10,17 +10,23 @@ import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 import Cursor from "./Components/cursor/Cursor";
+import Intro from "./Components/Intro/Intro";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
   const location = useLocation();
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setActiveLink(location.pathname);
     // Add event listener for scroll
     window.addEventListener("scroll", handleScroll);
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 8000);
 
     // Cleanup the event listener on unmount
     return () => {
@@ -44,32 +50,38 @@ function App() {
   // };
   return (
     <>
-      <SnowfallComponent />
-      <Snitch />
-      <div className="App">
-        <Cursor />
-        <div className={scrolled ? "dark-overlay" : ""}></div>
-        <LandingPage />
-        <a id="" className="scroll-down" href="#aboutusnav">
-          <div className="mouse">
-            <span></span>
-          </div>
-          <div className="arrow">
-            <span></span>
-            <span></span>
-          </div>
-        </a>
-        <div id="aboutusnav"></div>
-        <AboutUs />
+      {loading ? (
+        <Intro />
+      ) : (
+        <>
+          <SnowfallComponent />
+          <Snitch />
+          <div className="App">
+            <Cursor />
+            <div className={scrolled ? "dark-overlay" : ""}></div>
+            <LandingPage />
+            <a id="" className="scroll-down" href="#aboutusnav">
+              <div className="mouse">
+                <span></span>
+              </div>
+              <div className="arrow">
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <div id="aboutusnav"></div>
+            <AboutUs />
 
-        <div id="eventsnav"></div>
-        <Timeline />
-        <div id="faqnav"></div>
-        <Accordian />
-        <div id="contactusnav"></div>
-        <Contact />
-      </div>
-      <Footer />
+            <div id="eventsnav"></div>
+            <Timeline />
+            <div id="faqnav"></div>
+            <Accordian />
+            <div id="contactusnav"></div>
+            <Contact />
+          </div>
+          <Footer />
+        </>
+      )}
     </>
   );
 }
