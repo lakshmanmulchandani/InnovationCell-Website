@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import * as THREE from "three";
 import "./Intro.css";
 import i_cell_text from "../../Assets/images/i_cell_text.png";
+import finger from "../cursor/point_finger.gif";
 
 class IntroScene {
   constructor(options) {
@@ -120,6 +121,7 @@ class IntroScene {
 }
 
 const Intro = () => {
+  const [hidden, setHidden] = useState(false);
   useEffect(() => {
     const introScene = new IntroScene();
 
@@ -128,6 +130,9 @@ const Intro = () => {
       requestAnimationFrame(update);
     };
 
+    const timeoutId = setTimeout(() => {
+      setHidden(true);
+    }, 4000);
     update();
 
     return () => {
@@ -135,12 +140,35 @@ const Intro = () => {
         "resize",
         introScene.onResize.bind(introScene)
       );
+      clearTimeout(timeoutId);
     };
   }, []);
+
+  // useEffect(() => {
+  //   const timeoutId = setTimeout(() => {
+  //     setHidden(true);
+  //   }, 4000);
+
+  //   // Cleanup function to clear the timeout in case the component unmounts
+  //   return () => clearTimeout(timeoutId);
+  // }, []);
 
   return (
     <div className="intro">
       <img id="harry-potter" src={i_cell_text} alt="harry-potter" />
+      <div
+        style={{
+          position: "fixed",
+          bottom: "-10px",
+          right: "0",
+          display: "flex",
+          alignItems: "center",
+          zIndex: "9999",
+          display: `${hidden ? "none" : ""}`,
+        }}
+      >
+        <img src={finger} alt="" height={200} />
+      </div>
     </div>
   );
 };

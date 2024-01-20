@@ -20,23 +20,26 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let loadingTimeoutId;
+
     setActiveLink(location.pathname);
+
     // Add event listener for scroll
     window.addEventListener("scroll", handleScroll);
 
-    setTimeout(() => {
+    loadingTimeoutId = setTimeout(() => {
       setLoading(false);
     }, 8000);
 
-    // Cleanup the event listener on unmount
+    // Cleanup the event listener and clear the timeout on unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      clearTimeout(loadingTimeoutId);
     };
   }, [location.pathname]);
 
   const handleScroll = () => {
     if (window.scrollY > 600) {
-      // console.log("hi"+scrolled);
       setScrolled(true); // User has scrolled down
     } else {
       setScrolled(false); // User is at the top
