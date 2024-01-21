@@ -1,10 +1,3 @@
-.AboutUs-heading {
-  text-align: center;
-  font-family: var(--font-heading);
-  color: #00bfff;
-  font-size: 1.5rem;
-}
-
 .About-container {
   display: flex;
   flex-wrap: wrap;
@@ -27,24 +20,67 @@
 }
 
 .About-item-heading {
-  color: #00bfff;
+  position: relative;
+  color: var(--green);
   text-align: center;
   font-size: 1.8rem;
   font-weight: 700;
-  font-family: frozen;
+  font-family: harry;
 }
 
-.About-item {
-  /* margin-bottom: 1.2rem; */
-  font-size: medium;
-  /* font-family: "Rubik", sans-serif; */
-  font-family: "Rubik", sans-serif;
+.About-item-heading::after {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  /* background-color: var(--green); */
+  background-color: #d19f3d;
+  width: 3rem;
+  height: 2px;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+}
+
+.About-item-heading::before {
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  position: absolute;
+  content: "";
+  display: block;
+  /* background-color: var(--green); */
+  background-color: #d19f3d;
+  width: 3rem;
+  height: 2px;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+
+.About-item-main {
+  letter-spacing: 0.2px;
+}
+
+.About-item-heading {
+  font-family: magicI;
+  font-size: 2.4rem;
 }
 
 .About-imgs {
   display: flex;
   margin-top: -4.4rem;
   /* border-top: 2px solid; */
+}
+
+.holder {
+  position: relative;
+}
+
+.owl {
+  position: absolute;
+  top: -3.5rem;
+  left: 0.5rem;
 }
 
 /* Applies the swinging animation to the bulb images */
@@ -63,8 +99,12 @@
     opacity: 0; /* Start with opacity 0 (fully transparent) */
   }
 
-  100% {
+  50% {
     opacity: 1; /* End with opacity 1 (fully visible) */
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 
@@ -82,10 +122,20 @@
 }
 
 .About-item {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 600;
   display: inline-block;
-  animation: fade 2s ease-in-out infinite alternate; /* Adjust the duration here */
+  animation: fade 2s ease-in-out infinite alternate;
+}
+
+@media (max-width: 859px) {
+  .About-item-main {
+    text-align: center;
+  }
+
+  .About-item {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 620px) {
@@ -107,9 +157,18 @@
     font-size: 1.4rem;
   }
   .About-item-heading {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-family: frozen;
+  }
+  .About-item-heading::after {
+    right: 5rem;
+  }
+
+  .About-item-heading::before {
+    left: 5rem;
   }
 }
+
 @media (max-width: 550px) {
   .About-content {
     width: 100%;
@@ -121,15 +180,24 @@
     font-size: 1.2rem;
   }
   .About-item-heading {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+  }
+
+  .About-item-heading::after {
+    right: 3rem;
+  }
+
+  .About-item-heading::before {
+    left: 3rem;
   }
 }
 
-@media (max-width: 859px) {
-  .About-item-main {
-    text-align: center;
+@media (max-width: 400px) {
+  .About-item-heading::after {
+    right: 1.5rem;
   }
-}
 
-@media (max-width: 380) {
+  .About-item-heading::before {
+    left: 1.5rem;
+  }
 }

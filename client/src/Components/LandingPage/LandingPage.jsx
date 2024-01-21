@@ -16,7 +16,7 @@ const LandingPage = () => {
   return (
     <>
       <Navbar />
-      <img className="moon-bg" src={moonbg} />
+      {/* <img className="moon-bg" src={moonbg} /> */}
 
       <div className="main-landing">
         <div className="landing">
@@ -31,7 +31,7 @@ const LandingPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaInstagram size={30} />
+                <FaInstagram size={30}/>
               </a>
               <a
                 href="https://twitter.com/I_Cell_NITRR"

@@ -7,22 +7,60 @@
             "Branch": "Biotechnology",
             "Domain": "Sponsorship",
             "linkedin": "https://www.linkedin.com/in/mayank-bhardwaj-a3031a291",
-            "picLink": "./mayank_sir.jpg"
+            "picLink": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705741144/i_cell_4rth_year/u2yqydllaucw29mtb5lr.jpg"
          },
          {
             "name": "Hemashri Indrani",
             "insta": "https://www.instagram.com/curious_a.me",
             "linkedin": "https://www.linkedin.com/in/hemasri-indrani-kota-05049a201",
-            "picLink": "./hemasri_mam.png"
+            "picLink": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705741147/i_cell_4rth_year/dcnzhad2xjon4ms4j7xd.png"
          },
          {
-            "name": "Vishudh Verma",
-            "insta": "https://www.instagram.com/biryani_.without.elaichi_",
-            "linkedin": "https://www.linkedin.com/in/vishud-verma-5714b2118",
-            "picLink": "./vishudh"
+            "name": "Vishud Verma",
+            "insta": "https://www.instagram.com/_vishud_verma_244/",
+            "Branch": "Bio-Medical Engineering",
+            "Domain": "Technical(Makerspace)",
+            "linkedin": "https://www.linkedin.com/in/vishud-verma-5714b2118/",
+            "picLink": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705740999/i_cell_4rth_year/wd64gg0xmuzfetspx7um.jpg"
          }
       ],
       "fourthYear": [
+         {
+            "Username": "mulchandanilakshman@gmail.com",
+            "Name": "Lakshman Mulchandani",
+            "Branch": "Electrical Engineering",
+            "Domain": "Technical(Makerspace)",
+            "InstagramID": "https://www.instagram.com/_lakshh__/",
+            "LinkedINID": "https://www.linkedin.com/in/lakshmanmulchandani",
+            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526890/i_cell_4rth_year/Lakshman_Mulchandani_tztigl.webp"
+         },
+         {
+            "Username": "samsoon7789@gmail.com",
+            "Name": "Alim Khan",
+            "Branch": "Electrical Engineering",
+            "Domain": "Technical(Makerspace)",
+            "InstagramID": "https://www.instagram.com/alimkhan6470/",
+            "LinkedINID": "https://www.linkedin.com/in/alim-khan-109165204/",
+            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704527788/alim_khan_kynpj7.webp"
+         },
+         {
+            "Username": "srisreshtapasumarthi02@gmail.com",
+            "Name": "Pasumarthi Sri Sreshta",
+            "Branch": "Biomedical",
+            "Domain": "Technical(Makerspace)",
+            "InstagramID": "an_sreshta",
+            "LinkedINID": "sreshta-pasumarthi-803a55200",
+            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704528088/i_cell_4rth_year/Pasumarthi_Sri_Sreshta_ymaglp.webp"
+         },
+         {
+            "Username": "244vishudverma@gmail.com",
+            "Name": "Vishud Verma",
+            "Branch": "Bio-Medical Engineering",
+            "Domain": "Technical(Makerspace)",
+            "InstagramID": "https://www.instagram.com/_vishud_verma_244/",
+            "LinkedINID": "https://www.linkedin.com/in/vishud-verma-5714b2118/",
+            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526888/i_cell_4rth_year/Vishud_Verma_kn5fww.webp"
+         },
          {
             "Username": "shubhanshushubhamsinha@gmail.com",
             "Name": "Shubhanshu Shubham",
@@ -78,24 +116,6 @@
             "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526913/i_cell_4rth_year/4_flk0sg.webp"
          },
          {
-            "Username": "244vishudverma@gmail.com",
-            "Name": "Vishud Verma",
-            "Branch": "Bio-Medical Engineering",
-            "Domain": "Technical(Makerspace)",
-            "InstagramID": "https://www.instagram.com/_vishud_verma_244/",
-            "LinkedINID": "https://www.linkedin.com/in/vishud-verma-5714b2118/",
-            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526888/i_cell_4rth_year/Vishud_Verma_kn5fww.webp"
-         },
-         {
-            "Username": "samsoon7789@gmail.com",
-            "Name": "Alim Khan",
-            "Branch": "Electrical Engineering",
-            "Domain": "Technical(Makerspace)",
-            "InstagramID": "https://www.instagram.com/alimkhan6470/",
-            "LinkedINID": "https://www.linkedin.com/in/alim-khan-109165204/",
-            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704527788/alim_khan_kynpj7.webp"
-         },
-         {
             "Username": "mayank0990bhardwaj@gmail.com",
             "Name": "Mayank Bhardwaj",
             "Branch": "Biotechnology",
@@ -112,15 +132,6 @@
             "InstagramID": "https://instagram.com/idli_without.sambhar?igshid=OGQ5ZDc2ODk2ZA==",
             "LinkedINID": "https://www.linkedin.com/in/aditya-dhote-0418b720b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526804/i_cell_4rth_year/Aditya_Dhote.webp"
-         },
-         {
-            "Username": "mulchandanilakshman@gmail.com",
-            "Name": "Lakshman Mulchandani",
-            "Branch": "Electrical Engineering",
-            "Domain": "Technical(Makerspace)",
-            "InstagramID": "https://www.instagram.com/_lakshh__/",
-            "LinkedINID": "https://www.linkedin.com/in/lakshmanmulchandani",
-            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526890/i_cell_4rth_year/Lakshman_Mulchandani_tztigl.webp"
          },
          {
             "Username": "sadhvikachaparla@gmail.com",
@@ -168,15 +179,6 @@
             "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526906/i_cell_4rth_year/Chanchal_Thakur_mqv7qh.webp"
          },
          {
-            "Username": "srisreshtapasumarthi02@gmail.com",
-            "Name": "Pasumarthi Sri Sreshta",
-            "Branch": "Biomedical",
-            "Domain": "Technical(Makerspace)",
-            "InstagramID": "an_sreshta",
-            "LinkedINID": "sreshta-pasumarthi-803a55200",
-            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704528088/i_cell_4rth_year/Pasumarthi_Sri_Sreshta_ymaglp.webp"
-         },
-         {
             "Username": "amanrathorear2001@gmail.com",
             "Name": "Aman Rathore",
             "Branch": "Mechanical engineering",
@@ -205,6 +207,12 @@
          }
       ],
       "coreCoordinators": [
+         {
+            "name": "Prince Tripathi",
+            "insta": "https://www.instagram.com/princetripathie07?igsh=MTNpeTVrMjBjcm0wNg==",
+            "linkedin": "https://www.linkedin.com/in/prince-tripathi-96920b224/",
+            "domain": "Technical (Makerspace)"
+         },
          {
             "name": "Piyush Kumar Sahu ",
             "insta": "https://instagram.com/piyush.14_14?igshid=NGVhN2U2NjQ0Yg==",
@@ -600,6 +608,12 @@
             "insta": "https://www.instagram.com/niteshkumar3423/",
             "linkedin": "https://www.linkedin.com/in/nitesh-kumar-23751225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "domain": "Spons"
+         },
+         {
+            "name": "Manisha",
+            "insta": "https://www.instagram.com/manisha_79122?igsh=cDV3bG9xM2Z1a24z",
+            "linkedin": "https://www.linkedin.com/in/manisha-singh-15a63a232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "domain": "Event Management"
          }
       ],
       "executives": [

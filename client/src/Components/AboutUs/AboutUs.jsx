@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import Bulb1 from "../../Assets/images/bulb11.png";
 import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
+import Owl from "../../Assets/images/Owl.gif";
+import owl2 from "../../Assets/images/owl_new2.gif";
+import owl3 from "../../Assets/images/new_owl3.gif";
 import { FaQuestion } from "react-icons/fa6";
 import "./AboutUs.css";
 
@@ -24,11 +27,17 @@ const AboutUs = () => {
       </div>
       <div className="About-container">
         <div className="About-pic">
-          <div>
+          <div className="holder">
+            <img
+              className="owl"
+              src={owl3}
+              alt="owl"
+              width={100}
+              height={100}
+            />
             <img src={Holder} alt="holder" width={300} height={100} />
           </div>
           <div className="About-imgs">
-            {/* This class container 4 bulbs and these bulbs must swing like a pendulum add this animation using AboutUs.css */}
             <div className="About-img">
               <img src={Bulb1} alt="bulb1" width={75} height={375} />
             </div>
@@ -44,7 +53,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="About-content">
-          <div className="About-item-main">
+          <div className="About-item-main" style={{ fontFamily: "poppins" }}>
             Welcome to the Innovation Cell, the beating heart of innovation,
             creativity, entrepreneurship and technology at NIT Raipur. We are a
             vibrant club dedicated to fostering a culture of innovation,
@@ -56,14 +65,20 @@ const AboutUs = () => {
           <div className="About-item-heading">What do we do ?</div>
           <div
             className={`About-item`}
-            style={{ textAlign: "center", animationDelay: `${activeDiv * 2}s` }}
+            style={{
+              textAlign: "center",
+              animationDelay: `${activeDiv * 2}s`,
+              color: "var(--green)",
+              fontFamily: "Crime",
+              letterSpacing: "0.2px",
+            }}
           >
             {activeDiv === 0
               ? `i-Talks`
               : activeDiv === 1
               ? "Seed Grants for Startups"
               : activeDiv === 2
-              ? "Avinya - Unveiling the Future"
+              ? "Avinya Unveiling the Future"
               : "Seed Grants for Startups"}
           </div>{" "}
           {/* 1st div */}

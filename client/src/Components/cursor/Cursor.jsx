@@ -1,53 +1,100 @@
+// // CustomCursor.jsx
+
+// import React, { useState, useEffect } from "react";
+// import "./Cursor.css"; // Import your CSS file for styling
+// import pointerYellow from "./pointer-yellow.png";
+// import cursorYellow from "./cursor-yellow.png";
+// import clickAnimation from "./onclick_animation.gif";
+
+// const Cursor = () => {
+//   const [position, setPosition] = useState({ x: 0, y: 0 });
+//   const [isHovered, setIsHovered] = useState(false);
+//   const [isClicked, setIsClicked] = useState(false);
+
+//   useEffect(() => {
+//     const updateCursorPosition = (e) => {
+//       setPosition({ x: e.clientX, y: e.clientY });
+//     };
+
+//     document.addEventListener("mousemove", updateCursorPosition);
+
+//     return () => {
+//       document.removeEventListener("mousemove", updateCursorPosition);
+//     };
+//   }, []);
+
+//   const handleCursorHover = () => {
+//     setIsHovered(true);
+//   };
+
+//   const handleCursorLeave = () => {
+//     setIsHovered(false);
+//   };
+
+//   const handleCursorClick = () => {
+//     setIsClicked(!isClicked);
+//   };
+
+//   return (
+//     <div
+//       className={`custom-cursor ${isHovered ? "hovered" : ""} ${
+//         isClicked ? "clicked" : ""
+//       }`}
+//       style={{
+//         left: `${position.x}px`,
+//         top: `${position.y}px`,
+//         transform: `translate(-50%, -50%) scale(${
+//           isHovered || isClicked ? 2 : 1
+//         })`,
+//       }}
+//       onMouseDown={handleCursorClick}
+//       onMouseUp={handleCursorClick}
+//     >
+//       <img src={clickAnimation} />
+//     </div>
+//   );
+// };
+
+// export default Cursor;
+
 import React, { useState, useEffect } from "react";
-import customCursorImage1 from "../../imgs/wandPng.png"; // Replace with the actual path to your first image
-import customCursorImage2 from "../../imgs/magicWandPng.gif"; // Replace with the actual path to your second image
-import "./Cursor.css"; // Create a CSS file for styling
+import "./Cursor.css"; // Assuming you have a CSS file for styling
 
 const Cursor = () => {
+  const [cursorVisible, setCursorVisible] = useState(true);
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
-    let mouseX = 0;
-    let mouseY = 0;
-
-    const updateCursorPosition = () => {
-      if (!isClicked) {
-        setPosition({ x: mouseX, y: mouseY });
-      }
-      requestAnimationFrame(updateCursorPosition);
-    };
-
     const handleMouseMove = (e) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
+      setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    const handleClick = () => {
-      setIsClicked(true);
-      setTimeout(() => {
-        setIsClicked(false);
-      }, 1000);
+    const handleMouseEnter = () => {
+      setCursorVisible(true);
+    };
+
+    const handleMouseLeave = () => {
+      setCursorVisible(false);
     };
 
     document.addEventListener("mousemove", handleMouseMove);
-    document.addEventListener("click", handleClick);
-    updateCursorPosition();
+    document.addEventListener("mouseenter", handleMouseEnter);
+    document.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
       document.removeEventListener("mousemove", handleMouseMove);
-      document.removeEventListener("click", handleClick);
+      document.removeEventListener("mouseenter", handleMouseEnter);
+      document.removeEventListener("mouseleave", handleMouseLeave);
     };
-  }, [isClicked]);
-
-  const cursorImage = isClicked ? customCursorImage2 : customCursorImage1;
+  }, []);
 
   return (
     <div
-      className="custom-cursor"
-      style={{ left: position.x, top: position.y }}
+      className={`custom-cursor ${cursorVisible ? "visible" : ""}`}
+      style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
-      <img src={cursorImage} alt="Custom Cursor" />
+      {/* Replace "your-gif-path.gif" with the path to your GIF */}
+      {/* <img src={first} alt="custom-cursor" /> */}
     </div>
   );
 };

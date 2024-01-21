@@ -1,7 +1,6 @@
 import React from "react";
 import Projects from "./Projects";
 import "./Makerspace.css";
-import makerspaceimg from "../../imgs/MakerspaceImg.jpg";
 import slides from "./Data/memories.json";
 import Memories from "./Memories";
 import data from "./Data/Projects.json";
@@ -12,6 +11,8 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const MakerSpace = () => {
+  const makerspaceimg =
+    "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705742765/i_cell_4rth_year/makerspace/c7uhwyswmb2jnsbjvxor.webp";
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
   const location = useLocation();
@@ -40,6 +41,10 @@ const MakerSpace = () => {
   return (
     <>
       <Navbar2 />
+      <div className="time-turner-animation" href="" previewlistener="true">
+        <span className="time-turner-animation__outer"></span>
+        <span className="time-turner-animation__inner"></span>
+      </div>
       <div className={scrolled ? "dark-overlay" : ""}></div>
       <div className="maker__container teamHeading">
         <h1>MakerSpace</h1>
@@ -49,12 +54,20 @@ const MakerSpace = () => {
               <h2>About Us</h2>
               <div className="Arrow"></div>
             </div>
-            <p> 
-            Welcome to NIT Raipur's Makerspace, a vibrant hub where innovation thrives amid cutting-edge technology. Explore a playground designed to empower inventors, entrepreneurs, and curious minds, providing the tools to turn ideas into reality.
+            <p>
+              Welcome to NIT Raipur's Makerspace, a vibrant hub where innovation
+              thrives amid cutting-edge technology. Explore a playground
+              designed to empower inventors, entrepreneurs, and curious minds,
+              providing the tools to turn ideas into reality.
             </p>
             <p>
               {" "}
-              Our collaborative environment fosters interdisciplinary teamwork, uniting engineers, designers, and enthusiasts. The Makerspace is more than a physical space; it's a community dedicated to exploration, learning, and pushing the boundaries of what's possible. Join us on a journey of discovery and let the Makerspace launch your next big idea!
+              Our collaborative environment fosters interdisciplinary teamwork,
+              uniting engineers, designers, and enthusiasts. The Makerspace is
+              more than a physical space; it's a community dedicated to
+              exploration, learning, and pushing the boundaries of what's
+              possible. Join us on a journey of discovery and let the Makerspace
+              launch your next big idea!
             </p>
           </div>
           <div className="maker__img">

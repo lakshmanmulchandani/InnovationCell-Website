@@ -37,8 +37,9 @@
 
 .social-link a :hover {
   scale: 1.05;
-  color: #00bfff;
+  color: var(--harry);
   transition: all 0.5s;
+  filter: drop-shadow(0 0 4px #d19f3d);
 }
 
 /* @media (max-width: 1205) {
@@ -76,6 +77,9 @@
     gap: 20px;
     scale: 0.7;
   }
+}
+
+@media (max-width: 650px) {
 }
 
 @media (max-width: 400px) {

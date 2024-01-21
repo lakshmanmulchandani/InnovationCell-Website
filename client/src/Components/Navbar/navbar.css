@@ -10,14 +10,21 @@
   z-index: 999;
   background: rgba(255, 255, 255, 0.109);
   backdrop-filter: blur(90px);
-  padding: 15px;
+  padding: 15px 40px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+}
+
+.logo {
+  transform: translateX(-15px);
+}
+.logo2 {
+  transform: translateX(-15px);
 }
 .nav2 {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,7 +33,7 @@
   z-index: 999;
   background: rgba(255, 255, 255, 0.109);
   backdrop-filter: blur(90px);
-  padding: 20px;
+  padding: 15px 40px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
 }
@@ -34,7 +41,7 @@
 .nav-btn {
   padding: 4px;
   margin: 0.2rem 0;
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: 1.1px;
   border-radius: 10px;
   font-weight: 500;
@@ -48,6 +55,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text; */
+  font-family: Harry;
 }
 
 .nav-btn:hover {
@@ -76,13 +84,6 @@ a:hover {
   width: 45%;
 }
 
-.nav-opt:hover {
-  cursor: pointer;
-}
-.nav-opt2:hover {
-  cursor: none;
-}
-
 .logo {
   color: white;
   font-size: 30px;
@@ -92,6 +93,9 @@ a:hover {
   color: white;
   font-size: 30px;
   width: 55%;
+}
+* {
+  /* dsfdafdf */
 }
 
 .logo img {
@@ -111,7 +115,6 @@ a:hover {
 
 .menu-icon {
   display: block;
-  cursor: pointer;
 }
 
 @media (max-width: 923px) {
@@ -168,7 +171,7 @@ a:hover {
 
   .menu-icon {
     display: block;
-    cursor: pointer;
+
     height: fit-content;
     align-self: flex-start;
   }

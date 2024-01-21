@@ -1,0 +1,29 @@
+.snitch {
+  position: fixed;
+  pointer-events: none; /* Make sure the Snitch doesn't interfere with other elements */
+  z-index: 999; /* Set a high z-index to ensure it appears above other elements */
+  animation: moveSnitch 2s infinite; /* Apply the animation */
+}
+
+@keyframes moveSnitch {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(20px, 20px);
+  }
+  50% {
+    transform: translate(40px, -20px);
+  }
+  75% {
+    transform: translate(-20px, 40px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Hide the scrollbar */
+body {
+  /* overflow: hidden; */
+}

@@ -8,11 +8,14 @@ import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
 import teamRecord from "./members.json";
+import web from "../cursor/web_3.png";
 
 const Team = () => {
   return (
-    <div style={{ width: "fit-content" }}>
+    <div className="" style={{ width: "fit-content" }}>
+      <img className="web-team" src={web} alt="" />
       <Navbar2 />
+      <div className="dark-overlay"></div>
       <div className="teams-page">
         {/* <div id="team" className="teamHeading">
           <h1>Team Innovation cell</h1>
