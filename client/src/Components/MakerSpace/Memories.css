@@ -6,13 +6,17 @@
 }
 
 .memories__container img{
-   transition: opacity 0.5s ease-in-out;
+   animation: move ease-out 1s;
 }
-
-.memories__container.transition img{
-   opacity: 1;
+@keyframes move{
+    from{
+        opacity: 0;
+    }
+    to{
+       opacity: 1;
+    }
 }
- .btn{
+.btn{
    padding: 0.25rem;
    background: white;
    border-radius: 50%;
@@ -27,6 +31,11 @@
    justify-content: center;
    color: #181a2b;
    font-weight: bold;
+   transition: 0.8s;
+ }
+ .btn:hover,.btn:focus{
+    background: #00bfff;
+    box-shadow: 0 0 38px #00bfff;
  }
  .btn-left{
     left: 10px;

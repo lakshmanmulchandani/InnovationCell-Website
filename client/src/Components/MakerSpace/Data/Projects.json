@@ -4,7 +4,7 @@
             "src": "/makerspaceimg/Project1.webp",
             "alt": "Project img",
             "title": "SecQR",
-            "text": "SecQR is an android app empowers users to generate custom QR codes for vehicles, and the data within these QR codes can be interpreted at different stakeholder levels. Every Levels will show different data from the same QR code. Online once then all the things will work offline.",
+            "text": "Inroducing our revolutionary SecQR Application to solve the problems faced by vehicals users.SecQR is an android app empowers users to generate custom QR codes for vehicles, and the data within these QR codes can be interpreted at different stakeholder levels. Every Levels will show different data from the same QR code. Online once then all the things will work offline.",
             "techstack": "Android Studio, QR, Cryptography, Firebase"
          },
          {
