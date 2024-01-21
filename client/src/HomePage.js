@@ -81,8 +81,8 @@ function App() {
             <Accordian />
             <div id="contactusnav"></div>
             <Contact />
+            <Footer />
           </div>
-          <Footer />
         </>
       )}
     </>
