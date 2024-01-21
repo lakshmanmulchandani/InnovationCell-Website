@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import * as THREE from "three";
 import "./Intro.css";
-import i_cell_text from "../../Assets/images/i_cell_text.png";
+import i_cell_text from "../cursor/I_CELL_TEXT.png";
 import finger from "../cursor/point_finger.gif";
 
 class IntroScene {
