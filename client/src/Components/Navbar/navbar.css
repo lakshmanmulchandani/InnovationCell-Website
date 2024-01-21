@@ -138,6 +138,11 @@ a:hover {
     animation: fadeIn 1s;
     z-index: 999;
   }
+
+  .nav, .nav2 {
+    padding: 15px 20px 15px 40px;
+  }
+  
   .nav-opt {
     display: none;
     flex-direction: column;
