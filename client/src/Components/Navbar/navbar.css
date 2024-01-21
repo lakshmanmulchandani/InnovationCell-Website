@@ -78,13 +78,6 @@ a:hover {
   width: 70%;
 }
 
-.show {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .nav-opt2 {
   display: flex;
   justify-content: space-between;
@@ -128,6 +121,13 @@ a:hover {
 }
 
 @media (max-width: 923px) {
+  .show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .nav.nav-phone {
     height: 100%;
     animation: fadeIn 1s;
@@ -142,7 +142,7 @@ a:hover {
   .nav, .nav2 {
     padding: 15px 20px 15px 40px;
   }
-  
+
   .nav-opt {
     display: none;
     flex-direction: column;
