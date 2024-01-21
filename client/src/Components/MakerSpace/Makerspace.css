@@ -127,6 +127,16 @@
   }
 }
 
+@media screen and (max-width: 568px) {
+    .maker__container{
+      padding: 0;
+    }
+    .maker__container h1{
+       font-size: 2rem;
+       margin-top: 3rem;
+       z-index: -2;
+    }
+}
 .dark-overlay {
   /* position: absolute; */
   /* top: 0;
