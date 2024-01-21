@@ -9,13 +9,6 @@ const Navbar = () => {
     setPhone(!phone);
   };
 
-  const handleNavLinkClick = (event) => {
-    // Prevent the default behavior of anchor tags
-    event.preventDefault();
-    // Your logic for handling the click goes here, e.g., scrolling to the section
-    // You can use libraries like react-scroll or window.scrollTo() for smooth scrolling
-  };
-
   return (
     <div className={`nav ${phone ? "nav-phone" : ""}`}>
       <div className="logo">
@@ -25,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className={` nav-opt ${phone ? "show" : ""}`}>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#" onClick={handleNavLinkClick}>
+          <a href="#">
             <div className="home">Home</div>
           </a>
         </div>
