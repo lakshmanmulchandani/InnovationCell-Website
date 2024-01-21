@@ -184,8 +184,8 @@
   width: 4.2rem;
   height: 4.5rem;
   position: absolute;
-  bottom: 8.95rem;
-  left: 4.2rem;
+  bottom: 9.1rem;
+  left: 4.3rem;
   transform-style: preserve-3d;
 }
 @keyframes spin-and-flip {

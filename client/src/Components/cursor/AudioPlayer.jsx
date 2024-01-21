@@ -1,20 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Howl, Howler } from "howler";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeUp, faVolumeMute } from "@fortawesome/free-solid-svg-icons";
 import second from "./harry_potter_audio.mp3";
-import pic from "./pointer-yellow.png";
+import fingger from "./point_finger.gif";
 
 const sound = new Howl({
   src: [second],
   loop: true,
-  autoplay: true,
+  autoplay: false,
 });
 
 Howler.volume(0.5);
 
 const AudioPlayer = () => {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const togglePlay = () => {
     if (isPlaying) {
@@ -24,6 +24,10 @@ const AudioPlayer = () => {
     }
     setIsPlaying(!isPlaying);
     Howler.volume(isPlaying ? 0 : 0.5);
+    if (!sound.autoplay) {
+      sound.autoplay = true;
+      setIsPlaying(true);
+    }
   };
 
   const toggleMute = () => {
@@ -31,33 +35,50 @@ const AudioPlayer = () => {
     sound.volume(currentVolume === 0 ? 0.5 : 0);
   };
 
+  // const [hidden, setHidden] = useState(false);
+
   return (
-    <div
-      style={{
-        position: "fixed",
-        bottom: "50px",
-        right: "50px",
-        display: "flex",
-        alignItems: "center",
-        zIndex: "9999",
-      }}
-    >
-      <button
-        onClick={togglePlay}
+    <>
+      {/* <div
         style={{
-          background: "none",
-          border: "none",
-          fontSize: "24px",
-          color: "#fff",
+          position: "fixed",
+          bottom: "-10px",
+          right: "0",
+          display: "flex",
+          alignItems: "center",
+          zIndex: "9999",
+          display: `${hidden ? "none" : ""}`,
         }}
       >
-        {isPlaying ? (
-          <FontAwesomeIcon color="#d19f3d" icon={faVolumeUp} />
-        ) : (
-          <FontAwesomeIcon color="#d19f3d" icon={faVolumeMute} />
-        )}
-      </button>
-    </div>
+        <img src={fingger} alt="" height={200} />
+      </div> */}
+      <div
+        style={{
+          position: "fixed",
+          bottom: "50px",
+          right: "50px",
+          display: "flex",
+          alignItems: "center",
+          zIndex: "9999",
+        }}
+      >
+        <button
+          onClick={togglePlay}
+          style={{
+            background: "none",
+            border: "none",
+            fontSize: "24px",
+            color: "#fff",
+          }}
+        >
+          {isPlaying ? (
+            <FontAwesomeIcon color="#d19f3d" icon={faVolumeUp} />
+          ) : (
+            <FontAwesomeIcon color="#d19f3d" icon={faVolumeMute} />
+          )}
+        </button>
+      </div>
+    </>
   );
 };
 

@@ -10,27 +10,36 @@ import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 import Cursor from "./Components/cursor/Cursor";
+import Intro from "./Components/Intro/Intro";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
   const location = useLocation();
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let loadingTimeoutId;
+
     setActiveLink(location.pathname);
+
     // Add event listener for scroll
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup the event listener on unmount
+    loadingTimeoutId = setTimeout(() => {
+      setLoading(false);
+    }, 8000);
+
+    // Cleanup the event listener and clear the timeout on unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      clearTimeout(loadingTimeoutId);
     };
   }, [location.pathname]);
 
   const handleScroll = () => {
     if (window.scrollY > 600) {
-      // console.log("hi"+scrolled);
       setScrolled(true); // User has scrolled down
     } else {
       setScrolled(false); // User is at the top
@@ -44,33 +53,38 @@ function App() {
   // };
   return (
     <>
-      <SnowfallComponent />
-      <Snitch />
-      <Cursor />
+      {loading ? (
+        <Intro />
+      ) : (
+        <>
+          <SnowfallComponent />
+          <Snitch />
+          <div className="App">
+            <Cursor />
+            <div className={scrolled ? "dark-overlay" : ""}></div>
+            <LandingPage />
+            <a id="" className="scroll-down" href="#aboutusnav">
+              <div className="mouse">
+                <span></span>
+              </div>
+              <div className="arrow">
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <div id="aboutusnav"></div>
+            <AboutUs />
 
-      <div className="App">
-        <div className={scrolled ? "dark-overlay" : ""}></div>
-        <LandingPage />
-        <a id="" className="scroll-down" href="#aboutusnav">
-          <div className="mouse">
-            <span></span>
+            <div id="eventsnav"></div>
+            <Timeline />
+            <div id="faqnav"></div>
+            <Accordian />
+            <div id="contactusnav"></div>
+            <Contact />
+            <Footer />
           </div>
-          <div className="arrow">
-            <span></span>
-            <span></span>
-          </div>
-        </a>
-        <div id="aboutusnav"></div>
-        <AboutUs />
-
-        <div id="eventsnav"></div>
-        <Timeline />
-        <div id="faqnav"></div>
-        <Accordian />
-        <div id="contactusnav"></div>
-        <Contact />
-        <Footer /> 
-      </div>
+        </>
+      )}
     </>
   );
 }

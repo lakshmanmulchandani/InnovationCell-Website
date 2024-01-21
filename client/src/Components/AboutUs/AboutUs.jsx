@@ -3,7 +3,8 @@ import Bulb1 from "../../Assets/images/bulb11.png";
 import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
 import Owl from "../../Assets/images/Owl.gif";
-
+import owl2 from "../../Assets/images/owl_new2.gif";
+import owl3 from "../../Assets/images/new_owl3.gif";
 import { FaQuestion } from "react-icons/fa6";
 import "./AboutUs.css";
 
@@ -27,7 +28,13 @@ const AboutUs = () => {
       <div className="About-container">
         <div className="About-pic">
           <div className="holder">
-            <img className="owl" src={Owl} alt="owl" width={120} height={120} />
+            <img
+              className="owl"
+              src={Owl}
+              alt="owl"
+              width={125}
+              height={140}
+            />
             <img src={Holder} alt="holder" width={300} height={100} />
           </div>
           <div className="About-imgs">

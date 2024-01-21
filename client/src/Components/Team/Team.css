@@ -117,7 +117,7 @@
 .container .card .content p {
   font-size: 1rem;
   /*color: white;*/
-  color:rgb(165, 226, 237);
+  color: rgb(165, 226, 237);
   font-weight: 1000;
   margin-bottom: 1rem;
 }
@@ -178,8 +178,8 @@
 }
 .nameCard p {
   transition: all 0.5s;
-   /*change color and style*/
-  color:rgb(165, 226, 237);
+  /*change color and style*/
+  color: rgb(165, 226, 237);
   font-style: bold;
 }
 
@@ -263,4 +263,12 @@
   .container .card {
     width: 240px;
   }
+}
+
+.web-team {
+  position: fixed;
+  /* top: -10rem; */
+  /* width: 100vw; */
+  right: -2rem;
+  opacity: 0.6;
 }

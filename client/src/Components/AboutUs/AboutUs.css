@@ -25,7 +25,7 @@
   text-align: center;
   font-size: 1.8rem;
   font-weight: 700;
-  font-family: frozen;
+  font-family: harry;
 }
 
 .About-item-heading::after {
@@ -63,7 +63,7 @@
 }
 
 .About-item-heading {
-  font-family: magic-italic;
+  font-family: magicI;
   font-size: 2.4rem;
 }
 
@@ -79,7 +79,7 @@
 
 .owl {
   position: absolute;
-  top: -3.8rem;
+  top: -4.8rem;
   left: 0.5rem;
 }
 
@@ -133,6 +133,10 @@
     text-align: center;
   }
 
+  .About-pic {
+    transform: translateY(2rem);
+  }
+
   .About-item {
     font-size: 1.2rem;
   }
@@ -152,12 +156,14 @@
   }
   .About-pic {
     scale: 0.9;
+    /* transform: translateY(-2rem); */
   }
   .About-item {
     font-size: 1.4rem;
   }
   .About-item-heading {
     font-size: 2rem;
+    font-family: frozen;
   }
   .About-item-heading::after {
     right: 5rem;
