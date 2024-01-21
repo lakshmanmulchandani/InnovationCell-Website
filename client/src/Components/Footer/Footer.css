@@ -192,10 +192,6 @@
 }
 
 @media screen and (max-width: 300px) {
-  .footer {
-    width: 100vw;
-  }
-
   .footer > .upper-section {
     row-gap: 3rem;
     text-align: center;
