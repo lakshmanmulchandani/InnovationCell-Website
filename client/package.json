@@ -27,7 +27,7 @@
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.160.0",
     "vanilla-tilt": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.5.1"
   },
   "scripts": {
     "start": "react-scripts start",

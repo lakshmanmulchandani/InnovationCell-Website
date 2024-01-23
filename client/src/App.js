@@ -72,7 +72,8 @@ const App = () => {
       <AudioPlayer />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/" element={<Intro />} />
+          <Route exact path="/home" element={<HomePage />} />
           <Route exact path="/teams" element={<Team />} />
           <Route exact path="/makerspace" element={<MakerSpace />} />
           <Route exact path="/form" element={<Recruitment />} />
