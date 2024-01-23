@@ -105,12 +105,16 @@
   color: var(--faq-a);
 }
 
+.answer-content:hover {
+  color: rgb(226, 226, 226);
+}
+
 .question-content:hover {
-  color: var(--faq-q);
+  color: rgb(226, 226, 226);
 }
 
 .question-content:visited {
-  color: var(--faq-q);
+  color: rgb(226, 226, 226);
 }
 
 @media screen and (max-width: 1024px) {
