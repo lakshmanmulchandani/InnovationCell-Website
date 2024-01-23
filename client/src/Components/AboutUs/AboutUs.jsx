@@ -30,10 +30,10 @@ const AboutUs = () => {
           <div className="holder">
             <img
               className="owl"
-              src={owl3}
+              src={Owl}
               alt="owl"
-              width={100}
-              height={100}
+              width={125}
+              height={140}
             />
             <img src={Holder} alt="holder" width={300} height={100} />
           </div>

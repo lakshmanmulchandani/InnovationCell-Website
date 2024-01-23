@@ -4,7 +4,7 @@
          "src": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705742320/i_cell_4rth_year/makerspace/project1.webp",
          "alt": "Project img",
          "title": "SecQR",
-         "text": "SecQR is an android app empowers users to generate custom QR codes for vehicles, and the data within these QR codes can be interpreted at different stakeholder levels. Every Levels will show different data from the same QR code. Online once then all the things will work offline.",
+         "text": "Inroducing our revolutionary SecQR Application to solve the problems faced by vehicals users.SecQR is an android app empowers users to generate custom QR codes for vehicles, and the data within these QR codes can be interpreted at different stakeholder levels. Every Levels will show different data from the same QR code. Online once then all the things will work offline.",
          "techstack": "Android Studio, QR, Cryptography, Firebase"
       },
       {
@@ -18,7 +18,7 @@
          "src": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705742319/i_cell_4rth_year/makerspace/project3.webp",
          "alt": "Project img",
          "title": "RFID Automation",
-         "text": "In the mining sector, RFID technology transforms safety and efficiency. It automates vehicle tracking in underground mines, ensuring authorized access with unique RFID tags. Extending to open-cast mines, RFID manages worker attendance, monitors hours, and tracks vehicles, enhancing precision and efficiency in critical operations.",
+         "text": "RFID technology revolutionizes the mining sector by addressing safety and efficiency challenges. Implementing RFID tags on vehicles and personnel enables automated tracking in underground and open-cast mines, enhancing authorization processes and ensuring accurate attendance records. This innovation streamlines operations, reduces errors, and boosts overall productivity in the mining industry.",
          "techstack": "Programming in C++, Tincercad, RFID Technology"
       }
    ]
