@@ -218,8 +218,8 @@
 
 .dark-overlay {
   /* position: absolute; */
-  /* top: 0;
-    left: 0; */
+  top: 0;
+  left: 0;
   /* width: 100%;
     height: 100%; */
   height: 100vh;
@@ -230,6 +230,12 @@
   z-index: -5;
   transform: translateY(-18px);
   /* backdrop-filter: blur(1px); */
+}
+
+@media only screen and (max-width: 930px) {
+  .web-team {
+    margin-top: -20px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -257,6 +263,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .web-team {
+    width: 350px;
   }
 }
 

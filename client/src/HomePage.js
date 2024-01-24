@@ -10,31 +10,22 @@ import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 import Cursor from "./Components/cursor/Cursor";
-import Intro from "./Components/Intro/Intro";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
   const location = useLocation();
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    let loadingTimeoutId;
-
     setActiveLink(location.pathname);
 
     // Add event listener for scroll
     window.addEventListener("scroll", handleScroll);
 
-    loadingTimeoutId = setTimeout(() => {
-      setLoading(false);
-    }, 8000);
-
     // Cleanup the event listener and clear the timeout on unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      clearTimeout(loadingTimeoutId);
     };
   }, [location.pathname]);
 

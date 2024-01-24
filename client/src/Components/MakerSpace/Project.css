@@ -2,7 +2,7 @@
   /* min-height: 70vh; */
   max-width: 25vw;
   /* height: fit-content; */
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(5, 1, 70,0.25);
   border-radius: 10px;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
@@ -15,13 +15,33 @@
 
 .Project_card_content{
   padding: 0.75rem;
+  position: relative;
+}
+
+.Project_card_content:before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url('../../Assets/images/Hogwart.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: contain;
+  margin: 0 auto;
 }
 .Projects__card p{
   max-width: 25rem;
 }
+.Project_text_content{
+  position: relative;
+}
 .Project_text_content h2{
   font-family: frozen;
-  color: #00bfff;
+  color: #de9a13;
   margin-bottom: 0.75rem;
 }
 .Project_text_content p{
@@ -38,17 +58,35 @@
   font-size: 1.55rem;
 }
 .Project__techstack p{
-   color: #00bfff;
-   margin-top: 0.35rem;
+   color: #d19f3d;
+   margin-top: 0.45rem;
    font-weight: bold;
 }
 @media screen and (max-width: 968px) {
    .Projects__card{
-      max-width: 40vw;
+      max-width: 60vw;
    }
+   .Project_card_content:before{
+    top: 0;
+  }
 }
 @media (max-width: 768px){
    .Projects__card{
-       max-width: 75vw;
+       max-width: 90vw;
    }
+}
+
+@media  screen and (max-width: 512px) {
+  .Project_card_content:before{
+    top: 25%;
+ }
+}
+@media screen and (max-width: 412px) {
+  .Project_card_content:before{
+     top: 30%;
+  }
+  .Projects__card{
+     padding: 0;
+     margin: 0;
+  }
 }

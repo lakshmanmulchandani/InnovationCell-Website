@@ -1,5 +1,6 @@
 .maker__container {
   padding: 2rem 3rem;
+  max-width: 90vw;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -91,7 +92,7 @@
 .maker__about_content h2 {
   font-size: 2rem;
   font-family: frozen;
-  color: #00bfff;
+  color: #d19f3d;
 }
 
 .maker__about_content p {
@@ -126,13 +127,23 @@
   }
 }
 
+@media screen and (max-width: 568px) {
+    .maker__container{
+      padding: 0;
+    }
+    .maker__container h1{
+       font-size: 2rem;
+       margin-top: 3rem;
+       z-index: -2;
+    }
+}
 .dark-overlay {
   /* position: absolute; */
   /* top: 0;
       left: 0; */
   /* width: 100%;
       height: 100%; */
-  height: 100%;
+  height: 102%;
   width: 100%;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);

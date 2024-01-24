@@ -11,13 +11,38 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
+import finger from "../cursor/point_finger.gif";
 
 const LandingPage = () => {
+  const [hidden, setHidden] = useState(false);
+
+  // useEffect(() => {
+  //   const timeoutId = setTimeout(() => {
+  //     setHidden(true);
+  //   }, 3000);
+
+  //   return () => {
+  //     clearTimeout(timeoutId);
+  //   };
+  // }, []);
+
   return (
     <>
       <Navbar />
       {/* <img className="moon-bg" src={moonbg} /> */}
-
+      <div
+        style={{
+          position: "fixed",
+          bottom: "-15px",
+          right: "5px",
+          display: "flex",
+          alignItems: "center",
+          zIndex: "9",
+          display: `${hidden ? "none" : ""}`,
+        }}
+      >
+        <img src={finger} alt="" height={200} />
+      </div>
       <div className="main-landing">
         <div className="landing">
           <div className="welcome">
@@ -31,7 +56,7 @@ const LandingPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaInstagram size={30}/>
+                <FaInstagram size={30} />
               </a>
               <a
                 href="https://twitter.com/I_Cell_NITRR"

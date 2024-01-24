@@ -3,6 +3,7 @@ import * as THREE from "three";
 import "./Intro.css";
 import i_cell_text from "../cursor/I_CELL_TEXT.png";
 import finger from "../cursor/point_finger.gif";
+import { useNavigate } from "react-router-dom";
 
 class IntroScene {
   constructor(options) {
@@ -122,6 +123,7 @@ class IntroScene {
 
 const Intro = () => {
   const [hidden, setHidden] = useState(false);
+  const navigate = useNavigate();
   useEffect(() => {
     const introScene = new IntroScene();
 
@@ -129,6 +131,10 @@ const Intro = () => {
       introScene.render();
       requestAnimationFrame(update);
     };
+
+    const redirectTimeout = setTimeout(() => {
+      navigate("/home");
+    }, 7000);
 
     const timeoutId = setTimeout(() => {
       setHidden(true);
@@ -141,8 +147,9 @@ const Intro = () => {
         introScene.onResize.bind(introScene)
       );
       clearTimeout(timeoutId);
+      clearTimeout(redirectTimeout);
     };
-  }, []);
+  }, [navigate]);
 
   // useEffect(() => {
   //   const timeoutId = setTimeout(() => {
