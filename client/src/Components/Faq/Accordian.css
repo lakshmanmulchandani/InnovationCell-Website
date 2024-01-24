@@ -143,12 +143,12 @@
 
 @keyframes fly {
   0% {
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
   50% {
-    transform: translateY(1.2rem);
+    transform: translateY(1.2rem) scale(1.02);
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
