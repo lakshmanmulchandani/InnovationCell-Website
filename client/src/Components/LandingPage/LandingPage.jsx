@@ -16,15 +16,15 @@ import finger from "../cursor/point_finger.gif";
 const LandingPage = () => {
   const [hidden, setHidden] = useState(false);
 
-  // useEffect(() => {
-  //   const timeoutId = setTimeout(() => {
-  //     setHidden(true);
-  //   }, 3000);
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setHidden(true);
+    }, 3000);
 
-  //   return () => {
-  //     clearTimeout(timeoutId);
-  //   };
-  // }, []);
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
 
   return (
     <>
