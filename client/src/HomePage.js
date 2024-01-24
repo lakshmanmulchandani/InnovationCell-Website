@@ -53,9 +53,9 @@ function App() {
   // };
   return (
     <>
-      {loading ? (
+      {/* {loading ? (
         <Intro />
-      ) : (
+      ) : ( */}
         <>
           <SnowfallComponent />
           <Snitch />
@@ -84,7 +84,7 @@ function App() {
             <Footer />
           </div>
         </>
-      )}
+      {/* )} */}
     </>
   );
 }
