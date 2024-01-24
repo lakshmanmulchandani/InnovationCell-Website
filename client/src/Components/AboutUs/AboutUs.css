@@ -121,13 +121,6 @@
   border-radius: 10px;
 }
 
-.About-item {
-  font-size: 1.4rem;
-  font-weight: 600;
-  display: inline-block;
-  animation: fade 2s ease-in-out infinite alternate;
-}
-
 @media (max-width: 859px) {
   .About-item-main {
     text-align: center;
@@ -166,11 +159,11 @@
     font-family: frozen;
   }
   .About-item-heading::after {
-    right: 5rem;
+    right: 3.2rem;
   }
 
   .About-item-heading::before {
-    left: 5rem;
+    left: 3.2rem;
   }
 }
 
@@ -189,11 +182,11 @@
   }
 
   .About-item-heading::after {
-    right: 3rem;
+    right: 2rem;
   }
 
   .About-item-heading::before {
-    left: 3rem;
+    left: 2rem;
   }
 }
 

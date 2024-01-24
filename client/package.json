@@ -24,6 +24,7 @@
     "react-scripts": "5.0.1",
     "react-snowfall": "^1.2.1",
     "react-tilt": "^1.0.2",
+    "react-type-animation": "^3.2.0",
     "react-vertical-timeline-component": "^3.6.0",
     "vanilla-tilt": "^1.8.1",
     "web-vitals": "^3.5.1"

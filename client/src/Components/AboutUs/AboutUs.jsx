@@ -4,8 +4,9 @@ import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
 import Owl from "../../Assets/images/Owl.gif";
 import owl2 from "../../Assets/images/owl_new2.gif";
-import owl3 from "../../Assets/images/new_owl3.gif";
+// import owl3 from "../../Assets/images/new_owl3.gif";
 import { FaQuestion } from "react-icons/fa6";
+import AnimatonComponent from './AnimationComponent';
 import "./AboutUs.css";
 
 const AboutUs = () => {
@@ -19,6 +20,8 @@ const AboutUs = () => {
 
     return () => clearInterval(timer); // Cleanup the timer when the component unmounts
   }, []);
+
+  const names = ["Seed Grant for Startup", "Avinya"];
 
   return (
     <div className="About-main-container">
@@ -63,24 +66,7 @@ const AboutUs = () => {
             resources, and opportunities to transform their ideas into reality.
           </div>
           <div className="About-item-heading">What do we do ?</div>
-          <div
-            className={`About-item`}
-            style={{
-              textAlign: "center",
-              animationDelay: `${activeDiv * 2}s`,
-              color: "var(--green)",
-              fontFamily: "Crime",
-              letterSpacing: "0.2px",
-            }}
-          >
-            {activeDiv === 0
-              ? `i-Talks`
-              : activeDiv === 1
-              ? "Seed Grants for Startups"
-              : activeDiv === 2
-              ? "Avinya Unveiling the Future"
-              : "Seed Grants for Startups"}
-          </div>{" "}
+          <div><AnimatonComponent className="About-item"/></div>
           {/* 1st div */}
         </div>
       </div>
