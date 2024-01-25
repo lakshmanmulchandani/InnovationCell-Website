@@ -44,37 +44,34 @@ function App() {
   // };
   return (
     <>
-      {/* {loading ? (
-        <Intro />
-      ) : ( */}
-        <>
-          <SnowfallComponent />
-          <Snitch />
-          <div className="App">
-            <Cursor />
-            <div className={scrolled ? "dark-overlay" : ""}></div>
-            <LandingPage />
-            <a id="" className="scroll-down" href="#aboutusnav">
-              <div className="mouse">
-                <span></span>
-              </div>
-              <div className="arrow">
-                <span></span>
-                <span></span>
-              </div>
-            </a>
-            <div id="aboutusnav"></div>
-            <AboutUs />
+      <>
+        <SnowfallComponent />
+        <Snitch />
+        <div className="App">
+          <div className={scrolled ? "dark-overlay" : ""}></div>
+          <LandingPage />
+          <h1 className="teamsHeading .cursor_hover">Hello</h1>
+          <a id="" className="scroll-down" href="#aboutusnav">
+            <div className="mouse">
+              <span></span>
+            </div>
+            <div className="arrow">
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+          <div id="aboutusnav"></div>
+          <AboutUs />
 
-            <div id="eventsnav"></div>
-            <Timeline />
-            <div id="faqnav"></div>
-            <Accordian />
-            <div id="contactusnav"></div>
-            <Contact />
-            <Footer />
-          </div>
-        </>
+          <div id="eventsnav"></div>
+          <Timeline />
+          <div id="faqnav"></div>
+          <Accordian />
+          <div id="contactusnav"></div>
+          <Contact />
+          <Footer />
+        </div>
+      </>
       {/* )} */}
     </>
   );

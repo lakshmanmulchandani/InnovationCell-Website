@@ -10,6 +10,7 @@ import curGif2 from "./Components/cursor/another_onclick_animation.gif";
 import AudioPlayer from "./Components/cursor/AudioPlayer.jsx";
 import Intro from "./Components/Intro/Intro.jsx";
 import TechTeam from "./Components/Team/TechTeam.jsx";
+import Cursor from "./Components/cursor/Cursor.jsx";
 
 const App = () => {
   const [gifPosition, setGifPosition] = useState({ x: 0, y: 0 });
@@ -47,6 +48,7 @@ const App = () => {
       onClick={handleClick}
       style={{ height: "100vh", position: "relative" }}
     >
+      <Cursor />
       {showGif && (
         <div
           style={{

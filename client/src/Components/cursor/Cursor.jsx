@@ -59,6 +59,7 @@
 
 import React, { useState, useEffect } from "react";
 import "./Cursor.css"; // Assuming you have a CSS file for styling
+import quill_cursor from "./quill_cursor.png";
 
 const Cursor = () => {
   const [cursorVisible, setCursorVisible] = useState(true);
@@ -66,7 +67,7 @@ const Cursor = () => {
 
   useEffect(() => {
     const handleMouseMove = (e) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+      setPosition({ x: e.clientX, y: e.clientY - 58 });
     };
 
     const handleMouseEnter = () => {
@@ -93,8 +94,7 @@ const Cursor = () => {
       className={`custom-cursor ${cursorVisible ? "visible" : ""}`}
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
-      {/* Replace "your-gif-path.gif" with the path to your GIF */}
-      {/* <img src={first} alt="custom-cursor" /> */}
+      <img src={quill_cursor} height={70} alt="custom-cursor" />
     </div>
   );
 };
