@@ -168,6 +168,10 @@
   color:blueviolet;
 }
 
+.tech_team_footer {
+  color: var(--harry);
+}
+
 /* media queries */
 @media screen and (max-width: 704px) {
   .footer {
