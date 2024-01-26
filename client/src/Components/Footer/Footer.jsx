@@ -188,7 +188,10 @@ export default function Footer() {
 
         <div className="lower-section">
           <h1>
-            Made with ❣️ by <span>Tech Team</span>
+            Made with ❣️ by{" "}
+            <a href="/tech_team">
+              <span className="tech_team_footer">Tech Team</span>
+            </a>
           </h1>
         </div>
       </footer>
