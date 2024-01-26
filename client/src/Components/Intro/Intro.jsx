@@ -133,7 +133,7 @@ const Intro = () => {
     };
 
     const redirectTimeout = setTimeout(() => {
-      navigate("/home");
+      navigate("/");
     }, 7000);
 
     const timeoutId = setTimeout(() => {

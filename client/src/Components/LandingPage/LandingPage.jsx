@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Moon from "../../Assets/Moon";
 import Navbar from "../Navbar/Navbar";
 import "./Landing.css";
 
 import ICell from "../../svgs/ICell";
-import moonbg from "../../imgs/moon1.webp";
 import {
   FaFacebookSquare,
   FaInstagram,
@@ -16,20 +14,19 @@ import finger from "../cursor/point_finger.gif";
 const LandingPage = () => {
   const [hidden, setHidden] = useState(false);
 
-  // useEffect(() => {
-  //   const timeoutId = setTimeout(() => {
-  //     setHidden(true);
-  //   }, 3000);
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setHidden(true);
+    }, 3000);
 
-  //   return () => {
-  //     clearTimeout(timeoutId);
-  //   };
-  // }, []);
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
 
   return (
     <>
       <Navbar />
-      {/* <img className="moon-bg" src={moonbg} /> */}
       <div
         style={{
           position: "fixed",
