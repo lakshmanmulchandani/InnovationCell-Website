@@ -60,14 +60,14 @@
 .About-item-main {
   letter-spacing: 0.2px;
   /*add transition  */
-  transition: text-decoration 0.3s ease;/* Add transition for smooth effect */
+  transition: text-decoration 0.3s ease; /* Add transition for smooth effect */
 }
 /*add hover effect*/
 .About-item-main:hover {
-  text-decoration: underline  grey; /* Underline the text on hover */
+  text-decoration: underline grey; /* Underline the text on hover */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-*/
+
 .About-item-heading {
   font-family: magicI;
   font-size: 2.4rem;
