@@ -44,7 +44,7 @@ const AudioPlayer = () => {
           position: "fixed",
           bottom: "50px",
           right: "50px",
-          display: "flex",
+          display: " flex",
           alignItems: "center",
           zIndex: "999",
         }}
