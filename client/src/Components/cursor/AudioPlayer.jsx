@@ -39,19 +39,6 @@ const AudioPlayer = () => {
 
   return (
     <>
-      {/* <div
-        style={{
-          position: "fixed",
-          bottom: "-10px",
-          right: "0",
-          display: "flex",
-          alignItems: "center",
-          zIndex: "9999",
-          display: `${hidden ? "none" : ""}`,
-        }}
-      >
-        <img src={fingger} alt="" height={200} />
-      </div> */}
       <div
         style={{
           position: "fixed",
@@ -59,7 +46,7 @@ const AudioPlayer = () => {
           right: "50px",
           display: "flex",
           alignItems: "center",
-          zIndex: "9999",
+          zIndex: "999",
         }}
       >
         <button
