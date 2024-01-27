@@ -38,7 +38,7 @@ const Team = () => {
         </div>
 
         <div id="team" className="teamHeading">
-          <h1>Team heads</h1>
+          <h1>Team heads </h1>
         </div>
         <div className="Teams">
           {teamRecord.teamData.fourthYear.map((member, index) => (

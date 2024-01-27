@@ -160,7 +160,13 @@
 
 .footer > .lower-section > h1 > span {
   color: rgb(255, 174, 81);
+  /*changes*/
   text-decoration: underline;
+  transition: color 0.3s; /* Add a smooth transition for a more polished effect */
+}
+/*changes*/
+.footer > .lower-section > h1 > span:hover {
+  color:blueviolet;
 }
 
 .tech_team_footer {
