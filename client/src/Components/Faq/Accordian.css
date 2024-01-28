@@ -108,10 +108,12 @@
 .answer-content:hover {
   /* color: rgb(226, 226, 226); */
   color: rgb(205, 190, 219);
+
 }
 
 .question-content:hover {
   color: rgb(226, 226, 226);
+  text-shadow: 0 0 10px rgba(205, 190, 219, 0.8); 
 }
 
 .question-content:visited {

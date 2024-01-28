@@ -65,10 +65,12 @@
 a {
   text-decoration: none;
   color: white;
+  transition: color 0.3s ease;
 }
 
 a:hover {
   color: #d19f3d;
+  text-shadow: 0 0 10px rgba(209, 159, 61, 0.8); 
 }
 
 .nav-opt {

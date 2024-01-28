@@ -150,6 +150,7 @@
   scale: 2.05;
   color: var(--harry);
   filter: drop-shadow(0 0 4px #d1a03de1);
+  text-shadow: 0 0 10px rgba(209, 159, 61, 0.8); 
 }
 
 /* LOWER SECTION */
