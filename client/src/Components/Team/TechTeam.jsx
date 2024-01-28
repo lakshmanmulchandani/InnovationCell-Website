@@ -19,7 +19,7 @@ const TechTeam = () => {
       <div className="dark-overlay"></div>
       <div className="teams-page">
         <div id="team" className="teamHeading">
-          <h1>Tech Team</h1>
+          <h1>Tech Team Member</h1>
         </div>
         <div className="Teams">
           <MakerSpaceTeam />
