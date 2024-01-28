@@ -1,5 +1,5 @@
 // Team.jsx
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Team.css";
 import TeamCard from "./TeamCard";
 import NameCard from "./NameCard";
@@ -8,9 +8,26 @@ import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
 import teamRecord from "./members.json";
-import web from "../cursor/web_3.png";
+/*import web from "../cursor/web_3.png";*/
+import web from "../cursor/Spiderimg.png";
 
-const Team = () => {
+
+const Team = () => 
+  {
+    const [spiderPosition, setSpiderPosition] = useState({ x: 0, y: 0 });
+  
+    useEffect(() => {
+      const handleMouseMove = (e) => {
+        setSpiderPosition({ x: e.clientX, y: e.clientY });
+      };
+  
+      document.addEventListener("mousemove", handleMouseMove);
+  
+      return () => {
+        document.removeEventListener("mousemove", handleMouseMove);
+      };
+    }, []);
+  
   return (
     <div className="" style={{ width: "fit-content" }}>
       <img className="web-team" src={web} alt="" />
@@ -85,6 +102,12 @@ const Team = () => {
         </div>
       </div>
       <div id="contactusnav"></div>
+      {/*changes */}
+      <div className="" style={{ width: "fit-content" }}>
+        <div className="spider" style={{ transform: `translate(${spiderPosition.x}px, ${spiderPosition.y}px)` }}></div>
+        <img className="web-team" src={web} alt="" />
+        {/* ... your existing JSX code ... */}
+      </div>
       <Contact />
       <Footer />
     </div>
