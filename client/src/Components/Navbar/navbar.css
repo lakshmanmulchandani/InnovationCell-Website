@@ -45,16 +45,9 @@
   letter-spacing: 1.1px;
   border-radius: 10px;
   font-weight: 500;
-  /* font-family: frozen, serif; */
   font-family: Harry;
 }
 .nav-btn div {
-  /* color: transparent;
-  background-size: 100% 100%;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg");
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text; */
   font-family: Harry;
 }
 
@@ -85,8 +78,6 @@ a:hover {
   width: 45%;
 }
 
-
-
 .logo {
   color: white;
   font-size: 30px;
@@ -96,9 +87,6 @@ a:hover {
   color: white;
   font-size: 30px;
   width: 55%;
-}
-* {
-  /* dsfdafdf */
 }
 
 .logo img {
@@ -139,7 +127,8 @@ a:hover {
     z-index: 999;
   }
 
-  .nav, .nav2 {
+  .nav,
+  .nav2 {
     padding: 15px 20px 15px 40px;
   }
 
@@ -149,7 +138,6 @@ a:hover {
     justify-content: center;
     position: absolute;
     width: 100%;
-    /* top: 60px; */
     z-index: 999;
   }
   .nav-opt2 {
@@ -158,22 +146,17 @@ a:hover {
     justify-content: center;
     position: absolute;
     width: 100%;
-    /* top: 60px; */
     z-index: 999;
   }
 
   .nav-opt.show {
-    display: flex; /*
-    align-items: center;
-    justify-content: center; */
+    display: flex;
     width: -webkit-fill-available;
     animation: fadeIn 1s;
     height: 100%;
   }
   .nav-opt2.show {
-    display: flex; /*
-    align-items: center;
-    justify-content: center; */
+    display: flex;
     width: -webkit-fill-available;
     animation: fadeIn 1s;
     height: 100%;
@@ -204,7 +187,7 @@ a:hover {
   }
 
   .rotate-left {
-    transform: rotate(-45deg) translate(-9px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
   }
 
   .rotate-right {

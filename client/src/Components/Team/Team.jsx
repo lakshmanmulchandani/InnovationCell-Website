@@ -17,9 +17,6 @@ const Team = () => {
       <Navbar2 />
       <div className="dark-overlay"></div>
       <div className="teams-page">
-        {/* <div id="team" className="teamHeading">
-          <h1>Team Innovation cell</h1>
-        </div> */}
         <div id="team" className="teamHeading">
           <h1>Overall coordinators</h1>
         </div>
