@@ -1,7 +1,6 @@
 /* Team css  */
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap");
 #team {
-  margin-top: 6rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -14,10 +13,14 @@
   flex-wrap: wrap;
 }
 
+.ocHeading {
+  margin-top: 6rem;
+}
+
 .teamHeading > h1 {
   position: relative;
   z-index: 2;
-  margin-top: 6.5rem;
+  /* margin-top: 6.5rem; */
   /* color: var(--green); */
   color: var(--harry);
   display: flex;
@@ -26,7 +29,7 @@
   justify-content: center;
   text-align: center;
   font-size: 4rem;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
 }
 .teamHeading > h1::after {
   content: "";
@@ -137,8 +140,13 @@
 .socialMediaHandles img {
   width: 2rem;
   height: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding transition for smooth effect */
 }
 
+/* Hover effect with glow and increased size */
+.socialMediaHandles img:hover {
+  transform: scale(1.2); /* Increase size on hover */
+}
 /* NameCard css */
 
 .nameCard {
@@ -192,7 +200,7 @@
 .team_executives {
   margin: 2rem;
   padding: 2rem;
-  color: white;
+  color: rgb(165, 226, 237);
   min-width: 25rem;
 
   letter-spacing: 1px;
@@ -220,8 +228,6 @@
   /* position: absolute; */
   top: 0;
   left: 0;
-  /* width: 100%;
-    height: 100%; */
   height: 100vh;
   width: 100vw;
   position: fixed;

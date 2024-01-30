@@ -106,12 +106,12 @@
 }
 
 .answer-content:hover {
-  /* color: rgb(226, 226, 226); */
-  color: rgb(205, 190, 219);
+  color: rgb(255, 245, 207);
 }
 
 .question-content:hover {
-  color: rgb(226, 226, 226);
+  color: rgb(255, 245, 207);
+  text-shadow: 0 0 10px rgba(205, 190, 219, 0.8);
 }
 
 .question-content:visited {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./Cursor.css"; // Assuming you have a CSS file for styling
-import quill_cursor from "./quill_cursor.png";
-import DH1 from "./DH1.png"
+import "./Cursor.css";
+// import quill_cursor from "./quill_cursor.png";
+import DH1 from "./DH1.png";
 
 const Cursor = () => {
   const [cursorVisible, setCursorVisible] = useState(true);
@@ -9,7 +9,7 @@ const Cursor = () => {
 
   useEffect(() => {
     const handleMouseMove = (e) => {
-      setPosition({ x: e.clientX, y: e.clientY});
+      setPosition({ x: e.clientX, y: e.clientY });
     };
 
     const handleMouseEnter = () => {
@@ -36,8 +36,12 @@ const Cursor = () => {
       className={`custom-cursor ${cursorVisible ? "visible" : ""}`}
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
-      <img src={DH1} height={35} alt="custom-cursor" />
-      
+      <img
+        className="cursor_feather"
+        src={DH1}
+        height={35}
+        alt="custom-cursor"
+      />
     </div>
   );
 };

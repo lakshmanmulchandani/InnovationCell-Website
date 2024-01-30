@@ -18,7 +18,6 @@ const TeamCard = ({
       <Tilt>
         <div className="card">
           <div className="content">
-            {/* <h2>01</h2> */}
             <h3 className="alimImg">
               <img src={profileImg} alt="" />
             </h3>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import goldenSnitchGif from "./snitch_gif.gif"; // Replace with the actual path to your Golden Snitch gif
-import "./Snitch.css"; // Create a CSS file for styling
+import goldenSnitchGif from "./snitch_gif.gif";
+import "./Snitch.css";
 
 const Snitch = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -12,8 +12,8 @@ const Snitch = () => {
 
       setPosition({ x: newX, y: newY });
 
-      const moveDuration = Math.random() * 5000 + 2000; // Random duration for movement (between 2s and 7s)
-      const pauseDuration = Math.random() * 3000 + 1000; // Random duration for pause (between 1s and 4s)
+      // const moveDuration = Math.random() * 5000 + 2000;
+      const pauseDuration = Math.random() * 3000 + 1000;
 
       setTimeout(() => {
         requestAnimationFrame(updateSnitchPosition);
@@ -22,9 +22,7 @@ const Snitch = () => {
 
     updateSnitchPosition();
 
-    return () => {
-      // Cleanup
-    };
+    return () => {};
   }, []);
 
   return (

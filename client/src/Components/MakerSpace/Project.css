@@ -1,25 +1,23 @@
-.Projects__card{
-  /* min-height: 70vh; */
+.Projects__card {
   max-width: 25vw;
-  /* height: fit-content; */
-  background: rgba(5, 1, 70,0.25);
+  background: rgba(5, 1, 70, 0.25);
   border-radius: 10px;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
-.Project-img{
+.Project-img {
   width: 100%;
   height: 350px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.Project_card_content{
+.Project_card_content {
   padding: 0.75rem;
   position: relative;
 }
 
-.Project_card_content:before{
-  content: ' ';
+.Project_card_content:before {
+  content: " ";
   display: block;
   position: absolute;
   left: 0;
@@ -27,66 +25,62 @@
   width: 100%;
   height: 100%;
   opacity: 0.4;
-  background-image: url('../../Assets/images/Hogwart.png');
+  background-image: url("../../Assets/images/Hogwart.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: contain;
   margin: 0 auto;
 }
-.Projects__card p{
+.Projects__card p {
   max-width: 25rem;
 }
-.Project_text_content{
+.Project_text_content {
   position: relative;
 }
-.Project_text_content h2{
+.Project_text_content h2 {
   font-family: frozen;
   color: #de9a13;
   margin-bottom: 0.75rem;
 }
-.Project_text_content p{
-  font-family: frozen;
+.Project_text_content p {
+  font-family: var(--font-poppins);
   color: #fff;
 }
-.project__icons{
-   display: flex;
-   justify-content: space-between;
-   color: var(--green);
-   margin-bottom: 0.25rem;
+.project__icons {
+  display: flex;
+  justify-content: space-between;
+  color: var(--green);
+  margin-bottom: 0.25rem;
 }
-.project__icons span{
+.project__icons span {
   font-size: 1.55rem;
 }
-.Project__techstack p{
-   color: #d19f3d;
-   margin-top: 0.45rem;
-   font-weight: bold;
+.Project__techstack p {
+  color: #d19f3d;
+  margin-top: 0.45rem;
+  font-weight: bold;
+  font-family: magicI;
 }
-@media screen and (max-width: 968px) {
-   .Projects__card{
-      max-width: 60vw;
-   }
-   .Project_card_content:before{
+@media screen and (max-width: 1080px) {
+  .Projects__card {
+    max-width: 60vw;
+  }
+  .Project_card_content:before {
     top: 0;
   }
 }
-@media (max-width: 768px){
-   .Projects__card{
-       max-width: 90vw;
-   }
+@media (max-width: 768px) {
+  .Projects__card {
+    max-width: 90vw;
+  }
 }
 
-@media  screen and (max-width: 512px) {
-  .Project_card_content:before{
-    top: 25%;
- }
-}
-@media screen and (max-width: 412px) {
-  .Project_card_content:before{
-     top: 30%;
+@media screen and (max-width: 416px) {
+  .Project_card_content:before {
+    top: 0;
   }
-  .Projects__card{
-     padding: 0;
-     margin: 0;
+  .Projects__card {
+    padding: 0;
+    margin: 0;
   }
 }

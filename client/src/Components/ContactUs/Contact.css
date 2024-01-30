@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 8rem;
 }
 
 .contact {
@@ -24,7 +23,7 @@
   justify-content: center;
   text-align: center;
   font-size: 4rem;
-  margin-top: -3rem;
+  margin-top: 5rem;
 }
 .contactHeading > h1::after {
   content: "";
@@ -195,6 +194,9 @@ textarea:focus {
   }
   .contactHeading > h1::before {
     width: 4.5rem;
+  }
+  .contact_btn {
+    width: fit-content;
   }
 }
 
