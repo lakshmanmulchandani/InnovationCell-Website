@@ -2,11 +2,25 @@ import React, { useState, useEffect } from "react";
 import Bulb1 from "../../Assets/images/bulb11.png";
 import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
-import Owl from "../../Assets/images/Owl.gif";
-import AnimatonComponent from './AnimationComponent';
+import { FaQuestion } from "react-icons/fa6";
+import AnimatonComponent from "./AnimationComponent";
 import "./AboutUs.css";
 
 const AboutUs = () => {
+  const Owl =
+    "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1706650060/innovation_cell/Owl_gipych.gif";
+  const [activeDiv, setActiveDiv] = useState(0); // Start with the 1st div as active
+
+  // Use useEffect to change the active div with a delay
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveDiv((prevActive) => (prevActive + 1) % 4);
+    }, 1900); // Change the active div every 1 second
+
+    return () => clearInterval(timer); // Cleanup the timer when the component unmounts
+  }, []);
+
+  const names = ["Seed Grant for Startup", "Avinya"];
 
   return (
     <div className="About-main-container">
@@ -16,13 +30,7 @@ const AboutUs = () => {
       <div className="About-container">
         <div className="About-pic">
           <div className="holder">
-            <img
-              className="owl"
-              src={Owl}
-              alt="owl"
-              width={125}
-              height={140}
-            />
+            <img className="owl" src={Owl} alt="owl" width={125} height={140} />
             <img src={Holder} alt="holder" width={300} height={100} />
           </div>
           <div className="About-imgs">
