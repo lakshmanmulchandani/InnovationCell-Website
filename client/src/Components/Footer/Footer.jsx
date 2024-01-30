@@ -46,7 +46,7 @@ export default function Footer() {
               <a href="#aboutusnav">About Us</a>
               <a href="#eventsnav">Events</a>
               <a href="#spons">Sponsors</a>
-              <a href="#team">Team</a>
+              <a href="/teams">Team</a>
             </div>
           </div>
 

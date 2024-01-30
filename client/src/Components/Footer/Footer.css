@@ -130,7 +130,6 @@
 .socials > a {
   scale: 1.7;
   transition: all 200ms ease-in-out;
-  /* color: var(--harry); */
 }
 
 .socials > a:hover {
@@ -147,11 +146,9 @@
 
 .footer > .lower-section > h1 > span {
   color: rgb(255, 174, 81);
-  /*changes*/
   text-decoration: underline;
-  transition: color 0.3s; /* Add a smooth transition for a more polished effect */
+  transition: color 0.3s;
 }
-/*changes*/
 .footer > .lower-section > h1 > span:hover {
   color: blueviolet;
 }
@@ -160,7 +157,6 @@
   color: var(--harry);
 }
 
-/* media queries */
 @media screen and (max-width: 704px) {
   .footer {
     width: 100%;
