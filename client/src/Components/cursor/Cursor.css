@@ -12,12 +12,19 @@
   z-index: 9999;
 }
 
+@media (max-width: 768px) {
+  .custom-cursor {
+    display: none;
+  }
+}
+
 /* button {
   cursor: url("./pointer-yellow.png");
 } */
 
 .cursor_feather {
   rotate: -12deg;
+  z-index: 9999;
 }
 
 @media (max-width: 768px) {

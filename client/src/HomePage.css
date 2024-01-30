@@ -172,31 +172,6 @@ body {
   transition: width 0.3s ease;
 }
 
-/*.progress-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 3px; /*\ Adjust the height as needed
-  background-color: transparent;
-  z-index: 999;
-}
-
-.progress {
-  height: 100%;
-  background-color: var(--green); 
-  transform-origin: left; 
-  transform: scaleX(0); 
-  animation: expandProgress 0.3s linear forwards; 
-  transition: transform 0.3s; 
-}
-
-@keyframes expandProgress {
-  to {
-    transform: scaleX(1);
-  }
-} */
-
 .snowfall {
   position: fixed;
   top: 0;

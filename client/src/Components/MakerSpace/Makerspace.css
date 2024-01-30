@@ -24,9 +24,7 @@
   width: 5.5rem;
   margin: 0 auto;
 }
-/* .maker__projects{
-      margin: 0 auto;
-  } */
+
 .maker_project {
   display: flex;
   gap: 2rem;
@@ -38,7 +36,7 @@
 .teamHeading > h1 {
   position: relative;
   z-index: 2;
-  margin-top: 0rem;
+  margin-top: 6rem;
   color: var(--green);
   display: flex;
   align-items: center;
@@ -128,14 +126,14 @@
 }
 
 @media screen and (max-width: 568px) {
-    .maker__container{
-      padding: 0;
-    }
-    .maker__container h1{
-       font-size: 2rem;
-       margin-top: 3rem;
-       z-index: -2;
-    }
+  .maker__container {
+    padding: 0;
+  }
+  .maker__container h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    z-index: -2;
+  }
 }
 .dark-overlay {
   /* position: absolute; */
