@@ -13,9 +13,6 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  /* font-family: poppins, "sans-serif"; */
-  /* font-family: frozen; */
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
 .footer > .upper-section {
