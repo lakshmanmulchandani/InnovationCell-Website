@@ -9,7 +9,6 @@
 }
 
 .About-content {
-  /* line-height: 2rem; */
   width: 26rem;
   margin-top: 2rem;
   display: flex;
@@ -35,7 +34,6 @@
   transform: translateY(-50%);
   content: "";
   display: block;
-  /* background-color: var(--green); */
   background-color: #d19f3d;
   width: 3rem;
   height: 2px;
@@ -50,13 +48,13 @@
   position: absolute;
   content: "";
   display: block;
-  /* background-color: var(--green); */
   background-color: #d19f3d;
   width: 3rem;
   height: 2px;
   border-radius: 1rem;
   margin-right: 0.5rem;
 }
+
 .About-item-main {
   letter-spacing: 0.2px;
 }
@@ -69,7 +67,6 @@
 .About-imgs {
   display: flex;
   margin-top: -4.4rem;
-  /* border-top: 2px solid; */
 }
 
 .holder {
@@ -82,7 +79,6 @@
   left: 0.5rem;
 }
 
-/* Applies the swinging animation to the bulb images */
 @keyframes swing {
   0%,
   100% {
@@ -95,11 +91,11 @@
 
 @keyframes fade {
   0% {
-    opacity: 0; /* Start with opacity 0 (fully transparent) */
+    opacity: 0;
   }
 
   50% {
-    opacity: 1; /* End with opacity 1 (fully visible) */
+    opacity: 1;
   }
 
   100% {
@@ -148,7 +144,6 @@
   }
   .About-pic {
     scale: 0.9;
-    /* transform: translateY(-2rem); */
   }
   .About-item {
     font-size: 1.4rem;

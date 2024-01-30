@@ -59,10 +59,7 @@ const AboutUs = () => {
             resources, and opportunities to transform their ideas into reality.
           </div>
           <div className="About-item-heading">What do we do ?</div>
-          <div>
-            <AnimatonComponent className="About-item" />
-          </div>
-          {/* 1st div */}
+          <div><AnimatonComponent className="About-item"/></div>
         </div>
       </div>
     </div>

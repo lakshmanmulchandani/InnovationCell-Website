@@ -8,15 +8,13 @@ const Contact = () => {
     e.preventDefault();
 
     const message = `Name: ${e.target.name.value}\nEmail: ${e.target.email.value}\nSubject: ${e.target.subject.value}\nMessage: ${e.target.message.value}`;
-
-    // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual service and template IDs.
+    
     emailjs
       .send("service_9eehda8", "template_bhc77nt", {
         message: message,
       })
       .then((response) => {
         console.log("Email sent:", response);
-        // Clear the form fields
         e.target.reset();
       })
       .catch((error) => {
