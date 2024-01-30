@@ -34,7 +34,6 @@
    transition: 0.8s;
  }
  .btn:hover,.btn:focus{
-    /* background: #d19f3d; */
     box-shadow: 0 0 45px #d19f3d;
  }
  .btn-left{
@@ -45,7 +44,6 @@
  }
  .slide{
      object-fit: cover;
-     /* height: 100%; */
      height: 80vh;
      width: 100%;
      display: block;
@@ -76,9 +74,6 @@
  }
  
  @media screen and (max-width: 768px) {
-   /* .memories__container{
-      max-width: 70vw;
-   } */
    .slide{
          width: 100%;
      }
@@ -96,12 +91,17 @@
          width: 100vw;
          max-height: 80vw;
          object-fit: contain;
-         /* padding-left: 1rem;
-         padding-right: 1rem; */
          box-shadow: none;
    }
    .btn{
-      display: none;
+      height: 2rem;
+      width: 2rem;
+   }
+   .btn-left{
+      left: -14px;
+   }
+   .btn-right{
+       right: 20px;
    }
    .indicator{
        display: none;

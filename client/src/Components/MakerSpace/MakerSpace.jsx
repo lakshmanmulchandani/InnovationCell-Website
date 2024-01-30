@@ -26,7 +26,7 @@ const MakerSpace = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [location.pathname]);
+  }, [location.pathname,activeLink]);
 
   const handleScroll = () => {
     if (window.scrollY > 600) {

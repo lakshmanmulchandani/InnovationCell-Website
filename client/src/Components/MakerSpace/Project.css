@@ -45,7 +45,7 @@
   margin-bottom: 0.75rem;
 }
 .Project_text_content p{
-  font-family: frozen;
+  font-family: poppins;
   color: #fff;
 }
 .project__icons{
@@ -62,7 +62,7 @@
    margin-top: 0.45rem;
    font-weight: bold;
 }
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1080px) {
    .Projects__card{
       max-width: 60vw;
    }
@@ -76,14 +76,10 @@
    }
 }
 
-@media  screen and (max-width: 512px) {
+
+@media screen and (max-width: 416px) {
   .Project_card_content:before{
-    top: 25%;
- }
-}
-@media screen and (max-width: 412px) {
-  .Project_card_content:before{
-     top: 30%;
+     top: 0;
   }
   .Projects__card{
      padding: 0;
