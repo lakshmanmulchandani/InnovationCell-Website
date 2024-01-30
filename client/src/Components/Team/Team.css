@@ -1,7 +1,7 @@
 /* Team css  */
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap");
 #team {
-  /* margin-top: 6rem; */
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
