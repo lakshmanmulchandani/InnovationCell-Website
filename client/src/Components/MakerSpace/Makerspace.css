@@ -157,7 +157,7 @@
   height: 17rem;
   overflow: hidden;
   -webkit-transform: rotate(-8deg);
-  transform: rotate(-8deg);
+  transform: rotate(-10deg);
 }
 
 .time-turner-animation__inner {
@@ -203,11 +203,19 @@
   }
 }
 
-
-@media screen and (max-width: 568px) {
-  .time-turner-animation{
-    top: 1rem;
-    scale: 0.55;
+@media screen and (max-width: 1100px) {
+  .time-turner-animation {
+    top: 3.5rem;
+    scale: 0.8;
     left: -1rem;
+    rotate: -10deg;
+  }
+}
+@media screen and (max-width: 568px) {
+  .time-turner-animation {
+    top: 2rem;
+    scale: 0.6;
+    left: -2.5rem;
+    rotate: -10deg;
   }
 }

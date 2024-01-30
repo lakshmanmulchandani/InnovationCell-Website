@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className={` nav-opt ${phone ? "show" : ""}`}>
         <div className="nav-btn" onClick={toggle}>
-          <a href="#">
+          <a href="# ">
             <div className="home">Home</div>
           </a>
         </div>
