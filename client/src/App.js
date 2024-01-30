@@ -6,7 +6,6 @@ import MakerSpace from "./Components/MakerSpace/MakerSpace";
 import Recruitment from "./Components/recruitmentform/Recruitment.jsx";
 
 import curGif from "./Components/cursor/onclick_animation.gif";
-import curGif2 from "./Components/cursor/another_onclick_animation.gif";
 import AudioPlayer from "./Components/cursor/AudioPlayer.jsx";
 import Intro from "./Components/Intro/Intro.jsx";
 import TechTeam from "./Components/Team/TechTeam.jsx";

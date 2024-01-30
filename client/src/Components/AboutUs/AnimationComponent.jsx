@@ -15,6 +15,7 @@ const AnimationComponent = () => {
         () => {
           console.log("Sequence completed");
         },
+
       ]}
       deletionSpeed={{type: "keyStrokeDelayInMs", value: 25}}
       speed={{type: "keyStrokeDelayInMs", value: 50}}

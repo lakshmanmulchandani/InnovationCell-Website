@@ -13,9 +13,6 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  /* font-family: poppins, "sans-serif"; */
-  /* font-family: frozen; */
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
 .footer > .upper-section {
@@ -150,6 +147,7 @@
   scale: 2.05;
   color: var(--harry);
   filter: drop-shadow(0 0 4px #d1a03de1);
+  text-shadow: 0 0 10px rgba(209, 159, 61, 0.8); 
 }
 
 /* LOWER SECTION */
@@ -160,7 +158,17 @@
 
 .footer > .lower-section > h1 > span {
   color: rgb(255, 174, 81);
+  /*changes*/
   text-decoration: underline;
+  transition: color 0.3s; /* Add a smooth transition for a more polished effect */
+}
+/*changes*/
+.footer > .lower-section > h1 > span:hover {
+  color:blueviolet;
+}
+
+.tech_team_footer {
+  color: var(--harry);
 }
 
 /* media queries */

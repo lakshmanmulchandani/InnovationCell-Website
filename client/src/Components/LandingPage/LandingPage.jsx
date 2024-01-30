@@ -53,28 +53,28 @@ const LandingPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaInstagram size={30} />
+                <FaInstagram size={50} />
               </a>
               <a
                 href="https://twitter.com/I_Cell_NITRR"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaFacebookSquare size={30} />
+                <FaFacebookSquare size={50} />
               </a>
               <a
                 href="https://www.linkedin.com/company/innovation-cell-nit-raipur/mycompany/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaLinkedin size={30} />
+                <FaLinkedin size={50} />
               </a>
               <a
                 href="https://twitter.com/I_Cell_NITRR"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaTwitter size={30} />
+                <FaTwitter size={50} />
               </a>
             </div>
           </div>

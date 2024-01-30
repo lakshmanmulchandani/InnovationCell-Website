@@ -1,4 +1,3 @@
-// Team.jsx
 import React from "react";
 import "./Team.css";
 import TeamCard from "./TeamCard";
@@ -17,10 +16,7 @@ const Team = () => {
       <Navbar2 />
       <div className="dark-overlay"></div>
       <div className="teams-page">
-        {/* <div id="team" className="teamHeading">
-          <h1>Team Innovation cell</h1>
-        </div> */}
-        <div id="team" className="teamHeading">
+        <div id="team" className="teamHeading ocHeading">
           <h1>Overall coordinators</h1>
         </div>
         <div className="Teams">
@@ -38,7 +34,7 @@ const Team = () => {
         </div>
 
         <div id="team" className="teamHeading">
-          <h1>Team heads</h1>
+          <h1>Team heads </h1>
         </div>
         <div className="Teams">
           {teamRecord.teamData.fourthYear.map((member, index) => (

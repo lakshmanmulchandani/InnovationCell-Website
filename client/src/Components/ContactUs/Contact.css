@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 8rem;
 }
 
 .contact {
@@ -25,7 +24,7 @@
   justify-content: center;
   text-align: center;
   font-size: 4rem;
-  margin-top: 0rem;
+  margin: 4rem 0;
 }
 .contactHeading > h1::after {
   content: "";
@@ -193,80 +192,24 @@ textarea:focus {
 
 @media screen and (max-width: 600px) {
   .contactHeading > h1 {
-    font-size: 26px;
+    font-size: 3.2rem;
+  }
+  .contactHeading > h1::after {
+    width: 4.5rem;
+  }
+  .contactHeading > h1::before {
+    width: 4.5rem;
+  }
+  .contact_btn {
+    width: fit-content;
   }
 }
 
-/* 
-@media screen and (max-width: 940px) {
-    .contact_content{
-        flex-direction: column;
-    }
-    .contact{
-        height: fit-content;
-    }
-    .contact_content_texts{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .input_element{
-        margin-top: 2rem;
-        padding: 0;
-    }
-    
-    .contact_btn{
-        padding: 1rem;
-    }
-} */
-
-/* @media screen and (max-width: 600px) {
-    .contact_btn{
-        width: 40%;
-        padding: 0.5rem;
-    }
+@media screen and (max-width: 724px) {
+  .contactHeading > h1::after {
+    width: 6rem;
+  }
+  .contactHeading > h1::before {
+    width: 6rem;
+  }
 }
-@media screen and (max-width: 335px) {
-    .contact_btn{
-        margin: auto auto;
-        width: 80%;
-        padding: 0.5rem;
-    }
-}
-@media screen and (max-width: 280px) {
-    .contact_heading::after{
-        display: none;
-    }
-} */
-
-/* media query for padding  */
-
-/* @media screen and (max-width: 1500px) {
-    .contact{
-        padding: 5rem 15rem;
-    }
-}
-@media screen and (max-width: 1148px) {
-    .contact{
-        padding: 5rem 10rem;
-    }
-}
-@media screen and (max-width: 900px) {
-
-    .contact{
-        padding: 5rem 5rem;
-        height: fit-content
-    }
-    
-    
-} */
-
-/* @media screen and (max-width: 525px) {
-   
-    .contact{
-        padding: 5rem 1rem;
-        
-    }
-    
-}
- */

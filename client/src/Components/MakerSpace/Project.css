@@ -79,7 +79,7 @@
 
 @media screen and (max-width: 416px) {
   .Project_card_content:before{
-     top: 6%;
+     top: 0;
   }
   .Projects__card{
      padding: 0;

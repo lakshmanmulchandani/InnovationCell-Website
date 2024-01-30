@@ -151,15 +151,6 @@ const Intro = () => {
     };
   }, [navigate]);
 
-  // useEffect(() => {
-  //   const timeoutId = setTimeout(() => {
-  //     setHidden(true);
-  //   }, 4000);
-
-  //   // Cleanup function to clear the timeout in case the component unmounts
-  //   return () => clearTimeout(timeoutId);
-  // }, []);
-
   return (
     <div className="intro">
       <img id="harry-potter" src={i_cell_text} alt="harry-potter" />
