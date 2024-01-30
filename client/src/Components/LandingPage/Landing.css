@@ -6,13 +6,11 @@
   text-align: left;
   height: 100vh;
   font-family: poppins, "sans-serif";
-  /* margin: 60px; */
 }
 
 .welcome {
   font-size: 40px;
   font-weight: 700;
-  /* color: var(--green); */
   color: #d19f3d;
   align-items: flex-start;
   margin-left: 80px;
@@ -46,15 +44,8 @@
   /* filter: drop-shadow(0 0 4px #d19f3d); */
 }
 
-/* @media (max-width: 1205) {
-  .moon-bg {
-    left: 30%;
-  }
-} */
-
 @media (max-width: 758px) {
   .moon-bg {
-    /* height: 50rem; */
     margin-top: 1rem;
     left: 40%;
   }

@@ -30,10 +30,8 @@ const MakerSpace = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 600) {
-      // console.log("hi"+scrolled);
       setScrolled(true); // User has scrolled down
     } else {
-      // console.log("hi"+scrolled);
       setScrolled(false); // User is at the top
     }
   };

@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 8rem;
 }
 
 .contact {
@@ -25,7 +24,7 @@
   justify-content: center;
   text-align: center;
   font-size: 4rem;
-  margin-top: 0rem;
+  margin: 4rem 0;
 }
 .contactHeading > h1::after {
   content: "";
@@ -191,8 +190,6 @@ textarea:focus {
   color: var(--harry-dark);
 }
 
-
-
 @media screen and (max-width: 600px) {
   .contactHeading > h1 {
     font-size: 3.2rem;
@@ -202,6 +199,9 @@ textarea:focus {
   }
   .contactHeading > h1::before {
     width: 4.5rem;
+  }
+  .contact_btn {
+    width: fit-content;
   }
 }
 
