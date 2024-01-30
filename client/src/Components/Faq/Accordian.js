@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import data from "./AccordianData";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import MAN2 from "../../imgs/MAN2.png";
 import "./Accordian.css";
 
 //  accordion item component
@@ -35,6 +34,8 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
 };
 
 const Accordion = () => {
+  const MAN2 =
+    "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1706649562/innovation_cell/faq_man_grfuur.webp";
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleItemClick = (index) => {
