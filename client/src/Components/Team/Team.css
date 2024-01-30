@@ -137,8 +137,14 @@
 .socialMediaHandles img {
   width: 2rem;
   height: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding transition for smooth effect */
 }
 
+/* Hover effect with glow and increased size */
+.socialMediaHandles img:hover {
+  transform: scale(1.2); /* Increase size on hover */
+ 
+} 
 /* NameCard css */
 
 .nameCard {
@@ -192,7 +198,7 @@
 .team_executives {
   margin: 2rem;
   padding: 2rem;
-  color: white;
+  color: rgb(165, 226, 237);
   min-width: 25rem;
 
   letter-spacing: 1px;
