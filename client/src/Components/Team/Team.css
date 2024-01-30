@@ -17,7 +17,7 @@
 .teamHeading > h1 {
   position: relative;
   z-index: 2;
-  margin-top: 0rem;
+  margin-top: 6.5rem;
   /* color: var(--green); */
   color: var(--harry);
   display: flex;
@@ -250,7 +250,7 @@
   }
   .teamHeading > h1 {
     text-align: center;
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
   .teamHeading > h1::after {
     width: 4.5rem !important;

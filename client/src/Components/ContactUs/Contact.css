@@ -191,9 +191,26 @@ textarea:focus {
   color: var(--harry-dark);
 }
 
+
+
 @media screen and (max-width: 600px) {
   .contactHeading > h1 {
-    font-size: 26px;
+    font-size: 3.2rem;
+  }
+  .contactHeading > h1::after {
+    width: 4.5rem;
+  }
+  .contactHeading > h1::before {
+    width: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .contactHeading > h1::after {
+    width: 6rem;
+  }
+  .contactHeading > h1::before {
+    width: 6rem;
   }
 }
 

@@ -206,7 +206,7 @@ a:hover {
   }
 
   .rotate-left {
-    transform: rotate(-45deg) translate(-9px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
   }
 
   .rotate-right {

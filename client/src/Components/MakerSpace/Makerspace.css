@@ -27,6 +27,7 @@
 /* .maker__projects{
       margin: 0 auto;
   } */
+
 .maker_project {
   display: flex;
   gap: 2rem;
@@ -38,7 +39,7 @@
 .teamHeading > h1 {
   position: relative;
   z-index: 2;
-  margin-top: 0rem;
+  margin-top: 6rem;
   color: var(--green);
   display: flex;
   align-items: center;
