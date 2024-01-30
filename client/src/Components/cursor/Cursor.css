@@ -4,14 +4,20 @@
   position: fixed;
   width: 20px;
   height: 20px;
-  /* background-color: #fff; */
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease, background-color 0.2s ease;
-  /* border: 5px solid var(--harry); */
   z-index: 9999;
 }
+
+
+@media(max-width: 768px) {
+  .custom-cursor {
+    display: none;
+  }
+}
+
 
 /* button {
   cursor: url("./pointer-yellow.png");
