@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import * as THREE from "three";
+import "./Intro.css";
 import i_cell_text from "../cursor/I_CELL_TEXT.png";
 import finger from "../cursor/point_finger.gif";
-import "./Intro.css";
+import { useNavigate } from "react-router-dom";
 
 class IntroScene {
   constructor(options) {
@@ -150,7 +150,6 @@ const Intro = () => {
       clearTimeout(redirectTimeout);
     };
   }, [navigate]);
-
 
   return (
     <div className="intro">

@@ -1,8 +1,8 @@
 .snitch {
   position: fixed;
-  pointer-events: none; /* Make sure the Snitch doesn't interfere with other elements */
-  z-index: 999; /* Set a high z-index to ensure it appears above other elements */
-  animation: moveSnitch 2s infinite; /* Apply the animation */
+  pointer-events: none;
+  z-index: 999;
+  animation: moveSnitch 2s infinite;
 }
 
 @keyframes moveSnitch {
@@ -21,9 +21,4 @@
   100% {
     transform: translate(0, 0);
   }
-}
-
-/* Hide the scrollbar */
-body {
-  /* overflow: hidden; */
 }

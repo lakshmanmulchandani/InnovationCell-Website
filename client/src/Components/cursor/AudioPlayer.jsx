@@ -3,7 +3,6 @@ import { Howl, Howler } from "howler";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeUp, faVolumeMute } from "@fortawesome/free-solid-svg-icons";
 import second from "./harry_potter_audio.mp3";
-// import fingger from "./point_finger.gif";
 
 const sound = new Howl({
   src: [second],
@@ -34,8 +33,6 @@ const AudioPlayer = () => {
     const currentVolume = sound.volume();
     sound.volume(currentVolume === 0 ? 0.5 : 0);
   };
-
-  // const [hidden, setHidden] = useState(false);
 
   return (
     <>

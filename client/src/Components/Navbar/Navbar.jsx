@@ -32,11 +32,6 @@ const Navbar = () => {
             <div>Events</div>
           </a>
         </div>
-        {/* <div className="nav-btn" onClick={toggle}>
-          <a href="#sponsnav">
-            <div>Sponsors</div>
-          </a>
-        </div> */}
         <div className="nav-btn" onClick={toggle}>
           <a href="#faqnav">
             <div>FAQ</div>
