@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Cursor.css"; // Assuming you have a CSS file for styling
+import "./Cursor.css";
 // import quill_cursor from "./quill_cursor.png";
 import DH1 from "./DH1.png";
 

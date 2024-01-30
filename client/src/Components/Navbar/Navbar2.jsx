@@ -11,7 +11,7 @@ const Navbar2 = () => {
 
   return (
     <div className={`nav2 ${phone ? "nav-phone" : ""}`}>
-      <div className="logo2">
+      <div className="logo">
         <a href="/">
           <img src={logo} alt="I-Cell Logo" />
         </a>
