@@ -22,9 +22,8 @@ function App() {
 
   const handleScroll = () => {
     if (window.scrollY > 600) {
-      setScrolled(true); // User has scrolled down
-    } else {
-      setScrolled(false); // User is at the top
+      setScrolled(true);
+      setScrolled(false);
     }
   };
 

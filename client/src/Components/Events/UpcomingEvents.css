@@ -45,7 +45,7 @@
   border-radius: 1rem;
   margin-right: 0.5rem;
 }
-  /* AboutUs.css */
+
 
 .about-us-container {
     display: inline-block;
@@ -69,7 +69,6 @@
   
   .about-us-image02{
     flex: 1;
-    /* padding-left: 62px; */
     z-index: 10;
     border-radius: 10px;
     
@@ -117,54 +116,9 @@
     }
   }
   
-    .about-us-content {
-     
+    .about-us-content { 
       flex: 1;
       text-align: left;
-      /* flex-wrap: wrap; */
       min-width: 400px;
       height: 400px;
     }
-  
-    /* .about-us-image img {
-      max-width: none;
-      height: 100%;
-      /* flex-wrap: wrap; */
-      /* min-width: 400px;
-      height: 500px; */
-
-    /* } 
-  } */
-
-
-/* UpcomingEvents.css */
-/* .about-us-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 20px;
-}
-
-.about-us-image img,
-.about-us-image02 img {
-  max-width: 100%;
-  height: auto;
-} 
-
- @media (min-width: 768px) {
-  .about-us-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .about-us-image,
-  .about-us-image02 {
-    flex: 1;
-  }
-
-  .about-us-content {
-    flex: 2;
-    text-align: left;
-  }
-}  */
