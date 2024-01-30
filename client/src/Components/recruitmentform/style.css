@@ -1,29 +1,19 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
-/*=============== VARIABLES CSS ===============*/
 :root {
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: #bd1a89;
   --second-color: #843090;
   --title-color: rgba(255, 255, 255, 0.9);
   --text-color: rgba(255, 255, 255, 0.7);
   --body-color: #01001f;
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --h2-font-size: 1.25rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
 
-  /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
 }
 
-/* Responsive typography */
 @media screen and (min-width: 1024px) {
   :root {
     --h2-font-size: 1.75rem;
@@ -33,33 +23,6 @@
   }
 }
 
-/*=============== BASE ===============*/
-/* * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-} */
-/* 
-body {
-	background-color: var(--body-color);
-	font-family: var(--body-font);
-	color: var(--text-color);
-    width: 100%;
-} */
-
-/* input,
-button {
-  font-family: var(--body-font);
-  border: none;
-  outline: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-} */
-
-/*=============== LOGIN FORM ===============*/
 .login__content,
 .frmSubmit,
 .login__inputs {
@@ -149,9 +112,6 @@ img {
 
 .select_option {
   width: 50%;
-  /* padding: 14px 12px; */
-  /* border-radius: 6px; */
-  /* border: 2px solid var(--text-color); */
   width: 10rem;
   color: black;
   background: transparent;
@@ -240,15 +200,12 @@ img {
   text-decoration: none;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
 @media screen and (max-width: 360px) {
   .login__buttons {
     flex-direction: column;
   }
 }
 
-/* For medium devices */
 @media screen and (min-width: 576px) {
   .frmSubmit {
     width: 450px;
@@ -256,7 +213,6 @@ img {
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 1064px) {
   .container_form {
     height: 100vh;

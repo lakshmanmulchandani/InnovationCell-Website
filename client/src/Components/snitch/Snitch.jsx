@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import goldenSnitchGif from "./snitch_gif.gif"; // Replace with the actual path to your Golden Snitch gif
-import "./Snitch.css"; // Create a CSS file for styling
+import goldenSnitchGif from "./snitch_gif.gif";
+import "./Snitch.css";
 
 const Snitch = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -22,9 +22,7 @@ const Snitch = () => {
 
     updateSnitchPosition();
 
-    return () => {
-      // Cleanup
-    };
+    return () => {};
   }, []);
 
   return (

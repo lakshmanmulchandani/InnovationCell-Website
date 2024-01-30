@@ -1,5 +1,5 @@
 import anlytics from "../company/analytical_mindset.webp";
-import atl from "../company/atl.png";
+import atl from "../company/atl.webp";
 import design_thinking from "../company/design_thinking.webp";
 import elevatex from "../company/elevateX.webp";
 import expert_panel_session from "../company/expert_panel_session.webp";
