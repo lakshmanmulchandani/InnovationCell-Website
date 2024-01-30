@@ -20,7 +20,6 @@ const ExperienceCard = ({ experience }) => {
         color: "#fff",
         boxShadow: "20px 20px 50px rgba(0, 0, 0, 0.5)",
         fontFamily: "frozen",
-        // Add boxShadow property
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}

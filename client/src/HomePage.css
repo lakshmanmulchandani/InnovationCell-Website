@@ -24,30 +24,20 @@ textarea:hover,
 input:hover {
   cursor: url("./Components/cursor/ibeam_small.png"), text;
 } */
+
 @font-face {
   font-family: "frozen";
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff");
 }
 
 @font-face {
-  font-family: "Crime";
-  src: url("./fonts/Crimes\ of\ Grindelwald.otf");
-}
-@font-face {
   font-family: "Harry";
   src: url("./fonts/HARRYP__.TTF");
 }
-@font-face {
-  font-family: "Magic";
-  src: url("./fonts/MagicSchoolTwo.ttf");
-}
+
 @font-face {
   font-family: "MagicI";
   src: url("./fonts/Magik.TTF");
-}
-@font-face {
-  font-family: "animal_fantastic";
-  src: url("./Assets/Animales\ Fantastic.otf");
 }
 
 :root {
@@ -68,7 +58,6 @@ input:hover {
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
   --white: #e6f1ff;
-  /* --green: #00bfff; */
   --green: #d19f3d;
   --slate: #8892b0;
   --navy: #0a192f;
@@ -137,25 +126,18 @@ body {
 }
 
 .overlay {
-  /* background-color: purple; */
   height: 100%;
   width: 100%;
   position: fixed;
 }
 
 .dark-overlay {
-  /* position: absolute; */
-  /* top: 0;
-    left: 0; */
-  /* width: 100%;
-    height: 100%; */
   height: 100%;
   width: 100%;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   transition: background-color 0.5s ease;
   z-index: -5;
-  /* backdrop-filter: blur(1px); */
 }
 
 .dark-overlay.active {
@@ -163,54 +145,28 @@ body {
 }
 
 /* LandingPage.css */
-
 .progress-bar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 3px; /* Adjust the height as needed */
+  height: 3px;  
   background-color: transparent;
   z-index: 999;
 }
 
 .progress {
   height: 100%;
-  background-color: var(--green); /* Line color */
-  transform-origin: left; /* Set the transform origin to the left */
-  transform: scaleX(0); /* Initially, the progress bar is not visible */
-  animation: expandProgress 0.3s linear forwards; /* Use an animation to expand progress */
-  transition: transform 0.3s; /* Apply a smooth transition on transform */
+  background-color: var(--green);
+  transform: scaleX(0);
+  animation: expandProgress 0.3s linear forwards;  transition: transform 0.3s; 
 }
 
 @keyframes expandProgress {
   to {
-    transform: scaleX(1); /* Expand the progress bar to full width */
+    transform: scaleX(1); 
   }
 }
-
-/* .background-image {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%; */
-/* Adjustthewidthasneededheight: 100%; */
-/* background: url('./imgs/moon1.png') no-repeat center center fixed; */
-/* background-size: 90%;
-  transform: translate(40vh, -5vh); */
-/*Translatetheimage*/
-/* -webkit-transform: translate(40vh, -5vh);
-  -moz-transform: translate(40vh, -5vh);
-  -ms-transform: translate(40vh, -5vh);
-  -o-transform: translate(40vh, -5vh);
-} */
-
-/* 
-.app {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-} */
 
 .snowfall {
   position: fixed;

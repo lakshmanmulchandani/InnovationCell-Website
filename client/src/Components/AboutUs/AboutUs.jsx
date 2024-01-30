@@ -3,25 +3,10 @@ import Bulb1 from "../../Assets/images/bulb11.png";
 import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
 import Owl from "../../Assets/images/Owl.gif";
-import owl2 from "../../Assets/images/owl_new2.gif";
-// import owl3 from "../../Assets/images/new_owl3.gif";
-import { FaQuestion } from "react-icons/fa6";
 import AnimatonComponent from './AnimationComponent';
 import "./AboutUs.css";
 
 const AboutUs = () => {
-  const [activeDiv, setActiveDiv] = useState(0); // Start with the 1st div as active
-
-  // Use useEffect to change the active div with a delay
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setActiveDiv((prevActive) => (prevActive + 1) % 4);
-    }, 1900); // Change the active div every 1 second
-
-    return () => clearInterval(timer); // Cleanup the timer when the component unmounts
-  }, []);
-
-  const names = ["Seed Grant for Startup", "Avinya"];
 
   return (
     <div className="About-main-container">
@@ -67,7 +52,6 @@ const AboutUs = () => {
           </div>
           <div className="About-item-heading">What do we do ?</div>
           <div><AnimatonComponent className="About-item"/></div>
-          {/* 1st div */}
         </div>
       </div>
     </div>

@@ -11,7 +11,6 @@ import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 
 function App() {
-  const contactUsRef = useRef(null); // Create a ref for the ContactUs component
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
   const location = useLocation();
@@ -19,10 +18,8 @@ function App() {
   useEffect(() => {
     setActiveLink(location.pathname);
 
-    // Add event listener for scroll
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup the event listener and clear the timeout on unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -30,17 +27,11 @@ function App() {
 
   const handleScroll = () => {
     if (window.scrollY > 600) {
-      setScrolled(true); // User has scrolled down
-    } else {
-      setScrolled(false); // User is at the top
+      setScrolled(true);
+      setScrolled(false);
     }
   };
 
-  // const scrollToContactUs = () => {
-  //   if (contactUsRef.current) {
-  //     contactUsRef.current.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
   return (
     <>
       <>
@@ -70,7 +61,6 @@ function App() {
           <Footer />
         </div>
       </>
-      {/* )} */}
     </>
   );
 }
