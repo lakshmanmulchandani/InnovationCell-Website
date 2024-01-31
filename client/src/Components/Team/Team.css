@@ -9,7 +9,6 @@
 .Teams {
   display: flex;
   justify-content: center;
-  /* align-items: center;  */
   flex-wrap: wrap;
 }
 
@@ -20,8 +19,6 @@
 .teamHeading > h1 {
   position: relative;
   z-index: 2;
-  /* margin-top: 6.5rem; */
-  /* color: var(--green); */
   color: var(--harry);
   display: flex;
   align-items: center;
@@ -29,12 +26,11 @@
   justify-content: center;
   text-align: center;
   font-size: 4rem;
-  /* margin-top: 6rem; */
 }
 .teamHeading > h1::after {
   content: "";
   display: block;
-  /* background-color: var(--green); */
+
   background-color: var(--harry);
   width: 10rem;
   height: 3px;
@@ -45,7 +41,6 @@
 .teamHeading > h1::before {
   content: "";
   display: block;
-  /* background-color: var(--green); */
   background-color: #d19f3d;
   width: 10rem;
   height: 3px;
@@ -53,15 +48,12 @@
   margin-right: 0.8rem;
 }
 
-/* card css  */
-
 .teamCard {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 70vh;
-  /* background: #161623; */
   flex-direction: row;
   font-family: var(--font-mono);
 }
@@ -140,14 +132,12 @@
 .socialMediaHandles img {
   width: 2rem;
   height: 2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding transition for smooth effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Hover effect with glow and increased size */
 .socialMediaHandles img:hover {
-  transform: scale(1.2); /* Increase size on hover */
+  transform: scale(1.2); 
 }
-/* NameCard css */
 
 .nameCard {
   margin: 1.5rem 2rem;
@@ -186,7 +176,6 @@
 }
 .nameCard p {
   transition: all 0.5s;
-  /*change color and style*/
   color: rgb(165, 226, 237);
   font-style: bold;
 }
@@ -194,9 +183,6 @@
 .nameCard:hover p {
   transform: translateY(-4.5rem);
 }
-
-/* Executives css */
-
 .team_executives {
   margin: 2rem;
   padding: 2rem;
@@ -225,7 +211,6 @@
 }
 
 .dark-overlay {
-  /* position: absolute; */
   top: 0;
   left: 0;
   height: 100vh;
@@ -235,7 +220,6 @@
   transition: background-color 0.5s ease;
   z-index: -5;
   transform: translateY(-18px);
-  /* backdrop-filter: blur(1px); */
 }
 
 @media only screen and (max-width: 930px) {
@@ -284,7 +268,6 @@
 .web-team {
   position: fixed;
   top: 4rem;
-  /* width: 100vw; */
   right: -2rem;
   opacity: 0.6;
 }
