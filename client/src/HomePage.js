@@ -23,8 +23,10 @@ function App() {
   const handleScroll = () => {
     if (window.scrollY > 600) {
       setScrolled(true);
-      setScrolled(false);
     }
+    else {
+      setScrolled(false);
+    }  
   };
 
   return (
