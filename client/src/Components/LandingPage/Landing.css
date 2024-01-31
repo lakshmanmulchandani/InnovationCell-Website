@@ -37,10 +37,14 @@
   font-size: 28px;
 }
 
-.social-link a :hover {
-  scale: 1.05;
-  color: var(--harry);
-  transition: all 0.5s;
+.social-link a {
+  transition:  all 200ms ease-in-out;
+}
+
+.social-link a:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 4px #e6a625e1);
+  text-shadow: 0 0 10px rgba(209, 159, 61, 0.9);
 }
 
 @media (max-width: 758px) {
