@@ -27,7 +27,7 @@
   opacity: 0.4;
   background-image: url("../../Assets/images/Hogwart.png");
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 0 50%;
   background-size: contain;
   margin: 0 auto;
 }
