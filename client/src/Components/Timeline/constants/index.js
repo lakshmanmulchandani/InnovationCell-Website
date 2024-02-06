@@ -8,6 +8,10 @@ import seedgrant from "../company/seedgrant.webp";
 import avinya from "../company/avinya.webp";
 import icon from "../company/icon.webp";
 import coming_soon from "../../../Assets/images/comint_soon.png";
+import Innovationtank from "../company/InnovationTank.webp";
+import AjakKumar from "../company/AjayKumar.webp";
+import Akash from "../company/Akash.webp";
+import Innovationexpo from "../company/InnovationExpo.webp";
 
 const experiences = {
   upcoming: [
@@ -20,6 +24,50 @@ const experiences = {
       date: "09 FEB 2024",
       points: [
         "Innovation Cell's 'AVINYA' event at NIT Raipur is a roaring success, featuring student participation in an innovation Expo and interactive sessions on trending topics like entrepreneurship, business expansion, and startup investment. The event highlights cutting-edge technologies, including Robotic Arm, Smart Ventilator, EV Automatic Charging, and more from 25 innovators across NIT Raipur and Chhattisgarh.",
+      ],
+    },
+    {
+      title: "InnovationTank",
+      company_name: `Innovation Cell’s Pitching event`,
+      icon: icon,
+      pic: Innovationtank,
+      iconBg: "rgba(255, 255, 255, 0.4)",
+      date: "07 FEB 2024",
+      points: [
+        "Express your Visions 🤩Bhai kya kar raha hai yaar tu?Join us and present your innovative vision and solutions to the problems around you. Pitch your ideas and make it possible. Unleash your creative ideas to the Pitching event.Team Innovation Cell brings you the opportunity to do so.Bring and present us your solutions kyunki hamaari yahaan expertise hai😎",
+      ],
+    },
+    {
+      title: "InnovationExpo",
+      company_name: `Innovation Cell’s Exposition event`,
+      icon: icon,
+      pic: Innovationexpo,
+      iconBg: "rgba(255, 255, 255, 0.4)",
+      date: "07 FEB 2024",
+      points: [
+        "Gear up for a tech extravaganza at Innovation Expo on Feb 9th 🚀. Unleash your inner inventor and present your mind-blowing 💡 prototype and seize the chance to win prizes worth upto Rs 25k 🏆. Open to all visionaries, because innovation knows no bounds,🌟 this is your chance to shine & network with fellow innovators.",
+      ],
+    },
+    {
+      title: "Speaker Session",
+      company_name: `Innovation Cell’s Expert-Talk event`,
+      icon: icon,
+      pic: AjakKumar,
+      iconBg: "rgba(255, 255, 255, 0.4)",
+      date: "07 FEB 2024",
+      points: [
+        "🔍 Mystery solved! 🌟 Unveiling the enigma behind the riddle! Join us in welcoming the distinguished Director of DBOI, Ajay Kumar Agrawal, as our esteemed speaker at AVINYA'24. Get ready for an enlightening experience as he shares his insights and expertise and unveils the secrets behind the role of innovation in Fintech! 🚀[8:36 pm, 03/02/2024] Hemasri Indrani Kota 3rd (I-Cell): 6 days, 6 riddles Did you get the first one right? Try to solve this now 😉 Our second speaker is Founder of a food brand which recently gained shark tank fame and it's located really close to you (and your heart!)  Any guesses?",
+      ],
+    },
+    {
+      title: "Speakar Session",
+      company_name: `Innovation Cell’s Expert-Talk event`,
+      icon: icon,
+      pic: Akash,
+      iconBg: "rgba(255, 255, 255, 0.4)",
+      date: "07 FEB 2024",
+      points: [
+        "🎤 Drumroll, please! 🌟 We're thrilled to announce our second speaker for AVINYA'24 – none other than Akash Agrawal, the innovative Co-founder of Zoff Foods, who made waves on Shark Tank Season 2!🎯 Join us in unlocking the secrets of entrepreneurship and innovation from our own hometown hero. Get ready for an inspiring journey into the entrepreneurial spirit!",
       ],
     },
   ],
