@@ -50,12 +50,18 @@ function Recruitment() {
 
   return (
     <body>
+      <a href="/">
+        <button className="back_to_home">Home</button>
+      </a>
+      <div className="dark_layer"></div>
       <div className="container_form">
         <div className="login__content">
           <div style={{ textAlign: "center" }}>
             <h1 className="login__title">
               <img src={logo} alt="icell image" />
-              <span>Welcome to</span> I-Cell
+              <div>
+                <span>Welcome to</span> I-Cell
+              </div>
             </h1>
             <p className="login__description">{formConfig[0][0].head}</p>
           </div>

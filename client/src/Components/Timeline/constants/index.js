@@ -7,7 +7,10 @@ import silicon_vally from "../company/silicon_vallly.jpg";
 import seedgrant from "../company/seedgrant.webp";
 import avinya from "../company/avinya.webp";
 import icon from "../company/icon.webp";
-import coming_soon from "../../../Assets/images/comint_soon.png";
+// import coming_soon from "../../../Assets/images/comint_soon.png";
+import tradeviesta from "../../../imgs/trade_viesta.jpg";
+import pubg from "../../../imgs/pubg.jpg";
+import avinya24 from "../../../imgs/avinya.png";
 
 const experiences = {
   upcoming: [
@@ -15,11 +18,33 @@ const experiences = {
       title: "Avinya",
       company_name: `Innovation Cell’s Flagship event`,
       icon: icon,
-      pic: coming_soon,
+      pic: avinya24,
       iconBg: "rgba(255, 255, 255, 0.4)",
       date: "09 FEB 2024",
       points: [
         "Innovation Cell's 'AVINYA' event at NIT Raipur is a roaring success, featuring student participation in an innovation Expo and interactive sessions on trending topics like entrepreneurship, business expansion, and startup investment. The event highlights cutting-edge technologies, including Robotic Arm, Smart Ventilator, EV Automatic Charging, and more from 25 innovators across NIT Raipur and Chhattisgarh.",
+      ],
+    },
+    {
+      title: "TRADEVIESTA",
+      company_name: `Immensive world of mock trading.`,
+      icon: icon,
+      pic: tradeviesta,
+      iconBg: "rgba(255, 255, 255, 0.4)",
+      date: "Date to be announced..",
+      points: [
+        "Dive into the immersive world of mock trading – a virtual arena where risks remain fictional, but the knowledge gained is undeniably genuine. 🚀No real money on the line, just a risk-free space to perfect your trading game, gaining valuable insights and expertise.💡Sharpen your skills, minimize your risks - embark on a journey of learning and mastery in the art of trading.📈✨ ",
+      ],
+    },
+    {
+      title: "PUBG",
+      company_name: `Ultimate gaming face-off at AVINYA`,
+      icon: icon,
+      pic: pubg,
+      iconBg: "rgba(255, 255, 255, 0.4)",
+      date: "Date to be announced..",
+      points: [
+        "Gear up for the ultimate gaming face-off at Avinya! 🎮 Join the BGMI gaming tournament on Jan 31 & Feb 1. 🆓 Entry is absolutely FREE!  but the prizes? They're worth the game. 🚀 Grab your chance to win prizes worth up to 15k Rs.🏆 Don't miss this electrifying opportunity to connect with fellow gamers, showcase your talent, and have a blast! So, whether you're a seasoned pro or just a weekend warrior? Fill the form & Register now. CONTACT- ANISH-8817837393",
       ],
     },
   ],
