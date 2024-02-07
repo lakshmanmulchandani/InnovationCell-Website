@@ -1,4 +1,3 @@
-// Team.jsx
 import React from "react";
 import "./Team.css";
 
