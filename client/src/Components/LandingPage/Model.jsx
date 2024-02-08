@@ -19,8 +19,8 @@
 
 import React from "react";
 import Popup from "reactjs-popup";
-import sch from "../Sponsors/schedule.jpg";
-
+const sch =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707425762/schedulewebp_xtjg6z.webp";
 const ModelPop = () => {
   return (
     <div className="main_schedule">
