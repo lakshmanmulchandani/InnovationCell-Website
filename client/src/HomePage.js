@@ -8,6 +8,7 @@ import Accordian from "./Components/Faq/Accordian";
 import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
+import Sponsors from "./Components/Sponsors/Sponsors";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -51,6 +52,8 @@ function App() {
           <Timeline />
           <div id="faqnav"></div>
           <Accordian />
+          <div id="spons"></div>
+          <Sponsors />
           <div id="contactusnav"></div>
           <Contact />
           <Footer />
