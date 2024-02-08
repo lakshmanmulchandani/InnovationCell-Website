@@ -1,0 +1,60 @@
+.story_app {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.stories {
+  filter: drop-shadow(0 5px 10px #aaa);
+  /* background-color: #fff; */
+  position: relative;
+  border-radius: 10px;
+  border: 10px solid var(--harry);
+  height: fit-content;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+code {
+  font-family: "Source Code Pro", monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  .left {
+    max-width: 100%;
+  }
+}
+
+.temhd {
+  margin-bottom: 4rem;
+}
+
+.show_story {
+  padding: 10px;
+  background-color: var(--harry);
+  color: white;
+  border-radius: 10px;
+  border: 1px;
+  width: 10rem;
+  margin: 1rem;
+}
+.show_story:hover {
+  background-color: var(--harry);
+  /* scale: 1.2; */
+}
+.finalStory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 758px) {
+  .finalStory {
+    display: none;
+  }
+}

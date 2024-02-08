@@ -121,7 +121,7 @@
   background-color: #ffeb85;
 }
 .schedule_img {
-  height: 90vh;
+  width: 100vw;
 }
 .cross {
   scale: 2;
