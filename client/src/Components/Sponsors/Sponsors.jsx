@@ -14,7 +14,7 @@ const Sponsors = () => {
   return (
     <>
       <div id="spons" className="teamHeading">
-        <h1 style={{ color: `${spons === "" ? "" : "white"}` }}>
+        <h1 style={{ color: `${spons === "" ? "" : "#ffca61"}` }}>
           {spons === "" ? "Our Sponsors" : spons}
         </h1>
       </div>

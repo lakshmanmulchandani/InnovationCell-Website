@@ -78,9 +78,9 @@ const LandingPage = () => {
                 <FaTwitter size={50} />
               </a>
             </div>
-            <div className="popup_schedule">
-              <ModelPop />
-            </div>
+          </div>
+          <div className="popup_schedule">
+            <ModelPop />
           </div>
         </div>
       </div>
