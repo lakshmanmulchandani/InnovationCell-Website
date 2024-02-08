@@ -10,6 +10,9 @@ import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 import Sponsors from "./Components/Sponsors/Sponsors";
+import Story from "./Components/story/Story";
+import Storyimg from "./Components/story/Storyimg";
+import StoryFinal from "./Components/story/StoryFinal";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -47,14 +50,13 @@ function App() {
               <span></span>
             </div>
           </a>
+          <StoryFinal />
           <div id="aboutusnav"></div>
           <AboutUs />
-
-          <Sponsor />
           <div id="eventsnav"></div>
           <Timeline />
           <div id="spons"></div>
-          <Sponsors />
+          <Sponsor />
           <div id="faqnav"></div>
           <Accordian />
           <div id="contactusnav"></div>
