@@ -32,7 +32,7 @@
     {
         "id": 7,
         "name": "Music Partner",
-        "logo": ""
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707400354/synogics-65c4dc57ca556_rvtqpb.webp"
     },
     {
         "id": 8,
@@ -42,7 +42,7 @@
     {
         "id": 9,
         "name": "Media Partner",
-        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385398/innovation_cell/media1_prim8t.webp"
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707400361/ab-news-65c4dc65287b9_h1mugz.webp"
     },
     {
         "id": 10,
@@ -57,7 +57,7 @@
     {
         "id": 12,
         "name": "Media Partner",
-        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385396/innovation_cell/media4_iawsje.webp"
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707400368/grand-news-65c4dc52d22b1_vb0lzf.webp"
     },
     {
         "id": 13,
@@ -66,6 +66,11 @@
     },
     {
         "id": 14,
+        "name": "Food Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707401998/innovation_cell/hillers_xwcwrn.webp"
+    },
+    {
+        "id": 15,
         "name": "Vehicle Partner",
         "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385397/innovation_cell/vehicle_gk0lc4.webp"
     }

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Bulb1 from "../../Assets/images/bulb11.png";
 import Bulb2 from "../../Assets/images/bulb22.png";
 import Holder from "../../Assets/images/wood.png";
-import { FaQuestion } from "react-icons/fa6";
 import AnimatonComponent from "./AnimationComponent";
 import "./AboutUs.css";
 
@@ -11,7 +10,6 @@ const AboutUs = () => {
     "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1706650060/innovation_cell/Owl_gipych.gif";
   const [activeDiv, setActiveDiv] = useState(0); // Start with the 1st div as active
 
-  // Use useEffect to change the active div with a delay
   useEffect(() => {
     const timer = setInterval(() => {
       setActiveDiv((prevActive) => (prevActive + 1) % 4);
@@ -19,8 +17,6 @@ const AboutUs = () => {
 
     return () => clearInterval(timer); // Cleanup the timer when the component unmounts
   }, []);
-
-  const names = ["Seed Grant for Startup", "Avinya"];
 
   return (
     <div className="About-main-container">
@@ -59,7 +55,9 @@ const AboutUs = () => {
             resources, and opportunities to transform their ideas into reality.
           </div>
           <div className="About-item-heading">What do we do ?</div>
-          <div><AnimatonComponent className="About-item"/></div>
+          <div>
+            <AnimatonComponent className="About-item" />
+          </div>
         </div>
       </div>
     </div>

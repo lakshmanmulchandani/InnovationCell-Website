@@ -63,8 +63,8 @@ const App = () => {
             src={curGif}
             alt="GIF"
             style={{
-              width: "100px", // Set the width of your GIF
-              height: "100px", // Set the height of your GIF
+              width: "100px",
+              height: "100px",
               zIndex: 9999,
             }}
           />

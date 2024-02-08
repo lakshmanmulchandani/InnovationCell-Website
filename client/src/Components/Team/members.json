@@ -11,6 +11,7 @@
          {
             "name": "Hemashri Indrani kota",
             "insta": "https://www.instagram.com/curious_a.me",
+            "Branch": "Bio-Medical Engineering",
             "linkedin": "https://www.linkedin.com/in/hemasri-indrani-kota-05049a201",
             "picLink": "https://res.cloudinary.com/dbdf3pjsp/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1706647483/i_cell_4rth_year/hemasri_indrani_vpt8ln.jpg"
          },
@@ -184,6 +185,22 @@
             "InstagramID": "ak_vinayak_tiwari",
             "LinkedINID": "https://www.linkedin.com/in/vinayak-t-54899a123?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1704526900/i_cell_4rth_year/Vinayak_Tiwari_iimrek.webp"
+         },
+         {
+            "Name": "Shivam Pathak",
+            "Branch": "Electrical",
+            "Domain": "Spons",
+            "InstagramID": "https://www.instagram.com/shivam.2oo1?igsh=eGd5OGZvaHg0b2Rj",
+            "LinkedINID": "https://www.linkedin.com/in/shivam-pathak1717/",
+            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1706882553/i_cell_4rth_year/psdshhvefldwemzecpod.jpg"
+         },
+         {
+            "Name": "Shubham Funday ",
+            "Branch": "Bio-Medical Engineering",
+            "Domain": "Event Management",
+            "InstagramID": "https://www.instagram.com/invites/contact/?i=1tk3zds9oa2zx&utm_content=77uvjjn",
+            "LinkedINID": "https://www.linkedin.com/in/shubham-funday-61011b218",
+            "picture": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707159041/i_cell_4rth_year/shubham_funday_ubxonm.webp"
          }
       ],
       "coreCoordinators": [
@@ -606,11 +623,83 @@
             "insta": "https://www.instagram.com/rohitmondallll/",
             "linkedin": "https://www.linkedin.com/in/rohit-mondal-61662a16b/",
             "domain": "Technical (Makerspace)"
+         },
+         {
+            "name": "Shivam Gupta ",
+            "domain": "Spons",
+            "insta": "https://www.instagram.com/shivamgupta._04?igsh=MXM3NWFjd21xM3FqMw==",
+            "linkedin": "https://www.linkedin.com/in/shivam-gupta-854a001b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+         },
+         {
+            "name": "Skandh Garg",
+            "domain": "Spons",
+            "insta": "https://www.instagram.com/_itzz_garg/",
+            "linkedin": "https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav"
+         },
+         {
+            "name": "Dipendra Kumar yadav",
+            "domain": "Spons",
+            "insta": "https://www.instagram.com/dipendra_2907?igsh=YW1lc3N6aGg1a3My",
+            "linkedin": "#"
+         },
+         {
+            "name": "Ishan Chiripal",
+            "domain": "Spons",
+            "insta": "Not active",
+            "linkedin": "https://www.linkedin.comin/ishan-chiripal-11bb00228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+         },
+         {
+            "name": "Chandrakant Sahu",
+            "domain": "Design",
+            "insta": "https://instagram.com/_chandrakant_0110",
+            "linkedin": "https://www.linkedin.com/in/chandrakantsahu-nitrr"
+         },
+         {
+            "name": "Deepanshu Patel",
+            "domain": "Makerspace",
+            "insta": "https://www.instagram.com/deepanshupatel9229/",
+            "linkedin": "https://www.linkedin.com/in/deepanshu-patel-3b55a0228/"
+         },
+         {
+            "name": "Vivek Kumar ",
+            "domain": "Makerspace",
+            "insta": "https://www.instagram.com/07_vicky_vivek/",
+            "linkedin": "https://www.linkedin.com/in/vivekadvikk"
+         },
+         {
+            "name": "Piyush Bisen",
+            "domain": "Social Media",
+            "insta": "https://www.instagram.com/im.pb?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+            "linkedin": "https://www.linkedin.com/in/piyush-bisen-pb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+         },
+         {
+            "name": "Srishti Soni",
+            "domain": "Social Media",
+            "insta": "https://www.instagram.com/srishso_1202?igsh=a3U2eXVuajF5aGJj",
+            "linkedin": "https://www.linkedin.com/in/srishti-soni-72a760245"
+         },
+         {
+            "name": "Vinayakgouda ",
+            "domain": "Social Media",
+            "insta": "https://www.instagram.com/vinayakgouda_talegoudar?igsh=MXZucWF4czBwOXJlNg==",
+            "linkedin": "https://www.linkedin.com/in/vinayak-gouda-292310148?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
          }
       ],
       "executives": [
          {
             "EVENT MANAGEMENT": [
+               {
+                  "name": "Shikhar Gupta",
+                  "year": 2
+               },
+               {
+                  "name": "Sanchit Singh",
+                  "year": 2
+               },
+               {
+                  "name": "Anshika Pandey ",
+                  "year": 1
+               },
                {
                   "name": "ANUSHKA MISHRA",
                   "year": "1"
@@ -754,15 +843,55 @@
                {
                   "name": "PRANJUL SRIVASTAV",
                   "year": "2"
+               },
+               {
+                  "name": "Akshad Gajapure ",
+                  "year": 1
+               },
+               {
+                  "name": "Isha K S ",
+                  "year": 1
+               },
+               {
+                  "name": "Keshaw Sahu ",
+                  "year": 1
+               },
+               {
+                  "name": "Priya ojha ",
+                  "year": 1
+               },
+               {
+                  "name": "Satwik",
+                  "year": 1
+               },
+               {
+                  "name": "Vijaya Sharma ",
+                  "year": 1
+               },
+               {
+                  "name": "PRANJUL SRIVASTAV ",
+                  "year": 2
+               },
+               {
+                  "name": "Shreyansh Patel",
+                  "year": 2
+               },
+               {
+                  "name": "Swarnava Dey",
+                  "year": 2
+               },
+               {
+                  "name": "Utkarsh Bharat ",
+                  "year": 2
+               },
+               {
+                  "name": "Vanshdeep ",
+                  "year": 2
                }
             ]
          },
          {
             "PR": [
-               {
-                  "name": "Aditya Bhattacharjee ",
-                  "year": "1"
-               },
                {
                   "name": "Akhil Deep ",
                   "year": "2"
@@ -838,11 +967,43 @@
                {
                   "name": "Vivek kr Sahu ",
                   "year": "2"
+               },
+               {
+                  "name": "Aditya Bhattacharjee ",
+                  "year": "1"
                }
             ]
          },
          {
             "Makerspace": [
+               {
+                  "name": "Nidhi Sahu",
+                  "year": 1
+               },
+               {
+                  "name": "Nitesh Kumar",
+                  "year": 1
+               },
+               {
+                  "name": "Kanhaiya kumar",
+                  "year": 2
+               },
+               {
+                  "name": "Keshaw Sahu",
+                  "year": 1
+               },
+               {
+                  "name": "Prashant Shukla ",
+                  "year": 1
+               },
+               {
+                  "name": "Divya Pratap Singh Sisodiya ",
+                  "year": 1
+               },
+               {
+                  "name": "Arshad",
+                  "year": 1
+               },
                {
                   "name": "Vivek Kumar ",
                   "year": "2"
@@ -860,10 +1021,6 @@
                   "year": "2"
                },
                {
-                  "name": "Rohit Seth ",
-                  "year": "2"
-               },
-               {
                   "name": "Hinesh Singh Thakur ",
                   "year": "2"
                },
@@ -877,7 +1034,7 @@
                },
                {
                   "name": "Priyanshu Chooudhary",
-                  "year": "1"
+                  "year": "2"
                },
                {
                   "name": "Mayank dewangan ",
@@ -904,19 +1061,11 @@
                   "year": "2"
                },
                {
-                  "name": "Megha Rathi",
-                  "year": "2"
-               },
-               {
                   "name": "Jagriti kumari ",
                   "year": "2"
                },
                {
                   "name": "Amit Bhimte ",
-                  "year": "2"
-               },
-               {
-                  "name": "Shreyansh Patel",
                   "year": "2"
                },
                {
@@ -932,8 +1081,28 @@
                   "year": "1"
                },
                {
-                  "name": "Priyanshu Choudhary",
-                  "year": "2"
+                  "name": "Anushk Singh",
+                  "year": 1
+               },
+               {
+                  "name": "Khushbu Jain",
+                  "year": 1
+               },
+               {
+                  "name": "Yash Khare",
+                  "year": 1
+               },
+               {
+                  "name": "Murtaza Narwarwala",
+                  "year": 2
+               },
+               {
+                  "name": "Ratan Kumar Thakur",
+                  "year": 2
+               },
+               {
+                  "name": "Neeraj Verma",
+                  "year": 1
                }
             ]
          },
@@ -1002,6 +1171,10 @@
                {
                   "name": "Khushi",
                   "year": "2"
+               },
+               {
+                  "name": "Khushi Hirwani ",
+                  "year": "2"
                }
             ]
          },
@@ -1022,6 +1195,70 @@
                {
                   "name": "shubham Madhukar",
                   "year": "2"
+               },
+               {
+                  "name": "Nooka Rahul ",
+                  "year": 1
+               },
+               {
+                  "name": "Yash Vardhan Sahu ",
+                  "year": 2
+               }
+            ]
+         },
+         {
+            "spons": [
+               {
+                  "name": "Ayush Ananad",
+                  "year": 1
+               },
+               {
+                  "name": "Atul jaiswal",
+                  "year": 2
+               },
+               {
+                  "name": "Riabh Bhati",
+                  "year": 1
+               },
+               {
+                  "name": "Tamrapanni Biswal",
+                  "year": 2
+               },
+               {
+                  "name": "Yukti Madariya ",
+                  "year": 2
+               },
+               {
+                  "name": "Shivansh chowhan",
+                  "year": 2
+               },
+               {
+                  "name": "Jayadipti Chattopadhyaya ",
+                  "year": 2
+               },
+               {
+                  "name": "Ayush Anand ",
+                  "year": 2
+               },
+               {
+                  "name": "Megha Rathi ",
+                  "year": 2
+               },
+               {
+                  "name": "Om shukla",
+                  "year": 2
+               },
+               {
+                  "name": "Rishabh Bhati",
+                  "year": 1
+               }
+            ]
+         },
+         {
+            "Social Media": [
+               {
+                  "name": "Shikhar Kashyap",
+                  "year": 1
                }
             ]
          }

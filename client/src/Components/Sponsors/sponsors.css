@@ -14,5 +14,10 @@
 .spons-icon img {
   margin-left: 1rem;
   margin-right: 1rem;
-  height: 75px;
+  height: 100px;
+}
+
+.schedulebtn {
+  padding: 10px;
+  color: #ffca61;
 }

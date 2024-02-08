@@ -122,7 +122,7 @@ body {
 }
 
 .App {
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 .overlay {
