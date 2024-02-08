@@ -38,6 +38,11 @@ const Navbar = () => {
           </a>
         </div>
         <div className="nav-btn" onClick={toggle}>
+          <a href="#spons">
+            <div>Sponsors</div>
+          </a>
+        </div>
+        <div className="nav-btn" onClick={toggle}>
           <a href="/teams">
             <div>Team</div>
           </a>

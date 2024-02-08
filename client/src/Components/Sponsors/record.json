@@ -1,26 +1,77 @@
 [
     {
         "id": 1,
-        "logo": "sponsImg/company-logo1.png"
+        "name": "Title Sponsor",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385397/innovation_cell/title1_qrcuxg.webp"
     },
     {
         "id": 2,
-        "logo": "sponsImg/company-logo2.png"
+        "name": "Design Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385397/innovation_cell/desingn_a0xqqn.webp"
     },
     {
         "id": 3,
-        "logo": "sponsImg/company-logo3.png"
+        "name": "Mobile Shop Electronics Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385396/innovation_cell/mobile_shop_x8kmlc.webp"
     },
     {
         "id": 4,
-        "logo": "sponsImg/company-logo1.png"
+        "name": "Accessory Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385397/innovation_cell/accessory_g7viqy.webp"
     },
     {
         "id": 5,
-        "logo": "sponsImg/company-logo3.png"
+        "name": "Travel Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385397/innovation_cell/travel_swxhlw.webp"
     },
     {
         "id": 6,
-        "logo": "sponsImg/company-logo2.png"
+        "name": "Trading Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385396/innovation_cell/trading1_diosm5.webp"
+    },
+    {
+        "id": 7,
+        "name": "Music Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707400354/synogics-65c4dc57ca556_rvtqpb.webp"
+    },
+    {
+        "id": 8,
+        "name": "Coverage Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385397/innovation_cell/coverage_fnnewt.webp"
+    },
+    {
+        "id": 9,
+        "name": "Media Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707400361/ab-news-65c4dc65287b9_h1mugz.webp"
+    },
+    {
+        "id": 10,
+        "name": "Media Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385399/innovation_cell/media2_qphi9y.webp"
+    },
+    {
+        "id": 11,
+        "name": "Media Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385396/innovation_cell/media3_fgxrpg.webp"
+    },
+    {
+        "id": 12,
+        "name": "Media Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707400368/grand-news-65c4dc52d22b1_vb0lzf.webp"
+    },
+    {
+        "id": 13,
+        "name": "Media Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385396/innovation_cell/media5_dwt77o.webp"
+    },
+    {
+        "id": 14,
+        "name": "Food Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707401998/innovation_cell/hillers_xwcwrn.webp"
+    },
+    {
+        "id": 15,
+        "name": "Vehicle Partner",
+        "logo": "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707385397/innovation_cell/vehicle_gk0lc4.webp"
     }
 ]
