@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./HomePage.css";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import Sponsor from "./Components/Sponsors/Sponsors";
 import SnowfallComponent from "./Components/Snowfall/SnowfallComponent";
 import Contact from "./Components/ContactUs/Contact";
 import Accordian from "./Components/Faq/Accordian";
@@ -23,10 +24,9 @@ function App() {
   const handleScroll = () => {
     if (window.scrollY > 600) {
       setScrolled(true);
-    }
-    else {
+    } else {
       setScrolled(false);
-    }  
+    }
   };
 
   return (
@@ -49,6 +49,7 @@ function App() {
           <div id="aboutusnav"></div>
           <AboutUs />
 
+          <Sponsor />
           <div id="eventsnav"></div>
           <Timeline />
           <div id="faqnav"></div>
