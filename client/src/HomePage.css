@@ -122,7 +122,7 @@ body {
 }
 
 .App {
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 .overlay {
@@ -140,7 +140,7 @@ body {
   z-index: -5;
 }
 
-.dark-overlay.active {
+.dark-overlay .active {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
