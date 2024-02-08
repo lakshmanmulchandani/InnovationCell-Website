@@ -130,6 +130,10 @@
   }
 }
 
+@media (max-width: 859px) {
+ 
+}
+
 @media (max-width: 620px) {
   .About-content {
     width: 100%;

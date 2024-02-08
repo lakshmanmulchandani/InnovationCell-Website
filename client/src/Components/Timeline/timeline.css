@@ -101,16 +101,16 @@
 }
 @media (max-width: 600px) {
   .eventsheading > h1 {
-    font-size: 3.6em;
+    font-size: 3.8em;
   }
 
   .eventsheading > h1::after {
-    width: 4.5rem;
-    margin-left: 0.8rem;
+    width: 0rem;
+    /* margin-left: 0.8rem; */
   }
   
   .eventsheading > h1::before {
-    width: 4.5rem;
-    margin-right: 0.8rem;
+    width: 0rem;
+    /* margin-right: 0.8rem; */
   }
 }
