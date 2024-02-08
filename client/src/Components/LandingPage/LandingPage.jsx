@@ -10,6 +10,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import finger from "../cursor/point_finger.gif";
+import ModelPop from "./Model";
 
 const LandingPage = () => {
   const [hidden, setHidden] = useState(false);
@@ -76,6 +77,9 @@ const LandingPage = () => {
               >
                 <FaTwitter size={50} />
               </a>
+            </div>
+            <div className="popup_schedule">
+              <ModelPop />
             </div>
           </div>
         </div>

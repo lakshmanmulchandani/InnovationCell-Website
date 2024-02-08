@@ -50,10 +50,10 @@ function App() {
 
           <div id="eventsnav"></div>
           <Timeline />
-          <div id="faqnav"></div>
-          <Accordian />
           <div id="spons"></div>
           <Sponsors />
+          <div id="faqnav"></div>
+          <Accordian />
           <div id="contactusnav"></div>
           <Contact />
           <Footer />

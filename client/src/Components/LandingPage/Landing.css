@@ -38,7 +38,7 @@
 }
 
 .social-link a {
-  transition:  all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .social-link a:hover {
@@ -48,6 +48,12 @@
 }
 
 @media (max-width: 758px) {
+  .main_schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
   .moon-bg {
     margin-top: 1rem;
     left: 40%;
@@ -85,4 +91,39 @@
   .moon-bg {
     left: 30%;
   }
+}
+@media (min-width: 758px) {
+  .main_schedule {
+    margin-left: 4rem;
+  }
+}
+.popup_schedule {
+  padding: 20px;
+}
+.schedule_btn {
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+}
+.schedule_btn:hover {
+  background-color: var(--harry);
+  color: white;
+  scale: 1.2;
+  animation-duration: 2s;
+}
+
+.close_btn {
+  padding: 10px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffeb85;
+}
+.schedule_img {
+  height: 90vh;
+}
+.cross {
+  scale: 2;
+  padding: 5px;
 }
