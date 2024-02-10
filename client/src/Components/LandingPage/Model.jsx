@@ -19,8 +19,9 @@
 
 import React from "react";
 import Popup from "reactjs-popup";
-import sch from "../Sponsors/schedule.jpg";
 import CloseModal from "../../Assets/images/close.png";
+const sch =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707425762/schedulewebp_xtjg6z.webp";
 
 const ModelPop = () => {
   return (
@@ -32,15 +33,19 @@ const ModelPop = () => {
       >
         {(close) => (
           <div>
-            
             <div className="modal-div">
               <img className="schedule_img" src={sch} alt="" />
               <button className="close_btn" onClick={close}>
-              <div className="cross">
-                {" "}
-                <img alt="close" src={CloseModal} width={25} height={25}></img>
-              </div>
-            </button>
+                <div className="cross">
+                  {" "}
+                  <img
+                    alt="close"
+                    src={CloseModal}
+                    width={25}
+                    height={25}
+                  ></img>
+                </div>
+              </button>
             </div>
           </div>
         )}

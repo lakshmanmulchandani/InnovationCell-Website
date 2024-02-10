@@ -115,7 +115,7 @@
   border: none;
   font-size: 19px;
   background-color: #bb8312;
-  transition:all 100ms ease-out;
+  transition: all 100ms ease-out;
   color: #f2e6cf;
 }
 .schedule_btn:hover {
@@ -125,7 +125,7 @@
 }
 .schedule_img {
   /* width: 90%; */
-  width:70vh;
+  width: 70vh;
 }
 .close_btn {
   border: none;
@@ -135,7 +135,7 @@
   top: 12px;
 }
 
-@media(max-width: 650px) {
+@media (max-width: 650px) {
   .schedule_img {
     width: 90%;
   }
@@ -145,4 +145,3 @@
     scale: 0.8;
   }
 }
-
