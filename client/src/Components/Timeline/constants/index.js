@@ -1,21 +1,31 @@
-import anlytics from "../company/analytical_mindset.webp";
-import atl from "../company/atl.webp";
-import design_thinking from "../company/design_thinking.webp";
-import elevatex from "../company/elevateX.webp";
-import expert_panel_session from "../company/expert_panel_session.webp";
 import silicon_vally from "../company/silicon_vallly.jpg";
-import seedgrant from "../company/seedgrant.webp";
-import avinya from "../company/avinya.webp";
-import icon from "../company/icon.webp";
-// import coming_soon from "../../../Assets/images/comint_soon.png";
 import tradeviesta from "../../../imgs/trade_viesta.jpg";
 import pubg from "../../../imgs/pubg.jpg";
 import avinya24 from "../../../imgs/avinya.png";
-import coming_soon from "../../../Assets/images/comint_soon.png";
-import Innovationtank from "../company/InnovationTank.webp";
-import AjakKumar from "../company/AjayKumar.webp";
-import Akash from "../company/Akash.webp";
-import Innovationexpo from "../company/InnovationExpo.webp";
+const anlytics =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556395/innovation_cell/analytical_mindset_slzvxc.webp";
+const atl =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556395/innovation_cell/atl_ui5enn.webp";
+const design_thinking =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556395/innovation_cell/design_thinking_cuukmq.webp";
+const elevatex =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556394/innovation_cell/elevateX_ziol46.webp";
+const expert_panel_session =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556394/innovation_cell/expert_panel_session_loet0b.webp";
+const seedgrant =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556395/innovation_cell/seedgrant_yciebw.webp";
+const Innovationtank =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556395/innovation_cell/InnovationTank_ozdg8x.webp";
+const Innovationexpo =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556395/innovation_cell/InnovationExpo_psfcne.webp";
+const icon =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707555772/innovation_cell/compress_icon_gif2_os75p1.gif";
+const avinya =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707556395/innovation_cell/avinya_zfkhib.webp";
+const AjakKumar =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707424826/ajaykumar-65c53b4bd9436_jkspil.webp";
+const Akash =
+  "https://res.cloudinary.com/dbdf3pjsp/image/upload/v1707424826/akash-65c53b4bdb9ef_njtry8.webp";
 
 const experiences = {
   upcoming: [

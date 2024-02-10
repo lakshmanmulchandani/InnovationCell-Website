@@ -230,14 +230,14 @@
 
 @media only screen and (max-width: 600px) {
   .teamHeading > h1::before {
-    width: 4.5rem !important;
+    width: 0 !important;
   }
   .teamHeading > h1 {
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 3.7rem;
   }
   .teamHeading > h1::after {
-    width: 4.5rem !important;
+    width: 0 !important;
   }
 
   .Teams {
